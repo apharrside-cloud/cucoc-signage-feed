@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-15T17:09:24.367952",
+  "timestamp": "2026-10-15T17:11:11.300737",
   "simulator": {
     "state": {
       "starting_balance": 50000.0,
       "cash": 24972.159999999993,
-      "total_equity": 50579.78,
+      "total_equity": 50598.82,
       "peak_equity": 55561.05,
       "mode": "hybrid_alpha_crucible_v3 (Intraday Alpha + Multi-Day Swing Runners)",
       "covered_call_portfolio": {},
@@ -19,14 +19,14 @@
           "symbol": "SOL",
           "asset_type": "crypto",
           "entry_price": 104.42,
-          "current_price": 105.53,
+          "current_price": 105.6,
           "peak_price": 106.38,
           "original_shares": 95.77,
           "shares": 95.77,
           "cost_basis": 10000.3,
-          "current_value": 10106.61,
-          "unrealized_pnl_usd": 106.31,
-          "unrealized_pnl_pct": 1.06,
+          "current_value": 10113.31,
+          "unrealized_pnl_usd": 113.01,
+          "unrealized_pnl_pct": 1.13,
           "entry_time": "2026-10-14T17:31:21.890257",
           "stop_loss_pct": -4.0,
           "tp1_pct": 4.0,
@@ -61,14 +61,14 @@
           "symbol": "AVAX",
           "asset_type": "crypto",
           "entry_price": 9.6707,
-          "current_price": 9.972,
+          "current_price": 9.974,
           "peak_price": 10.078,
           "original_shares": 517.0257,
           "shares": 517.0257,
           "cost_basis": 5000.0,
-          "current_value": 5155.78,
-          "unrealized_pnl_usd": 155.78,
-          "unrealized_pnl_pct": 3.12,
+          "current_value": 5156.81,
+          "unrealized_pnl_usd": 156.81,
+          "unrealized_pnl_pct": 3.14,
           "entry_time": "2026-10-15T04:39:03.591164",
           "stop_loss_pct": 2.21,
           "tp1_pct": 4.5,
@@ -90,14 +90,14 @@
           "symbol": "SUI",
           "asset_type": "crypto",
           "entry_price": 0.9946,
-          "current_price": 1.0287,
+          "current_price": 1.0303,
           "peak_price": 1.0415,
           "original_shares": 5027.1466,
           "shares": 5027.1466,
           "cost_basis": 5000.0,
-          "current_value": 5171.43,
-          "unrealized_pnl_usd": 171.43,
-          "unrealized_pnl_pct": 3.43,
+          "current_value": 5179.47,
+          "unrealized_pnl_usd": 179.47,
+          "unrealized_pnl_pct": 3.59,
           "entry_time": "2026-10-15T05:59:02.953994",
           "stop_loss_pct": 2.47,
           "tp1_pct": 5.0,
@@ -119,14 +119,14 @@
           "symbol": "ETH",
           "asset_type": "crypto",
           "entry_price": 2368.9,
-          "current_price": 2452.04,
+          "current_price": 2453.59,
           "peak_price": 2462.29,
           "original_shares": 2.11,
           "shares": 2.11,
           "cost_basis": 4998.38,
-          "current_value": 5173.8,
-          "unrealized_pnl_usd": 175.42,
-          "unrealized_pnl_pct": 3.51,
+          "current_value": 5177.07,
+          "unrealized_pnl_usd": 178.69,
+          "unrealized_pnl_pct": 3.58,
           "entry_time": "2026-10-15T07:38:49.798759",
           "stop_loss_pct": 2.44,
           "tp1_pct": 4.0,
@@ -167,11 +167,11 @@
         "gross_profit": 19995.42,
         "gross_loss": 20024.58
       },
-      "last_eval_time": "2026-10-15T17:09:02.091169",
+      "last_eval_time": "2026-10-15T17:11:10.174804",
       "ai_usage": {
         "date": "2026-10-15",
-        "total_operations": 2388,
-        "zero_token_local_operations": 2388,
+        "total_operations": 2393,
+        "zero_token_local_operations": 2393,
         "llm_calls": 0,
         "input_tokens": 0,
         "output_tokens": 0,
@@ -183,14 +183,14 @@
         "operations_breakdown": {
           "market_wire": 0,
           "social_radar": 0,
-          "technical_scan": 2388,
+          "technical_scan": 2393,
           "position_sizing": 0,
           "strategy_optimizer": 0,
           "post_mortem": 0
         },
-        "last_updated": "2026-10-15T17:09:02.082200"
+        "last_updated": "2026-10-15T17:11:10.166271"
       },
-      "snapshot_synced_at": "2026-10-15T17:09:24.110898"
+      "snapshot_synced_at": "2026-10-15T17:11:11.054449"
     },
     "trades": [
       {
@@ -6040,6 +6040,20 @@
     ],
     "ai_decisions": [
       {
+        "id": "dec_1792098567_969e5d",
+        "timestamp": "2026-10-15T17:09:27.618270",
+        "category": "veto",
+        "decision_type": "VETO",
+        "symbol": "NEAR",
+        "title": "Scanner Risk Filter: NEAR Long Setup Blocked",
+        "rationale": "AI evaluated NEAR for potential long entry but rejected it: RVOL 0.86x below 1.0x surge threshold. Capital protected from unfavorable risk/reward setup.",
+        "metrics": {
+          "rvol": 0.86
+        },
+        "sentiment": "BEARISH",
+        "impact": "CAPITAL_PROTECTED"
+      },
+      {
         "id": "dec_1792098516_da6b45",
         "timestamp": "2026-10-15T17:08:36.460695",
         "category": "veto",
@@ -6974,22 +6988,6 @@
         },
         "sentiment": "BULLISH",
         "impact": "PROFIT_PROTECTED"
-      },
-      {
-        "id": "dec_1792089074_a3e55d",
-        "timestamp": "2026-10-15T14:31:14.780160",
-        "category": "risk",
-        "decision_type": "RATCHET",
-        "symbol": "NEAR",
-        "title": "Dynamic Trailing Stop: NEAR (+13.57%)",
-        "rationale": "Peak reached +15.82%. Trailing stop automatically trailed up from +13.34% to +13.57% (buffer: 2.25%).",
-        "metrics": {
-          "peak_pnl": 15.82,
-          "new_stop": 13.57,
-          "old_stop": 13.34
-        },
-        "sentiment": "BULLISH",
-        "impact": "PROFIT_PROTECTED"
       }
     ],
     "catalysts": [
@@ -7368,8 +7366,8 @@
     ],
     "ai_usage": {
       "date": "2026-10-15",
-      "total_operations": 2388,
-      "zero_token_local_operations": 2388,
+      "total_operations": 2393,
+      "zero_token_local_operations": 2393,
       "llm_calls": 0,
       "input_tokens": 0,
       "output_tokens": 0,
@@ -7381,12 +7379,12 @@
       "operations_breakdown": {
         "market_wire": 0,
         "social_radar": 0,
-        "technical_scan": 2388,
+        "technical_scan": 2393,
         "position_sizing": 0,
         "strategy_optimizer": 0,
         "post_mortem": 0
       },
-      "last_updated": "2026-10-15T17:09:02.082200"
+      "last_updated": "2026-10-15T17:11:10.166271"
     },
     "caution_list": {
       "TSLA": {
@@ -10815,10 +10813,10 @@
           "spy_pct": 0.48
         },
         {
-          "time": "2026-10-15 17:09",
+          "time": "2026-10-15 17:11",
           "days_ago": "Today",
-          "equity": 50579.78,
-          "pnl_pct": 1.16,
+          "equity": 50598.82,
+          "pnl_pct": 1.2,
           "btc_pct": 5.73,
           "spy_pct": 0.48
         }
@@ -10835,7 +10833,7 @@
           "symbol": "SOL",
           "shares": 95.77,
           "entry_price": 104.42,
-          "current_price": 105.53,
+          "current_price": 105.6,
           "peak_price": 106.38,
           "trailing_stop_price": 108.5968,
           "tp1_price": 108.5968,
@@ -10843,7 +10841,7 @@
           "tp1_hit": false,
           "tp2_hit": false,
           "trailing_active": false,
-          "unrealized_pnl_pct": 1.06,
+          "unrealized_pnl_pct": 1.13,
           "is_locked_in_profit": true,
           "locked_gain_pct": 4.0
         },
@@ -10851,7 +10849,7 @@
           "symbol": "AVAX",
           "shares": 517.0257,
           "entry_price": 9.6707,
-          "current_price": 9.972,
+          "current_price": 9.974,
           "peak_price": 10.078,
           "trailing_stop_price": 9.8764,
           "tp1_price": 10.1059,
@@ -10859,7 +10857,7 @@
           "tp1_hit": false,
           "tp2_hit": false,
           "trailing_active": true,
-          "unrealized_pnl_pct": 3.12,
+          "unrealized_pnl_pct": 3.14,
           "is_locked_in_profit": true,
           "locked_gain_pct": 2.13
         },
@@ -10867,7 +10865,7 @@
           "symbol": "SUI",
           "shares": 5027.1466,
           "entry_price": 0.9946,
-          "current_price": 1.0287,
+          "current_price": 1.0303,
           "peak_price": 1.0415,
           "trailing_stop_price": 1.0181,
           "tp1_price": 1.0443,
@@ -10875,7 +10873,7 @@
           "tp1_hit": false,
           "tp2_hit": false,
           "trailing_active": true,
-          "unrealized_pnl_pct": 3.43,
+          "unrealized_pnl_pct": 3.59,
           "is_locked_in_profit": true,
           "locked_gain_pct": 2.36
         },
@@ -10883,7 +10881,7 @@
           "symbol": "ETH",
           "shares": 2.11,
           "entry_price": 2368.9,
-          "current_price": 2452.04,
+          "current_price": 2453.59,
           "peak_price": 2462.29,
           "trailing_stop_price": 2425.3556,
           "tp1_price": 2463.656,
@@ -10891,7 +10889,7 @@
           "tp1_hit": false,
           "tp2_hit": false,
           "trailing_active": true,
-          "unrealized_pnl_pct": 3.51,
+          "unrealized_pnl_pct": 3.58,
           "is_locked_in_profit": true,
           "locked_gain_pct": 2.38
         }
@@ -14328,10 +14326,10 @@
         "spy_pct": 0.48
       },
       {
-        "time": "2026-10-15 17:09",
+        "time": "2026-10-15 17:11",
         "days_ago": "Today",
-        "equity": 50579.78,
-        "pnl_pct": 1.16,
+        "equity": 50598.82,
+        "pnl_pct": 1.2,
         "btc_pct": 5.73,
         "spy_pct": 0.48
       }
@@ -14348,7 +14346,7 @@
         "symbol": "SOL",
         "shares": 95.77,
         "entry_price": 104.42,
-        "current_price": 105.53,
+        "current_price": 105.6,
         "peak_price": 106.38,
         "trailing_stop_price": 108.5968,
         "tp1_price": 108.5968,
@@ -14356,7 +14354,7 @@
         "tp1_hit": false,
         "tp2_hit": false,
         "trailing_active": false,
-        "unrealized_pnl_pct": 1.06,
+        "unrealized_pnl_pct": 1.13,
         "is_locked_in_profit": true,
         "locked_gain_pct": 4.0
       },
@@ -14364,7 +14362,7 @@
         "symbol": "AVAX",
         "shares": 517.0257,
         "entry_price": 9.6707,
-        "current_price": 9.972,
+        "current_price": 9.974,
         "peak_price": 10.078,
         "trailing_stop_price": 9.8764,
         "tp1_price": 10.1059,
@@ -14372,7 +14370,7 @@
         "tp1_hit": false,
         "tp2_hit": false,
         "trailing_active": true,
-        "unrealized_pnl_pct": 3.12,
+        "unrealized_pnl_pct": 3.14,
         "is_locked_in_profit": true,
         "locked_gain_pct": 2.13
       },
@@ -14380,7 +14378,7 @@
         "symbol": "SUI",
         "shares": 5027.1466,
         "entry_price": 0.9946,
-        "current_price": 1.0287,
+        "current_price": 1.0303,
         "peak_price": 1.0415,
         "trailing_stop_price": 1.0181,
         "tp1_price": 1.0443,
@@ -14388,7 +14386,7 @@
         "tp1_hit": false,
         "tp2_hit": false,
         "trailing_active": true,
-        "unrealized_pnl_pct": 3.43,
+        "unrealized_pnl_pct": 3.59,
         "is_locked_in_profit": true,
         "locked_gain_pct": 2.36
       },
@@ -14396,7 +14394,7 @@
         "symbol": "ETH",
         "shares": 2.11,
         "entry_price": 2368.9,
-        "current_price": 2452.04,
+        "current_price": 2453.59,
         "peak_price": 2462.29,
         "trailing_stop_price": 2425.3556,
         "tp1_price": 2463.656,
@@ -14404,7 +14402,7 @@
         "tp1_hit": false,
         "tp2_hit": false,
         "trailing_active": true,
-        "unrealized_pnl_pct": 3.51,
+        "unrealized_pnl_pct": 3.58,
         "is_locked_in_profit": true,
         "locked_gain_pct": 2.38
       }
@@ -17842,10 +17840,10 @@
         "spy_pct": 0.48
       },
       {
-        "time": "2026-10-15 17:09",
+        "time": "2026-10-15 17:11",
         "days_ago": "Today",
-        "equity": 50579.78,
-        "pnl_pct": 1.16,
+        "equity": 50598.82,
+        "pnl_pct": 1.2,
         "btc_pct": 5.73,
         "spy_pct": 0.48
       }
@@ -17862,7 +17860,7 @@
         "symbol": "SOL",
         "shares": 95.77,
         "entry_price": 104.42,
-        "current_price": 105.53,
+        "current_price": 105.6,
         "peak_price": 106.38,
         "trailing_stop_price": 108.5968,
         "tp1_price": 108.5968,
@@ -17870,7 +17868,7 @@
         "tp1_hit": false,
         "tp2_hit": false,
         "trailing_active": false,
-        "unrealized_pnl_pct": 1.06,
+        "unrealized_pnl_pct": 1.13,
         "is_locked_in_profit": true,
         "locked_gain_pct": 4.0
       },
@@ -17878,7 +17876,7 @@
         "symbol": "AVAX",
         "shares": 517.0257,
         "entry_price": 9.6707,
-        "current_price": 9.972,
+        "current_price": 9.974,
         "peak_price": 10.078,
         "trailing_stop_price": 9.8764,
         "tp1_price": 10.1059,
@@ -17886,7 +17884,7 @@
         "tp1_hit": false,
         "tp2_hit": false,
         "trailing_active": true,
-        "unrealized_pnl_pct": 3.12,
+        "unrealized_pnl_pct": 3.14,
         "is_locked_in_profit": true,
         "locked_gain_pct": 2.13
       },
@@ -17894,7 +17892,7 @@
         "symbol": "SUI",
         "shares": 5027.1466,
         "entry_price": 0.9946,
-        "current_price": 1.0287,
+        "current_price": 1.0303,
         "peak_price": 1.0415,
         "trailing_stop_price": 1.0181,
         "tp1_price": 1.0443,
@@ -17902,7 +17900,7 @@
         "tp1_hit": false,
         "tp2_hit": false,
         "trailing_active": true,
-        "unrealized_pnl_pct": 3.43,
+        "unrealized_pnl_pct": 3.59,
         "is_locked_in_profit": true,
         "locked_gain_pct": 2.36
       },
@@ -17910,7 +17908,7 @@
         "symbol": "ETH",
         "shares": 2.11,
         "entry_price": 2368.9,
-        "current_price": 2452.04,
+        "current_price": 2453.59,
         "peak_price": 2462.29,
         "trailing_stop_price": 2425.3556,
         "tp1_price": 2463.656,
@@ -17918,7 +17916,7 @@
         "tp1_hit": false,
         "tp2_hit": false,
         "trailing_active": true,
-        "unrealized_pnl_pct": 3.51,
+        "unrealized_pnl_pct": 3.58,
         "is_locked_in_profit": true,
         "locked_gain_pct": 2.38
       }
@@ -21355,10 +21353,10 @@
       "spy_pct": 0.48
     },
     {
-      "time": "2026-10-15 17:09",
+      "time": "2026-10-15 17:11",
       "days_ago": "Today",
-      "equity": 50579.78,
-      "pnl_pct": 1.16,
+      "equity": 50598.82,
+      "pnl_pct": 1.2,
       "btc_pct": 5.73,
       "spy_pct": 0.48
     }
@@ -21375,7 +21373,7 @@
       "symbol": "SOL",
       "shares": 95.77,
       "entry_price": 104.42,
-      "current_price": 105.53,
+      "current_price": 105.6,
       "peak_price": 106.38,
       "trailing_stop_price": 108.5968,
       "tp1_price": 108.5968,
@@ -21383,7 +21381,7 @@
       "tp1_hit": false,
       "tp2_hit": false,
       "trailing_active": false,
-      "unrealized_pnl_pct": 1.06,
+      "unrealized_pnl_pct": 1.13,
       "is_locked_in_profit": true,
       "locked_gain_pct": 4.0
     },
@@ -21391,7 +21389,7 @@
       "symbol": "AVAX",
       "shares": 517.0257,
       "entry_price": 9.6707,
-      "current_price": 9.972,
+      "current_price": 9.974,
       "peak_price": 10.078,
       "trailing_stop_price": 9.8764,
       "tp1_price": 10.1059,
@@ -21399,7 +21397,7 @@
       "tp1_hit": false,
       "tp2_hit": false,
       "trailing_active": true,
-      "unrealized_pnl_pct": 3.12,
+      "unrealized_pnl_pct": 3.14,
       "is_locked_in_profit": true,
       "locked_gain_pct": 2.13
     },
@@ -21407,7 +21405,7 @@
       "symbol": "SUI",
       "shares": 5027.1466,
       "entry_price": 0.9946,
-      "current_price": 1.0287,
+      "current_price": 1.0303,
       "peak_price": 1.0415,
       "trailing_stop_price": 1.0181,
       "tp1_price": 1.0443,
@@ -21415,7 +21413,7 @@
       "tp1_hit": false,
       "tp2_hit": false,
       "trailing_active": true,
-      "unrealized_pnl_pct": 3.43,
+      "unrealized_pnl_pct": 3.59,
       "is_locked_in_profit": true,
       "locked_gain_pct": 2.36
     },
@@ -21423,7 +21421,7 @@
       "symbol": "ETH",
       "shares": 2.11,
       "entry_price": 2368.9,
-      "current_price": 2452.04,
+      "current_price": 2453.59,
       "peak_price": 2462.29,
       "trailing_stop_price": 2425.3556,
       "tp1_price": 2463.656,
@@ -21431,7 +21429,7 @@
       "tp1_hit": false,
       "tp2_hit": false,
       "trailing_active": true,
-      "unrealized_pnl_pct": 3.51,
+      "unrealized_pnl_pct": 3.58,
       "is_locked_in_profit": true,
       "locked_gain_pct": 2.38
     }
@@ -21451,8 +21449,8 @@
   },
   "ai_usage": {
     "date": "2026-10-15",
-    "total_operations": 2388,
-    "zero_token_local_operations": 2388,
+    "total_operations": 2393,
+    "zero_token_local_operations": 2393,
     "llm_calls": 0,
     "input_tokens": 0,
     "output_tokens": 0,
@@ -21464,12 +21462,12 @@
     "operations_breakdown": {
       "market_wire": 0,
       "social_radar": 0,
-      "technical_scan": 2388,
+      "technical_scan": 2393,
       "position_sizing": 0,
       "strategy_optimizer": 0,
       "post_mortem": 0
     },
-    "last_updated": "2026-10-15T17:09:02.082200"
+    "last_updated": "2026-10-15T17:11:10.166271"
   },
   "caution_list": {
     "TSLA": {
@@ -21842,9 +21840,6 @@
       "starting_amount": 164.08
     },
     "logs": [
-      "[2026-10-15 16:20:29] Running portfolio evaluation cycle...",
-      "[2026-10-15 16:20:30] [AAPL] Shares: 0.037131 | Entry: $346.60 | Current: $341.98 | PnL: -1.33% ($-0.17) | Peak: $347.31",
-      "[2026-10-15 16:20:30] [ORCL] Shares: 0.415094 | Entry: $132.54 | Current: $134.47 | PnL: +1.45% ($+0.80) | Peak: $134.85",
       "[2026-10-15 16:20:30] [HOOD] Shares: 0.535853 | Entry: $102.63 | Current: $104.02 | PnL: +1.35% ($+0.74) | Peak: $104.25",
       "[2026-10-15 16:25:30] Running portfolio evaluation cycle...",
       "[2026-10-15 16:25:31] [AAPL] Shares: 0.037131 | Entry: $346.60 | Current: $341.98 | PnL: -1.33% ($-0.17) | Peak: $347.31",
@@ -21881,24 +21876,27 @@
       "[2026-10-15 17:05:36] Running portfolio evaluation cycle...",
       "[2026-10-15 17:05:37] [AAPL] Shares: 0.037131 | Entry: $346.60 | Current: $341.98 | PnL: -1.33% ($-0.17) | Peak: $347.31",
       "[2026-10-15 17:05:37] [ORCL] Shares: 0.415094 | Entry: $132.54 | Current: $134.47 | PnL: +1.45% ($+0.80) | Peak: $134.85",
-      "[2026-10-15 17:05:37] [HOOD] Shares: 0.535853 | Entry: $102.63 | Current: $104.02 | PnL: +1.35% ($+0.74) | Peak: $104.25"
+      "[2026-10-15 17:05:37] [HOOD] Shares: 0.535853 | Entry: $102.63 | Current: $104.02 | PnL: +1.35% ($+0.74) | Peak: $104.25",
+      "[2026-10-15 17:10:37] Running portfolio evaluation cycle...",
+      "[2026-10-15 17:10:52] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
+      "[2026-10-15 17:10:52] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
     ]
   },
   "coinbase": {
     "state": {
       "mode": "autonomous",
       "starting_amount": 167.91,
-      "total_usd": 175.94,
+      "total_usd": 176.04,
       "cash_usd": 27.99,
-      "crypto_usd": 147.94,
+      "crypto_usd": 148.05,
       "holdings": [
         {
           "currency": "NEAR",
           "quantity": 9.367,
           "available": 9.367,
           "hold": 0.0,
-          "price_usd": 5.2854,
-          "value_usd": 49.51,
+          "price_usd": 5.2864,
+          "value_usd": 49.52,
           "is_fiat": false
         },
         {
@@ -21906,8 +21904,8 @@
           "quantity": 25.2,
           "available": 25.2,
           "hold": 0.0,
-          "price_usd": 1.9544,
-          "value_usd": 49.25,
+          "price_usd": 1.9553,
+          "value_usd": 49.27,
           "is_fiat": false
         },
         {
@@ -21915,8 +21913,8 @@
           "quantity": 47.9,
           "available": 47.9,
           "hold": 0.0,
-          "price_usd": 1.0268,
-          "value_usd": 49.18,
+          "price_usd": 1.0283,
+          "value_usd": 49.26,
           "is_fiat": false
         },
         {
@@ -21929,15 +21927,15 @@
           "is_fiat": true
         }
       ],
-      "last_eval_time": "2026-10-15T17:08:36.586693",
+      "last_eval_time": "2026-10-15T17:10:38.458319",
       "last_heartbeat_time": null,
       "price_history": {},
       "market_overview": {
         "SOL-USD": {
           "product_id": "SOL-USD",
-          "price": 105.48,
-          "change_24h": 1.45234202173704,
-          "volume_24h": 890368.0538594,
+          "price": 105.52,
+          "change_24h": 1.66682724732633,
+          "volume_24h": 890002.82100061,
           "high_24h": 106.43,
           "low_24h": 100.43,
           "base_increment": "0.00000001",
@@ -21947,9 +21945,9 @@
         },
         "AVAX-USD": {
           "product_id": "AVAX-USD",
-          "price": 9.966,
-          "change_24h": 0.17087144436627,
-          "volume_24h": 807232.95765318,
+          "price": 9.964,
+          "change_24h": 0.33229282046118,
+          "volume_24h": 806836.21028623,
           "high_24h": 10.079,
           "low_24h": 9.338,
           "base_increment": "0.00000001",
@@ -21959,9 +21957,9 @@
         },
         "ETH-USD": {
           "product_id": "ETH-USD",
-          "price": 2449.81,
-          "change_24h": 1.65650714347958,
-          "volume_24h": 135582.10323764,
+          "price": 2451.15,
+          "change_24h": 1.91425755994528,
+          "volume_24h": 135363.54240356,
           "high_24h": 2462.64,
           "low_24h": 2313.07,
           "base_increment": "0.00000001",
@@ -21971,9 +21969,9 @@
         },
         "BTC-USD": {
           "product_id": "BTC-USD",
-          "price": 82023.34,
-          "change_24h": 0.4470704559379,
-          "volume_24h": 7261.41228037,
+          "price": 82030.79,
+          "change_24h": 0.53337447935293,
+          "volume_24h": 7260.45178996,
           "high_24h": 82555.08,
           "low_24h": 79676.02,
           "base_increment": "0.00000001",
@@ -21983,9 +21981,9 @@
         },
         "SUI-USD": {
           "product_id": "SUI-USD",
-          "price": 1.0268,
-          "change_24h": 0.99341005212944,
-          "volume_24h": 24064983.7,
+          "price": 1.0283,
+          "change_24h": 1.16084604033448,
+          "volume_24h": 24068702.5,
           "high_24h": 1.0416,
           "low_24h": 0.9587,
           "base_increment": "0.1",
@@ -22006,9 +22004,9 @@
           "stop_loss_pct": -5.0,
           "trailing_active": false,
           "entry_time": "2026-10-15T11:35:39.664593",
-          "current_price": 1.9544,
-          "pnl_pct": -0.2,
-          "value_usd": 49.25,
+          "current_price": 1.9553,
+          "pnl_pct": -0.16,
+          "value_usd": 49.27,
           "tp1_pct": 7.0,
           "tp2_pct": 15.0,
           "trailing_pullback_pct": 3.0,
@@ -22025,9 +22023,9 @@
           "stop_loss_pct": -5.0,
           "trailing_active": false,
           "entry_time": "2026-10-15T11:40:48.689939",
-          "current_price": 1.0268,
-          "pnl_pct": -0.58,
-          "value_usd": 49.18,
+          "current_price": 1.0283,
+          "pnl_pct": -0.44,
+          "value_usd": 49.26,
           "tp1_pct": 7.0,
           "tp2_pct": 15.0,
           "trailing_pullback_pct": 3.0,
@@ -22044,9 +22042,9 @@
           "stop_loss_pct": -5.0,
           "trailing_active": false,
           "entry_time": "2026-10-15T16:58:27.426621",
-          "current_price": 5.2854,
-          "pnl_pct": -0.02,
-          "value_usd": 49.51,
+          "current_price": 5.2864,
+          "pnl_pct": -0.01,
+          "value_usd": 49.52,
           "tp1_pct": 7.0,
           "tp2_pct": 15.0,
           "trailing_pullback_pct": 3.0,
@@ -22055,10 +22053,10 @@
       },
       "market_regime": {
         "status": "NEUTRAL",
-        "btc_change_24h": 0.50569386540775,
-        "btc_price": 82023.34,
+        "btc_change_24h": 0.53337447935293,
+        "btc_price": 82030.79,
         "allow_alts": true,
-        "reason": "BTC stable +0.51% (Neutral regime - standard rotation enabled)"
+        "reason": "BTC stable +0.53% (Neutral regime - standard rotation enabled)"
       },
       "vaulted_profit_usd": 22.48,
       "closed_trades": [
@@ -22657,18 +22655,6 @@
       }
     },
     "logs": [
-      "[2026-10-15 17:02:30] [NEAR] Qty: 9.367 | Entry: $5.29 | Current: $5.29 | Peak: $5.29 | PnL: +0.09% ($49.57) | Vol: High-Beta Alpha Runner",
-      "[2026-10-15 17:02:30] [RENDER] Qty: 25.2 | Entry: $1.96 | Current: $1.96 | Peak: $2.00 | PnL: -0.04% ($49.33) | Vol: High-Beta Alpha Runner",
-      "[2026-10-15 17:02:30] [SUI] Qty: 47.9 | Entry: $1.03 | Current: $1.03 | Peak: $1.04 | PnL: -0.36% ($49.29) | Vol: High-Beta Alpha Runner",
-      "[2026-10-15 17:02:30] Auto-buy paused: Total cash is $27.99, but $22.48 is vaulted to protect banked profits. Deployable: $5.51",
-      "[2026-10-15 17:03:31] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-15 17:03:31] Macro Regime: NEUTRAL | BTC 24h: +0.34% | Alts Allowed: True",
-      "[2026-10-15 17:03:31] [NEAR] Qty: 9.367 | Entry: $5.29 | Current: $5.29 | Peak: $5.29 | PnL: +0.09% ($49.56) | Vol: High-Beta Alpha Runner",
-      "[2026-10-15 17:03:31] [RENDER] Qty: 25.2 | Entry: $1.96 | Current: $1.96 | Peak: $2.00 | PnL: +0.09% ($49.39) | Vol: High-Beta Alpha Runner",
-      "[2026-10-15 17:03:31] [SUI] Qty: 47.9 | Entry: $1.03 | Current: $1.03 | Peak: $1.04 | PnL: -0.28% ($49.33) | Vol: High-Beta Alpha Runner",
-      "[2026-10-15 17:03:31] Auto-buy paused: Total cash is $27.99, but $22.48 is vaulted to protect banked profits. Deployable: $5.51",
-      "[2026-10-15 17:04:32] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-15 17:04:32] Macro Regime: NEUTRAL | BTC 24h: +0.54% | Alts Allowed: True",
       "[2026-10-15 17:04:32] [NEAR] Qty: 9.367 | Entry: $5.29 | Current: $5.30 | Peak: $5.30 | PnL: +0.32% ($49.68) | Vol: High-Beta Alpha Runner",
       "[2026-10-15 17:04:32] [RENDER] Qty: 25.2 | Entry: $1.96 | Current: $1.96 | Peak: $2.00 | PnL: +0.15% ($49.42) | Vol: High-Beta Alpha Runner",
       "[2026-10-15 17:04:32] [SUI] Qty: 47.9 | Entry: $1.03 | Current: $1.03 | Peak: $1.04 | PnL: -0.19% ($49.38) | Vol: High-Beta Alpha Runner",
@@ -22696,7 +22682,19 @@
       "[2026-10-15 17:08:36] [NEAR] Qty: 9.367 | Entry: $5.29 | Current: $5.29 | Peak: $5.30 | PnL: -0.02% ($49.51) | Vol: High-Beta Alpha Runner",
       "[2026-10-15 17:08:36] [RENDER] Qty: 25.2 | Entry: $1.96 | Current: $1.95 | Peak: $2.00 | PnL: -0.20% ($49.25) | Vol: High-Beta Alpha Runner",
       "[2026-10-15 17:08:36] [SUI] Qty: 47.9 | Entry: $1.03 | Current: $1.03 | Peak: $1.04 | PnL: -0.58% ($49.18) | Vol: High-Beta Alpha Runner",
-      "[2026-10-15 17:08:36] Auto-buy paused: Total cash is $27.99, but $22.48 is vaulted to protect banked profits. Deployable: $5.51"
+      "[2026-10-15 17:08:36] Auto-buy paused: Total cash is $27.99, but $22.48 is vaulted to protect banked profits. Deployable: $5.51",
+      "[2026-10-15 17:09:36] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-15 17:09:37] Macro Regime: NEUTRAL | BTC 24h: +0.55% | Alts Allowed: True",
+      "[2026-10-15 17:09:37] [NEAR] Qty: 9.367 | Entry: $5.29 | Current: $5.30 | Peak: $5.30 | PnL: +0.27% ($49.65) | Vol: High-Beta Alpha Runner",
+      "[2026-10-15 17:09:37] [SUI] Qty: 47.9 | Entry: $1.03 | Current: $1.03 | Peak: $1.04 | PnL: -0.37% ($49.29) | Vol: High-Beta Alpha Runner",
+      "[2026-10-15 17:09:37] [RENDER] Qty: 25.2 | Entry: $1.96 | Current: $1.96 | Peak: $2.00 | PnL: -0.12% ($49.29) | Vol: High-Beta Alpha Runner",
+      "[2026-10-15 17:09:37] Auto-buy paused: Total cash is $27.99, but $22.48 is vaulted to protect banked profits. Deployable: $5.51",
+      "[2026-10-15 17:10:37] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-15 17:10:37] Macro Regime: NEUTRAL | BTC 24h: +0.53% | Alts Allowed: True",
+      "[2026-10-15 17:10:37] [NEAR] Qty: 9.367 | Entry: $5.29 | Current: $5.29 | Peak: $5.30 | PnL: -0.01% ($49.52) | Vol: High-Beta Alpha Runner",
+      "[2026-10-15 17:10:37] [RENDER] Qty: 25.2 | Entry: $1.96 | Current: $1.96 | Peak: $2.00 | PnL: -0.16% ($49.27) | Vol: High-Beta Alpha Runner",
+      "[2026-10-15 17:10:37] [SUI] Qty: 47.9 | Entry: $1.03 | Current: $1.03 | Peak: $1.04 | PnL: -0.44% ($49.26) | Vol: High-Beta Alpha Runner",
+      "[2026-10-15 17:10:37] Auto-buy paused: Total cash is $27.99, but $22.48 is vaulted to protect banked profits. Deployable: $5.51"
     ]
   },
   "performance": {
@@ -22705,6 +22703,20 @@
     "historical_trades": []
   },
   "ai_decisions": [
+    {
+      "id": "dec_1792098567_969e5d",
+      "timestamp": "2026-10-15T17:09:27.618270",
+      "category": "veto",
+      "decision_type": "VETO",
+      "symbol": "NEAR",
+      "title": "Scanner Risk Filter: NEAR Long Setup Blocked",
+      "rationale": "AI evaluated NEAR for potential long entry but rejected it: RVOL 0.86x below 1.0x surge threshold. Capital protected from unfavorable risk/reward setup.",
+      "metrics": {
+        "rvol": 0.86
+      },
+      "sentiment": "BEARISH",
+      "impact": "CAPITAL_PROTECTED"
+    },
     {
       "id": "dec_1792098516_da6b45",
       "timestamp": "2026-10-15T17:08:36.460695",
@@ -23640,22 +23652,6 @@
       },
       "sentiment": "BULLISH",
       "impact": "PROFIT_PROTECTED"
-    },
-    {
-      "id": "dec_1792089074_a3e55d",
-      "timestamp": "2026-10-15T14:31:14.780160",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "NEAR",
-      "title": "Dynamic Trailing Stop: NEAR (+13.57%)",
-      "rationale": "Peak reached +15.82%. Trailing stop automatically trailed up from +13.34% to +13.57% (buffer: 2.25%).",
-      "metrics": {
-        "peak_pnl": 15.82,
-        "new_stop": 13.57,
-        "old_stop": 13.34
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
     }
   ],
   "catalysts": [
@@ -24035,7 +24031,7 @@
   "state": {
     "starting_balance": 50000.0,
     "cash": 24972.159999999993,
-    "total_equity": 50579.78,
+    "total_equity": 50598.82,
     "peak_equity": 55561.05,
     "mode": "hybrid_alpha_crucible_v3 (Intraday Alpha + Multi-Day Swing Runners)",
     "covered_call_portfolio": {},
@@ -24050,14 +24046,14 @@
         "symbol": "SOL",
         "asset_type": "crypto",
         "entry_price": 104.42,
-        "current_price": 105.53,
+        "current_price": 105.6,
         "peak_price": 106.38,
         "original_shares": 95.77,
         "shares": 95.77,
         "cost_basis": 10000.3,
-        "current_value": 10106.61,
-        "unrealized_pnl_usd": 106.31,
-        "unrealized_pnl_pct": 1.06,
+        "current_value": 10113.31,
+        "unrealized_pnl_usd": 113.01,
+        "unrealized_pnl_pct": 1.13,
         "entry_time": "2026-10-14T17:31:21.890257",
         "stop_loss_pct": -4.0,
         "tp1_pct": 4.0,
@@ -24092,14 +24088,14 @@
         "symbol": "AVAX",
         "asset_type": "crypto",
         "entry_price": 9.6707,
-        "current_price": 9.972,
+        "current_price": 9.974,
         "peak_price": 10.078,
         "original_shares": 517.0257,
         "shares": 517.0257,
         "cost_basis": 5000.0,
-        "current_value": 5155.78,
-        "unrealized_pnl_usd": 155.78,
-        "unrealized_pnl_pct": 3.12,
+        "current_value": 5156.81,
+        "unrealized_pnl_usd": 156.81,
+        "unrealized_pnl_pct": 3.14,
         "entry_time": "2026-10-15T04:39:03.591164",
         "stop_loss_pct": 2.21,
         "tp1_pct": 4.5,
@@ -24121,14 +24117,14 @@
         "symbol": "SUI",
         "asset_type": "crypto",
         "entry_price": 0.9946,
-        "current_price": 1.0287,
+        "current_price": 1.0303,
         "peak_price": 1.0415,
         "original_shares": 5027.1466,
         "shares": 5027.1466,
         "cost_basis": 5000.0,
-        "current_value": 5171.43,
-        "unrealized_pnl_usd": 171.43,
-        "unrealized_pnl_pct": 3.43,
+        "current_value": 5179.47,
+        "unrealized_pnl_usd": 179.47,
+        "unrealized_pnl_pct": 3.59,
         "entry_time": "2026-10-15T05:59:02.953994",
         "stop_loss_pct": 2.47,
         "tp1_pct": 5.0,
@@ -24150,14 +24146,14 @@
         "symbol": "ETH",
         "asset_type": "crypto",
         "entry_price": 2368.9,
-        "current_price": 2452.04,
+        "current_price": 2453.59,
         "peak_price": 2462.29,
         "original_shares": 2.11,
         "shares": 2.11,
         "cost_basis": 4998.38,
-        "current_value": 5173.8,
-        "unrealized_pnl_usd": 175.42,
-        "unrealized_pnl_pct": 3.51,
+        "current_value": 5177.07,
+        "unrealized_pnl_usd": 178.69,
+        "unrealized_pnl_pct": 3.58,
         "entry_time": "2026-10-15T07:38:49.798759",
         "stop_loss_pct": 2.44,
         "tp1_pct": 4.0,
@@ -24198,11 +24194,11 @@
       "gross_profit": 19995.42,
       "gross_loss": 20024.58
     },
-    "last_eval_time": "2026-10-15T17:09:02.091169",
+    "last_eval_time": "2026-10-15T17:11:10.174804",
     "ai_usage": {
       "date": "2026-10-15",
-      "total_operations": 2388,
-      "zero_token_local_operations": 2388,
+      "total_operations": 2393,
+      "zero_token_local_operations": 2393,
       "llm_calls": 0,
       "input_tokens": 0,
       "output_tokens": 0,
@@ -24214,12 +24210,12 @@
       "operations_breakdown": {
         "market_wire": 0,
         "social_radar": 0,
-        "technical_scan": 2388,
+        "technical_scan": 2393,
         "position_sizing": 0,
         "strategy_optimizer": 0,
         "post_mortem": 0
       },
-      "last_updated": "2026-10-15T17:09:02.082200"
+      "last_updated": "2026-10-15T17:11:10.166271"
     }
   },
   "trades": [
@@ -30068,5 +30064,5 @@
     "[2026-10-15 16:54:03] [SIMULATOR] 🟢 [SELL FILL] NEAR | Exit: $5.3267 | PnL: +15.40% ($+192.55) | Reason: TRAILING_PROFIT_LOCK (+15.50% from peak +17.77%)",
     "[2026-10-15 16:54:03] [SIMULATOR] [SIMULATOR TELEGRAM SUPPRESSED] 🎮 *[SIMULATOR EXIT]* NEAR (CRYPTO)"
   ],
-  "snapshot_synced_at": "2026-10-15T17:09:24.110898"
+  "snapshot_synced_at": "2026-10-15T17:11:11.054449"
 }
