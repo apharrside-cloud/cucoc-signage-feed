@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-22T13:03:56.964748",
+  "timestamp": "2026-10-22T13:05:31.420114",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.23,
@@ -19,12 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-22 12:50:00] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-22 12:51:00] Running portfolio evaluation cycle...",
-      "[2026-10-22 12:51:00] No positions currently held.",
-      "[2026-10-22 12:51:00] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-22 12:52:00] Running portfolio evaluation cycle...",
-      "[2026-10-22 12:52:01] No positions currently held.",
       "[2026-10-22 12:52:01] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-22 12:53:01] Running portfolio evaluation cycle...",
       "[2026-10-22 12:53:02] No positions currently held.",
@@ -58,20 +52,26 @@
       "[2026-10-22 13:02:22] Failed to fetch portfolio data.",
       "[2026-10-22 13:03:22] Running portfolio evaluation cycle...",
       "[2026-10-22 13:03:26] No positions currently held.",
-      "[2026-10-22 13:03:26] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-22 13:03:26] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-22 13:04:26] Running portfolio evaluation cycle...",
+      "[2026-10-22 13:04:26] No positions currently held.",
+      "[2026-10-22 13:04:26] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-22 13:05:27] Running portfolio evaluation cycle...",
+      "[2026-10-22 13:05:27] No positions currently held.",
+      "[2026-10-22 13:05:27] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
     "total_usd": 162.95,
     "cash_usd": 143.51,
-    "crypto_usd": 19.44,
+    "crypto_usd": 19.43,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -3.8613725322946,
-      "btc_price": 81151.0,
+      "btc_change_24h": -3.8777367074211,
+      "btc_price": 81134.88,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -3.86% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -3.88% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {
       "BTC": {
@@ -85,9 +85,9 @@
         "stop_loss_pct": -3.0,
         "trailing_active": false,
         "entry_time": "2026-10-21T23:12:06.569768",
-        "current_price": 81151.0,
-        "pnl_pct": -1.93,
-        "value_usd": 19.44,
+        "current_price": 81134.88,
+        "pnl_pct": -1.95,
+        "value_usd": 19.43,
         "tp1_pct": 3.5,
         "tp2_pct": 6.0,
         "trailing_pullback_pct": 1.5,
@@ -95,11 +95,6 @@
       }
     },
     "logs": [
-      "[2026-10-22 12:56:41] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-22 12:56:41] Macro Regime: RISK_OFF | BTC 24h: -4.10% | Alts Allowed: False",
-      "[2026-10-22 12:56:41] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,044.62 | Peak: $82,894.91 | PnL: -2.06% ($19.41) | Vol: Large-Cap Low Volatility",
-      "[2026-10-22 12:56:41] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
-      "[2026-10-22 12:56:41] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33",
       "[2026-10-22 12:57:42] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-22 12:57:42] Macro Regime: RISK_OFF | BTC 24h: -4.13% | Alts Allowed: False",
       "[2026-10-22 12:57:42] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,015.62 | Peak: $82,894.91 | PnL: -2.10% ($19.40) | Vol: Large-Cap Low Volatility",
@@ -134,7 +129,12 @@
       "[2026-10-22 13:03:46] Macro Regime: RISK_OFF | BTC 24h: -3.86% | Alts Allowed: False",
       "[2026-10-22 13:03:46] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,151.00 | Peak: $82,894.91 | PnL: -1.93% ($19.44) | Vol: Large-Cap Low Volatility",
       "[2026-10-22 13:03:46] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
-      "[2026-10-22 13:03:46] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33"
+      "[2026-10-22 13:03:46] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33",
+      "[2026-10-22 13:04:47] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-22 13:04:47] Macro Regime: RISK_OFF | BTC 24h: -3.88% | Alts Allowed: False",
+      "[2026-10-22 13:04:47] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,134.88 | Peak: $82,894.91 | PnL: -1.95% ($19.43) | Vol: Large-Cap Low Volatility",
+      "[2026-10-22 13:04:47] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
+      "[2026-10-22 13:04:47] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33"
     ]
   },
   "positions": [
@@ -143,10 +143,10 @@
       "symbol": "BTC",
       "shares": 0.00023951,
       "entry_price": 82751.03,
-      "current_price": 81151.0,
-      "value_usd": 19.44,
-      "pnl_pct": -1.93,
-      "pnl_usd": -0.38,
+      "current_price": 81134.88,
+      "value_usd": 19.43,
+      "pnl_pct": -1.95,
+      "pnl_usd": -0.39,
       "trailing_info": "TP1: +3.5% | Stop: -3.0%"
     }
   ],
@@ -2957,5 +2957,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-22T13:03:56.678557"
+  "snapshot_synced_at": "2026-10-22T13:05:31.125922"
 }
