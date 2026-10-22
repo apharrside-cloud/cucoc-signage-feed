@@ -1,25 +1,24 @@
 {
-  "timestamp": "2026-10-22T16:16:27.042576",
+  "timestamp": "2026-10-22T16:18:00.091097",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.27,
+    "total_equity": 325.26,
     "total_cash": 305.79,
     "cash_pct": 94.0,
-    "weekly_realized_pnl": -1.65,
-    "win_rate": 58.71559633027523,
+    "weekly_realized_pnl": -2.01,
+    "win_rate": 58.18181818181818,
     "winning_trades": 64,
-    "losing_trades": 45,
-    "total_trades": 109,
+    "losing_trades": 46,
+    "total_trades": 110,
     "profit_factor": "1.0",
-    "today_realized_pnl": -3.6,
-    "today_trades_count": 5
+    "today_realized_pnl": -3.96,
+    "today_trades_count": 6
   },
   "robinhood": {
     "total_value": 162.28,
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-22 15:48:53] No positions currently held.",
       "[2026-10-22 15:48:53] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-22 15:49:53] Running portfolio evaluation cycle...",
       "[2026-10-22 15:49:54] No positions currently held.",
@@ -58,50 +57,24 @@
       "[2026-10-22 16:05:19] Running portfolio evaluation cycle...",
       "[2026-10-22 16:05:19] No positions currently held.",
       "[2026-10-22 16:10:19] Running portfolio evaluation cycle...",
-      "[2026-10-22 16:10:20] No positions currently held."
+      "[2026-10-22 16:10:20] No positions currently held.",
+      "[2026-10-22 16:17:48] Starting Autonomous Trading Monitor daemon..."
     ]
   },
   "coinbase": {
-    "total_usd": 162.99,
+    "total_usd": 162.98,
     "cash_usd": 143.51,
-    "crypto_usd": 19.48,
+    "crypto_usd": 19.46,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -3.74852056999479,
-      "btc_price": 81324.8,
+      "btc_change_24h": -3.80623341167179,
+      "btc_price": 81264.09,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -3.75% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -3.81% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
-    "positions": {
-      "BTC": {
-        "coin": "BTC",
-        "pair": "BTC-USDC",
-        "entry_price": 82751.03,
-        "shares": 0.00023951,
-        "peak_price": 82894.91,
-        "tp1_hit": false,
-        "tp2_hit": false,
-        "stop_loss_pct": -3.0,
-        "trailing_active": false,
-        "entry_time": "2026-10-21T23:12:06.569768",
-        "current_price": 81324.79,
-        "pnl_pct": -1.72,
-        "value_usd": 19.48,
-        "tp1_pct": 3.5,
-        "tp2_pct": 6.0,
-        "trailing_pullback_pct": 1.5,
-        "volatility_profile": "Large-Cap Low Volatility"
-      }
-    },
+    "positions": {},
     "logs": [
-      "[2026-10-22 16:07:04] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-22 16:07:04] Macro Regime: RISK_OFF | BTC 24h: -3.76% | Alts Allowed: False",
-      "[2026-10-22 16:07:04] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,343.90 | Peak: $82,894.91 | PnL: -1.70% ($19.48) | Vol: Large-Cap Low Volatility",
-      "[2026-10-22 16:07:04] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
-      "[2026-10-22 16:07:04] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33",
-      "[2026-10-22 16:08:05] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-22 16:08:05] Macro Regime: RISK_OFF | BTC 24h: -3.77% | Alts Allowed: False",
       "[2026-10-22 16:08:05] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,315.98 | Peak: $82,894.91 | PnL: -1.73% ($19.48) | Vol: Large-Cap Low Volatility",
       "[2026-10-22 16:08:05] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
       "[2026-10-22 16:08:05] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33",
@@ -134,22 +107,17 @@
       "[2026-10-22 16:14:09] Macro Regime: RISK_OFF | BTC 24h: -3.75% | Alts Allowed: False",
       "[2026-10-22 16:14:09] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,324.79 | Peak: $82,894.91 | PnL: -1.72% ($19.48) | Vol: Large-Cap Low Volatility",
       "[2026-10-22 16:14:09] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
-      "[2026-10-22 16:14:09] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33"
+      "[2026-10-22 16:14:09] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33",
+      "[2026-10-22 16:16:51] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-22 16:16:51] Macro Regime: RISK_OFF | BTC 24h: -3.81% | Alts Allowed: False",
+      "[2026-10-22 16:16:51] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,264.08 | Peak: $82,894.91 | PnL: -1.80% ($19.46) | Vol: Large-Cap Low Volatility",
+      "[2026-10-22 16:17:03] 🧠 [AI PROACTIVE EXIT] BTC flagged for early exit: The broader market regime has shifted to RISK_OFF with BTC down -3.81% and core strategies suppressed, invalidating the long thesis and necessitating early capital preservation.",
+      "[2026-10-22 16:17:14] Telegram send failed: HTTP Error 400: Bad Request",
+      "[2026-10-22 16:17:14] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
+      "[2026-10-22 16:17:14] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33"
     ]
   },
-  "positions": [
-    {
-      "account": "Coinbase",
-      "symbol": "BTC",
-      "shares": 0.00023951,
-      "entry_price": 82751.03,
-      "current_price": 81324.79,
-      "value_usd": 19.48,
-      "pnl_pct": -1.72,
-      "pnl_usd": -0.34,
-      "trailing_info": "TP1: +3.5% | Stop: -3.0%"
-    }
-  ],
+  "positions": [],
   "closed_trades": [
     {
       "symbol": "SMCI",
@@ -1240,26 +1208,20 @@
       "pnl_percent": -3.02,
       "pnl_usd": -0.6,
       "timestamp": "2026-10-22T12:50:36.525394"
+    },
+    {
+      "symbol": "BTC",
+      "action": "SELL_AI_PROACTIVE_EXIT",
+      "shares": 0.00023951,
+      "entry_price": 82751.03,
+      "exit_price": 81264.08,
+      "pnl_percent": -1.8,
+      "pnl_usd": -0.36,
+      "timestamp": "2026-10-22T16:17:04.255367",
+      "ai_reasoning": "The broader market regime has shifted to RISK_OFF with BTC down -3.81% and core strategies suppressed, invalidating the long thesis and necessitating early capital preservation."
     }
   ],
   "ai_decisions": [
-    {
-      "id": "dec_1792609367_2976ab",
-      "timestamp": "2026-10-21T15:02:47.106080",
-      "category": "trade",
-      "decision_type": "TRAILING_EXIT",
-      "symbol": "AVAX",
-      "title": "TRAILING_EXIT Executed: AVAX (+0.57%)",
-      "rationale": "Sold 256.3629 shares @ $9.8071 (Entry: $9.7518). Realized PnL: +0.57% ($+14.18). Trigger: TRAILING_PROFIT_LOCK (+0.65% from peak +3.02%)",
-      "metrics": {
-        "entry_price": 9.7518,
-        "exit_price": 9.8071,
-        "pnl_usd": 14.18,
-        "pnl_pct": 0.57
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_LOCKED"
-    },
     {
       "id": "dec_1792607276_9bc3c7",
       "timestamp": "2026-10-21T14:27:56.185707",
@@ -1863,18 +1825,34 @@
       },
       "sentiment": "BULLISH",
       "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792595517_83aff7",
+      "timestamp": "2026-10-21T11:11:57.874732",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "ETH",
+      "title": "Dynamic Trailing Stop: ETH (+1.73%)",
+      "rationale": "Peak reached +3.23%. Trailing stop automatically trailed up from +1.72% to +1.73% (buffer: 1.5%).",
+      "metrics": {
+        "peak_pnl": 3.23,
+        "new_stop": 1.73,
+        "old_stop": 1.72
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
     }
   ],
   "performance": {
-    "win_rate": 58.71559633027523,
+    "win_rate": 58.18181818181818,
     "winning_trades": 64,
-    "losing_trades": 45,
-    "total_trades": 109,
+    "losing_trades": 46,
+    "total_trades": 110,
     "profit_factor": "1.0",
     "max_drawdown_pct": 13.27,
-    "trades_count_today": 5,
-    "realized_pnl_today": -3.6,
-    "current_equity": 325.27,
+    "trades_count_today": 6,
+    "realized_pnl_today": -3.96,
+    "current_equity": 325.26,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -2966,8 +2944,19 @@
         "pnl_percent": -3.02,
         "pnl_usd": -0.6,
         "timestamp": "2026-10-22T12:50:36.525394"
+      },
+      {
+        "symbol": "BTC",
+        "action": "SELL_AI_PROACTIVE_EXIT",
+        "shares": 0.00023951,
+        "entry_price": 82751.03,
+        "exit_price": 81264.08,
+        "pnl_percent": -1.8,
+        "pnl_usd": -0.36,
+        "timestamp": "2026-10-22T16:17:04.255367",
+        "ai_reasoning": "The broader market regime has shifted to RISK_OFF with BTC down -3.81% and core strategies suppressed, invalidating the long thesis and necessitating early capital preservation."
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-22T16:16:26.797382"
+  "snapshot_synced_at": "2026-10-22T16:17:59.825008"
 }
