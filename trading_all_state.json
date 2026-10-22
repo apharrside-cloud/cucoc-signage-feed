@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-22T14:28:40.437216",
+  "timestamp": "2026-10-22T14:30:13.888767",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.21,
@@ -19,9 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-22 14:15:23] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-22 14:16:24] Running portfolio evaluation cycle...",
-      "[2026-10-22 14:16:24] No positions currently held.",
       "[2026-10-22 14:16:24] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-22 14:17:24] Running portfolio evaluation cycle...",
       "[2026-10-22 14:17:25] No positions currently held.",
@@ -58,20 +55,23 @@
       "[2026-10-22 14:27:31] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-22 14:28:31] Running portfolio evaluation cycle...",
       "[2026-10-22 14:28:32] No positions currently held.",
-      "[2026-10-22 14:28:32] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-22 14:28:32] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-22 14:29:32] Running portfolio evaluation cycle...",
+      "[2026-10-22 14:29:47] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
+      "[2026-10-22 14:29:47] Failed to fetch portfolio data."
     ]
   },
   "coinbase": {
     "total_usd": 162.93,
     "cash_usd": 143.51,
-    "crypto_usd": 19.42,
+    "crypto_usd": 19.41,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -4.30653495704431,
-      "btc_price": 81070.25,
+      "btc_change_24h": -4.29775941328297,
+      "btc_price": 81043.27,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -4.31% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -4.30% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {
       "BTC": {
@@ -85,9 +85,9 @@
         "stop_loss_pct": -3.0,
         "trailing_active": false,
         "entry_time": "2026-10-21T23:12:06.569768",
-        "current_price": 81069.18,
-        "pnl_pct": -2.03,
-        "value_usd": 19.42,
+        "current_price": 81048.97,
+        "pnl_pct": -2.06,
+        "value_usd": 19.41,
         "tp1_pct": 3.5,
         "tp2_pct": 6.0,
         "trailing_pullback_pct": 1.5,
@@ -95,16 +95,6 @@
       }
     },
     "logs": [
-      "[2026-10-22 14:20:46] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-22 14:20:46] Macro Regime: RISK_OFF | BTC 24h: -4.13% | Alts Allowed: False",
-      "[2026-10-22 14:20:46] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,113.63 | Peak: $82,894.91 | PnL: -1.98% ($19.43) | Vol: Large-Cap Low Volatility",
-      "[2026-10-22 14:20:46] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
-      "[2026-10-22 14:20:46] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33",
-      "[2026-10-22 14:21:47] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-22 14:21:47] Macro Regime: RISK_OFF | BTC 24h: -4.12% | Alts Allowed: False",
-      "[2026-10-22 14:21:47] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,146.21 | Peak: $82,894.91 | PnL: -1.94% ($19.44) | Vol: Large-Cap Low Volatility",
-      "[2026-10-22 14:21:47] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
-      "[2026-10-22 14:21:47] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33",
       "[2026-10-22 14:22:47] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-22 14:22:48] Macro Regime: RISK_OFF | BTC 24h: -4.23% | Alts Allowed: False",
       "[2026-10-22 14:22:48] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,100.33 | Peak: $82,894.91 | PnL: -1.99% ($19.42) | Vol: Large-Cap Low Volatility",
@@ -134,7 +124,17 @@
       "[2026-10-22 14:27:51] Macro Regime: RISK_OFF | BTC 24h: -4.31% | Alts Allowed: False",
       "[2026-10-22 14:27:51] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,069.18 | Peak: $82,894.91 | PnL: -2.03% ($19.42) | Vol: Large-Cap Low Volatility",
       "[2026-10-22 14:27:51] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
-      "[2026-10-22 14:27:51] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33"
+      "[2026-10-22 14:27:51] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33",
+      "[2026-10-22 14:28:51] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-22 14:28:52] Macro Regime: RISK_OFF | BTC 24h: -4.33% | Alts Allowed: False",
+      "[2026-10-22 14:28:52] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,034.12 | Peak: $82,894.91 | PnL: -2.07% ($19.41) | Vol: Large-Cap Low Volatility",
+      "[2026-10-22 14:28:52] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
+      "[2026-10-22 14:28:52] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33",
+      "[2026-10-22 14:29:52] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-22 14:29:52] Macro Regime: RISK_OFF | BTC 24h: -4.30% | Alts Allowed: False",
+      "[2026-10-22 14:29:52] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,048.97 | Peak: $82,894.91 | PnL: -2.06% ($19.41) | Vol: Large-Cap Low Volatility",
+      "[2026-10-22 14:29:52] 🛡️ [CIRCUIT BREAKER ACTIVE] 3 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
+      "[2026-10-22 14:29:52] Auto-buy paused: Total cash is $143.51, but $24.18 is vaulted to protect banked profits. Deployable: $119.33"
     ]
   },
   "positions": [
@@ -143,10 +143,10 @@
       "symbol": "BTC",
       "shares": 0.00023951,
       "entry_price": 82751.03,
-      "current_price": 81069.18,
-      "value_usd": 19.42,
-      "pnl_pct": -2.03,
-      "pnl_usd": -0.4,
+      "current_price": 81048.97,
+      "value_usd": 19.41,
+      "pnl_pct": -2.06,
+      "pnl_usd": -0.41,
       "trailing_info": "TP1: +3.5% | Stop: -3.0%"
     }
   ],
@@ -2957,5 +2957,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-22T14:28:40.180756"
+  "snapshot_synced_at": "2026-10-22T14:30:13.615888"
 }
