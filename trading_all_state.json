@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-22T10:26:13.079122",
+  "timestamp": "2026-10-22T10:27:46.326866",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.87,
+    "total_equity": 325.84,
     "total_cash": 286.75,
     "cash_pct": 88.0,
     "weekly_realized_pnl": -1.05,
@@ -19,9 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-22 10:12:33] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-22 10:13:33] Running portfolio evaluation cycle...",
-      "[2026-10-22 10:13:34] No positions currently held.",
       "[2026-10-22 10:13:34] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-22 10:14:34] Running portfolio evaluation cycle...",
       "[2026-10-22 10:14:34] No positions currently held.",
@@ -58,20 +55,23 @@
       "[2026-10-22 10:24:41] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-22 10:25:41] Running portfolio evaluation cycle...",
       "[2026-10-22 10:25:56] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
-      "[2026-10-22 10:25:56] Failed to fetch portfolio data."
+      "[2026-10-22 10:25:56] Failed to fetch portfolio data.",
+      "[2026-10-22 10:26:56] Running portfolio evaluation cycle...",
+      "[2026-10-22 10:26:59] No positions currently held.",
+      "[2026-10-22 10:26:59] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
-    "total_usd": 163.59,
+    "total_usd": 163.56,
     "cash_usd": 124.47,
-    "crypto_usd": 39.12,
+    "crypto_usd": 39.09,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -2.71016504833209,
-      "btc_price": 81688.33,
+      "btc_change_24h": -2.87812651694317,
+      "btc_price": 81611.52,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -2.71% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -2.88% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {
       "BTC": {
@@ -85,9 +85,9 @@
         "stop_loss_pct": -3.0,
         "trailing_active": false,
         "entry_time": "2026-10-21T23:12:06.569768",
-        "current_price": 81688.33,
-        "pnl_pct": -1.28,
-        "value_usd": 19.57,
+        "current_price": 81628.52,
+        "pnl_pct": -1.36,
+        "value_usd": 19.55,
         "tp1_pct": 3.5,
         "tp2_pct": 6.0,
         "trailing_pullback_pct": 1.5,
@@ -104,9 +104,9 @@
         "stop_loss_pct": -3.0,
         "trailing_active": false,
         "entry_time": "2026-10-21T23:16:11.634733",
-        "current_price": 2406.62,
-        "pnl_pct": -1.33,
-        "value_usd": 19.55,
+        "current_price": 2404.14,
+        "pnl_pct": -1.43,
+        "value_usd": 19.53,
         "tp1_pct": 3.5,
         "tp2_pct": 6.0,
         "trailing_pullback_pct": 1.5,
@@ -114,18 +114,6 @@
       }
     },
     "logs": [
-      "[2026-10-22 10:19:23] [ETH] Qty: 0.00812531 | Entry: $2,439.06 | Current: $2,404.78 | Peak: $2,446.09 | PnL: -1.41% ($19.54) | Vol: Large-Cap Low Volatility",
-      "[2026-10-22 10:19:23] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,600.92 | Peak: $82,894.91 | PnL: -1.39% ($19.54) | Vol: Large-Cap Low Volatility",
-      "[2026-10-22 10:19:23] 🛡️ [CIRCUIT BREAKER ACTIVE] 2 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
-      "[2026-10-22 10:19:23] Auto-buy paused: Total cash is $124.47, but $24.18 is vaulted to protect banked profits. Deployable: $100.29",
-      "[2026-10-22 10:20:23] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-22 10:20:23] Macro Regime: RISK_OFF | BTC 24h: -2.61% | Alts Allowed: False",
-      "[2026-10-22 10:20:23] [ETH] Qty: 0.00812531 | Entry: $2,439.06 | Current: $2,404.62 | Peak: $2,446.09 | PnL: -1.41% ($19.54) | Vol: Large-Cap Low Volatility",
-      "[2026-10-22 10:20:23] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,593.46 | Peak: $82,894.91 | PnL: -1.40% ($19.54) | Vol: Large-Cap Low Volatility",
-      "[2026-10-22 10:20:23] 🛡️ [CIRCUIT BREAKER ACTIVE] 2 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
-      "[2026-10-22 10:20:23] Auto-buy paused: Total cash is $124.47, but $24.18 is vaulted to protect banked profits. Deployable: $100.29",
-      "[2026-10-22 10:21:24] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-22 10:21:24] Macro Regime: RISK_OFF | BTC 24h: -2.60% | Alts Allowed: False",
       "[2026-10-22 10:21:24] [ETH] Qty: 0.00812531 | Entry: $2,439.06 | Current: $2,404.69 | Peak: $2,446.09 | PnL: -1.41% ($19.54) | Vol: Large-Cap Low Volatility",
       "[2026-10-22 10:21:24] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,592.77 | Peak: $82,894.91 | PnL: -1.40% ($19.54) | Vol: Large-Cap Low Volatility",
       "[2026-10-22 10:21:24] 🛡️ [CIRCUIT BREAKER ACTIVE] 2 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
@@ -153,7 +141,19 @@
       "[2026-10-22 10:25:28] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,688.33 | Peak: $82,894.91 | PnL: -1.28% ($19.57) | Vol: Large-Cap Low Volatility",
       "[2026-10-22 10:25:28] [ETH] Qty: 0.00812531 | Entry: $2,439.06 | Current: $2,406.62 | Peak: $2,446.09 | PnL: -1.33% ($19.55) | Vol: Large-Cap Low Volatility",
       "[2026-10-22 10:25:28] 🛡️ [CIRCUIT BREAKER ACTIVE] 2 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
-      "[2026-10-22 10:25:28] Auto-buy paused: Total cash is $124.47, but $24.18 is vaulted to protect banked profits. Deployable: $100.29"
+      "[2026-10-22 10:25:28] Auto-buy paused: Total cash is $124.47, but $24.18 is vaulted to protect banked profits. Deployable: $100.29",
+      "[2026-10-22 10:26:28] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-22 10:26:29] Macro Regime: RISK_OFF | BTC 24h: -2.72% | Alts Allowed: False",
+      "[2026-10-22 10:26:29] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,681.03 | Peak: $82,894.91 | PnL: -1.29% ($19.56) | Vol: Large-Cap Low Volatility",
+      "[2026-10-22 10:26:29] [ETH] Qty: 0.00812531 | Entry: $2,439.06 | Current: $2,406.36 | Peak: $2,446.09 | PnL: -1.34% ($19.55) | Vol: Large-Cap Low Volatility",
+      "[2026-10-22 10:26:29] 🛡️ [CIRCUIT BREAKER ACTIVE] 2 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
+      "[2026-10-22 10:26:29] Auto-buy paused: Total cash is $124.47, but $24.18 is vaulted to protect banked profits. Deployable: $100.29",
+      "[2026-10-22 10:27:29] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-22 10:27:29] Macro Regime: RISK_OFF | BTC 24h: -2.88% | Alts Allowed: False",
+      "[2026-10-22 10:27:29] [BTC] Qty: 0.00023951 | Entry: $82,751.03 | Current: $81,628.52 | Peak: $82,894.91 | PnL: -1.36% ($19.55) | Vol: Large-Cap Low Volatility",
+      "[2026-10-22 10:27:29] [ETH] Qty: 0.00812531 | Entry: $2,439.06 | Current: $2,404.14 | Peak: $2,446.09 | PnL: -1.43% ($19.53) | Vol: Large-Cap Low Volatility",
+      "[2026-10-22 10:27:29] 🛡️ [CIRCUIT BREAKER ACTIVE] 2 stop losses triggered in the last 24h. Auto-buys frozen to protect capital against choppy churn.",
+      "[2026-10-22 10:27:29] Auto-buy paused: Total cash is $124.47, but $24.18 is vaulted to protect banked profits. Deployable: $100.29"
     ]
   },
   "positions": [
@@ -162,10 +162,10 @@
       "symbol": "BTC",
       "shares": 0.00023951,
       "entry_price": 82751.03,
-      "current_price": 81688.33,
-      "value_usd": 19.57,
-      "pnl_pct": -1.28,
-      "pnl_usd": -0.25,
+      "current_price": 81628.52,
+      "value_usd": 19.55,
+      "pnl_pct": -1.36,
+      "pnl_usd": -0.27,
       "trailing_info": "TP1: +3.5% | Stop: -3.0%"
     },
     {
@@ -173,10 +173,10 @@
       "symbol": "ETH",
       "shares": 0.00812531,
       "entry_price": 2439.06,
-      "current_price": 2406.62,
-      "value_usd": 19.55,
-      "pnl_pct": -1.33,
-      "pnl_usd": -0.27,
+      "current_price": 2404.14,
+      "value_usd": 19.53,
+      "pnl_pct": -1.43,
+      "pnl_usd": -0.29,
       "trailing_info": "TP1: +3.5% | Stop: -3.0%"
     }
   ],
@@ -1880,7 +1880,7 @@
     "max_drawdown_pct": 13.14,
     "trades_count_today": 4,
     "realized_pnl_today": -3.0,
-    "current_equity": 325.87,
+    "current_equity": 325.84000000000003,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -2965,5 +2965,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-22T10:26:12.815345"
+  "snapshot_synced_at": "2026-10-22T10:27:46.055006"
 }
