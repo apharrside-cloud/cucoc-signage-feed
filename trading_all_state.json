@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T13:28:04.836876",
+  "timestamp": "2026-10-23T13:29:38.328719",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,10 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 13:19:25] Running portfolio evaluation cycle...",
-      "[2026-10-23 13:19:25] No positions currently held.",
-      "[2026-10-23 13:19:25] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 13:19:26] VWAP Filter: Skipping SOXL because price ($84.02) is BELOW session VWAP ($84.86).",
       "[2026-10-23 13:20:26] Running portfolio evaluation cycle...",
       "[2026-10-23 13:20:26] No positions currently held.",
       "[2026-10-23 13:20:26] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
@@ -58,7 +54,11 @@
       "[2026-10-23 13:27:46] Running portfolio evaluation cycle...",
       "[2026-10-23 13:27:50] No positions currently held.",
       "[2026-10-23 13:27:50] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 13:27:51] VWAP Filter: Skipping SOXL because price ($83.87) is BELOW session VWAP ($84.85)."
+      "[2026-10-23 13:27:51] VWAP Filter: Skipping SOXL because price ($83.87) is BELOW session VWAP ($84.85).",
+      "[2026-10-23 13:28:51] Running portfolio evaluation cycle...",
+      "[2026-10-23 13:28:51] No positions currently held.",
+      "[2026-10-23 13:28:51] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 13:28:51] VWAP Filter: Skipping SOXL because price ($83.81) is BELOW session VWAP ($84.85)."
     ]
   },
   "coinbase": {
@@ -75,12 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 13:19:07] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.9 (chg +0.00%)!",
-      "[2026-10-23 13:19:13] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX fails macro rules since altcoins are suppressed by the neutral regime and RVOL (0.14) severely violates volume prerequisites.",
-      "[2026-10-23 13:20:13] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 13:20:13] Macro Regime: NEUTRAL | BTC 24h: +0.47% | Alts Allowed: False",
-      "[2026-10-23 13:20:13] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 13:20:13] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 13:20:13] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.9 (chg +0.00%)!",
       "[2026-10-23 13:20:16] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: Macro regime explicitly suppresses altcoins (allow_alts: false) and RVOL is severely depressed at 0.14.",
       "[2026-10-23 13:21:16] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -114,7 +108,13 @@
       "[2026-10-23 13:27:47] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 13:27:47] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 13:27:47] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.8 (chg -0.12%)!",
-      "[2026-10-23 13:27:51] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman"
+      "[2026-10-23 13:27:51] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman",
+      "[2026-10-23 13:28:51] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 13:28:51] Macro Regime: NEUTRAL | BTC 24h: +0.26% | Alts Allowed: False",
+      "[2026-10-23 13:28:51] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 13:28:51] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 13:28:51] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.8 (chg -0.18%)!",
+      "[2026-10-23 13:29:25] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX fails macro rules since altcoins are currently suppressed by the neutral market regime."
     ]
   },
   "positions": [],
@@ -1223,21 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792593759_180d64",
-      "timestamp": "2026-10-21T10:42:39.417930",
-      "category": "veto",
-      "decision_type": "VETO",
-      "symbol": "TSLA",
-      "title": "Scanner Risk Filter: TSLA Long Setup Blocked",
-      "rationale": "AI evaluated TSLA for potential long entry but rejected it: Price $384.34 below session VWAP $385.23. Capital protected from unfavorable risk/reward setup.",
-      "metrics": {
-        "price": 384.34,
-        "vwap": 385.23
-      },
-      "sentiment": "BEARISH",
-      "impact": "CAPITAL_PROTECTED"
-    },
-    {
       "id": "dec_1792593759_e4eba4",
       "timestamp": "2026-10-21T10:42:39.289094",
       "category": "veto",
@@ -1833,6 +1818,21 @@
       "primary_thesis": "AMD is trading at an elevated absolute price relative to our deployable cash of $150.13, making fractional scaling inefficient and failing to meet our strict 75% confidence threshold due to lack of detailed volume confirmation metrics.",
       "risk_factors": "High single-share equity price prevents optimal position sizing under strict capital limits, exposing the account to excessive concentration risk.",
       "timestamp": "2026-10-23T10:38:46.861049"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "TQQQ",
+      "current_price": 67.437,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "TQQQ is showing intraday upside momentum above VWAP during regular market hours, but lacks complete multi-timeframe volume confirmation and comprehensive risk metrics to meet the elite 75% confidence threshold.",
+      "risk_factors": "Leveraged ETF decay and swift intraday reversal risk if broader equity market breadth fades near current highs.",
+      "timestamp": "2026-10-23T10:51:21.713511"
     }
   ],
   "performance": {
@@ -2950,5 +2950,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T13:28:04.530649"
+  "snapshot_synced_at": "2026-10-23T13:29:37.996061"
 }
