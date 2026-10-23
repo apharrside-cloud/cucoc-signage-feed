@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T11:35:32.793885",
+  "timestamp": "2026-10-23T11:37:06.281107",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,13 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 11:22:07] Running portfolio evaluation cycle...",
-      "[2026-10-23 11:22:07] No positions currently held.",
-      "[2026-10-23 11:22:07] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 11:23:07] Running portfolio evaluation cycle...",
-      "[2026-10-23 11:23:08] No positions currently held.",
-      "[2026-10-23 11:23:08] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 11:24:08] Running portfolio evaluation cycle...",
       "[2026-10-23 11:24:08] No positions currently held.",
       "[2026-10-23 11:24:08] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 11:25:09] Running portfolio evaluation cycle...",
@@ -58,7 +51,14 @@
       "[2026-10-23 11:34:14] Running portfolio evaluation cycle...",
       "[2026-10-23 11:34:29] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
       "[2026-10-23 11:34:29] Failed to fetch portfolio data.",
-      "[2026-10-23 11:35:29] Running portfolio evaluation cycle..."
+      "[2026-10-23 11:35:29] Running portfolio evaluation cycle...",
+      "[2026-10-23 11:35:34] No positions currently held.",
+      "[2026-10-23 11:35:34] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 11:35:46] 🧠 [AI GATE] Buy of ORCL VETOED by AI Brain (Confidence: 60%) | Thesis: ORCL shows modest upward momentum above VWAP during regular hours, but lacks definitive volume confirmation and comprehensive multi-timeframe confirmation.",
+      "[2026-10-23 11:35:46] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-23 11:36:46] Running portfolio evaluation cycle...",
+      "[2026-10-23 11:36:46] No positions currently held.",
+      "[2026-10-23 11:36:46] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -1223,20 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792600528_dbe75b",
-      "timestamp": "2026-10-21T12:35:28.929058",
-      "category": "veto",
-      "decision_type": "VETO",
-      "symbol": "SOXL",
-      "title": "Scanner Risk Filter: SOXL Long Setup Blocked",
-      "rationale": "AI evaluated SOXL for potential long entry but rejected it: RVOL 0.28x below 1.2x volume threshold. Capital protected from unfavorable risk/reward setup.",
-      "metrics": {
-        "rvol": 0.28
-      },
-      "sentiment": "BEARISH",
-      "impact": "CAPITAL_PROTECTED"
-    },
-    {
       "id": "dec_1792600528_a2f335",
       "timestamp": "2026-10-21T12:35:28.760628",
       "category": "veto",
@@ -1848,6 +1834,22 @@
         "peak_pnl": 3.65,
         "new_stop": 2.3,
         "old_stop": 2.22
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792594320_304637",
+      "timestamp": "2026-10-21T10:52:00.662091",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "BTC",
+      "title": "Dynamic Trailing Stop: BTC (+2.22%)",
+      "rationale": "Peak reached +3.57%. Trailing stop automatically trailed up from +2.17% to +2.22% (buffer: 1.35%).",
+      "metrics": {
+        "peak_pnl": 3.57,
+        "new_stop": 2.22,
+        "old_stop": 2.17
       },
       "sentiment": "BULLISH",
       "impact": "PROFIT_PROTECTED"
@@ -2968,5 +2970,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T11:35:32.470239"
+  "snapshot_synced_at": "2026-10-23T11:37:05.983899"
 }
