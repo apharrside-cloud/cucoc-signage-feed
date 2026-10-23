@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T06:59:53.873235",
+  "timestamp": "2026-10-23T07:01:27.128565",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,9 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 05:20:13] Running portfolio evaluation cycle...",
-      "[2026-10-23 05:20:13] No positions currently held.",
-      "[2026-10-23 05:25:13] Running portfolio evaluation cycle...",
       "[2026-10-23 05:25:14] No positions currently held.",
       "[2026-10-23 05:30:14] Running portfolio evaluation cycle...",
       "[2026-10-23 05:30:14] No positions currently held.",
@@ -58,7 +55,10 @@
       "[2026-10-23 06:50:22] Running portfolio evaluation cycle...",
       "[2026-10-23 06:50:22] No positions currently held.",
       "[2026-10-23 06:55:22] Running portfolio evaluation cycle...",
-      "[2026-10-23 06:55:23] No positions currently held."
+      "[2026-10-23 06:55:23] No positions currently held.",
+      "[2026-10-23 07:00:23] Running portfolio evaluation cycle...",
+      "[2026-10-23 07:00:38] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
+      "[2026-10-23 07:00:38] Failed to fetch portfolio data."
     ]
   },
   "coinbase": {
@@ -67,18 +67,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.43996739481576,
-      "btc_price": 81577.39,
+      "btc_change_24h": -0.42818208176283,
+      "btc_price": 81563.01,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.44% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.43% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 06:50:39] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 06:50:39] Macro Regime: NEUTRAL | BTC 24h: -0.35% | Alts Allowed: False",
-      "[2026-10-23 06:50:39] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 06:50:39] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 06:51:40] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 06:51:41] Macro Regime: NEUTRAL | BTC 24h: -0.46% | Alts Allowed: False",
       "[2026-10-23 06:51:41] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -114,7 +110,11 @@
       "[2026-10-23 06:59:52] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 06:59:52] Macro Regime: NEUTRAL | BTC 24h: -0.44% | Alts Allowed: False",
       "[2026-10-23 06:59:52] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 06:59:52] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-23 06:59:52] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 07:00:53] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 07:00:53] Macro Regime: NEUTRAL | BTC 24h: -0.43% | Alts Allowed: False",
+      "[2026-10-23 07:00:53] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 07:00:53] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [],
@@ -2954,5 +2954,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T06:59:53.572604"
+  "snapshot_synced_at": "2026-10-23T07:01:26.844888"
 }
