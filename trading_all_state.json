@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T07:13:53.648939",
+  "timestamp": "2026-10-23T07:15:27.080779",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -67,22 +67,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.50478420896148,
-      "btc_price": 81518.46,
+      "btc_change_24h": -0.46649103007563,
+      "btc_price": 81491.667,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.50% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.47% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 07:03:57] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 07:03:57] Macro Regime: NEUTRAL | BTC 24h: -0.46% | Alts Allowed: False",
-      "[2026-10-23 07:03:57] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 07:03:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 07:04:58] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 07:04:59] Macro Regime: NEUTRAL | BTC 24h: -0.45% | Alts Allowed: False",
-      "[2026-10-23 07:04:59] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 07:04:59] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 07:06:00] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 07:06:00] Macro Regime: NEUTRAL | BTC 24h: -0.41% | Alts Allowed: False",
       "[2026-10-23 07:06:00] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -114,7 +106,15 @@
       "[2026-10-23 07:13:10] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 07:13:10] Macro Regime: NEUTRAL | BTC 24h: -0.50% | Alts Allowed: False",
       "[2026-10-23 07:13:10] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 07:13:10] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-23 07:13:10] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 07:14:11] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 07:14:11] Macro Regime: NEUTRAL | BTC 24h: -0.52% | Alts Allowed: False",
+      "[2026-10-23 07:14:11] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 07:14:11] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 07:15:12] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 07:15:12] Macro Regime: NEUTRAL | BTC 24h: -0.47% | Alts Allowed: False",
+      "[2026-10-23 07:15:12] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 07:15:12] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [],
@@ -1223,6 +1223,21 @@
   ],
   "ai_decisions": [
     {
+      "id": "dec_1792754094_1629f0",
+      "timestamp": "2026-10-23T07:14:54.396814",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "BTC",
+      "title": "Breaking Catalyst: Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": 0.0,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "NEUTRAL",
+      "impact": "CATALYST_ANALYZED"
+    },
+    {
       "id": "dec_1792753010_2edfc0",
       "timestamp": "2026-10-23T06:56:50.116852",
       "category": "catalyst",
@@ -1818,22 +1833,6 @@
         "peak_pnl": 3.39,
         "new_stop": 1.89,
         "old_stop": 1.87
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
-    },
-    {
-      "id": "dec_1792596872_caa7d1",
-      "timestamp": "2026-10-21T11:34:32.994683",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "ETH",
-      "title": "Dynamic Trailing Stop: ETH (+1.87%)",
-      "rationale": "Peak reached +3.37%. Trailing stop automatically trailed up from +1.86% to +1.87% (buffer: 1.5%).",
-      "metrics": {
-        "peak_pnl": 3.37,
-        "new_stop": 1.87,
-        "old_stop": 1.86
       },
       "sentiment": "BULLISH",
       "impact": "PROFIT_PROTECTED"
@@ -2954,5 +2953,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T07:13:53.354243"
+  "snapshot_synced_at": "2026-10-23T07:15:26.755288"
 }
