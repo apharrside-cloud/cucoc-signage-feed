@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T09:32:29.853824",
+  "timestamp": "2026-10-23T09:34:03.839876",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -17,14 +17,17 @@
   "robinhood": {
     "total_value": 162.28,
     "cash": 162.28,
-    "positions": {},
+    "positions": {
+      "null": {
+        "symbol": null,
+        "shares": 0.359504,
+        "entry_price": 83.4484,
+        "high_water_mark": 83.4484,
+        "tp1_hit": false,
+        "entry_time": "2026-10-23T09:33:25.872482"
+      }
+    },
     "logs": [
-      "[2026-10-23 08:10:48] No positions currently held.",
-      "[2026-10-23 08:15:48] Running portfolio evaluation cycle...",
-      "[2026-10-23 08:15:49] No positions currently held.",
-      "[2026-10-23 08:20:49] Running portfolio evaluation cycle...",
-      "[2026-10-23 08:20:49] No positions currently held.",
-      "[2026-10-23 08:25:49] Running portfolio evaluation cycle...",
       "[2026-10-23 08:25:50] No positions currently held.",
       "[2026-10-23 08:30:50] Running portfolio evaluation cycle...",
       "[2026-10-23 08:30:50] No positions currently held.",
@@ -58,7 +61,13 @@
       "[2026-10-23 09:31:15] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 09:32:16] Running portfolio evaluation cycle...",
       "[2026-10-23 09:32:16] No positions currently held.",
-      "[2026-10-23 09:32:16] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-23 09:32:16] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 09:33:16] Running portfolio evaluation cycle...",
+      "[2026-10-23 09:33:17] No positions currently held.",
+      "[2026-10-23 09:33:17] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 09:33:25] 🧠 [AI GATE] Buy of SOXL VETOED by AI Brain (Confidence: 45%) | Thesis: SOXL is exhibiting positive intraday momentum above VWAP during regular trading hours, but lacks granular volume and order book confirmation to justify a high-conviction breakout entry.",
+      "[2026-10-23 09:33:25] 🔥 Found momentum breakout: None (+1.63%) @ $83.45. Executing AI-APPROVED BUY of $30.00...",
+      "[2026-10-23 09:33:25] Buy order placed: {'jsonrpc': '2.0', 'id': 328, 'error': {'code': -32602, 'message': 'invalid params: validating \"arguments\": validating root: validating /properties/symbol: type: <invalid reflect.Value> has type \"null\", want \"string\"'}}"
     ]
   },
   "coinbase": {
@@ -67,18 +76,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.09058675847691,
-      "btc_price": 81659.76,
+      "btc_change_24h": -0.15282691886696,
+      "btc_price": 81640.74,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.09% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.15% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 09:23:04] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 09:23:05] Macro Regime: NEUTRAL | BTC 24h: +0.03% | Alts Allowed: False",
-      "[2026-10-23 09:23:05] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 09:23:05] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 09:24:06] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 09:24:06] Macro Regime: NEUTRAL | BTC 24h: +0.04% | Alts Allowed: False",
       "[2026-10-23 09:24:06] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -114,10 +119,26 @@
       "[2026-10-23 09:32:16] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 09:32:17] Macro Regime: NEUTRAL | BTC 24h: -0.09% | Alts Allowed: False",
       "[2026-10-23 09:32:17] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 09:32:17] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-23 09:32:17] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 09:33:18] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 09:33:18] Macro Regime: NEUTRAL | BTC 24h: -0.15% | Alts Allowed: False",
+      "[2026-10-23 09:33:18] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 09:33:18] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
-  "positions": [],
+  "positions": [
+    {
+      "account": "Robinhood",
+      "symbol": "null",
+      "shares": 0.359504,
+      "entry_price": 83.4484,
+      "current_price": 83.4484,
+      "value_usd": 30.0,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "trailing_info": "Peak: $83.45 | Trailing 3.5%"
+    }
+  ],
   "closed_trades": [
     {
       "symbol": "SMCI",
@@ -1223,112 +1244,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792754817_d0ad8c",
-      "timestamp": "2026-10-23T07:26:57.738950",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "BTC, NVDA",
-      "title": "Breaking Catalyst: Bitcoin's volatility is well above euro-dollar gyrations, though it has calmed t",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.0,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "NEUTRAL",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "id": "dec_1792754094_1629f0",
-      "timestamp": "2026-10-23T07:14:54.396814",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "BTC",
-      "title": "Breaking Catalyst: Live updates: Bitcoin holds above $81,000 as the AI rout fades and oil climbs",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.0,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "NEUTRAL",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "id": "dec_1792753010_2edfc0",
-      "timestamp": "2026-10-23T06:56:50.116852",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "BTC",
-      "title": "Breaking Catalyst: Bitcoin appears to have decoupled from midterm cycle bottom history",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.0,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "NEUTRAL",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "id": "dec_1792753010_bb024f",
-      "timestamp": "2026-10-23T06:56:50.108002",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "BTC",
-      "title": "Breaking Catalyst: Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13%",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.0,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "NEUTRAL",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "id": "dec_1792731786_329492",
-      "timestamp": "2026-10-23T01:03:06.128153",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "ETH",
-      "title": "Breaking Catalyst: Ethereum delays Glamsterdam test after security devs flag risk to existing contr",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.0,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "NEUTRAL",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "id": "dec_1792725247_baaca8",
-      "timestamp": "2026-10-22T23:14:07.318036",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "BTC",
-      "title": "Breaking Catalyst: Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.0,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "NEUTRAL",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "id": "dec_1792607276_9bc3c7",
-      "timestamp": "2026-10-21T14:27:56.185707",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "AVAX",
-      "title": "Dynamic Trailing Stop: AVAX (+1.02%)",
-      "rationale": "Peak reached +3.02%. Trailing stop automatically trailed up from +0.98% to +1.02% (buffer: 2.0%).",
-      "metrics": {
-        "peak_pnl": 3.02,
-        "new_stop": 1.02,
-        "old_stop": 0.98
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
-    },
-    {
       "id": "dec_1792607224_e7ed68",
       "timestamp": "2026-10-21T14:27:04.477524",
       "category": "risk",
@@ -1832,6 +1747,118 @@
         "peak_pnl": 3.43,
         "new_stop": 1.93,
         "old_stop": 1.89
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792596898_757f79",
+      "timestamp": "2026-10-21T11:34:58.872573",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "ETH",
+      "title": "Dynamic Trailing Stop: ETH (+1.89%)",
+      "rationale": "Peak reached +3.39%. Trailing stop automatically trailed up from +1.87% to +1.89% (buffer: 1.5%).",
+      "metrics": {
+        "peak_pnl": 3.39,
+        "new_stop": 1.89,
+        "old_stop": 1.87
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792596872_caa7d1",
+      "timestamp": "2026-10-21T11:34:32.994683",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "ETH",
+      "title": "Dynamic Trailing Stop: ETH (+1.87%)",
+      "rationale": "Peak reached +3.37%. Trailing stop automatically trailed up from +1.86% to +1.87% (buffer: 1.5%).",
+      "metrics": {
+        "peak_pnl": 3.37,
+        "new_stop": 1.87,
+        "old_stop": 1.86
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792595543_170483",
+      "timestamp": "2026-10-21T11:12:23.970141",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "NEAR",
+      "title": "Dynamic Trailing Stop: NEAR (+2.14%)",
+      "rationale": "Peak reached +4.39%. Trailing stop automatically trailed up from +1.81% to +2.14% (buffer: 2.25%).",
+      "metrics": {
+        "peak_pnl": 4.39,
+        "new_stop": 2.14,
+        "old_stop": 1.81
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792595543_429496",
+      "timestamp": "2026-10-21T11:12:23.852300",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "ETH",
+      "title": "Dynamic Trailing Stop: ETH (+1.86%)",
+      "rationale": "Peak reached +3.36%. Trailing stop automatically trailed up from +1.73% to +1.86% (buffer: 1.5%).",
+      "metrics": {
+        "peak_pnl": 3.36,
+        "new_stop": 1.86,
+        "old_stop": 1.73
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792595543_1a92e1",
+      "timestamp": "2026-10-21T11:12:23.448692",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "BTC",
+      "title": "Dynamic Trailing Stop: BTC (+2.61%)",
+      "rationale": "Peak reached +3.96%. Trailing stop automatically trailed up from +2.54% to +2.61% (buffer: 1.35%).",
+      "metrics": {
+        "peak_pnl": 3.96,
+        "new_stop": 2.61,
+        "old_stop": 2.54
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792595517_83aff7",
+      "timestamp": "2026-10-21T11:11:57.874732",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "ETH",
+      "title": "Dynamic Trailing Stop: ETH (+1.73%)",
+      "rationale": "Peak reached +3.23%. Trailing stop automatically trailed up from +1.72% to +1.73% (buffer: 1.5%).",
+      "metrics": {
+        "peak_pnl": 3.23,
+        "new_stop": 1.73,
+        "old_stop": 1.72
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792595491_0ad820",
+      "timestamp": "2026-10-21T11:11:31.860761",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "ETH",
+      "title": "Dynamic Trailing Stop: ETH (+1.72%)",
+      "rationale": "Peak reached +3.22%. Trailing stop automatically trailed up from +1.70% to +1.72% (buffer: 1.5%).",
+      "metrics": {
+        "peak_pnl": 3.22,
+        "new_stop": 1.72,
+        "old_stop": 1.7
       },
       "sentiment": "BULLISH",
       "impact": "PROFIT_PROTECTED"
@@ -2952,5 +2979,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T09:32:29.550486"
+  "snapshot_synced_at": "2026-10-23T09:34:03.558858"
 }
