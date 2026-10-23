@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T14:28:54.373270",
+  "timestamp": "2026-10-23T14:30:28.182801",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,14 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 14:16:37] Running portfolio evaluation cycle...",
-      "[2026-10-23 14:16:37] No positions currently held.",
-      "[2026-10-23 14:16:37] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 14:17:38] Running portfolio evaluation cycle...",
-      "[2026-10-23 14:17:53] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
-      "[2026-10-23 14:17:53] Failed to fetch portfolio data.",
-      "[2026-10-23 14:18:53] Running portfolio evaluation cycle...",
-      "[2026-10-23 14:18:57] No positions currently held.",
       "[2026-10-23 14:18:57] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 14:19:00] 🧠 [AI GATE] Buy of AMD VETOED by AI Brain (Confidence: 45%) | Thesis: AMD is trading higher during regular hours with positive price action above VWAP, but lacks sufficient granular volume data and catalyst validation to cross the stringent 75% confidence threshold.",
       "[2026-10-23 14:19:00] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
@@ -58,7 +50,15 @@
       "[2026-10-23 14:27:09] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 14:28:09] Running portfolio evaluation cycle...",
       "[2026-10-23 14:28:09] No positions currently held.",
-      "[2026-10-23 14:28:09] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-23 14:28:09] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 14:29:10] Running portfolio evaluation cycle...",
+      "[2026-10-23 14:29:10] No positions currently held.",
+      "[2026-10-23 14:29:10] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 14:29:10] VWAP Filter: Skipping SOXL because price ($84.56) is BELOW session VWAP ($84.84).",
+      "[2026-10-23 14:30:10] Running portfolio evaluation cycle...",
+      "[2026-10-23 14:30:11] No positions currently held.",
+      "[2026-10-23 14:30:11] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 14:30:11] VWAP Filter: Skipping SOXL because price ($84.75) is BELOW session VWAP ($84.84)."
     ]
   },
   "coinbase": {
@@ -66,23 +66,15 @@
     "cash_usd": 162.8,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "RISK_ON",
-      "btc_change_24h": 0.53206298369923,
-      "btc_price": 81462.9,
-      "allow_alts": true,
+      "status": "NEUTRAL",
+      "btc_change_24h": 0.43735622288801,
+      "btc_price": 81434.97,
+      "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC strong +0.53% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC neutral +0.44% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 14:18:53] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 14:18:54] Macro Regime: RISK_ON | BTC 24h: +0.58% | Alts Allowed: True",
-      "[2026-10-23 14:18:54] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:18:54] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-23 14:19:55] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 14:19:56] Macro Regime: RISK_ON | BTC 24h: +0.53% | Alts Allowed: True",
-      "[2026-10-23 14:19:56] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:19:56] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-23 14:20:57] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 14:20:58] Macro Regime: NEUTRAL | BTC 24h: +0.42% | Alts Allowed: False",
       "[2026-10-23 14:20:58] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -114,7 +106,15 @@
       "[2026-10-23 14:28:08] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 14:28:08] Macro Regime: RISK_ON | BTC 24h: +0.53% | Alts Allowed: True",
       "[2026-10-23 14:28:08] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:28:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-23 14:28:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-23 14:29:10] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 14:29:10] Macro Regime: NEUTRAL | BTC 24h: +0.47% | Alts Allowed: False",
+      "[2026-10-23 14:29:10] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 14:29:10] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 14:30:11] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 14:30:12] Macro Regime: NEUTRAL | BTC 24h: +0.44% | Alts Allowed: False",
+      "[2026-10-23 14:30:12] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 14:30:12] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [],
@@ -2938,5 +2938,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T14:28:54.074126"
+  "snapshot_synced_at": "2026-10-23T14:30:27.854125"
 }
