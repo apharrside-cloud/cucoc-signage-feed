@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T11:40:16.279435",
+  "timestamp": "2026-10-23T11:41:51.129565",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,11 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 11:28:10] Running portfolio evaluation cycle...",
-      "[2026-10-23 11:28:11] No positions currently held.",
-      "[2026-10-23 11:28:11] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 11:29:11] Running portfolio evaluation cycle...",
-      "[2026-10-23 11:29:11] No positions currently held.",
       "[2026-10-23 11:29:11] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 11:30:12] Running portfolio evaluation cycle...",
       "[2026-10-23 11:30:12] No positions currently held.",
@@ -58,7 +53,12 @@
       "[2026-10-23 11:38:58] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 11:39:58] Running portfolio evaluation cycle...",
       "[2026-10-23 11:39:58] No positions currently held.",
-      "[2026-10-23 11:39:58] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-23 11:39:58] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 11:40:33] 🧠 [AI GATE] Buy of AMD VETOED by AI Brain (Confidence: 45%) | Thesis: Insufficient volume confirmation and lack of deep order book metrics to justify a chase at current elevated levels.",
+      "[2026-10-23 11:40:33] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-23 11:41:33] Running portfolio evaluation cycle...",
+      "[2026-10-23 11:41:33] No positions currently held.",
+      "[2026-10-23 11:41:33] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -1223,20 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792600528_5cf94d",
-      "timestamp": "2026-10-21T12:35:28.421321",
-      "category": "veto",
-      "decision_type": "VETO",
-      "symbol": "AMD",
-      "title": "Scanner Risk Filter: AMD Long Setup Blocked",
-      "rationale": "AI evaluated AMD for potential long entry but rejected it: RVOL 0.25x below 1.2x volume threshold. Capital protected from unfavorable risk/reward setup.",
-      "metrics": {
-        "rvol": 0.25
-      },
-      "sentiment": "BEARISH",
-      "impact": "CAPITAL_PROTECTED"
-    },
-    {
       "id": "dec_1792600528_e4426c",
       "timestamp": "2026-10-21T12:35:28.274160",
       "category": "veto",
@@ -1854,6 +1840,23 @@
       },
       "sentiment": "BULLISH",
       "impact": "RISK_NEUTRALIZED"
+    },
+    {
+      "id": "dec_1792594150_338ba9",
+      "timestamp": "2026-10-21T10:49:10.853240",
+      "category": "trade",
+      "decision_type": "TAKE_PROFIT",
+      "symbol": "BTC",
+      "title": "Take-Profit Trim: BTC (+3.44%)",
+      "rationale": "Trimmed 0.03 shares @ $84318.57 (50% partial exit). Banked +$84.01 cash. Remaining 0.03 shares riding risk-free. Trigger: TAKE_PROFIT_1 (+3.52%)",
+      "metrics": {
+        "exit_price": 84318.57,
+        "trim_shares": 0.03,
+        "pnl_usd": 84.01,
+        "pnl_pct": 3.44
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_BANKED"
     }
   ],
   "performance": {
@@ -2971,5 +2974,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T11:40:15.834181"
+  "snapshot_synced_at": "2026-10-23T11:41:50.821382"
 }
