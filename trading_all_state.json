@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T13:35:52.320229",
+  "timestamp": "2026-10-23T13:37:25.956162",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,15 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 13:25:30] Running portfolio evaluation cycle...",
-      "[2026-10-23 13:25:31] No positions currently held.",
-      "[2026-10-23 13:25:31] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 13:25:31] VWAP Filter: Skipping SOXL because price ($83.84) is BELOW session VWAP ($84.86).",
-      "[2026-10-23 13:26:31] Running portfolio evaluation cycle...",
-      "[2026-10-23 13:26:46] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
-      "[2026-10-23 13:26:46] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
-      "[2026-10-23 13:27:46] Running portfolio evaluation cycle...",
-      "[2026-10-23 13:27:50] No positions currently held.",
       "[2026-10-23 13:27:50] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 13:27:51] VWAP Filter: Skipping SOXL because price ($83.87) is BELOW session VWAP ($84.85).",
       "[2026-10-23 13:28:51] Running portfolio evaluation cycle...",
@@ -58,7 +49,16 @@
       "[2026-10-23 13:34:55] Running portfolio evaluation cycle...",
       "[2026-10-23 13:34:56] No positions currently held.",
       "[2026-10-23 13:34:56] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 13:34:56] VWAP Filter: Skipping SOXL because price ($83.78) is BELOW session VWAP ($84.85)."
+      "[2026-10-23 13:34:56] VWAP Filter: Skipping SOXL because price ($83.78) is BELOW session VWAP ($84.85).",
+      "[2026-10-23 13:35:56] Running portfolio evaluation cycle...",
+      "[2026-10-23 13:35:57] No positions currently held.",
+      "[2026-10-23 13:35:57] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 13:35:57] VWAP Filter: Skipping SOXL because price ($83.82) is BELOW session VWAP ($84.85).",
+      "[2026-10-23 13:36:57] Running portfolio evaluation cycle...",
+      "[2026-10-23 13:36:57] No positions currently held.",
+      "[2026-10-23 13:36:57] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 13:36:58] VWAP Filter: Skipping AMD because price ($515.60) is BELOW session VWAP ($517.18).",
+      "[2026-10-23 13:36:58] VWAP Filter: Skipping SOXL because price ($83.98) is BELOW session VWAP ($84.85)."
     ]
   },
   "coinbase": {
@@ -66,20 +66,15 @@
     "cash_usd": 162.8,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "NEUTRAL",
-      "btc_change_24h": 0.39925844617839,
-      "btc_price": 81570.0,
-      "allow_alts": false,
+      "status": "RISK_ON",
+      "btc_change_24h": 0.52419622772511,
+      "btc_price": 81541.78,
+      "allow_alts": true,
       "allow_core": true,
-      "reason": "BTC neutral +0.40% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC strong +0.52% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 13:27:47] Macro Regime: NEUTRAL | BTC 24h: +0.32% | Alts Allowed: False",
-      "[2026-10-23 13:27:47] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 13:27:47] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 13:27:47] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.8 (chg -0.12%)!",
-      "[2026-10-23 13:27:51] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman",
       "[2026-10-23 13:28:51] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 13:28:51] Macro Regime: NEUTRAL | BTC 24h: +0.26% | Alts Allowed: False",
       "[2026-10-23 13:28:51] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -114,7 +109,12 @@
       "[2026-10-23 13:35:46] Macro Regime: NEUTRAL | BTC 24h: +0.45% | Alts Allowed: False",
       "[2026-10-23 13:35:46] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 13:35:46] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 13:35:46] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.8 (chg +0.14%)!"
+      "[2026-10-23 13:35:46] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.8 (chg +0.14%)!",
+      "[2026-10-23 13:36:04] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX fails macro rules since altcoin trading is currently disallowed due to neutral BTC chop regime, and RVOL is sub-optimal at 0.53.",
+      "[2026-10-23 13:37:04] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 13:37:04] Macro Regime: RISK_ON | BTC 24h: +0.52% | Alts Allowed: True",
+      "[2026-10-23 13:37:04] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 13:37:04] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [],
@@ -1223,22 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792593392_e4f9d6",
-      "timestamp": "2026-10-21T10:36:32.521995",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "BTC",
-      "title": "Dynamic Trailing Stop: BTC (+1.83%)",
-      "rationale": "Peak reached +3.18%. Trailing stop automatically trailed up from +1.82% to +1.83% (buffer: 1.35%).",
-      "metrics": {
-        "peak_pnl": 3.18,
-        "new_stop": 1.83,
-        "old_stop": 1.82
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
-    },
-    {
       "id": "dec_1792593366_151f41",
       "timestamp": "2026-10-21T10:36:06.348852",
       "category": "risk",
@@ -1831,6 +1815,21 @@
       "primary_thesis": "SOXL is showing strong intraday momentum up 3.44% above VWAP during regular hours, but lacks complete institutional volume and order book confirmation data to justify entry.",
       "risk_factors": "Leveraged semiconductor ETFs are highly volatile, and entering without explicit volume expansion metrics creates high vulnerability to sharp intraday mean-reversion pullbacks.",
       "timestamp": "2026-10-23T11:37:47.483857"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "AMD",
+      "current_price": 518.845,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "Insufficient volume confirmation and lack of deep order book metrics to justify a chase at current elevated levels.",
+      "risk_factors": "Potential mid-day exhaustion pullback near current highs leading to a quick stop-out.",
+      "timestamp": "2026-10-23T11:39:59.006041"
     }
   ],
   "performance": {
@@ -2948,5 +2947,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T13:35:52.012918"
+  "snapshot_synced_at": "2026-10-23T13:37:25.634451"
 }
