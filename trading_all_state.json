@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T12:10:01.931929",
+  "timestamp": "2026-10-23T12:11:35.128116",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,9 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 11:58:01] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 11:59:01] Running portfolio evaluation cycle...",
-      "[2026-10-23 11:59:01] No positions currently held.",
       "[2026-10-23 11:59:01] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 12:00:02] Running portfolio evaluation cycle...",
       "[2026-10-23 12:00:02] No positions currently held.",
@@ -58,7 +55,10 @@
       "[2026-10-23 12:08:50] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
       "[2026-10-23 12:09:50] Running portfolio evaluation cycle...",
       "[2026-10-23 12:09:50] No positions currently held.",
-      "[2026-10-23 12:09:50] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-23 12:09:50] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 12:10:50] Running portfolio evaluation cycle...",
+      "[2026-10-23 12:11:06] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
+      "[2026-10-23 12:11:06] Failed to fetch portfolio data."
     ]
   },
   "coinbase": {
@@ -75,18 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 12:01:48] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 12:01:48] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 12:01:49] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.0 (chg -0.45%)!",
-      "[2026-10-23 12:02:15] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX fails macro requirements as the regime filter explicitly sets allow_alts to false during choppy neutral conditions.",
-      "[2026-10-23 12:03:15] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 12:03:16] Macro Regime: NEUTRAL | BTC 24h: -0.07% | Alts Allowed: False",
-      "[2026-10-23 12:03:16] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 12:03:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 12:03:17] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.0 (chg -0.43%)!",
-      "[2026-10-23 12:03:20] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX is a non-core altcoin failing macro filter rules under a neutral BTC regime where altcoins are explicitly suppressed.",
-      "[2026-10-23 12:04:20] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 12:04:20] Macro Regime: NEUTRAL | BTC 24h: +0.01% | Alts Allowed: False",
       "[2026-10-23 12:04:20] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:04:20] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 12:04:21] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.0 (chg -0.50%)!",
@@ -114,7 +102,19 @@
       "[2026-10-23 12:09:05] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:09:05] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 12:09:06] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.2 (chg -0.72%)!",
-      "[2026-10-23 12:09:19] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: Macro regime explicitly blocks altcoins ('allow_alts': false) due to neutral chop conditions, making AVAX uninvestable regardless of local setup."
+      "[2026-10-23 12:09:19] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: Macro regime explicitly blocks altcoins ('allow_alts': false) due to neutral chop conditions, making AVAX uninvestable regardless of local setup.",
+      "[2026-10-23 12:10:19] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 12:10:20] Macro Regime: NEUTRAL | BTC 24h: -0.09% | Alts Allowed: False",
+      "[2026-10-23 12:10:20] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 12:10:20] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 12:10:20] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.2 (chg -0.82%)!",
+      "[2026-10-23 12:10:23] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX fails macro and volume requirements with an atrocious RVOL of 0.09 and macro regime strictly suppressing altcoins.",
+      "[2026-10-23 12:11:23] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 12:11:24] Macro Regime: NEUTRAL | BTC 24h: -0.05% | Alts Allowed: False",
+      "[2026-10-23 12:11:24] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 12:11:24] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 12:11:25] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=34.4 (chg -0.84%)!",
+      "[2026-10-23 12:11:29] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX displays oversold mean-reversion characteristics with an RSI of 34.4, but current market macro prohibits alternative coin trading."
     ]
   },
   "positions": [],
@@ -1223,38 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792596898_757f79",
-      "timestamp": "2026-10-21T11:34:58.872573",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "ETH",
-      "title": "Dynamic Trailing Stop: ETH (+1.89%)",
-      "rationale": "Peak reached +3.39%. Trailing stop automatically trailed up from +1.87% to +1.89% (buffer: 1.5%).",
-      "metrics": {
-        "peak_pnl": 3.39,
-        "new_stop": 1.89,
-        "old_stop": 1.87
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
-    },
-    {
-      "id": "dec_1792596872_caa7d1",
-      "timestamp": "2026-10-21T11:34:32.994683",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "ETH",
-      "title": "Dynamic Trailing Stop: ETH (+1.87%)",
-      "rationale": "Peak reached +3.37%. Trailing stop automatically trailed up from +1.86% to +1.87% (buffer: 1.5%).",
-      "metrics": {
-        "peak_pnl": 3.37,
-        "new_stop": 1.87,
-        "old_stop": 1.86
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
-    },
-    {
       "id": "dec_1792595543_170483",
       "timestamp": "2026-10-21T11:12:23.970141",
       "category": "risk",
@@ -1849,6 +1817,35 @@
       "metrics": {
         "price": 340.0,
         "vwap": 340.15
+      },
+      "sentiment": "BEARISH",
+      "impact": "CAPITAL_PROTECTED"
+    },
+    {
+      "id": "dec_1792593760_f564d8",
+      "timestamp": "2026-10-21T10:42:40.139836",
+      "category": "veto",
+      "decision_type": "VETO",
+      "symbol": "PLTR",
+      "title": "Scanner Risk Filter: PLTR Long Setup Blocked",
+      "rationale": "AI evaluated PLTR for potential long entry but rejected it: RSI 75.9 overbought (> 65.0 threshold). Capital protected from unfavorable risk/reward setup.",
+      "metrics": {
+        "rsi": 75.9
+      },
+      "sentiment": "BEARISH",
+      "impact": "CAPITAL_PROTECTED"
+    },
+    {
+      "id": "dec_1792593759_091e31",
+      "timestamp": "2026-10-21T10:42:39.941763",
+      "category": "veto",
+      "decision_type": "VETO",
+      "symbol": "SMCI",
+      "title": "Scanner Risk Filter: SMCI Long Setup Blocked",
+      "rationale": "AI evaluated SMCI for potential long entry but rejected it: Price $35.96 below session VWAP $36.54. Capital protected from unfavorable risk/reward setup.",
+      "metrics": {
+        "price": 35.96,
+        "vwap": 36.54
       },
       "sentiment": "BEARISH",
       "impact": "CAPITAL_PROTECTED"
@@ -2969,5 +2966,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T12:10:01.646870"
+  "snapshot_synced_at": "2026-10-23T12:11:34.863279"
 }
