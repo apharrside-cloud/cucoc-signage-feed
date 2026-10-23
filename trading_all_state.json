@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T12:13:08.911735",
+  "timestamp": "2026-10-23T12:14:42.192378",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,12 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 12:01:03] No positions currently held.",
-      "[2026-10-23 12:01:03] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 12:02:03] Running portfolio evaluation cycle...",
-      "[2026-10-23 12:02:04] No positions currently held.",
-      "[2026-10-23 12:02:04] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 12:03:04] Running portfolio evaluation cycle...",
       "[2026-10-23 12:03:04] No positions currently held.",
       "[2026-10-23 12:03:04] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 12:03:27] 🧠 [AI GATE] Buy of TQQQ VETOED by AI Brain (Confidence: 60%) | Thesis: TQQQ is showing intraday upside momentum above VWAP during regular market hours, but lacks complete institutional volume confirmation and specific breakout metrics in the dossier.",
@@ -58,7 +52,13 @@
       "[2026-10-23 12:12:09] No positions currently held.",
       "[2026-10-23 12:12:09] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 12:12:17] 🧠 [AI GATE] Buy of AMD VETOED by AI Brain (Confidence: 55%) | Thesis: AMD is showing positive intraday momentum above VWAP during regular trading hours, but available deployable cash is severely restricted relative to a high nominal share price.",
-      "[2026-10-23 12:12:17] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-23 12:12:17] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-23 12:13:17] Running portfolio evaluation cycle...",
+      "[2026-10-23 12:13:17] No positions currently held.",
+      "[2026-10-23 12:13:17] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 12:14:18] Running portfolio evaluation cycle...",
+      "[2026-10-23 12:14:18] No positions currently held.",
+      "[2026-10-23 12:14:18] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -75,7 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 12:05:31] Macro Regime: NEUTRAL | BTC 24h: +0.03% | Alts Allowed: False",
       "[2026-10-23 12:05:31] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:05:31] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 12:05:32] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.0 (chg -0.54%)!",
@@ -114,7 +113,8 @@
       "[2026-10-23 12:12:29] Macro Regime: NEUTRAL | BTC 24h: -0.07% | Alts Allowed: False",
       "[2026-10-23 12:12:29] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:12:29] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 12:12:29] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=34.4 (chg -0.86%)!"
+      "[2026-10-23 12:12:29] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=34.4 (chg -0.86%)!",
+      "[2026-10-23 12:14:09] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX fails macro regime filters as altcoins are suppressed in a neutral BTC chop environment, alongside severely deficient volume (RVOL 0.19)."
     ]
   },
   "positions": [],
@@ -1223,22 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792595543_429496",
-      "timestamp": "2026-10-21T11:12:23.852300",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "ETH",
-      "title": "Dynamic Trailing Stop: ETH (+1.86%)",
-      "rationale": "Peak reached +3.36%. Trailing stop automatically trailed up from +1.73% to +1.86% (buffer: 1.5%).",
-      "metrics": {
-        "peak_pnl": 3.36,
-        "new_stop": 1.86,
-        "old_stop": 1.73
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
-    },
-    {
       "id": "dec_1792595543_1a92e1",
       "timestamp": "2026-10-21T11:12:23.448692",
       "category": "risk",
@@ -1845,6 +1829,21 @@
       "metrics": {
         "price": 100.87,
         "vwap": 101.88
+      },
+      "sentiment": "BEARISH",
+      "impact": "CAPITAL_PROTECTED"
+    },
+    {
+      "id": "dec_1792593759_b62488",
+      "timestamp": "2026-10-21T10:42:39.594989",
+      "category": "veto",
+      "decision_type": "VETO",
+      "symbol": "SPY",
+      "title": "Scanner Risk Filter: SPY Long Setup Blocked",
+      "rationale": "AI evaluated SPY for potential long entry but rejected it: Price $769.89 below session VWAP $770.28. Capital protected from unfavorable risk/reward setup.",
+      "metrics": {
+        "price": 769.89,
+        "vwap": 770.28
       },
       "sentiment": "BEARISH",
       "impact": "CAPITAL_PROTECTED"
@@ -2965,5 +2964,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T12:13:08.609421"
+  "snapshot_synced_at": "2026-10-23T12:14:41.911044"
 }
