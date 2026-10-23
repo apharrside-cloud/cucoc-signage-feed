@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T17:14:17.437976",
+  "timestamp": "2026-10-23T17:15:51.003072",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.47,
@@ -88,17 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 17:07:22] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 17:07:22] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 17:07:22] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.8 (chg +0.10%)!",
-      "[2026-10-23 17:07:25] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX fails macro regime filters since altcoins are currently restricted and relative volume is severely suppressed at 0.01.",
-      "[2026-10-23 17:08:25] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 17:08:25] Macro Regime: NEUTRAL | BTC 24h: +0.13% | Alts Allowed: False",
-      "[2026-10-23 17:08:25] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 17:08:25] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 17:08:26] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.8 (chg +0.01%)!",
-      "[2026-10-23 17:08:28] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX fails macro regime filters as altcoins are restricted and relative volume is severely suppressed at 0.01.",
-      "[2026-10-23 17:09:28] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 17:09:28] Macro Regime: NEUTRAL | BTC 24h: +0.07% | Alts Allowed: False",
       "[2026-10-23 17:09:28] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 17:09:28] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
@@ -127,7 +116,18 @@
       "[2026-10-23 17:13:43] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 17:13:43] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 17:13:43] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.8 (chg -0.19%)!",
-      "[2026-10-23 17:13:46] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX fails macro allowance and volume requirements with an abysmal RVOL of 0.02 against a strict chop regime banning alts."
+      "[2026-10-23 17:13:46] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX fails macro allowance and volume requirements with an abysmal RVOL of 0.02 against a strict chop regime banning alts.",
+      "[2026-10-23 17:14:46] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 17:14:46] Macro Regime: NEUTRAL | BTC 24h: -0.04% | Alts Allowed: False",
+      "[2026-10-23 17:14:46] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 17:14:46] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 17:14:46] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.8 (chg -0.32%)!",
+      "[2026-10-23 17:14:49] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX fails macro regime constraints where alts are disallowed due to a neutral BTC chop environment, and exhibits severely suppressed volume (RVOL 0.02).",
+      "[2026-10-23 17:15:49] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 17:15:49] Macro Regime: NEUTRAL | BTC 24h: -0.03% | Alts Allowed: False",
+      "[2026-10-23 17:15:49] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 17:15:49] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 17:15:50] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.8 (chg -0.26%)!"
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 9.071,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 30,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX displays weak volume (RVOL 0.72) and a bearish hourly trend, failing multiple strict volume and trend rules.",
-      "risk_factors": "Macro regime explicitly suppresses altcoins ('allow_alts': false), and lack of volume expansion risks a value trap.",
-      "timestamp": "2026-10-23T15:28:57.969085"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 9.066,
       "approved": false,
       "action": "REJECT",
@@ -1846,6 +1831,21 @@
       "primary_thesis": "Macro regime explicitly suppresses altcoins with 'allow_alts: false' and RVOL is severely depressed at 0.07 against rules requiring >1.5.",
       "risk_factors": "Extreme low relative volume (0.07) combined with a bearish hourly trend and macro regime blocking altcoin exposure.",
       "timestamp": "2026-10-23T16:10:12.886588"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 9.0407,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 35,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "AVAX displays oversold conditions (RSI 22.6), but weak volume (RVOL 0.45) and a bearish macro regime explicitly blocking altcoins violate strict rules.",
+      "risk_factors": "Macro regime status forbids altcoin exposure and current low volume indicates lack of institutional accumulation.",
+      "timestamp": "2026-10-23T16:11:16.376992"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T17:14:17.142586"
+  "snapshot_synced_at": "2026-10-23T17:15:50.653931"
 }
