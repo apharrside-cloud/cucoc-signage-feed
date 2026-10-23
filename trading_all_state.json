@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T10:02:06.873917",
+  "timestamp": "2026-10-23T10:03:40.402280",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -20,20 +20,14 @@
     "positions": {
       "null": {
         "symbol": null,
-        "shares": 0.357187,
-        "entry_price": 83.9897,
-        "high_water_mark": 83.9897,
+        "shares": 0.355397,
+        "entry_price": 84.4126,
+        "high_water_mark": 84.4126,
         "tp1_hit": false,
-        "entry_time": "2026-10-23T10:01:46.809069"
+        "entry_time": "2026-10-23T10:03:03.419899"
       }
     },
     "logs": [
-      "[2026-10-23 09:51:21] Buy order placed: {'jsonrpc': '2.0', 'id': 394, 'error': {'code': -32602, 'message': 'invalid params: validating \"arguments\": validating root: validating /properties/symbol: type: <invalid reflect.Value> has type \"null\", want \"string\"'}}",
-      "[2026-10-23 09:52:21] Running portfolio evaluation cycle...",
-      "[2026-10-23 09:52:22] Position null no longer in broker holdings. Removing from tracking.",
-      "[2026-10-23 09:52:22] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 09:53:22] Running portfolio evaluation cycle...",
-      "[2026-10-23 09:53:23] No positions currently held.",
       "[2026-10-23 09:53:23] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 09:53:39] 🧠 [AI GATE] Buy of SOXL VETOED by AI Brain (Confidence: 45%) | Thesis: SOXL exhibits modest intraday strength, but insufficient volume and order flow metrics prevent meeting our high-conviction threshold.",
       "[2026-10-23 09:53:39] 🔥 Found momentum breakout: None (+1.70%) @ $83.50. Executing AI-APPROVED BUY of $30.00...",
@@ -67,7 +61,13 @@
       "[2026-10-23 10:01:29] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 10:01:46] 🧠 [AI GATE] Buy of SOXL VETOED by AI Brain (Confidence: 60%) | Thesis: SOXL is showing intraday upside momentum above VWAP during regular market hours, but lacks explicit volume confirmation data to meet stringent execution thresholds.",
       "[2026-10-23 10:01:46] 🔥 Found momentum breakout: None (+2.29%) @ $83.99. Executing AI-APPROVED BUY of $30.00...",
-      "[2026-10-23 10:01:46] Buy order placed: {'jsonrpc': '2.0', 'id': 432, 'error': {'code': -32602, 'message': 'invalid params: validating \"arguments\": validating root: validating /properties/symbol: type: <invalid reflect.Value> has type \"null\", want \"string\"'}}"
+      "[2026-10-23 10:01:46] Buy order placed: {'jsonrpc': '2.0', 'id': 432, 'error': {'code': -32602, 'message': 'invalid params: validating \"arguments\": validating root: validating /properties/symbol: type: <invalid reflect.Value> has type \"null\", want \"string\"'}}",
+      "[2026-10-23 10:02:47] Running portfolio evaluation cycle...",
+      "[2026-10-23 10:02:47] Position null no longer in broker holdings. Removing from tracking.",
+      "[2026-10-23 10:02:47] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 10:03:03] 🧠 [AI GATE] Buy of SOXL VETOED by AI Brain (Confidence: 55%) | Thesis: SOXL is exhibiting positive momentum during regular hours above VWAP, but lacks explicit volume confirmation data to meet strict execution thresholds.",
+      "[2026-10-23 10:03:03] 🔥 Found momentum breakout: None (+2.80%) @ $84.41. Executing AI-APPROVED BUY of $30.00...",
+      "[2026-10-23 10:03:03] Buy order placed: {'jsonrpc': '2.0', 'id': 438, 'error': {'code': -32602, 'message': 'invalid params: validating \"arguments\": validating root: validating /properties/symbol: type: <invalid reflect.Value> has type \"null\", want \"string\"'}}"
     ]
   },
   "coinbase": {
@@ -76,18 +76,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.23939920637523,
-      "btc_price": 81916.88,
+      "btc_change_24h": 0.23559168562418,
+      "btc_price": 81905.92,
       "allow_alts": false,
       "allow_core": true,
       "reason": "BTC neutral +0.24% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 09:52:43] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 09:52:43] Macro Regime: RISK_ON | BTC 24h: +0.68% | Alts Allowed: True",
-      "[2026-10-23 09:52:43] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 09:52:43] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-23 09:53:45] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 09:53:45] Macro Regime: RISK_ON | BTC 24h: +0.73% | Alts Allowed: True",
       "[2026-10-23 09:53:45] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -123,20 +119,24 @@
       "[2026-10-23 10:01:56] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 10:01:57] Macro Regime: NEUTRAL | BTC 24h: +0.24% | Alts Allowed: False",
       "[2026-10-23 10:01:57] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 10:01:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-23 10:01:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 10:02:58] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 10:02:58] Macro Regime: NEUTRAL | BTC 24h: +0.24% | Alts Allowed: False",
+      "[2026-10-23 10:02:58] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 10:02:58] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
     {
       "account": "Robinhood",
       "symbol": "null",
-      "shares": 0.357187,
-      "entry_price": 83.9897,
-      "current_price": 83.9897,
+      "shares": 0.355397,
+      "entry_price": 84.4126,
+      "current_price": 84.4126,
       "value_usd": 30.0,
       "pnl_pct": 0.0,
       "pnl_usd": 0.0,
-      "trailing_info": "Peak: $83.99 | Trailing 3.5%"
+      "trailing_info": "Peak: $84.41 | Trailing 3.5%"
     }
   ],
   "closed_trades": [
@@ -1244,22 +1244,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792600839_537d49",
-      "timestamp": "2026-10-21T12:40:39.741967",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "ETH",
-      "title": "Dynamic Trailing Stop: ETH (+2.14%)",
-      "rationale": "Peak reached +3.64%. Trailing stop automatically trailed up from +1.94% to +2.14% (buffer: 1.5%).",
-      "metrics": {
-        "peak_pnl": 3.64,
-        "new_stop": 2.14,
-        "old_stop": 1.94
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
-    },
-    {
       "id": "dec_1792600839_104993",
       "timestamp": "2026-10-21T12:40:39.018140",
       "category": "risk",
@@ -1858,6 +1842,22 @@
         "peak_pnl": 3.14,
         "new_stop": 0.89,
         "old_stop": 0.74
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792595126_669573",
+      "timestamp": "2026-10-21T11:05:26.823734",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "ETH",
+      "title": "Dynamic Trailing Stop: ETH (+1.55%)",
+      "rationale": "Peak reached +3.05%. Trailing stop automatically trailed up from +1.33% to +1.55% (buffer: 1.5%).",
+      "metrics": {
+        "peak_pnl": 3.05,
+        "new_stop": 1.55,
+        "old_stop": 1.33
       },
       "sentiment": "BULLISH",
       "impact": "PROFIT_PROTECTED"
@@ -2978,5 +2978,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T10:02:06.578583"
+  "snapshot_synced_at": "2026-10-23T10:03:40.109925"
 }
