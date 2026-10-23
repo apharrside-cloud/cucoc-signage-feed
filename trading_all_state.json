@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T13:53:01.309275",
+  "timestamp": "2026-10-23T13:54:35.231237",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,10 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 13:44:29] Failed to fetch portfolio data.",
-      "[2026-10-23 13:45:29] Running portfolio evaluation cycle...",
-      "[2026-10-23 13:45:33] No positions currently held.",
-      "[2026-10-23 13:45:33] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 13:45:33] VWAP Filter: Skipping AMD because price ($516.19) is BELOW session VWAP ($517.16).",
       "[2026-10-23 13:45:33] VWAP Filter: Skipping SOXL because price ($84.12) is BELOW session VWAP ($84.85).",
       "[2026-10-23 13:46:33] Running portfolio evaluation cycle...",
@@ -58,7 +54,11 @@
       "[2026-10-23 13:52:49] Running portfolio evaluation cycle...",
       "[2026-10-23 13:52:49] No positions currently held.",
       "[2026-10-23 13:52:49] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 13:52:50] VWAP Filter: Skipping SOXL because price ($84.47) is BELOW session VWAP ($84.84)."
+      "[2026-10-23 13:52:50] VWAP Filter: Skipping SOXL because price ($84.47) is BELOW session VWAP ($84.84).",
+      "[2026-10-23 13:53:50] Running portfolio evaluation cycle...",
+      "[2026-10-23 13:53:50] No positions currently held.",
+      "[2026-10-23 13:53:50] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 13:53:50] VWAP Filter: Skipping SOXL because price ($84.30) is BELOW session VWAP ($84.84)."
     ]
   },
   "coinbase": {
@@ -75,12 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 13:46:02] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 13:46:02] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 13:46:02] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.2 (chg +0.01%)!",
-      "[2026-10-23 13:46:11] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX fails macro rules since altcoins are suppressed under the neutral regime and relative volume is deeply sub-par at 0.63.",
-      "[2026-10-23 13:47:11] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 13:47:11] Macro Regime: NEUTRAL | BTC 24h: +0.32% | Alts Allowed: False",
       "[2026-10-23 13:47:11] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 13:47:11] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 13:47:12] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.2 (chg +0.03%)!",
@@ -114,7 +108,13 @@
       "[2026-10-23 13:52:42] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 13:52:42] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 13:52:42] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.9 (chg +0.04%)!",
-      "[2026-10-23 13:52:51] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX fails macro rules since altcoin trading is currently suppressed under the NEUTRAL market regime."
+      "[2026-10-23 13:52:51] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX fails macro rules since altcoin trading is currently suppressed under the NEUTRAL market regime.",
+      "[2026-10-23 13:53:51] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 13:53:51] Macro Regime: NEUTRAL | BTC 24h: +0.32% | Alts Allowed: False",
+      "[2026-10-23 13:53:51] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 13:53:51] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 13:53:52] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.9 (chg +0.03%)!",
+      "[2026-10-23 13:53:58] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX exhibits weak relative volume (Rvol 0.64) during a neutral macro regime where altcoins are strictly suppressed."
     ]
   },
   "positions": [],
@@ -1226,21 +1226,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
       "symbol": "SOXL",
-      "current_price": 84.3881,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "SOXL is showing strong intraday upside momentum above VWAP during regular hours, but insufficient detailed volume confirmation and leveraged ETF decay risks prevent meeting the strict 75% confidence threshold.",
-      "risk_factors": "High intraday volatility of leveraged semiconductor ETFs combined with lack of deep volume profile metrics creates a high risk of late-stage chase or whipsaw.",
-      "timestamp": "2026-10-23T09:46:06.799850"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "SOXL",
       "current_price": 84.115,
       "approved": false,
       "action": "REJECT",
@@ -1821,6 +1806,21 @@
       "primary_thesis": "AVAX is a non-core altcoin failing macro regime rules where 'allow_alts' is false, alongside critically low relative volume (Rvol 0.24).",
       "risk_factors": "Zero institutional volume confirmation and direct violation of the macro regime filter prohibiting altcoin exposure.",
       "timestamp": "2026-10-23T12:18:38.205235"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 9.078,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "AVAX fails macro rules since macro regime status explicitly suppresses altcoins with 'allow_alts': false, alongside abysmally low relative volume (RVOL 0.24).",
+      "risk_factors": "Macro regime explicitly restricts altcoin exposure and RVOL is severely below the required 1.5x minimum threshold.",
+      "timestamp": "2026-10-23T12:19:46.003068"
     }
   ],
   "performance": {
@@ -2938,5 +2938,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T13:53:01.010798"
+  "snapshot_synced_at": "2026-10-23T13:54:34.955310"
 }
