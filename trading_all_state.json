@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T09:51:13.258669",
+  "timestamp": "2026-10-23T09:52:46.650052",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -17,23 +17,8 @@
   "robinhood": {
     "total_value": 162.28,
     "cash": 162.28,
-    "positions": {
-      "null": {
-        "symbol": null,
-        "shares": 0.357207,
-        "entry_price": 83.985,
-        "high_water_mark": 83.985,
-        "tp1_hit": false,
-        "entry_time": "2026-10-23T09:50:06.110158"
-      }
-    },
+    "positions": {},
     "logs": [
-      "[2026-10-23 09:41:31] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 09:42:31] Running portfolio evaluation cycle...",
-      "[2026-10-23 09:42:31] No positions currently held.",
-      "[2026-10-23 09:42:31] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 09:43:32] Running portfolio evaluation cycle...",
-      "[2026-10-23 09:43:47] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
       "[2026-10-23 09:43:47] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
       "[2026-10-23 09:44:47] Running portfolio evaluation cycle...",
       "[2026-10-23 09:44:51] No positions currently held.",
@@ -67,7 +52,13 @@
       "[2026-10-23 09:50:06] Buy order placed: {'jsonrpc': '2.0', 'id': 388, 'error': {'code': -32602, 'message': 'invalid params: validating \"arguments\": validating root: validating /properties/symbol: type: <invalid reflect.Value> has type \"null\", want \"string\"'}}",
       "[2026-10-23 09:51:06] Running portfolio evaluation cycle...",
       "[2026-10-23 09:51:07] Position null no longer in broker holdings. Removing from tracking.",
-      "[2026-10-23 09:51:07] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-23 09:51:07] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 09:51:21] 🧠 [AI GATE] Buy of SOXL VETOED by AI Brain (Confidence: 60%) | Thesis: SOXL is exhibiting positive intraday momentum above VWAP during regular trading hours, but lacks complete institutional volume verification to justify entry.",
+      "[2026-10-23 09:51:21] 🔥 Found momentum breakout: None (+1.78%) @ $83.57. Executing AI-APPROVED BUY of $30.00...",
+      "[2026-10-23 09:51:21] Buy order placed: {'jsonrpc': '2.0', 'id': 394, 'error': {'code': -32602, 'message': 'invalid params: validating \"arguments\": validating root: validating /properties/symbol: type: <invalid reflect.Value> has type \"null\", want \"string\"'}}",
+      "[2026-10-23 09:52:21] Running portfolio evaluation cycle...",
+      "[2026-10-23 09:52:22] Position null no longer in broker holdings. Removing from tracking.",
+      "[2026-10-23 09:52:22] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -75,23 +66,15 @@
     "cash_usd": 162.8,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "NEUTRAL",
-      "btc_change_24h": 0.45600351451578,
-      "btc_price": 81862.2,
-      "allow_alts": false,
+      "status": "RISK_ON",
+      "btc_change_24h": 0.67905700957373,
+      "btc_price": 81858.99,
+      "allow_alts": true,
       "allow_core": true,
-      "reason": "BTC neutral +0.46% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC strong +0.68% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 09:41:29] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 09:41:29] Macro Regime: NEUTRAL | BTC 24h: +0.37% | Alts Allowed: False",
-      "[2026-10-23 09:41:29] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 09:41:29] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 09:42:30] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 09:42:30] Macro Regime: NEUTRAL | BTC 24h: +0.38% | Alts Allowed: False",
-      "[2026-10-23 09:42:30] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 09:42:30] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 09:43:31] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 09:43:31] Macro Regime: NEUTRAL | BTC 24h: +0.45% | Alts Allowed: False",
       "[2026-10-23 09:43:31] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -123,22 +106,18 @@
       "[2026-10-23 09:50:40] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 09:50:41] Macro Regime: NEUTRAL | BTC 24h: +0.46% | Alts Allowed: False",
       "[2026-10-23 09:50:41] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 09:50:41] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-23 09:50:41] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 09:51:42] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 09:51:42] Macro Regime: RISK_ON | BTC 24h: +0.59% | Alts Allowed: True",
+      "[2026-10-23 09:51:42] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 09:51:42] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-23 09:52:43] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 09:52:43] Macro Regime: RISK_ON | BTC 24h: +0.68% | Alts Allowed: True",
+      "[2026-10-23 09:52:43] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 09:52:43] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
-  "positions": [
-    {
-      "account": "Robinhood",
-      "symbol": "null",
-      "shares": 0.357207,
-      "entry_price": 83.985,
-      "current_price": 83.985,
-      "value_usd": 30.0,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
-      "trailing_info": "Peak: $83.98 | Trailing 3.5%"
-    }
-  ],
+  "positions": [],
   "closed_trades": [
     {
       "symbol": "SMCI",
@@ -1244,22 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792607093_6df4a7",
-      "timestamp": "2026-10-21T14:24:53.073982",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "AVAX",
-      "title": "Dynamic Trailing Stop: AVAX (+0.87%)",
-      "rationale": "Peak reached +2.87%. Trailing stop automatically trailed up from +0.80% to +0.87% (buffer: 2.0%).",
-      "metrics": {
-        "peak_pnl": 2.87,
-        "new_stop": 0.87,
-        "old_stop": 0.8
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
-    },
-    {
       "id": "dec_1792606806_876bf0",
       "timestamp": "2026-10-21T14:20:06.475537",
       "category": "risk",
@@ -1859,6 +1822,22 @@
         "peak_pnl": 3.91,
         "new_stop": 1.66,
         "old_stop": 1.13
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792595387_ecf867",
+      "timestamp": "2026-10-21T11:09:47.639852",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "ETH",
+      "title": "Dynamic Trailing Stop: ETH (+1.65%)",
+      "rationale": "Peak reached +3.15%. Trailing stop automatically trailed up from +1.63% to +1.65% (buffer: 1.5%).",
+      "metrics": {
+        "peak_pnl": 3.15,
+        "new_stop": 1.65,
+        "old_stop": 1.63
       },
       "sentiment": "BULLISH",
       "impact": "PROFIT_PROTECTED"
@@ -2979,5 +2958,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T09:51:12.940407"
+  "snapshot_synced_at": "2026-10-23T09:52:46.368997"
 }
