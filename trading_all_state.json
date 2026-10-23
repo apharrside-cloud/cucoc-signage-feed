@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T14:13:18.190131",
+  "timestamp": "2026-10-23T14:14:51.613319",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,14 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 14:01:02] Running portfolio evaluation cycle...",
-      "[2026-10-23 14:01:17] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
-      "[2026-10-23 14:01:17] Failed to fetch portfolio data.",
-      "[2026-10-23 14:02:17] Running portfolio evaluation cycle...",
-      "[2026-10-23 14:02:21] No positions currently held.",
-      "[2026-10-23 14:02:21] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 14:03:21] Running portfolio evaluation cycle...",
-      "[2026-10-23 14:03:21] No positions currently held.",
       "[2026-10-23 14:03:21] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 14:04:22] Running portfolio evaluation cycle...",
       "[2026-10-23 14:04:22] No positions currently held.",
@@ -58,7 +50,15 @@
       "[2026-10-23 14:12:30] No positions currently held.",
       "[2026-10-23 14:12:30] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 14:12:33] 🧠 [AI GATE] Buy of MSTR VETOED by AI Brain (Confidence: 45%) | Thesis: MSTR is exhibiting minor intraday upside above VWAP, but mixed sentiment catalysts and lack of explicit volume confirmation provide insufficient edge for an equity breakout.",
-      "[2026-10-23 14:12:33] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-23 14:12:33] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-23 14:13:33] Running portfolio evaluation cycle...",
+      "[2026-10-23 14:13:33] No positions currently held.",
+      "[2026-10-23 14:13:33] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 14:13:36] 🧠 [AI GATE] Buy of MU VETOED by AI Brain (Confidence: 60%) | Thesis: Micron is leading a chip sector rebound during regular market hours, but broader macroeconomic headwinds (Dow tumbling 500 points, jumping oil) create hostile conditions for equity momentum.",
+      "[2026-10-23 14:13:36] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-23 14:14:36] Running portfolio evaluation cycle...",
+      "[2026-10-23 14:14:36] No positions currently held.",
+      "[2026-10-23 14:14:36] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -66,23 +66,15 @@
     "cash_usd": 162.8,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "NEUTRAL",
-      "btc_change_24h": 0.45825791922186,
-      "btc_price": 81435.0,
-      "allow_alts": false,
+      "status": "RISK_ON",
+      "btc_change_24h": 0.6221792224834,
+      "btc_price": 81496.66,
+      "allow_alts": true,
       "allow_core": true,
-      "reason": "BTC neutral +0.46% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC strong +0.62% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 14:04:23] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 14:04:23] Macro Regime: RISK_ON | BTC 24h: +0.60% | Alts Allowed: True",
-      "[2026-10-23 14:04:23] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:04:23] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-23 14:05:24] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 14:05:25] Macro Regime: RISK_ON | BTC 24h: +0.62% | Alts Allowed: True",
-      "[2026-10-23 14:05:25] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:05:25] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-23 14:06:26] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 14:06:26] Macro Regime: RISK_ON | BTC 24h: +0.54% | Alts Allowed: True",
       "[2026-10-23 14:06:26] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -114,7 +106,15 @@
       "[2026-10-23 14:12:41] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 14:12:41] Macro Regime: NEUTRAL | BTC 24h: +0.46% | Alts Allowed: False",
       "[2026-10-23 14:12:41] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:12:41] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-23 14:12:41] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 14:13:42] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 14:13:43] Macro Regime: RISK_ON | BTC 24h: +0.53% | Alts Allowed: True",
+      "[2026-10-23 14:13:43] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 14:13:43] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-23 14:14:44] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 14:14:45] Macro Regime: RISK_ON | BTC 24h: +0.62% | Alts Allowed: True",
+      "[2026-10-23 14:14:45] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 14:14:45] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [],
@@ -1226,21 +1226,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
       "symbol": "SOXL",
-      "current_price": 84.605,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "SOXL is exhibiting positive intraday momentum above VWAP during regular market hours, but lacks complete quantitative volume confirmation and historical volatility guardrails within our strict multi-variable setup rules.",
-      "risk_factors": "Leveraged semiconductor ETFs (SOXL) carry extreme gamma risk and potential whipsaw behavior if broader tech sentiment reverses from daily highs.",
-      "timestamp": "2026-10-23T10:04:05.128974"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "SOXL",
       "current_price": 84.36,
       "approved": false,
       "action": "REJECT",
@@ -1821,6 +1806,21 @@
       "primary_thesis": "AVAX exhibits an exceptionally low relative volume (RVOL 0.28) and unfavorable macro regime conditions that explicitly prohibit altcoin exposure.",
       "risk_factors": "Macro regime filter blocks altcoin trading ('allow_alts': false), and abysmal volume points to severe liquidity risk and choppy noise.",
       "timestamp": "2026-10-23T12:29:40.162414"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 9.073,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "AVAX fails macro regime filters as altcoins are suppressed under neutral BTC conditions.",
+      "risk_factors": "Critically low relative volume (RVOL 0.28) and neutral macro regime disallow altcoin risk.",
+      "timestamp": "2026-10-23T12:30:43.890922"
     }
   ],
   "performance": {
@@ -2938,5 +2938,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T14:13:17.887840"
+  "snapshot_synced_at": "2026-10-23T14:14:51.305069"
 }
