@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T12:25:40.202635",
+  "timestamp": "2026-10-23T12:27:14.126076",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,9 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 12:12:17] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
-      "[2026-10-23 12:13:17] Running portfolio evaluation cycle...",
-      "[2026-10-23 12:13:17] No positions currently held.",
       "[2026-10-23 12:13:17] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 12:14:18] Running portfolio evaluation cycle...",
       "[2026-10-23 12:14:18] No positions currently held.",
@@ -58,7 +55,10 @@
       "[2026-10-23 12:24:24] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 12:25:24] Running portfolio evaluation cycle...",
       "[2026-10-23 12:25:25] No positions currently held.",
-      "[2026-10-23 12:25:25] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-23 12:25:25] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 12:26:25] Running portfolio evaluation cycle...",
+      "[2026-10-23 12:26:25] No positions currently held.",
+      "[2026-10-23 12:26:25] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -75,12 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 12:18:37] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 12:18:37] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 12:18:37] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=32.0 (chg -0.93%)!",
-      "[2026-10-23 12:18:45] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX is a non-core altcoin failing macro regime rules where 'allow_alts' is false, alongside critically low relative volume (Rvol 0.24).",
-      "[2026-10-23 12:19:45] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 12:19:45] Macro Regime: NEUTRAL | BTC 24h: -0.09% | Alts Allowed: False",
       "[2026-10-23 12:19:45] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:19:45] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 12:19:45] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=32.0 (chg -0.93%)!",
@@ -114,7 +108,13 @@
       "[2026-10-23 12:25:16] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:25:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 12:25:16] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=32.3 (chg -1.04%)!",
-      "[2026-10-23 12:25:21] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: The macro regime explicitly forbids altcoin trades (`allow_alts: false`) due to a choppy market, and RVOL is extremely weak at 0.25."
+      "[2026-10-23 12:25:21] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: The macro regime explicitly forbids altcoin trades (`allow_alts: false`) due to a choppy market, and RVOL is extremely weak at 0.25.",
+      "[2026-10-23 12:26:21] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 12:26:22] Macro Regime: NEUTRAL | BTC 24h: -0.21% | Alts Allowed: False",
+      "[2026-10-23 12:26:22] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 12:26:22] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 12:26:22] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=31.4 (chg -1.13%)!",
+      "[2026-10-23 12:26:28] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX exhibits extremely low relative volume (RVOL 0.28) and the macro regime explicitly suppresses altcoins with 'allow_alts: false' due to neutral BTC conditions."
     ]
   },
   "positions": [],
@@ -1223,22 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792595231_57540d",
-      "timestamp": "2026-10-21T11:07:11.391477",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "NEAR",
-      "title": "Dynamic Trailing Stop: NEAR (+1.06%)",
-      "rationale": "Peak reached +3.31%. Trailing stop automatically trailed up from +0.89% to +1.06% (buffer: 2.25%).",
-      "metrics": {
-        "peak_pnl": 3.31,
-        "new_stop": 1.06,
-        "old_stop": 0.89
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
-    },
-    {
       "id": "dec_1792595231_71e5ec",
       "timestamp": "2026-10-21T11:07:11.279867",
       "category": "risk",
@@ -1844,6 +1828,24 @@
       },
       "sentiment": "BULLISH",
       "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792592660_e3efb7",
+      "timestamp": "2026-10-21T10:24:20.948195",
+      "category": "trade",
+      "decision_type": "BUY",
+      "symbol": "QQQ",
+      "title": "Autonomous Buy Execution: QQQ (Index ETF)",
+      "rationale": "Momentum breakout setup confirmed. AI allocated $8,497.59 (11.77 shares/coins) at $721.97. Stop-loss: -1.5%, TP1: +1.75% (50% trim), TP2: +3.5%. Rationale: VWAP_VOLUME_SURGE (Price $721.605 > VWAP $721.36, RVOL 2.06x, RSI 50.0)",
+      "metrics": {
+        "fill_price": 721.97,
+        "shares": 11.77,
+        "cost": 8497.59,
+        "stop_loss_pct": -1.5,
+        "tp1_pct": 1.75
+      },
+      "sentiment": "BULLISH",
+      "impact": "POSITION_OPENED"
     }
   ],
   "performance": {
@@ -2961,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T12:25:39.808940"
+  "snapshot_synced_at": "2026-10-23T12:27:13.816545"
 }
