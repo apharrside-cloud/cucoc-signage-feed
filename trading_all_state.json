@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T12:45:55.987788",
+  "timestamp": "2026-10-23T12:47:29.511621",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,9 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 12:33:48] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 12:34:48] Running portfolio evaluation cycle...",
-      "[2026-10-23 12:34:49] No positions currently held.",
       "[2026-10-23 12:34:49] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 12:35:49] Running portfolio evaluation cycle...",
       "[2026-10-23 12:35:49] No positions currently held.",
@@ -58,7 +55,10 @@
       "[2026-10-23 12:44:19] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 12:45:19] Running portfolio evaluation cycle...",
       "[2026-10-23 12:45:20] No positions currently held.",
-      "[2026-10-23 12:45:20] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-23 12:45:20] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-23 12:46:20] Running portfolio evaluation cycle...",
+      "[2026-10-23 12:46:35] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
+      "[2026-10-23 12:46:35] Failed to fetch portfolio data."
     ]
   },
   "coinbase": {
@@ -75,12 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 12:38:15] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 12:38:15] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 12:38:15] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.4 (chg -0.43%)!",
-      "[2026-10-23 12:38:23] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX fails macro criteria as the market regime strictly forbids altcoins (allow_alts is false) and volume is severely depressed.",
-      "[2026-10-23 12:39:23] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 12:39:23] Macro Regime: NEUTRAL | BTC 24h: +0.21% | Alts Allowed: False",
       "[2026-10-23 12:39:23] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:39:23] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 12:39:24] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.4 (chg -0.64%)!",
@@ -114,7 +108,13 @@
       "[2026-10-23 12:45:20] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:45:20] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 12:45:20] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=33.9 (chg -0.39%)!",
-      "[2026-10-23 12:45:32] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX fails macro criteria as altcoins are suppressed under current neutral regime rules, and RVOL is severely depressed at 0.44."
+      "[2026-10-23 12:45:32] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX fails macro criteria as altcoins are suppressed under current neutral regime rules, and RVOL is severely depressed at 0.44.",
+      "[2026-10-23 12:46:32] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 12:46:32] Macro Regime: NEUTRAL | BTC 24h: +0.50% | Alts Allowed: False",
+      "[2026-10-23 12:46:32] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 12:46:32] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 12:46:32] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=34.7 (chg -0.08%)!",
+      "[2026-10-23 12:46:35] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX is failing core volume and macro filters, showing anemic RVOL of 0.52 and a neutral macro regime that explicitly suppresses altcoin longs."
     ]
   },
   "positions": [],
@@ -1223,20 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792593760_b68835",
-      "timestamp": "2026-10-21T10:42:40.843884",
-      "category": "veto",
-      "decision_type": "VETO",
-      "symbol": "MSTR",
-      "title": "Scanner Risk Filter: MSTR Long Setup Blocked",
-      "rationale": "AI evaluated MSTR for potential long entry but rejected it: RSI 71.6 overbought (> 65.0 threshold). Capital protected from unfavorable risk/reward setup.",
-      "metrics": {
-        "rsi": 71.6
-      },
-      "sentiment": "BEARISH",
-      "impact": "CAPITAL_PROTECTED"
-    },
-    {
       "id": "dec_1792593760_1c9549",
       "timestamp": "2026-10-21T10:42:40.717095",
       "category": "veto",
@@ -1828,6 +1814,21 @@
       "primary_thesis": "SOXL is exhibiting mild intraday momentum above VWAP during regular hours, but lack of detailed multi-timeframe volume and order-book data prevents high-conviction verification.",
       "risk_factors": "Leveraged semiconductor ETFs are highly volatile and prone to sudden mean-reversion swings if broader tech sector sentiment shifts.",
       "timestamp": "2026-10-23T09:59:02.122191"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "SOXL",
+      "current_price": 83.6982,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "SOXL is showing mild intraday upside, but lack of multi-timeframe volume confirmation and high structural leverage volatility do not meet our elite asymmetric risk threshold.",
+      "risk_factors": "Leveraged ETF decay risk and potential bull trap near daily resistance without institutional volume backing.",
+      "timestamp": "2026-10-23T10:00:16.582582"
     }
   ],
   "performance": {
@@ -2945,5 +2946,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T12:45:55.708744"
+  "snapshot_synced_at": "2026-10-23T12:47:29.212316"
 }
