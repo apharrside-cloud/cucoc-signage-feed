@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T12:03:48.139186",
+  "timestamp": "2026-10-23T12:05:21.595257",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,9 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 11:50:39] No positions currently held.",
-      "[2026-10-23 11:50:39] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 11:51:39] Running portfolio evaluation cycle...",
       "[2026-10-23 11:51:39] No positions currently held.",
       "[2026-10-23 11:51:39] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 11:52:39] Running portfolio evaluation cycle...",
@@ -58,7 +55,10 @@
       "[2026-10-23 12:03:04] No positions currently held.",
       "[2026-10-23 12:03:04] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 12:03:27] 🧠 [AI GATE] Buy of TQQQ VETOED by AI Brain (Confidence: 60%) | Thesis: TQQQ is showing intraday upside momentum above VWAP during regular market hours, but lacks complete institutional volume confirmation and specific breakout metrics in the dossier.",
-      "[2026-10-23 12:03:27] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-23 12:03:27] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-23 12:04:27] Running portfolio evaluation cycle...",
+      "[2026-10-23 12:04:28] No positions currently held.",
+      "[2026-10-23 12:04:28] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -75,12 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 11:54:10] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 11:54:10] Macro Regime: NEUTRAL | BTC 24h: -0.09% | Alts Allowed: False",
-      "[2026-10-23 11:54:10] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 11:54:10] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 11:55:16] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 11:55:16] Macro Regime: NEUTRAL | BTC 24h: -0.11% | Alts Allowed: False",
       "[2026-10-23 11:55:16] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 11:55:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 11:56:22] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -114,7 +108,13 @@
       "[2026-10-23 12:03:16] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:03:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 12:03:17] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.0 (chg -0.43%)!",
-      "[2026-10-23 12:03:20] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX is a non-core altcoin failing macro filter rules under a neutral BTC regime where altcoins are explicitly suppressed."
+      "[2026-10-23 12:03:20] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX is a non-core altcoin failing macro filter rules under a neutral BTC regime where altcoins are explicitly suppressed.",
+      "[2026-10-23 12:04:20] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 12:04:20] Macro Regime: NEUTRAL | BTC 24h: +0.01% | Alts Allowed: False",
+      "[2026-10-23 12:04:20] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 12:04:20] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 12:04:21] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.0 (chg -0.50%)!",
+      "[2026-10-23 12:04:29] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: Macro regime explicitly restricts altcoins due to neutral BTC chop, and the asset's RVOL of 0.0 fails all strict volume confirmation rules."
     ]
   },
   "positions": [],
@@ -1223,23 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792600527_53dfad",
-      "timestamp": "2026-10-21T12:35:27.273857",
-      "category": "trade",
-      "decision_type": "TRAILING_EXIT",
-      "symbol": "NEAR",
-      "title": "TRAILING_EXIT Executed: NEAR (+2.70%)",
-      "rationale": "Sold 483.8304 shares @ $5.3065 (Entry: $5.1671). Realized PnL: +2.70% ($+67.45). Trigger: TRAILING_PROFIT_LOCK (+2.78% from peak +5.19%)",
-      "metrics": {
-        "entry_price": 5.1671,
-        "exit_price": 5.3065,
-        "pnl_usd": 67.45,
-        "pnl_pct": 2.7
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_LOCKED"
-    },
-    {
       "id": "dec_1792598985_539093",
       "timestamp": "2026-10-21T12:09:45.978013",
       "category": "risk",
@@ -1860,6 +1843,22 @@
         "peak_pnl": 3.32,
         "new_stop": 1.97,
         "old_stop": 1.94
+      },
+      "sentiment": "BULLISH",
+      "impact": "PROFIT_PROTECTED"
+    },
+    {
+      "id": "dec_1792593840_edbf12",
+      "timestamp": "2026-10-21T10:44:00.000636",
+      "category": "risk",
+      "decision_type": "RATCHET",
+      "symbol": "BTC",
+      "title": "Dynamic Trailing Stop: BTC (+1.94%)",
+      "rationale": "Peak reached +3.29%. Trailing stop automatically trailed up from +1.87% to +1.94% (buffer: 1.35%).",
+      "metrics": {
+        "peak_pnl": 3.29,
+        "new_stop": 1.94,
+        "old_stop": 1.87
       },
       "sentiment": "BULLISH",
       "impact": "PROFIT_PROTECTED"
@@ -2980,5 +2979,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T12:03:47.865831"
+  "snapshot_synced_at": "2026-10-23T12:05:21.290080"
 }
