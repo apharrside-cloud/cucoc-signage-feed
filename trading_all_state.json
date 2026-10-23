@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T12:28:47.665242",
+  "timestamp": "2026-10-23T12:30:21.166257",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,9 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 12:16:19] Running portfolio evaluation cycle...",
-      "[2026-10-23 12:16:19] No positions currently held.",
-      "[2026-10-23 12:16:19] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 12:17:19] Running portfolio evaluation cycle...",
       "[2026-10-23 12:17:20] No positions currently held.",
       "[2026-10-23 12:17:20] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
@@ -58,7 +55,10 @@
       "[2026-10-23 12:28:26] Running portfolio evaluation cycle...",
       "[2026-10-23 12:28:26] No positions currently held.",
       "[2026-10-23 12:28:26] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 12:28:41] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
+      "[2026-10-23 12:28:41] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
+      "[2026-10-23 12:29:41] Running portfolio evaluation cycle...",
+      "[2026-10-23 12:29:45] No positions currently held.",
+      "[2026-10-23 12:29:45] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -75,12 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 12:21:51] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 12:21:51] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 12:21:52] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=32.3 (chg -0.99%)!",
-      "[2026-10-23 12:21:54] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX fails macro constraints (allow_alts is false during a neutral BTC chop regime) and exhibits very weak volume (RVOL 0.25).",
-      "[2026-10-23 12:22:54] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 12:22:54] Macro Regime: NEUTRAL | BTC 24h: -0.04% | Alts Allowed: False",
       "[2026-10-23 12:22:54] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:22:54] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 12:22:55] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=32.3 (chg -0.84%)!",
@@ -114,7 +108,13 @@
       "[2026-10-23 12:28:35] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 12:28:35] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 12:28:36] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=31.4 (chg -0.96%)!",
-      "[2026-10-23 12:28:39] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX is a non-core altcoin flagged under a neutral macro regime where altcoins are explicitly suppressed."
+      "[2026-10-23 12:28:39] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX is a non-core altcoin flagged under a neutral macro regime where altcoins are explicitly suppressed.",
+      "[2026-10-23 12:29:39] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 12:29:39] Macro Regime: NEUTRAL | BTC 24h: -0.11% | Alts Allowed: False",
+      "[2026-10-23 12:29:39] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 12:29:39] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 12:29:39] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=31.4 (chg -0.92%)!",
+      "[2026-10-23 12:29:42] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX exhibits an exceptionally low relative volume (RVOL 0.28) and unfavorable macro regime conditions that explicitly prohibit altcoin exposure."
     ]
   },
   "positions": [],
@@ -1223,22 +1223,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792595126_669573",
-      "timestamp": "2026-10-21T11:05:26.823734",
-      "category": "risk",
-      "decision_type": "RATCHET",
-      "symbol": "ETH",
-      "title": "Dynamic Trailing Stop: ETH (+1.55%)",
-      "rationale": "Peak reached +3.05%. Trailing stop automatically trailed up from +1.33% to +1.55% (buffer: 1.5%).",
-      "metrics": {
-        "peak_pnl": 3.05,
-        "new_stop": 1.55,
-        "old_stop": 1.33
-      },
-      "sentiment": "BULLISH",
-      "impact": "PROFIT_PROTECTED"
-    },
-    {
       "id": "dec_1792595100_ab8e92",
       "timestamp": "2026-10-21T11:05:00.966785",
       "category": "risk",
@@ -1841,6 +1825,21 @@
       "metrics": {
         "price": 544.21,
         "vwap": 546.03
+      },
+      "sentiment": "BEARISH",
+      "impact": "CAPITAL_PROTECTED"
+    },
+    {
+      "id": "dec_1792592660_1398cb",
+      "timestamp": "2026-10-21T10:24:20.438279",
+      "category": "veto",
+      "decision_type": "VETO",
+      "symbol": "NVDA",
+      "title": "Scanner Risk Filter: NVDA Long Setup Blocked",
+      "rationale": "AI evaluated NVDA for potential long entry but rejected it: Price $218.62 below session VWAP $219.16. Capital protected from unfavorable risk/reward setup.",
+      "metrics": {
+        "price": 218.62,
+        "vwap": 219.16
       },
       "sentiment": "BEARISH",
       "impact": "CAPITAL_PROTECTED"
@@ -2961,5 +2960,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T12:28:47.348254"
+  "snapshot_synced_at": "2026-10-23T12:30:20.873130"
 }
