@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T14:33:37.969996",
+  "timestamp": "2026-10-23T14:35:11.590539",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,9 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 14:22:06] No positions currently held.",
-      "[2026-10-23 14:22:06] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 14:23:06] Running portfolio evaluation cycle...",
       "[2026-10-23 14:23:07] No positions currently held.",
       "[2026-10-23 14:23:07] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-23 14:24:07] Running portfolio evaluation cycle...",
@@ -58,7 +55,10 @@
       "[2026-10-23 14:33:13] Running portfolio evaluation cycle...",
       "[2026-10-23 14:33:13] No positions currently held.",
       "[2026-10-23 14:33:13] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 14:33:13] VWAP Filter: Skipping SOXL because price ($84.75) is BELOW session VWAP ($84.84)."
+      "[2026-10-23 14:33:13] VWAP Filter: Skipping SOXL because price ($84.75) is BELOW session VWAP ($84.84).",
+      "[2026-10-23 14:34:13] Running portfolio evaluation cycle...",
+      "[2026-10-23 14:34:29] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
+      "[2026-10-23 14:34:29] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
     ]
   },
   "coinbase": {
@@ -67,18 +67,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.35582099150288,
-      "btc_price": 81399.62,
+      "btc_change_24h": 0.38511422618387,
+      "btc_price": 81423.37,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral +0.36% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral +0.39% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 14:24:02] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 14:24:02] Macro Regime: NEUTRAL | BTC 24h: +0.48% | Alts Allowed: False",
-      "[2026-10-23 14:24:02] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:24:02] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 14:25:03] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 14:25:03] Macro Regime: NEUTRAL | BTC 24h: +0.43% | Alts Allowed: False",
       "[2026-10-23 14:25:03] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -114,7 +110,11 @@
       "[2026-10-23 14:33:16] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 14:33:16] Macro Regime: NEUTRAL | BTC 24h: +0.36% | Alts Allowed: False",
       "[2026-10-23 14:33:16] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:33:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-23 14:33:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 14:34:17] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 14:34:18] Macro Regime: NEUTRAL | BTC 24h: +0.39% | Alts Allowed: False",
+      "[2026-10-23 14:34:18] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 14:34:18] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [],
@@ -2938,5 +2938,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T14:33:37.690239"
+  "snapshot_synced_at": "2026-10-23T14:35:11.311461"
 }
