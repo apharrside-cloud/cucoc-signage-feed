@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T16:47:47.618679",
+  "timestamp": "2026-10-23T16:49:21.139930",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.53,
@@ -88,12 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 16:43:00] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 16:43:00] Macro Regime: NEUTRAL | BTC 24h: +0.14% | Alts Allowed: False",
-      "[2026-10-23 16:43:00] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 16:43:00] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 16:43:01] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.7 (chg +0.56%)!",
-      "[2026-10-23 16:43:01] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.1 (chg -0.07%)!",
       "[2026-10-23 16:43:01] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.1 (chg +0.14%)!",
       "[2026-10-23 16:43:04] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX fails macro regime filters (allow_alts is false during chop) and lacks required volume confirmation (RVOL 0.94 vs 1.5 min required).",
       "[2026-10-23 16:44:04] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -127,7 +121,13 @@
       "[2026-10-23 16:47:16] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.7 (chg +0.63%)!",
       "[2026-10-23 16:47:17] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=28.3 (chg +0.20%)!",
       "[2026-10-23 16:47:17] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.1 (chg +0.25%)!",
-      "[2026-10-23 16:47:19] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX displays oversold conditions (RSI 28.3) with mean-reversion strategy mode, but the macro regime explicitly suppresses altcoins with 'allow_alts: false' due to chop conditions."
+      "[2026-10-23 16:47:19] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX displays oversold conditions (RSI 28.3) with mean-reversion strategy mode, but the macro regime explicitly suppresses altcoins with 'allow_alts: false' due to chop conditions.",
+      "[2026-10-23 16:48:19] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 16:48:20] Macro Regime: NEUTRAL | BTC 24h: +0.35% | Alts Allowed: False",
+      "[2026-10-23 16:48:20] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 16:48:20] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 16:48:20] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=28.3 (chg +0.39%)!",
+      "[2026-10-23 16:48:23] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX fails the macro alignment filter as altcoins are restricted due to neutral market regime rules."
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 9.078,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "Macro regime explicitly blocks altcoins ('allow_alts': false) and RVOL is zero, failing all mandatory volume and regime filters.",
-      "risk_factors": "Macro chop regime suppressing alts and zero relative volume pointing to extreme counter-trend trap risk.",
-      "timestamp": "2026-10-23T15:03:29.573847"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 9.094,
       "approved": false,
       "action": "REJECT",
@@ -1846,6 +1831,21 @@
       "primary_thesis": "Macro regime explicitly restricts altcoins due to neutral BTC chop, failing core filter requirements.",
       "risk_factors": "Low relative volume (0.91) and bearish hourly trend violate multiple strict strategy rules against counter-trend or low-volume entries.",
       "timestamp": "2026-10-23T15:43:45.615785"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 9.042,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 10,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "AVAX fails macro rules since macro regime status explicitly suppresses altcoins with 'allow_alts: false' and RVOL is sub-optimal at 0.91.",
+      "risk_factors": "Macro regime prohibits altcoin trading and relative volume is below the mandatory 1.5x threshold.",
+      "timestamp": "2026-10-23T15:44:49.020998"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T16:47:47.331576"
+  "snapshot_synced_at": "2026-10-23T16:49:20.856896"
 }
