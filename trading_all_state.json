@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-23T14:49:15.317648",
+  "timestamp": "2026-10-23T14:50:48.707049",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.07,
+    "total_equity": 325.08,
     "total_cash": 295.08,
     "cash_pct": 90.8,
     "weekly_realized_pnl": -2.01,
@@ -15,31 +15,23 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.27402055,
+    "total_value": 162.27756106,
     "cash": 132.28,
     "positions": {
       "CRWD": {
         "symbol": "CRWD",
         "shares": 0.118017,
         "entry_price": 254.1921,
-        "high_water_mark": 254.2,
+        "high_water_mark": 254.25,
         "tp1_hit": false,
         "entry_time": "2026-10-23T14:41:42.776592",
-        "current_price": 254.15,
-        "pnl_pct": -0.02,
-        "pnl_usd": -0.0,
+        "current_price": 254.25,
+        "pnl_pct": 0.02,
+        "pnl_usd": 0.01,
         "last_ai_eval_ts": 1792780963.8713284
       }
     },
     "logs": [
-      "[2026-10-23 14:40:36] Running portfolio evaluation cycle...",
-      "[2026-10-23 14:40:36] No positions currently held.",
-      "[2026-10-23 14:40:36] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 14:40:37] VWAP Filter: Skipping SOXL because price ($84.31) is BELOW session VWAP ($84.84).",
-      "[2026-10-23 14:41:37] Running portfolio evaluation cycle...",
-      "[2026-10-23 14:41:37] No positions currently held.",
-      "[2026-10-23 14:41:37] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 14:41:37] VWAP Filter: Skipping SOXL because price ($84.30) is BELOW session VWAP ($84.84).",
       "[2026-10-23 14:41:41] 🔥 Found momentum breakout: CRWD (+6.83%) @ $254.19. Executing AI-APPROVED BUY of $30.00...",
       "[2026-10-23 14:41:42] Buy order placed: {'data': {'order': {'id': '6adbaa43-5204-439d-b474-01c2fdbaf3f4', 'ref_id': '01a16a11-1640-7b5d-8c9f-f4d02902a3a6', 'instrument_id': '4b4d198e-fe71-487c-8e3b-584732a2bfaa', 'symbol': 'CRWD', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.118030', 'cumulative_quantity': '0.000000', 'price': '254.160000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '30.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-23T18:41:07.238258Z', 'last_transaction_at': '2026-10-23T18:41:07.238258Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
       "[2026-10-23 14:42:43] Running portfolio evaluation cycle...",
@@ -71,7 +63,15 @@
       "[2026-10-23 14:49:08] Running portfolio evaluation cycle...",
       "[2026-10-23 14:49:12] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $253.88 | PnL: -0.12% ($-0.04) | Peak: $254.20",
       "[2026-10-23 14:49:12] Available deployable cash ($120.13 of $132.28 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-23 14:49:13] VWAP Filter: Skipping SOXL because price ($84.56) is BELOW session VWAP ($84.84)."
+      "[2026-10-23 14:49:13] VWAP Filter: Skipping SOXL because price ($84.56) is BELOW session VWAP ($84.84).",
+      "[2026-10-23 14:49:15] 🧠 [AI GATE] Buy of AMD VETOED by AI Brain (Confidence: 45%) | Thesis: AMD is showing strong momentum during regular hours supported by AI component catalyst headlines.",
+      "[2026-10-23 14:49:15] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-23 14:50:16] Running portfolio evaluation cycle...",
+      "[2026-10-23 14:50:16] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $254.25 | PnL: +0.02% ($+0.01) | Peak: $254.25",
+      "[2026-10-23 14:50:16] Available deployable cash ($120.13 of $132.28 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-23 14:50:17] VWAP Filter: Skipping SOXL because price ($84.83) is BELOW session VWAP ($84.84).",
+      "[2026-10-23 14:50:19] 🧠 [AI GATE] Buy of ORCL VETOED by AI Brain (Confidence: 45%) | Thesis: Oracle is experiencing conflicting high-profile analyst sentiment regarding its AI positioning alongside a minor intraday move without verified volume expansion data.",
+      "[2026-10-23 14:50:19] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
     ]
   },
   "coinbase": {
@@ -80,22 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.06851884120463,
-      "btc_price": 81318.0,
+      "btc_change_24h": 0.06989609338541,
+      "btc_price": 81334.6,
       "allow_alts": false,
       "allow_core": true,
       "reason": "BTC neutral +0.07% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 14:39:24] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 14:39:24] Macro Regime: NEUTRAL | BTC 24h: +0.30% | Alts Allowed: False",
-      "[2026-10-23 14:39:24] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:39:24] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 14:40:26] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 14:40:26] Macro Regime: NEUTRAL | BTC 24h: +0.27% | Alts Allowed: False",
-      "[2026-10-23 14:40:26] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:40:26] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 14:41:27] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 14:41:28] Macro Regime: NEUTRAL | BTC 24h: +0.31% | Alts Allowed: False",
       "[2026-10-23 14:41:28] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +119,15 @@
       "[2026-10-23 14:48:40] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 14:48:40] Macro Regime: NEUTRAL | BTC 24h: +0.07% | Alts Allowed: False",
       "[2026-10-23 14:48:40] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 14:48:40] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-23 14:48:40] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 14:49:42] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 14:49:42] Macro Regime: NEUTRAL | BTC 24h: +0.13% | Alts Allowed: False",
+      "[2026-10-23 14:49:42] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 14:49:42] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 14:50:43] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 14:50:44] Macro Regime: NEUTRAL | BTC 24h: +0.07% | Alts Allowed: False",
+      "[2026-10-23 14:50:44] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 14:50:44] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -136,11 +136,11 @@
       "symbol": "CRWD",
       "shares": 0.118017,
       "entry_price": 254.1921,
-      "current_price": 254.15,
-      "value_usd": 29.99,
-      "pnl_pct": -0.02,
-      "pnl_usd": -0.0,
-      "trailing_info": "Peak: $254.20 | Trailing 3.5%"
+      "current_price": 254.25,
+      "value_usd": 30.01,
+      "pnl_pct": 0.02,
+      "pnl_usd": 0.01,
+      "trailing_info": "Peak: $254.25 | Trailing 3.5%"
     }
   ],
   "closed_trades": [
@@ -1250,36 +1250,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "AMD",
-      "current_price": 519.5,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "AMD is trading at an elevated absolute price relative to our deployable cash of $150.13, making fractional scaling inefficient and failing to meet our strict 75% confidence threshold due to lack of detailed volume confirmation metrics.",
-      "risk_factors": "High single-share equity price prevents optimal position sizing under strict capital limits, exposing the account to excessive concentration risk.",
-      "timestamp": "2026-10-23T10:38:46.861049"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "TQQQ",
-      "current_price": 67.437,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "TQQQ is showing intraday upside momentum above VWAP during regular market hours, but lacks complete multi-timeframe volume confirmation and comprehensive risk metrics to meet the elite 75% confidence threshold.",
-      "risk_factors": "Leveraged ETF decay and swift intraday reversal risk if broader equity market breadth fades near current highs.",
-      "timestamp": "2026-10-23T10:51:21.713511"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "SOXL",
       "current_price": 85.03,
       "approved": false,
@@ -1846,6 +1816,36 @@
       "primary_thesis": "The macro regime explicitly forbids altcoin trades with 'allow_alts': false, and relative volume is severely depressed at 0.32 against required thresholds.",
       "risk_factors": "Low volume mean-reversion in a choppy altcoin market risks severe downside slippage under macro suppression.",
       "timestamp": "2026-10-23T12:34:59.444834"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 9.1325,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 10.0,
+      "primary_thesis": "AVAX fails macro constraints (allow_alts is false during a neutral BTC chop regime) and lacks volume with an RVOL of 0.38 against required thresholds.",
+      "risk_factors": "Low volume churn in a suppressed altcoin market regime leading to potential capital drain and downside drift.",
+      "timestamp": "2026-10-23T12:36:05.734776"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "ORCL",
+      "current_price": 127.53,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.5,
+      "primary_thesis": "ORCL is showing positive momentum during regular hours above VWAP, but lacks explicit volume confirmation metrics to meet our stringent institutional breakout threshold.",
+      "risk_factors": "Potential lack of sufficient relative volume expansion could lead to a failed continuation near current levels.",
+      "timestamp": "2026-10-23T12:36:50.928047"
     }
   ],
   "performance": {
@@ -1854,10 +1854,10 @@
     "losing_trades": 46,
     "total_trades": 110,
     "profit_factor": "1.0",
-    "max_drawdown_pct": 13.290471979194447,
+    "max_drawdown_pct": 13.3,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.07402055,
+    "current_equity": 325.07756106,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T14:49:14.979730"
+  "snapshot_synced_at": "2026-10-23T14:50:48.408323"
 }
