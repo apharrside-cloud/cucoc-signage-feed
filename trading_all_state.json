@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T11:52:53.229947",
+  "timestamp": "2026-10-23T11:54:26.841108",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.08,
@@ -19,11 +19,6 @@
     "cash": 162.28,
     "positions": {},
     "logs": [
-      "[2026-10-23 11:38:58] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 11:39:58] Running portfolio evaluation cycle...",
-      "[2026-10-23 11:39:58] No positions currently held.",
-      "[2026-10-23 11:39:58] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 11:40:33] 🧠 [AI GATE] Buy of AMD VETOED by AI Brain (Confidence: 45%) | Thesis: Insufficient volume confirmation and lack of deep order book metrics to justify a chase at current elevated levels.",
       "[2026-10-23 11:40:33] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
       "[2026-10-23 11:41:33] Running portfolio evaluation cycle...",
       "[2026-10-23 11:41:33] No positions currently held.",
@@ -58,7 +53,12 @@
       "[2026-10-23 11:51:39] Running portfolio evaluation cycle...",
       "[2026-10-23 11:51:39] No positions currently held.",
       "[2026-10-23 11:51:39] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-23 11:52:39] Running portfolio evaluation cycle..."
+      "[2026-10-23 11:52:39] Running portfolio evaluation cycle...",
+      "[2026-10-23 11:52:54] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
+      "[2026-10-23 11:52:54] Failed to fetch portfolio data.",
+      "[2026-10-23 11:53:54] Running portfolio evaluation cycle...",
+      "[2026-10-23 11:53:58] No positions currently held.",
+      "[2026-10-23 11:53:58] Available deployable cash ($150.13 of $162.28 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -67,22 +67,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.00843069642338,
-      "btc_price": 81494.8,
+      "btc_change_24h": -0.09142139672668,
+      "btc_price": 81481.84,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral +0.01% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.09% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "<li>Your IP address: 2603:6080:ca40:12a7:dc73:a879:e0e8:b77c</li>",
-      "<li>Error reference number: 522</li>",
-      "<li>Cloudflare Location: Atlanta</li>",
-      "</ul>",
-      "</div> ::CLOUDFLARE_ERROR_1000S_BOX:: ::ALWAYS_ONLINE_NO_COPY_BOX::</div>",
-      "<div class=\"cds-large-llfbhh8 cds-light-l1k3tbpe\" style=\"--foreground:rgb(var(--gray100));--foreground-muted:rgb(var(--gray60));--background:rgb(var(--gray0));--background-alternate:rgb(var(--gray5));--background-inverse:rgb(var(--gray100));--background-overlay:rgba(var(--gray80),0.33);--line:rgba(var(--gray60),0.2);--line-heavy:rgba(var(--gray60),0.66);--primary:rgb(var(--blue60));--primary-wash:rgb(var(--blue0));--primary-foreground:rgb(var(--gray0));--negative:rgb(var(--red60));--negative-foreground:rgb(var(--gray0));--negative-wash:rgb(var(--red0));--positive:rgb(var(--green60));--positive-foreground:rgb(var(--gray0));--secondary:rgb(var(--gray5));--secondary-foreground:rgb(var(--gray100));--transparent:rgba(var(--gray0),0);--warning:rgb(var(--yellow50));--warning-foreground:rgb(var(--orange40))\"><div data-testid=\"app-level-error-page\" class=\"Flex-sc-9cfb0d13-0 GlobalPageFallback__FullScreenLayout-sc-246bd97a-0 iBjncv lnzaiu\"><div class=\"cds-flex-f1g67tkn cds-center-ca5ylan cds-column-ci8mx7v cds-3-_1ol1258 cds-3-_1ti0n00\" style=\"max-width:400px\"><div class=\"cds-flex-f1g67tkn cds-3-_1mvq9l2\"><img alt=\"\" height=\"240\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNDAgMjQxIj48cGF0aCBmaWxsPSIjQ0VEMkRCIiBkPSJNMTYwLjUxNSAxODBoLTgxLjA0Yy0yNC4zMzMgMC00Ni42MTUtMTQuNzE4LTU3LjcyMS0zOC4xMjRMMCA5NmgyNDBsLTIxLjc2NCA0NS44NzZDMjA3LjEzIDE2NS4yODIgMTg0Ljg0OCAxODAgMTYwLjUxNSAxODBaIi8+PHBhdGggZmlsbD0iI0NFRDJEQiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJtMTI2LjIwNCAxMzkuNDEtMi44Ny0xMS40MWgtNi43MzFsLTIuODY5IDExLjQxLTYuMTQ4IDEuMzE4LTcuMjMzLTkuMjUxLTYuMjA2IDIuNzc2IDEuOTk1IDExLjU5Ny01LjA4NiAzLjcyMi0xMC4zNTktNS40ODQtNC41NSA1LjA3NSA2LjUxIDkuNzc3LTMuMTUgNS40ODMtMTEuNjc3LS43ODEtMi4xIDYuNDk4IDkuOTA0IDYuMjc3LS42NTMgNi4yODgtMTAuOTg5IDQuMDYuNzEyIDYuNzkgMTEuNTg0IDEuNjY4IDEuOTQ4IDYuMDItOC4zODggOC4yMDIgMy4zOTUgNS45MTUgMTEuMjU3LTMuMjA4IDQuMiA0LjcwMS00LjM0IDEwLjkyIDUuNDk1IDQuMDE0IDguOTgyLTcuNTM3IDUuNzUxIDIuNTc4LjQ0MyAxMS43NiA2LjY1IDEuNDEyIDUuMTY3LTEwLjU1OGg2LjI4OEwxMjguMzA0IDI0MGw2LjY0OS0xLjQxMi40NDMtMTEuNzYgNS43NTItMi41NzggOC45ODIgNy41MzcgNS40OTQtNC4wMTQtNC4zNTEtMTAuOTIgNC4yLTQuNzAxIDExLjI1NyAzLjIwOCAzLjM5NS01LjkxNS04LjM4OC04LjIwMiAxLjk0OC02LjAyIDExLjU4NC0xLjY2OC43MTItNi43OS0xMC45ODktNC4wNi0uNjU0LTYuMjg4IDkuOTA0LTYuMjc3LTIuMDk5LTYuNDk4LTExLjY3Ny43ODEtMy4xNS01LjQ4MyA2LjUwOS05Ljc3Ny00LjU0OS01LjA3NS0xMC4zNTkgNS40ODQtNS4wODYtMy43MjIgMS45OTQtMTEuNTk3LTYuMjE3LTIuNzc2LTcuMjMzIDkuMjUxLTYuMTQ4LTEuMzE4aC0uMDIzWk0xNTAuMzA1IDE4NGMwIDE2Ljc1My0xMy41NzkgMzAuMzMzLTMwLjMzIDMwLjMzMy0xNi43NTIgMC0zMC4zMy0xMy41OC0zMC4zMy0zMC4zMzNzMTMuNTc4LTMwLjMzMyAzMC4zMy0zMC4zMzNjMTYuNzUxIDAgMzAuMzMgMTMuNTggMzAuMzMgMzAuMzMzWiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZmlsbD0iIzAwNTJGRiIgZD0iTTE1MC4wNDggMTgwaDEwLjQ3YzEuNDAxIDAgMi43OTYtLjA0OSA0LjE4Mi0uMTQ1bC0uMzU4LTMuNDM4IDkuOTA0LTYuMjc3LTIuMDk5LTYuNDk4LTExLjY3Ny43ODEtMy4xNS01LjQ4MyA2LjUwOS05Ljc3Ny00LjU0OS01LjA3NS0xMC4zNTkgNS40ODQtNS4wODYtMy43MjIgMS45OTQtMTEuNTk3LTYuMjE3LTIuNzc2LTcuMjMzIDkuMjUxLTYuMTQ4LTEuMzE4aC0uMDIzbC0yLjg3LTExLjQxaC02LjczMWwtMi44NjkgMTEuNDEtNi4xNDggMS4zMTgtNy4yMzMtOS4yNTEtNi4yMDYgMi43NzYgMS45OTUgMTEuNTk3LTUuMDg2IDMuNzIyLTEwLjM1OS01LjQ4NC00LjU1IDUuMDc1IDYuNTEgOS43NzctMy4xNSA1LjQ4My0xMS42NzctLjc4MS0yLjEgNi40OTggOS45MDQgNi4yNzctLjM1NyAzLjQzN2E2MC4zMyA2MC4zMyAwIDAgMCA0LjE5Ny4xNDZIODkuOTFjMS45NTctMTQuODYzIDE0LjY3My0yNi4zMzMgMzAuMDY5LTI2LjMzMyAxNS4zOTYgMCAyOC4xMTEgMTEuNDcgMzAuMDY5IDI2LjMzM1oiLz48cGF0aCBmaWxsPSIjQ0VEMkRCIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xODYuMzcgNzAuMTcgMTg0LjU2NyA2M2gtNC4yMTJsLTEuODAzIDcuMTctMy44NTQuODItNC41MzItNS44MS0zLjg4NCAxLjc0IDEuMjQ1IDcuMjktMy4xODcgMi4zNC02LjQ4NC0zLjQ1LTIuODQ4IDMuMTkgNC4wNzMgNi4xNS0xLjk3MiAzLjQ0LTcuMzEtLjQ5LTEuMzE1IDQuMDkgNi4xOTUgMy45NC0uNDA4IDMuOTUtNi44NzMgMi41NS40NDkgNC4yNyA3LjI1IDEuMDUgMS4yMTUgMy43OC01LjI0OCA1LjE1IDIuMTMxIDMuNzIgNy4wNTEtMi4wMiAyLjYzIDIuOTUtMi43MTkgNi44NyAzLjQzNiAyLjUyIDUuNjI3LTQuNzMgMy41OTUgMS42Mi4yNzkgNy4zOSA0LjE2My44OSAzLjIzNy02LjYzaDMuOTM0bDMuMjM3IDYuNjMgNC4xNjMtLjg5LjI3OS03LjM5IDMuNTk1LTEuNjIgNS42MjcgNC43MyAzLjQzNi0yLjUyLTIuNzE5LTYuODcgMi42My0yLjk1IDcuMDQxIDIuMDIgMi4xMzEtMy43Mi01LjI0OC01LjE1IDEuMjE1LTMuNzggNy4yNS0xLjA1LjQ0OS00LjI3LTYuODcyLTIuNTUtLjQwOS0zLjk1IDYuMTk1LTMuOTQtMS4zMTUtNC4wOS03LjMxLjQ5LTEuOTcyLTMuNDQgNC4wNzMtNi4xNS0yLjg0OC0zLjE5LTYuNDg0IDMuNDUtMy4xODctMi4zNCAxLjI0NS03LjI5LTMuODg0LTEuNzQtNC41MzEgNS44MS0zLjg1NS0uODJoLjAxWm02LjI5NSAyNi44OGMwIDUuNjgtNC41NjIgMTAuMjktMTAuMTk5IDEwLjI5cy0xMC4xODktNC42MS0xMC4xODktMTAuMjljMC01LjY4IDQuNTYyLTEwLjI5IDEwLjE4OS0xMC4yOXMxMC4xOTkgNC42MSAxMC4xOTkgMTAuMjlaTTc4LjIyOSAwbDUuNjM1LjAyNiAxLjI0MiA5LjU2NSA1LjYxLjc0NyAzLjY4My04Ljk1IDUuNDYgMS40NC0xLjE4MSA5LjYwOSA1LjI0MSAyLjExNyA1Ljc3NS03Ljc0NyA0LjkyNiAyLjc1OC0zLjUxNyA5LjAyIDQuNTUgMy4zNzMgNy41MTYtNi4wNTIgNC4wOTUgMy45MTgtNS42MzUgNy44NTIgMy41NzkgNC40IDguNzc2LTMuOTk2IDMuMDAxIDQuODEzLTcuNDAyIDYuMjAxIDIuMzcxIDUuMTU2IDkuNDk0LTEuNjcgMS43MTUgNS40Mi04LjcwNiA0LjE1NSAxLjAyMyA1LjU4NiA5LjYwOC43NTUuMzI0IDUuNjc0LTkuNDUgMS44NDQtLjM4NSA1LjY3NCA5LjEwOCAzLjEzNi0xLjA5MyA1LjU2OS05LjYxNy0uNTcxLTEuNzc2IDUuMzkyIDguMDU5IDUuMzE0LTIuNDMzIDUuMTItOS4xNy0yLjk1OS0zLjA1NCA0Ljc3OCA2LjQ4NCA3LjE2Ny0zLjYzMSA0LjM1Ny04LjE0Ni01LjE1Ni00LjEzOSAzLjg2NCA0LjUxNSA4LjU1NS00LjU4NSAzLjMxMi02LjYyNC03LjAzNi00Ljk3IDIuNzE0IDIuMjQ5IDkuNDE2LTUuMjU5IDIuMDY0LTQuNjY0LTguNDc2LTUuNDc3IDEuMzg4LS4xNCA5LjY4OC01LjYuNjc2LTIuNDMzLTkuMzcyLTUuNjUyLS4wMjYtMi41MzggOS4zNDUtNS41OS0uNzQ2LS4wMzYtOS42ODgtNS40Ni0xLjQ0MS00Ljc2OSA4LjQxNS01LjIzMi0yLjExNyAyLjM2Mi05LjM4OS00Ljk0My0yLjc2Ny02LjY5NCA2Ljk1Ni00LjU1LTMuMzY0IDQuNjExLTguNTAyLTQuMDk1LTMuOTE3LTguMjA3IDUuMDU5LTMuNTctNC4zOTIgNi41NjItNy4wNzktMy4wMDEtNC44MTMtOS4yMDUgMi44NTQtMi4zNzItNS4xNDYgOC4xMTItNS4yMTgtMS43MTUtNS40MTktOS42MjUuNDU3LTEuMDI0LTUuNTg2IDkuMTQ0LTMuMDMtLjMyNC01LjY3NC05LjQzMy0xLjk1OS4zOTQtNS42NjUgOS42MTctLjY0MSAxLjA5My01LjU3OC04LjY1NC00LjI2IDEuNzc3LTUuMzg0IDkuNDY3IDEuNzgzIDIuNDMzLTUuMTI5LTcuMzI0LTYuMjg5IDMuMDYzLTQuNzc4IDguNzMyIDQuMDg0IDMuNjMxLTQuMzU2LTUuNTM4LTcuOTE0IDQuMTM4LTMuODU2IDcuNDM4IDYuMTQ5IDQuNTg1LTMuMzEyLTMuNDEzLTkuMDU1IDQuOTctMi43MDUgNS42ODggNy44MTcgNS4yNTktMi4wNjQtMS4wNjgtOS42MjcgNS40NzgtMS4zNzkgMy41NyA4Ljk4NiA1LjYxNy0uNjc3TDc4LjIzIDBaTTQ5LjEgOTMuNDk3QTQyLjUzNCA0Mi41MzQgMCAwIDEgMzguMzIgNjcuMmwyNC4xNzYgMS4yMTJhMTguNTM5IDE4LjUzOSAwIDAgMCAyLjg5NyA3LjAxTDQ5LjEwOSA5My40ODdsLS4wMDkuMDA5Wm0xMy4zOTYtMzEuOTg4TDM4LjMzIDYyLjcyYTQyLjU3MiA0Mi41NzIgMCAwIDEgMTAuODQtMjYuMjI2bDE2LjIyMyAxNy45OTdhMTguNTk4IDE4LjU5OCAwIDAgMC0yLjg5NyA3LjAwOXYuMDA5Wk01Mi4yNDEgOTYuNjY4YzcuMDEgNi4zNjggMTYuMTQ0IDEwLjQxNyAyNi4yMDcgMTAuOTM1TDc3LjIzIDgzLjIxMmExOC4zOTIgMTguMzkyIDAgMCAxLTYuOTgyLTIuOTA3TDUyLjI0IDk2LjY1OXYuMDA5Wk03MC4yNSA0OS42MTYgNTIuMzIgMzMuMzMyYzctNi4zMjQgMTYuMS0xMC4zNDYgMjYuMTI4LTEwLjg2NWwtMS4yMDggMjQuMjVhMTguMzk0IDE4LjM5NCAwIDAgMC02Ljk4MiAyLjkwOGwtLjAxLS4wMDlabTEzLjg2OS0yLjkwN2ExOC4zOTUgMTguMzk1IDAgMCAxIDYuOTgyIDIuOTA3bDE3LjkyLTE2LjI3NWMtNi45OTEtNi4zMzMtMTYuMDkxLTEwLjM1NS0yNi4xMS0xMC44ODJMODQuMTE4IDQ2Ljd2LjAwOVptMTEuODQ3IDcuNzlhMTguNTk4IDE4LjU5OCAwIDAgMSAyLjg5NiA3LjAxbDI0LjE0MiAxLjIxMmE0Mi41NiA0Mi41NiAwIDAgMC0xMC44MjQtMjYuMjFMOTUuOTc0IDU0LjVoLS4wMDlabTAgMjAuOTMxYTE4LjU5NyAxOC41OTcgMCAwIDAgMi44OTYtNy4wMDlsMjQuMTQyLTEuMjEyYTQyLjU0NyA0Mi41NDcgMCAwIDEtMTAuNzcyIDI2LjI4TDk1Ljk1NiA3NS40M2guMDFaTTkxLjEgODAuMzA1bDE4IDE2LjM0NWMtNyA2LjM2OC0xNi4xMzUgMTAuNDI2LTI2LjE5OCAxMC45NTNsMS4yMTctMjQuMzkxYTE4LjM5MyAxOC4zOTMgMCAwIDAgNi45ODItMi45MDdabS42NzQtMTUuMzQ1YzAgNi4xNTgtNC45NyAxMS4xNDYtMTEuMTA0IDExLjE0Ni02LjEzNCAwLTExLjEwNC00Ljk4OC0xMS4xMDQtMTEuMTQ1IDAtNi4xNTcgNC45Ny0xMS4xNDYgMTEuMTA0LTExLjE0NiA2LjEzNCAwIDExLjEwNCA0Ljk4OSAxMS4xMDQgMTEuMTQ1WiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PHBhdGggZmlsbD0iIzAwNTJGRiIgZD0ibTE1NC40MTIgOTYtLjE0MiAxLjM3LTYuODcyIDIuNTUuNDQ5IDQuMjcgNy4yNSAxLjA1IDEuMjE1IDMuNzgtNS4yNDkgNS4xNSAyLjEzMiAzLjcyIDcuMDUxLTIuMDIgMi42MyAyLjk1LTIuNzE5IDYuODcgMy40MzYgMi41MiA1LjYyNy00LjczIDMuNTk1IDEuNjIuMjc5IDcuMzkgNC4xNjMuODkgMy4yMzctNi42M2gzLjkzNGwzLjIzNyA2LjYzIDQuMTYzLS44OS4yNzktNy4zOSAzLjU5NS0xLjYyIDUuNjI3IDQuNzMgMy40MzYtMi41Mi0yLjcxOS02Ljg3IDIuNjMtMi45NSA3LjA0MSAyLjAyIDIuMTMxLTMuNzItNS4yNDgtNS4xNSAxLjIxNS0zLjc4IDcuMjUtMS4wNS40NDktNC4yNy02Ljg3My0yLjU1TDIxMC41IDk2aC0xNy44ODhjLjAzNS4zNDUuMDUyLjY5NS4wNTIgMS4wNSAwIDUuNjgtNC41NjEgMTAuMjktMTAuMTk4IDEwLjI5LTUuNjM3IDAtMTAuMTg5LTQuNjEtMTAuMTg5LTEwLjI5IDAtLjM1NS4wMTgtLjcwNS4wNTMtMS4wNWgtMTcuOTE4Wm0tMjcuODc4IDAtLjkzOCAxLjQ2NyA2LjQ4NCA3LjE2Ny0zLjYzMSA0LjM1Ny04LjE0Ni01LjE1Ni00LjEzOSAzLjg2NCA0LjUxNSA4LjU1NS00LjU4NSAzLjMxMi02LjYyNC03LjAzNi00Ljk3IDIuNzE0IDIuMjQ5IDkuNDE2LTUuMjU5IDIuMDY0LTQuNjY0LTguNDc2LTUuNDc3IDEuMzg4LS4xNCA5LjY4OC01LjYuNjc2LTIuNDMzLTkuMzcyLTUuNjUyLS4wMjYtMi41MzggOS4zNDUtNS41OS0uNzQ2LS4wMzYtOS42ODgtNS40Ni0xLjQ0MS00Ljc2OSA4LjQxNS01LjIzMi0yLjExNyAyLjM2Mi05LjM4OS00Ljk0NC0yLjc2Ny02LjY5MyA2Ljk1Ni00LjU1LTMuMzY0IDQuNjExLTguNTAyLTQuMDk1LTMuOTE3LTguMjA4IDUuMDU5LTMuNTctNC4zOTIgNi41NjMtNy4wNzktLjYwOC0uOTc1aDE4LjE5NWwtLjcyNi42NTl2LjAwOWM3LjAxIDYuMzY4IDE2LjE0NCAxMC40MTcgMjYuMjA3IDEwLjkzNUw3Ny44NjQgOTZoNS42MWwtLjU3OCAxMS42MDNjMTAuMDYzLS41MjcgMTkuMTk4LTQuNTg1IDI2LjE5OC0xMC45NTNsLS43MTYtLjY1aDE4LjE1NloiLz48Y2lyY2xlIGN4PSIxMTkuOTkiIGN5PSIxODQiIHI9IjM0IiBmaWxsPSIjRkZGRkZGIi8+PHBhdGggZmlsbD0iI0VENzAyRiIgZD0ibTExOS45ODkgMTU1LjgyOSAyNS45OTggNDVIOTMuOTkybDI1Ljk5Ny00NVoiLz48cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMTIxLjUzIDE4OC44MjloLTNsLTEuNTQ2LTE5aDZsLTEuNDU0IDE5Wk0xMTkuOTg0IDE5NmMxLjM2NCAwIDIuNS0xLjE0MyAyLjUtMi41cy0xLjEzNi0yLjUtMi41LTIuNWMtMS4zNjMgMC0yLjUgMS4xNDMtMi41IDIuNXMxLjEzNyAyLjUgMi41IDIuNVoiLz48L3N2Zz4=\" width=\"240\" /></div><h3 class=\"cds-typographyResets-t1xhpuq2 cds-title3-t37r1y cds-foreground-f1yzxzgu cds-transition-txjiwsi cds-center-c1avs9t3 cds-1-_9w3lns\">Something&#x27;s not right</h3><p class=\"cds-typographyResets-t1xhpuq2 cds-body-bb7l4gg cds-foreground-f1yzxzgu cds-transition-txjiwsi cds-center-c1avs9t3 cds-3-_1mvq9l2\">We&#x27;re looking into it and expect our usual service to return soon.</p><a class=\"cds-link cds-link-l17zyfmx\" href=\"https://status.coinbase.com\"><span class=\"cds-typographyResets-t1xhpuq2 cds-textInherit-t1yzihzw cds-primary-piuvss6 cds-transition-txjiwsi cds-start-s1muvu8a cds-link--container\">Check status</span></a></div></div></div>",
-      "</body>",
-      "</html>",
       "[2026-10-23 11:38:19] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 11:38:33] Macro Regime: NEUTRAL | BTC 24h: -0.18% | Alts Allowed: False",
       "[2026-10-23 11:38:33] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -114,7 +106,15 @@
       "[2026-10-23 11:51:58] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 11:52:02] Macro Regime: NEUTRAL | BTC 24h: +0.01% | Alts Allowed: False",
       "[2026-10-23 11:52:02] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 11:52:02] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-23 11:52:02] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 11:53:03] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 11:53:04] Macro Regime: NEUTRAL | BTC 24h: -0.09% | Alts Allowed: False",
+      "[2026-10-23 11:53:04] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 11:53:04] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 11:54:10] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 11:54:10] Macro Regime: NEUTRAL | BTC 24h: -0.09% | Alts Allowed: False",
+      "[2026-10-23 11:54:10] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 11:54:10] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [],
@@ -2974,5 +2974,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T11:52:52.881144"
+  "snapshot_synced_at": "2026-10-23T11:54:26.546845"
 }
