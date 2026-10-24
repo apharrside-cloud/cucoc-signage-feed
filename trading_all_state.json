@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T05:36:54.504832",
+  "timestamp": "2026-10-24T05:38:27.803404",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -28,12 +28,10 @@
         "current_price": 257.58,
         "pnl_pct": 1.33,
         "pnl_usd": 0.4,
-        "last_ai_eval_ts": 1792833425.2642722
+        "last_ai_eval_ts": 1792834647.9235446
       }
     },
     "logs": [
-      "[2026-10-24 04:01:21] Running portfolio evaluation cycle...",
-      "[2026-10-24 04:01:21] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 04:06:25] Running portfolio evaluation cycle...",
       "[2026-10-24 04:06:40] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
       "[2026-10-24 04:06:40] Failed to fetch portfolio data.",
@@ -71,7 +69,9 @@
       "[2026-10-24 05:27:08] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 05:32:08] Running portfolio evaluation cycle...",
       "[2026-10-24 05:32:23] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
-      "[2026-10-24 05:32:23] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
+      "[2026-10-24 05:32:23] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
+      "[2026-10-24 05:37:23] Running portfolio evaluation cycle...",
+      "[2026-10-24 05:37:27] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
@@ -80,17 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.30799556382087,
-      "btc_price": 80436.52,
+      "btc_change_24h": -1.3573450411931,
+      "btc_price": 80438.37,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.31% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.36% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-24 05:23:29] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-24 05:24:29] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-24 05:24:29] Macro Regime: RISK_OFF | BTC 24h: -1.37% | Alts Allowed: False",
       "[2026-10-24 05:24:29] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-24 05:25:30] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-24 05:25:30] Macro Regime: RISK_OFF | BTC 24h: -1.36% | Alts Allowed: False",
@@ -127,7 +124,10 @@
       "[2026-10-24 05:35:35] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-24 05:36:36] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-24 05:36:36] Macro Regime: RISK_OFF | BTC 24h: -1.31% | Alts Allowed: False",
-      "[2026-10-24 05:36:36] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-24 05:36:36] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-24 05:37:36] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-24 05:37:36] Macro Regime: RISK_OFF | BTC 24h: -1.36% | Alts Allowed: False",
+      "[2026-10-24 05:37:36] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-24T05:36:54.228958"
+  "snapshot_synced_at": "2026-10-24T05:38:27.493065"
 }
