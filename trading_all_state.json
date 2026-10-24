@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T20:02:47.776849",
+  "timestamp": "2026-10-23T20:04:21.148557",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -88,13 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 19:55:18] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 19:55:18] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 19:56:19] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 19:56:19] Macro Regime: NEUTRAL | BTC 24h: -0.30% | Alts Allowed: False",
-      "[2026-10-23 19:56:19] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 19:56:19] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 19:57:20] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 19:57:21] Macro Regime: NEUTRAL | BTC 24h: -0.30% | Alts Allowed: False",
       "[2026-10-23 19:57:21] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 19:57:21] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
@@ -127,7 +120,14 @@
       "[2026-10-23 20:02:35] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 20:02:35] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 20:02:35] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=37.7 (chg -0.78%)!",
-      "[2026-10-23 20:02:38] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 35%) | Thesis: The macro regime explicitly suppresses altcoins with 'allow_alts': false due to chop conditions, and RVOL is weak at 1.01 against strict strategy mandates requiring RVOL > 1.5."
+      "[2026-10-23 20:02:38] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 35%) | Thesis: The macro regime explicitly suppresses altcoins with 'allow_alts': false due to chop conditions, and RVOL is weak at 1.01 against strict strategy mandates requiring RVOL > 1.5.",
+      "[2026-10-23 20:03:38] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 20:03:38] Macro Regime: NEUTRAL | BTC 24h: -0.25% | Alts Allowed: False",
+      "[2026-10-23 20:03:38] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 20:03:38] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 20:03:38] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=38.0 (chg -0.92%)!",
+      "[2026-10-23 20:03:39] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=37.8 (chg -0.24%)!",
+      "[2026-10-23 20:03:41] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 35%) | Thesis: RVOL is near zero at 0.02, completely failing all volume confirmation filters required for execution."
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 9.118,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX fails macro regime filters as altcoins are suppressed under neutral BTC conditions, and relative volume is severely depressed.",
-      "risk_factors": "RVOL of 0.11 fails all strict volume confirmation rules and macro rules explicitly forbid altcoin exposure in current chop regime.",
-      "timestamp": "2026-10-23T18:11:34.528116"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 9.113,
       "approved": false,
       "action": "REJECT",
@@ -1846,6 +1831,21 @@
       "primary_thesis": "AVAX is oversold with a mean-reversion setup, but macro and strategy rules explicitly prohibit altcoin purchases during neutral BTC chop regimes.",
       "risk_factors": "Macro regime filter blocks non-core altcoins due to suppression risks, and hourly trend remains strictly bearish.",
       "timestamp": "2026-10-23T18:52:50.882367"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 8.919,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 30,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 10.0,
+      "primary_thesis": "AVAX is displaying oversold conditions at $8.91 with an RSI of 24, but macro regime rules strictly restrict altcoin purchases due to a neutral/chop BTC status.",
+      "risk_factors": "Macro regime explicitly sets allow_alts to false ('Chop regime - alts suppressed to stop bull traps, only Core permitted').",
+      "timestamp": "2026-10-23T18:53:54.168776"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T20:02:47.473243"
+  "snapshot_synced_at": "2026-10-23T20:04:20.823513"
 }
