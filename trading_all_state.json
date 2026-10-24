@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T21:08:15.470549",
+  "timestamp": "2026-10-23T21:09:48.860178",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -88,16 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 21:00:47] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: BTC is in a neutral-to-bearish chop regime with hourly trend bearish and RSI at 30.2, failing to meet required momentum and volume filters for mean reversion.",
-      "[2026-10-23 21:01:47] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 21:01:47] Macro Regime: RISK_OFF | BTC 24h: -1.04% | Alts Allowed: False",
-      "[2026-10-23 21:01:47] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 21:02:48] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 21:02:48] Macro Regime: RISK_OFF | BTC 24h: -1.00% | Alts Allowed: False",
-      "[2026-10-23 21:02:48] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 21:03:48] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 21:03:49] Macro Regime: RISK_OFF | BTC 24h: -1.01% | Alts Allowed: False",
-      "[2026-10-23 21:03:49] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 21:04:52] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 21:04:52] Macro Regime: NEUTRAL | BTC 24h: -1.00% | Alts Allowed: False",
       "[2026-10-23 21:04:52] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +117,17 @@
       "[2026-10-23 21:08:11] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=29.1 (chg -1.28%)!",
       "[2026-10-23 21:08:11] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.4 (chg -1.15%)!",
       "[2026-10-23 21:08:11] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.9 (chg -0.50%)!",
-      "[2026-10-23 21:08:11] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=32.4 (chg -0.75%)!"
+      "[2026-10-23 21:08:11] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=32.4 (chg -0.75%)!",
+      "[2026-10-23 21:08:18] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: The asset exhibits extremely poor volume (RVOL 0.01) and a bearish hourly trend while macro rules explicitly suppress altcoins due to a neutral BTC chop regime.",
+      "[2026-10-23 21:09:18] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 21:09:18] Macro Regime: NEUTRAL | BTC 24h: -0.78% | Alts Allowed: False",
+      "[2026-10-23 21:09:18] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 21:09:18] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 21:09:19] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=30.5 (chg -1.31%)!",
+      "[2026-10-23 21:09:19] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.4 (chg -1.11%)!",
+      "[2026-10-23 21:09:19] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.9 (chg -0.53%)!",
+      "[2026-10-23 21:09:19] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=32.4 (chg -0.78%)!",
+      "[2026-10-23 21:09:24] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL is showing extremely weak relative volume (rvol 0.08) in a bearish hourly trend with suppressed macro altcoin conditions."
     ]
   },
   "positions": [
@@ -1250,36 +1250,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
-      "symbol": "BTC",
-      "current_price": 80823.21,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 40,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "BTC is in a bearish hourly trend and a neutral macrochop regime with negative 24h performance.",
-      "risk_factors": "RVOL at 1.34 fails strict minimum thresholds and hourly trend is bearish.",
-      "timestamp": "2026-10-23T19:02:22.369882"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
-      "current_price": 8.952,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 15,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX is currently in a bearish hourly trend with suppressed macro regime settings blocking altcoins.",
-      "risk_factors": "RVOL is 0.0, the broader macro regime explicitly disallows alts (allow_alts: false), and hourly trend is bearish.",
-      "timestamp": "2026-10-23T19:03:25.496011"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
       "symbol": "AVAX",
       "current_price": 8.943,
       "approved": false,
@@ -1846,6 +1816,36 @@
       "primary_thesis": "RSI is oversold at 31.9, but RVOL of 1.01 fails the strict minimum 1.5x volume expansion rule required for entry.",
       "risk_factors": "Hourly trend is bearish with declining momentum and lack of volume confirmation, increasing the risk of continuation lower.",
       "timestamp": "2026-10-23T19:44:49.382807"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "BTC",
+      "current_price": 80868.89,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "BTC is in a neutral chop regime with bearish hourly trend alignment and weak relative volume (RVOL 1.01).",
+      "risk_factors": "Fails multiple evolved rules requiring RVOL > 1.5 and confirming volume expansion for breakout/reversal entries.",
+      "timestamp": "2026-10-23T19:45:53.480851"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "BTC",
+      "current_price": 80937.32,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "BTC is in a neutral chop regime with bearish hourly trend alignment and weak relative volume (Rvol 1.01), failing mandatory volume and trend expansion rules.",
+      "risk_factors": "Low volume churn during a bearish hourly trend increases the probability of false breakdown or continuation of downward range-bound chop.",
+      "timestamp": "2026-10-23T19:46:56.902304"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T21:08:15.180307"
+  "snapshot_synced_at": "2026-10-23T21:09:48.540602"
 }
