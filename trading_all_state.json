@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T05:32:14.236027",
+  "timestamp": "2026-10-24T05:33:47.723556",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-24 03:56:20] Running portfolio evaluation cycle...",
-      "[2026-10-24 03:56:21] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 04:01:21] Running portfolio evaluation cycle...",
       "[2026-10-24 04:01:21] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 04:06:25] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-24 05:22:07] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 05:27:07] Running portfolio evaluation cycle...",
       "[2026-10-24 05:27:08] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-24 05:32:08] Running portfolio evaluation cycle..."
+      "[2026-10-24 05:32:08] Running portfolio evaluation cycle...",
+      "[2026-10-24 05:32:23] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
+      "[2026-10-24 05:32:23] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
     ]
   },
   "coinbase": {
@@ -80,20 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.22416636384448,
-      "btc_price": 80513.15,
+      "btc_change_24h": -1.21126778527572,
+      "btc_price": 80551.7,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.22% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.21% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-24 05:18:26] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-24 05:19:27] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-24 05:19:27] Macro Regime: RISK_OFF | BTC 24h: -1.46% | Alts Allowed: False",
-      "[2026-10-24 05:19:27] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-24 05:20:27] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-24 05:20:27] Macro Regime: RISK_OFF | BTC 24h: -1.44% | Alts Allowed: False",
       "[2026-10-24 05:20:27] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-24 05:21:28] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-24 05:21:28] Macro Regime: RISK_OFF | BTC 24h: -1.46% | Alts Allowed: False",
@@ -127,7 +121,13 @@
       "[2026-10-24 05:30:33] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-24 05:31:33] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-24 05:31:33] Macro Regime: RISK_OFF | BTC 24h: -1.22% | Alts Allowed: False",
-      "[2026-10-24 05:31:33] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-24 05:31:33] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-24 05:32:34] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-24 05:32:34] Macro Regime: RISK_OFF | BTC 24h: -1.20% | Alts Allowed: False",
+      "[2026-10-24 05:32:34] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-24 05:33:34] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-24 05:33:34] Macro Regime: RISK_OFF | BTC 24h: -1.21% | Alts Allowed: False",
+      "[2026-10-24 05:33:34] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-24T05:32:13.938672"
+  "snapshot_synced_at": "2026-10-24T05:33:47.439674"
 }
