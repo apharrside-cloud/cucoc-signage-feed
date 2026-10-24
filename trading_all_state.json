@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T22:26:03.762226",
+  "timestamp": "2026-10-23T22:27:37.512700",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -88,13 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 22:20:44] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 22:20:44] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-23 22:20:45] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=32.7 (chg -1.65%)!",
-      "[2026-10-23 22:20:45] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.1 (chg -0.75%)!",
-      "[2026-10-23 22:20:47] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
-      "[2026-10-23 22:21:47] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 22:21:47] Macro Regime: NEUTRAL | BTC 24h: -0.79% | Alts Allowed: False",
       "[2026-10-23 22:21:47] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 22:21:47] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 22:21:47] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=32.7 (chg -1.73%)!",
@@ -127,7 +120,14 @@
       "[2026-10-23 22:25:58] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 22:25:58] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=32.2 (chg -1.69%)!",
       "[2026-10-23 22:25:59] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=35.9 (chg -0.83%)!",
-      "[2026-10-23 22:26:01] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
+      "[2026-10-23 22:26:01] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-23 22:27:01] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 22:27:01] Macro Regime: NEUTRAL | BTC 24h: -0.93% | Alts Allowed: False",
+      "[2026-10-23 22:27:01] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 22:27:01] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 22:27:01] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=32.2 (chg -1.75%)!",
+      "[2026-10-23 22:27:02] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=35.9 (chg -0.93%)!",
+      "[2026-10-23 22:27:03] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "BTC",
-      "current_price": 80648.85,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "The strategy mode is mean reversion with a depressed RSI of 31.5, but volume is severely anemic (RVOL 0.43) failing all strict volume filter rules.",
-      "risk_factors": "Low relative volume, bearish hourly trend structure, and declining momentum profile indicate a lack of institutional sponsorship for a sustainable reversal.",
-      "timestamp": "2026-10-23T20:26:02.289393"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "BTC",
       "current_price": 80728.08,
       "approved": false,
       "action": "REJECT",
@@ -1846,6 +1831,21 @@
       "primary_thesis": "Rejecting SOL as macro regime suppresses alts ('allow_alts': false) and Relative Volume is severely depressed at 0.13.",
       "risk_factors": "Extremely low volume (RVOL 0.13) combined with a bearish hourly trend and strict macro regime restriction against altcoins.",
       "timestamp": "2026-10-23T21:21:19.949390"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 102.46,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 10,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 10.0,
+      "primary_thesis": "The market regime explicitly suppresses altcoins with 'allow_alts: false' and SOL exhibits extremely weak relative volume (Rvol 0.13) under bearish hourly trends.",
+      "risk_factors": "Low volume, macro prohibition on altcoin trading, and a bearish hourly trend with declining momentum increase the probability of a false breakdown or chop.",
+      "timestamp": "2026-10-23T21:22:24.930665"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T22:26:03.480591"
+  "snapshot_synced_at": "2026-10-23T22:27:37.182572"
 }
