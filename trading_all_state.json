@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T00:04:05.161889",
+  "timestamp": "2026-10-24T00:05:38.426014",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-23 22:23:49] Failed to fetch portfolio data.",
-      "[2026-10-23 22:28:49] Running portfolio evaluation cycle...",
       "[2026-10-23 22:29:11] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-23 22:34:11] Running portfolio evaluation cycle...",
       "[2026-10-23 22:34:11] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
@@ -71,7 +69,9 @@
       "[2026-10-23 23:54:42] Running portfolio evaluation cycle...",
       "[2026-10-23 23:54:46] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-23 23:59:48] Running portfolio evaluation cycle...",
-      "[2026-10-23 23:59:48] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-23 23:59:48] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-24 00:04:48] Running portfolio evaluation cycle...",
+      "[2026-10-24 00:04:49] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
@@ -88,13 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 23:55:31] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 23:55:31] Macro Regime: RISK_OFF | BTC 24h: -1.37% | Alts Allowed: False",
-      "[2026-10-23 23:55:31] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 23:56:31] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 23:56:32] Macro Regime: RISK_OFF | BTC 24h: -1.32% | Alts Allowed: False",
-      "[2026-10-23 23:56:32] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 23:57:32] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 23:57:32] Macro Regime: RISK_OFF | BTC 24h: -1.31% | Alts Allowed: False",
       "[2026-10-23 23:57:32] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 23:58:33] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -127,7 +120,14 @@
       "[2026-10-24 00:03:39] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-24 00:03:40] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=30.6 (chg -1.30%)!",
       "[2026-10-24 00:03:40] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.8 (chg -0.94%)!",
-      "[2026-10-24 00:03:42] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
+      "[2026-10-24 00:03:42] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-24 00:04:42] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-24 00:04:42] Macro Regime: NEUTRAL | BTC 24h: -0.99% | Alts Allowed: False",
+      "[2026-10-24 00:04:42] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-24 00:04:42] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-24 00:04:42] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=30.6 (chg -1.35%)!",
+      "[2026-10-24 00:04:43] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.8 (chg -0.99%)!",
+      "[2026-10-24 00:04:44] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "BTC",
-      "current_price": 80535.7,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "Although BTC is in a mean-reversion setup near oversold RSI levels, the hourly trend is bearish and RVOL of 1.26 fails to meet our strict 1.5x minimum threshold for high-probability entries.",
-      "risk_factors": "Bearish 1-hour trend alignment and insufficient volume expansion leave the asset vulnerable to continuing downside chop in a neutral macro regime.",
-      "timestamp": "2026-10-23T20:58:37.940376"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "BTC",
       "current_price": 80579.96,
       "approved": false,
       "action": "REJECT",
@@ -1846,6 +1831,21 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-23T21:44:10.399190"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 102.32,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-23T21:45:13.041442"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-24T00:04:04.864179"
+  "snapshot_synced_at": "2026-10-24T00:05:38.160152"
 }
