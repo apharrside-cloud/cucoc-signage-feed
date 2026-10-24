@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T21:45:36.485105",
+  "timestamp": "2026-10-23T21:47:09.721972",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -88,13 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 21:39:52] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.5 (chg -0.53%)!",
-      "[2026-10-23 21:39:52] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.0 (chg -0.60%)!",
-      "[2026-10-23 21:39:55] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: Macro regime explicitly suppresses altcoins with 'allow_alts': false, and relative volume is severely anemic at 0.25x against strict strategy requirements.",
-      "[2026-10-23 21:40:55] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 21:40:55] Macro Regime: NEUTRAL | BTC 24h: -0.67% | Alts Allowed: False",
-      "[2026-10-23 21:40:55] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 21:40:55] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 21:40:55] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=28.1 (chg -1.53%)!",
       "[2026-10-23 21:40:56] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.5 (chg -0.71%)!",
       "[2026-10-23 21:40:56] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.0 (chg -0.67%)!",
@@ -127,7 +120,14 @@
       "[2026-10-23 21:45:12] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-23 21:45:12] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=29.7 (chg -1.62%)!",
       "[2026-10-23 21:45:13] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=35.1 (chg -0.78%)!",
-      "[2026-10-23 21:45:14] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
+      "[2026-10-23 21:45:14] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-23 21:46:14] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 21:46:14] Macro Regime: NEUTRAL | BTC 24h: -0.86% | Alts Allowed: False",
+      "[2026-10-23 21:46:14] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 21:46:14] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 21:46:15] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=29.7 (chg -1.85%)!",
+      "[2026-10-23 21:46:15] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=35.1 (chg -0.86%)!",
+      "[2026-10-23 21:46:17] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "BTC",
-      "current_price": 80839.72,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "BTC is in a mean-reversion mode with weak volume confirmation (RVOL 0.94) and bearish hourly trend alignment.",
-      "risk_factors": "Low volume churn, sub-1.5 RVOL, and bearish 1-hour trend create high probability of continuation lower.",
-      "timestamp": "2026-10-23T19:40:25.953489"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "BTC",
       "current_price": 80861.62,
       "approved": false,
       "action": "REJECT",
@@ -1846,6 +1831,21 @@
       "primary_thesis": "AI Parsing/Network Exception: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-23T20:27:09.591017"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "BTC",
+      "current_price": 80766.8,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 35,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "BTC is in a neutral/chop regime with weak volume (rvol 0.56) and bearish hourly trend alignment, violating strict volume and trend filters.",
+      "risk_factors": "Low relative volume, bearish hourly trend, and RSI near oversold levels without bullish confirmation indicate high risk of continued chop or breakdown.",
+      "timestamp": "2026-10-23T20:28:13.613560"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T21:45:36.209166"
+  "snapshot_synced_at": "2026-10-23T21:47:09.440256"
 }
