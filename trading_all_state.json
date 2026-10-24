@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T16:27:25.896299",
+  "timestamp": "2026-10-24T16:28:59.343239",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -80,23 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.01057557917607,
-      "btc_price": 80443.34,
+      "btc_change_24h": -1.00840700038777,
+      "btc_price": 80464.96,
       "allow_alts": false,
       "allow_core": false,
       "reason": "BTC down -1.01% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-24 16:19:04] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 30%) | Thesis: ETH shows weak momentum and terrible volume (rvol 0.26), completely failing all evolved strategy volume and breakout filters.",
-      "[2026-10-24 16:20:04] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-24 16:20:05] Macro Regime: NEUTRAL | BTC 24h: -0.92% | Alts Allowed: False",
-      "[2026-10-24 16:20:05] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-24 16:20:05] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-24 16:20:05] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -2.00%)!",
-      "[2026-10-24 16:20:09] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH shows oversold conditions near support, but volume confirmation is severely lacking.",
-      "[2026-10-24 16:21:09] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-24 16:21:09] Macro Regime: NEUTRAL | BTC 24h: -0.90% | Alts Allowed: False",
       "[2026-10-24 16:21:09] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-24 16:21:09] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-24 16:21:10] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -2.01%)!",
@@ -127,7 +118,16 @@
       "[2026-10-24 16:26:31] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-24 16:26:31] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-24 16:26:32] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.0 (chg -2.01%)!",
-      "[2026-10-24 16:26:34] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 45%) | Thesis: ETH shows mean-reversion setup potential near oversold levels, but lacks the necessary volume confirmation."
+      "[2026-10-24 16:26:34] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 45%) | Thesis: ETH shows mean-reversion setup potential near oversold levels, but lacks the necessary volume confirmation.",
+      "[2026-10-24 16:27:34] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-24 16:27:35] Macro Regime: NEUTRAL | BTC 24h: -0.94% | Alts Allowed: False",
+      "[2026-10-24 16:27:35] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-24 16:27:35] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-24 16:27:35] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.0 (chg -1.99%)!",
+      "[2026-10-24 16:27:38] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 45%) | Thesis: ETH is currently in a mean-reversion mode with very weak volume (RVOL 0.3) failing to clear required volume thresholds for entry.",
+      "[2026-10-24 16:28:38] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-24 16:28:38] Macro Regime: RISK_OFF | BTC 24h: -1.01% | Alts Allowed: False",
+      "[2026-10-24 16:28:38] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
-      "current_price": 102.62,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-24T00:01:35.654060"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SOL",
       "current_price": 102.68,
       "approved": false,
       "action": "REJECT",
@@ -1846,6 +1831,21 @@
       "primary_thesis": "SOL is showing oversold mean-reversion conditions on the hourly chart with an RSI of 26.8, but fails macro and volume filters.",
       "risk_factors": "RVOL is critically low at 0.51, macro regime suppresses altcoins ('allow_alts': false), and hourly trend is firmly bearish.",
       "timestamp": "2026-10-24T03:54:32.892923"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 101.83,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 30,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "SOL is showing oversold conditions with an RSI of 25.9, but macro regime filters ('allow_alts': false) explicitly suppress altcoin exposure during current market conditions.",
+      "risk_factors": "Low relative volume (RVOL 0.55), bearish hourly trend, and macro prohibition against altcoins present excessive counter-trend chop risk.",
+      "timestamp": "2026-10-24T04:01:43.254275"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-24T16:27:25.568792"
+  "snapshot_synced_at": "2026-10-24T16:28:59.016529"
 }
