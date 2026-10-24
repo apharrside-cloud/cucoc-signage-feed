@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T10:24:45.694286",
+  "timestamp": "2026-10-24T10:26:19.360405",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -28,13 +28,10 @@
         "current_price": 257.58,
         "pnl_pct": 1.33,
         "pnl_usd": 0.4,
-        "last_ai_eval_ts": 1792850992.008807
+        "last_ai_eval_ts": 1792851901.7932055
       }
     },
     "logs": [
-      "[2026-10-24 08:43:56] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-24 08:48:56] Running portfolio evaluation cycle...",
-      "[2026-10-24 08:48:57] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 08:54:02] Running portfolio evaluation cycle...",
       "[2026-10-24 08:54:03] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 08:59:03] Running portfolio evaluation cycle...",
@@ -71,7 +68,10 @@
       "[2026-10-24 10:14:59] Running portfolio evaluation cycle...",
       "[2026-10-24 10:15:00] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 10:20:00] Running portfolio evaluation cycle...",
-      "[2026-10-24 10:20:01] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-24 10:20:01] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-24 10:25:01] Running portfolio evaluation cycle...",
+      "[2026-10-24 10:25:01] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-24 10:25:09] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is near peak profit (+1.33%) during regular market hours; locking in gains by tightening the stop to +1.0% protects capital against potential intraday resistance."
     ]
   },
   "coinbase": {
@@ -80,17 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.40286827321785,
-      "btc_price": 80155.82,
+      "btc_change_24h": -1.50840429546181,
+      "btc_price": 80053.25,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.40% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.51% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-24 10:11:26] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-24 10:12:26] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-24 10:12:27] Macro Regime: RISK_OFF | BTC 24h: -1.24% | Alts Allowed: False",
       "[2026-10-24 10:12:27] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-24 10:13:27] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-24 10:13:28] Macro Regime: RISK_OFF | BTC 24h: -1.18% | Alts Allowed: False",
@@ -127,7 +124,10 @@
       "[2026-10-24 10:23:34] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-24 10:24:35] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-24 10:24:35] Macro Regime: RISK_OFF | BTC 24h: -1.40% | Alts Allowed: False",
-      "[2026-10-24 10:24:35] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-24 10:24:35] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-24 10:25:36] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-24 10:25:36] Macro Regime: RISK_OFF | BTC 24h: -1.51% | Alts Allowed: False",
+      "[2026-10-24 10:25:36] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1248,36 +1248,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1792850585_70c976",
-      "timestamp": "2026-10-24T10:03:05.603577",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "BTC",
-      "title": "Breaking Catalyst: Bitcoin’s wealthy holders turning to loans and yield as investment habits mature",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.0,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "NEUTRAL",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SOL",
-      "current_price": 102.34,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-23T21:46:15.775762"
-    },
-    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
@@ -1846,6 +1816,36 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-23T22:27:02.290125"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 102.46,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-23T22:28:05.010769"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 102.48,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-23T22:29:07.688091"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-24T10:24:45.359529"
+  "snapshot_synced_at": "2026-10-24T10:26:19.067779"
 }
