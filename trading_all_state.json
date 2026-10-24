@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T16:28:59.343239",
+  "timestamp": "2026-10-24T16:30:33.033128",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-24 14:48:20] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-24 14:53:20] Running portfolio evaluation cycle...",
       "[2026-10-24 14:53:20] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 14:58:20] Running portfolio evaluation cycle...",
       "[2026-10-24 14:58:38] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
@@ -71,7 +69,9 @@
       "[2026-10-24 16:19:25] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
       "[2026-10-24 16:24:25] Running portfolio evaluation cycle...",
       "[2026-10-24 16:24:48] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-24 16:24:53] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is holding near peak profitability (+1.33%) during regular market hours, so we are tightening the stop to lock in gains and protect capital."
+      "[2026-10-24 16:24:53] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is holding near peak profitability (+1.33%) during regular market hours, so we are tightening the stop to lock in gains and protect capital.",
+      "[2026-10-24 16:29:53] Running portfolio evaluation cycle...",
+      "[2026-10-24 16:29:53] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
@@ -80,17 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.00840700038777,
-      "btc_price": 80464.96,
+      "btc_change_24h": -1.08243421525118,
+      "btc_price": 80436.52,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.01% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.08% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-24 16:21:09] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-24 16:21:09] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-24 16:21:10] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -2.01%)!",
       "[2026-10-24 16:21:16] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH is exhibiting weak relative volume (Rvol 0.26) and below average momentum, failing multiple evolved strategy rules requiring high relative volume for entries.",
       "[2026-10-24 16:22:16] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-24 16:22:16] Macro Regime: NEUTRAL | BTC 24h: -0.94% | Alts Allowed: False",
@@ -127,7 +124,10 @@
       "[2026-10-24 16:27:38] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 45%) | Thesis: ETH is currently in a mean-reversion mode with very weak volume (RVOL 0.3) failing to clear required volume thresholds for entry.",
       "[2026-10-24 16:28:38] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-24 16:28:38] Macro Regime: RISK_OFF | BTC 24h: -1.01% | Alts Allowed: False",
-      "[2026-10-24 16:28:38] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-24 16:28:38] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-24 16:29:38] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-24 16:29:38] Macro Regime: RISK_OFF | BTC 24h: -1.08% | Alts Allowed: False",
+      "[2026-10-24 16:29:38] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-24T16:28:59.016529"
+  "snapshot_synced_at": "2026-10-24T16:30:32.724164"
 }
