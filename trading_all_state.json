@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T23:17:24.705843",
+  "timestamp": "2026-10-23T23:18:58.299873",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -80,25 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.08631295817744,
-      "btc_price": 80874.61,
+      "btc_change_24h": -1.02037068685633,
+      "btc_price": 80850.56,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.09% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.02% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-23 23:05:38] Macro Regime: RISK_OFF | BTC 24h: -1.05% | Alts Allowed: False",
-      "[2026-10-23 23:05:38] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 23:06:38] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 23:06:38] Macro Regime: RISK_OFF | BTC 24h: -1.08% | Alts Allowed: False",
-      "[2026-10-23 23:06:38] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 23:07:39] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 23:07:39] Macro Regime: RISK_OFF | BTC 24h: -1.10% | Alts Allowed: False",
-      "[2026-10-23 23:07:39] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-23 23:08:39] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-23 23:08:39] Macro Regime: RISK_OFF | BTC 24h: -1.08% | Alts Allowed: False",
-      "[2026-10-23 23:08:39] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-23 23:09:40] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-23 23:09:40] Macro Regime: RISK_OFF | BTC 24h: -1.10% | Alts Allowed: False",
       "[2026-10-23 23:09:40] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +116,18 @@
       "[2026-10-23 23:16:44] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=29.4 (chg -1.37%)!",
       "[2026-10-23 23:16:44] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=36.7 (chg -1.06%)!",
       "[2026-10-23 23:16:45] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=31.8 (chg -0.97%)!",
-      "[2026-10-23 23:16:46] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
+      "[2026-10-23 23:16:46] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-23 23:17:46] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 23:17:46] Macro Regime: NEUTRAL | BTC 24h: -0.97% | Alts Allowed: False",
+      "[2026-10-23 23:17:46] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-23 23:17:46] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-23 23:17:47] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=29.4 (chg -1.41%)!",
+      "[2026-10-23 23:17:47] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.7 (chg -1.00%)!",
+      "[2026-10-23 23:17:47] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=31.8 (chg -0.99%)!",
+      "[2026-10-23 23:17:49] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-23 23:18:49] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-23 23:18:49] Macro Regime: RISK_OFF | BTC 24h: -1.02% | Alts Allowed: False",
+      "[2026-10-23 23:18:49] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "BTC",
-      "current_price": 80689.68,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "RVOL is critically low at 0.56 with hourly trend bearish and RSI at 33.3, failing all mandatory volume and momentum criteria for entry.",
-      "risk_factors": "Low volume churn in a bearish hourly trend risks continuation downward toward deeper support levels.",
-      "timestamp": "2026-10-23T20:32:27.612897"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "BTC",
       "current_price": 80668.8,
       "approved": false,
       "action": "REJECT",
@@ -1846,6 +1831,21 @@
       "primary_thesis": "The strategy mode is mean reversion with an oversold RSI of 33, but execution rules strictly prohibit long entries without strong volume confirmation and macro regime approval.",
       "risk_factors": "RVOL is critically weak at 0.15 (far below the 1.5 requirement), hourly trend is bearish, and the macro regime explicitly suppresses altcoins with 'allow_alts': false.",
       "timestamp": "2026-10-23T21:27:51.008181"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 102.36,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 10,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "SOL exhibits extremely poor relative volume (0.18 RVOL) and a bearish hourly trend while macro filters prohibit altcoin exposure during neutral BTC chop.",
+      "risk_factors": "Failing to meet minimum RVOL requirements (needs >= 1.5) during a bearish 1-hour trend alignment leads directly to failed mean-reversion traps.",
+      "timestamp": "2026-10-23T21:28:59.565720"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-23T23:17:24.413135"
+  "snapshot_synced_at": "2026-10-23T23:18:57.933419"
 }
