@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T16:18:05.126921",
+  "timestamp": "2026-10-24T16:19:38.354610",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-24 14:38:15] Running portfolio evaluation cycle...",
-      "[2026-10-24 14:38:15] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 14:43:15] Running portfolio evaluation cycle...",
       "[2026-10-24 14:43:16] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 14:48:19] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-24 16:09:08] Running portfolio evaluation cycle...",
       "[2026-10-24 16:09:08] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-24 16:14:08] Running portfolio evaluation cycle...",
-      "[2026-10-24 16:14:09] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-24 16:14:09] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-24 16:19:09] Running portfolio evaluation cycle...",
+      "[2026-10-24 16:19:25] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
     ]
   },
   "coinbase": {
@@ -88,12 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-24 16:10:36] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH shows mean reversion characteristics with low RSI, but fails volume and regime filters.",
-      "[2026-10-24 16:11:36] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-24 16:11:37] Macro Regime: NEUTRAL | BTC 24h: -0.95% | Alts Allowed: False",
-      "[2026-10-24 16:11:37] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-24 16:11:37] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-24 16:11:37] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=36.6 (chg -2.12%)!",
       "[2026-10-24 16:11:40] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 30%) | Thesis: ETH is exhibiting weak relative volume (RVOL 0.16) and negative 24-hour performance against a backdrop of ETF outflows, failing all minimum volume and momentum criteria for entry.",
       "[2026-10-24 16:12:40] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-24 16:12:40] Macro Regime: NEUTRAL | BTC 24h: -0.96% | Alts Allowed: False",
@@ -127,7 +121,13 @@
       "[2026-10-24 16:17:58] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-24 16:17:58] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-24 16:17:59] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -2.07%)!",
-      "[2026-10-24 16:18:01] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 30%) | Thesis: ETH shows severe volume depletion with an RVOL of 0.26 against strict >1.5x multi-timeframe breakout rules and negative ETF sentiment flows."
+      "[2026-10-24 16:18:01] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 30%) | Thesis: ETH shows severe volume depletion with an RVOL of 0.26 against strict >1.5x multi-timeframe breakout rules and negative ETF sentiment flows.",
+      "[2026-10-24 16:19:01] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-24 16:19:01] Macro Regime: NEUTRAL | BTC 24h: -0.98% | Alts Allowed: False",
+      "[2026-10-24 16:19:01] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-24 16:19:01] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-24 16:19:02] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -2.09%)!",
+      "[2026-10-24 16:19:04] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 30%) | Thesis: ETH shows weak momentum and terrible volume (rvol 0.26), completely failing all evolved strategy volume and breakout filters."
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
-      "current_price": 102.684,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-23T23:22:58.302482"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SOL",
       "current_price": 102.68,
       "approved": false,
       "action": "REJECT",
@@ -1846,6 +1831,21 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-24T01:01:07.893373"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 102.48,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-24T01:02:10.483961"
     }
   ],
   "performance": {
@@ -2963,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-24T16:18:04.829648"
+  "snapshot_synced_at": "2026-10-24T16:19:38.057607"
 }
