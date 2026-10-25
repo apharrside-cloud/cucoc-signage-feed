@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T06:36:48.400193",
+  "timestamp": "2026-10-25T06:38:21.712638",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -28,12 +28,10 @@
         "current_price": 257.58,
         "pnl_pct": 1.33,
         "pnl_usd": 0.4,
-        "last_ai_eval_ts": 1792923744.293466
+        "last_ai_eval_ts": 1792924648.5724587
       }
     },
     "logs": [
-      "[2026-10-25 04:56:44] Running portfolio evaluation cycle...",
-      "[2026-10-25 04:56:45] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 05:01:45] Running portfolio evaluation cycle...",
       "[2026-10-25 05:01:45] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 05:06:47] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-25 06:27:26] Running portfolio evaluation cycle...",
       "[2026-10-25 06:27:27] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 06:32:27] Running portfolio evaluation cycle...",
-      "[2026-10-25 06:32:27] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-25 06:32:27] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 06:37:27] Running portfolio evaluation cycle...",
+      "[2026-10-25 06:37:28] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
@@ -88,12 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 06:30:10] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 06:30:10] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-25 06:30:10] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.9 (chg -1.20%)!",
-      "[2026-10-25 06:30:21] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX is showing severe weakness with bearish hourly trend and suppressed relative volume (RVOL 0.1) under a neutral macro regime forbidding altcoins.",
-      "[2026-10-25 06:31:21] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 06:31:21] Macro Regime: NEUTRAL | BTC 24h: -0.35% | Alts Allowed: False",
       "[2026-10-25 06:31:21] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 06:31:21] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 06:31:22] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.0 (chg -1.23%)!",
@@ -127,7 +121,13 @@
       "[2026-10-25 06:36:38] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 06:36:38] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 06:36:38] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.4 (chg -1.67%)!",
-      "[2026-10-25 06:36:41] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX fails macro allowance filters (allow_alts: false) and exhibits severe volume drought (RVOL 0.17) in a bearish hourly trend."
+      "[2026-10-25 06:36:41] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX fails macro allowance filters (allow_alts: false) and exhibits severe volume drought (RVOL 0.17) in a bearish hourly trend.",
+      "[2026-10-25 06:37:41] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 06:37:41] Macro Regime: NEUTRAL | BTC 24h: -0.44% | Alts Allowed: False",
+      "[2026-10-25 06:37:41] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 06:37:41] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 06:37:42] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.4 (chg -1.68%)!",
+      "[2026-10-25 06:37:44] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX is experiencing severe downward pressure with an extremely weak RVOL of 0.17 and a bearish hourly trend while macro alts are suppressed."
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2338.87,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "ETH is exhibiting weak relative volume (Rvol 0.45) and bearish macro news headwinds with ongoing ETF outflows, failing strict volume and trend filter rules.",
-      "risk_factors": "Low relative volume, declining momentum, and persistent outflows from Ethereum ETFs indicate a high probability of continuation lower or chop.",
-      "timestamp": "2026-10-24T15:41:12.456332"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2338.15,
       "approved": false,
       "action": "REJECT",
@@ -1844,6 +1829,20 @@
       "new_stop_pct": 1.0,
       "reasoning": "CRWD is trading near peak profitability with a negligible pullback, so tightening the stop locks in gains while allowing room for continuation during regular hours.",
       "timestamp": "2026-10-24T20:57:22.610235"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "CRWD",
+      "entry_price": 254.1921,
+      "current_price": 257.58,
+      "pnl_pct": 1.33,
+      "hours_held": 33.2,
+      "action": "TIGHTEN_STOP",
+      "confidence": 88,
+      "new_stop_pct": 0.5,
+      "reasoning": "CRWD is holding near peak gains (+1.33%) after 33 hours, so tightening the stop to +0.5% protects accumulated profit while allowing room for further upside.",
+      "timestamp": "2026-10-24T23:54:10.080642"
     }
   ],
   "performance": {
@@ -2961,5 +2960,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T06:36:48.098921"
+  "snapshot_synced_at": "2026-10-25T06:38:21.387597"
 }
