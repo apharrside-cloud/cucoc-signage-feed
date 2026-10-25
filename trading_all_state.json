@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T11:14:37.911175",
+  "timestamp": "2026-10-25T11:16:11.177388",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 09:34:15] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-25 09:39:17] Running portfolio evaluation cycle...",
       "[2026-10-25 09:39:18] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 09:44:18] Running portfolio evaluation cycle...",
       "[2026-10-25 09:44:19] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
@@ -71,7 +69,9 @@
       "[2026-10-25 11:05:04] Running portfolio evaluation cycle...",
       "[2026-10-25 11:05:04] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 11:10:06] Running portfolio evaluation cycle...",
-      "[2026-10-25 11:10:07] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-25 11:10:07] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 11:15:07] Running portfolio evaluation cycle...",
+      "[2026-10-25 11:15:23] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
     ]
   },
   "coinbase": {
@@ -88,11 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 11:04:41] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-25 11:05:43] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 11:05:43] Macro Regime: RISK_ON | BTC 24h: +1.08% | Alts Allowed: True",
-      "[2026-10-25 11:05:43] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 11:05:43] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-25 11:05:46] 🧠 [AI GATE] Buy of TAO VETOED by AI Brain (Confidence: 45%) | Thesis: TAO shows mild bullish 1-hour trend alignment, but violates multiple evolved strategy rules requiring RVOL > 1.5 and a breakout volume expansion of at least 50% above the 20-period baseline.",
       "[2026-10-25 11:06:46] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 11:06:46] Macro Regime: RISK_ON | BTC 24h: +0.96% | Alts Allowed: True",
@@ -127,7 +122,12 @@
       "[2026-10-25 11:14:01] Macro Regime: RISK_ON | BTC 24h: +1.19% | Alts Allowed: True",
       "[2026-10-25 11:14:01] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 11:14:01] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-25 11:14:08] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR shows slight 24-hour upside movement, but fails critical volume filters with RVOL at 1.03 against our strict 1.5x minimum requirement."
+      "[2026-10-25 11:14:08] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR shows slight 24-hour upside movement, but fails critical volume filters with RVOL at 1.03 against our strict 1.5x minimum requirement.",
+      "[2026-10-25 11:15:08] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 11:15:08] Macro Regime: RISK_ON | BTC 24h: +1.23% | Alts Allowed: True",
+      "[2026-10-25 11:15:08] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 11:15:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-25 11:15:12] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows slight 24h gains and a bullish hourly trend, but fails strict quantitative strategy rules requiring RVOL >= 1.5 (current RVOL is 1.03)."
     ]
   },
   "positions": [
@@ -1248,20 +1248,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Equities",
-      "symbol": "CRWD",
-      "entry_price": 254.1921,
-      "current_price": 257.58,
-      "pnl_pct": 1.33,
-      "hours_held": 42.6,
-      "action": "TIGHTEN_STOP",
-      "confidence": 85,
-      "new_stop_pct": 0.5,
-      "reasoning": "CRWD is holding near its session highs with minimal pullback, allowing us to lock in a guaranteed profit by tightening the stop.",
-      "timestamp": "2026-10-25T09:18:57.514884"
-    },
-    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
@@ -1845,6 +1831,21 @@
       "primary_thesis": "SOL is showing oversold conditions and strong RVOL, but macro regime explicitly suppresses altcoins with 'allow_alts: false' and hourly trend is bearish.",
       "risk_factors": "Trading altcoins during a macro chop regime where alts are suppressed risks catching a falling knife as BTC trades neutral.",
       "timestamp": "2026-10-25T09:59:53.088453"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 100.6,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 40,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "SOL is in a 1-hour bearish trend and macro regime explicitly restricts altcoins due to chop conditions (allow_alts: false).",
+      "risk_factors": "Trading altcoins during a suppressed macro regime violates core risk parameters and exposes capital to severe chop risk.",
+      "timestamp": "2026-10-25T10:00:57.329396"
     }
   ],
   "performance": {
@@ -2962,5 +2963,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T11:14:37.587909"
+  "snapshot_synced_at": "2026-10-25T11:16:10.839482"
 }
