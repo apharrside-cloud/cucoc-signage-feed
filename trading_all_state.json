@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T05:20:25.039690",
+  "timestamp": "2026-10-25T05:21:58.271098",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 03:41:05] Running portfolio evaluation cycle...",
-      "[2026-10-25 03:41:05] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 03:46:07] Running portfolio evaluation cycle...",
       "[2026-10-25 03:46:08] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 03:51:08] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-25 05:11:48] Running portfolio evaluation cycle...",
       "[2026-10-25 05:11:48] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 05:16:48] Running portfolio evaluation cycle...",
-      "[2026-10-25 05:16:49] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-25 05:16:49] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 05:21:51] Running portfolio evaluation cycle...",
+      "[2026-10-25 05:21:52] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
@@ -88,12 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 05:12:49] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 05:12:49] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-25 05:13:50] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 05:13:50] Macro Regime: NEUTRAL | BTC 24h: -0.52% | Alts Allowed: False",
-      "[2026-10-25 05:13:50] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 05:13:50] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 05:14:51] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 05:14:51] Macro Regime: NEUTRAL | BTC 24h: -0.55% | Alts Allowed: False",
       "[2026-10-25 05:14:51] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +121,13 @@
       "[2026-10-25 05:20:05] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 05:20:05] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 05:20:06] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.8 (chg -1.52%)!",
-      "[2026-10-25 05:20:08] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX is currently in a bearish downtrend with an anemic RVOL of 0.22 and negative macro sentiment suppressing altcoins."
+      "[2026-10-25 05:20:08] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX is currently in a bearish downtrend with an anemic RVOL of 0.22 and negative macro sentiment suppressing altcoins.",
+      "[2026-10-25 05:21:08] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 05:21:08] Macro Regime: NEUTRAL | BTC 24h: -0.50% | Alts Allowed: False",
+      "[2026-10-25 05:21:08] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 05:21:08] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 05:21:09] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=34.9 (chg -1.23%)!",
+      "[2026-10-25 05:21:12] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX is currently in a bearish 1-hour trend with weak relative volume (RVOL 0.29) and macro conditions explicitly restricting altcoin exposure."
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
-      "current_price": 102.62,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-24T00:41:20.926889"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SOL",
       "current_price": 102.63,
       "approved": false,
       "action": "REJECT",
@@ -1843,6 +1828,21 @@
       "primary_thesis": "Ethereum exhibits extreme volume exhaustion with an RVOL of 0.25, failing all mandatory volume breakout and relative strength thresholds required for execution.",
       "risk_factors": "Critically low volume combined with persistent ETF outflows and macro chop increases the probability of a failed bounce or further downside continuation.",
       "timestamp": "2026-10-24T15:21:59.213228"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2333.92,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 35,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "ETH shows oversold conditions at support, but weak relative volume (rvol 0.31) and persistent ETF outflows invalidate any high-probability long setup.",
+      "risk_factors": "Extremely low volume participation and macro chop regime increase the risk of a false bounce and continued downward drift.",
+      "timestamp": "2026-10-24T15:23:02.591581"
     }
   ],
   "performance": {
@@ -2960,5 +2960,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T05:20:24.738173"
+  "snapshot_synced_at": "2026-10-25T05:21:57.962891"
 }
