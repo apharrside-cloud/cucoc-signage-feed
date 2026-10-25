@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T11:25:31.341806",
+  "timestamp": "2026-10-25T11:27:04.789084",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -108,12 +108,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 11:17:17] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 11:17:17] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-25 11:17:21] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR shows a bullish hourly trend and positive macro backdrop, but fails core quantitative volume rules.",
-      "[2026-10-25 11:18:21] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 11:18:21] Macro Regime: RISK_ON | BTC 24h: +1.54% | Alts Allowed: True",
-      "[2026-10-25 11:18:21] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 11:18:21] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-25 11:18:25] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows moderate hourly bullish momentum in a risk-on macro regime, but fails critical evolved volume rules.",
       "[2026-10-25 11:19:25] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -147,7 +141,13 @@
       "[2026-10-25 11:24:52] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.47 | Peak: $4.49 | PnL: -0.42% ($19.74) | Vol: High-Beta Alpha Runner",
       "[2026-10-25 11:24:54] Deployable cash ($118.63 of $142.81 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-25 11:24:54] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-25 11:24:59] 🧠 [AI GATE] Buy of TAO VETOED by AI Brain (Confidence: 35%) | Thesis: TAO shows moderate 24-hour upside, but fails crucial evolved strategy rules requiring RVOL > 1.5."
+      "[2026-10-25 11:24:59] 🧠 [AI GATE] Buy of TAO VETOED by AI Brain (Confidence: 35%) | Thesis: TAO shows moderate 24-hour upside, but fails crucial evolved strategy rules requiring RVOL > 1.5.",
+      "[2026-10-25 11:25:59] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 11:25:59] Macro Regime: RISK_ON | BTC 24h: +1.51% | Alts Allowed: True",
+      "[2026-10-25 11:25:59] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.47 | Peak: $4.49 | PnL: -0.55% ($19.71) | Vol: High-Beta Alpha Runner",
+      "[2026-10-25 11:26:01] Deployable cash ($118.63 of $142.81 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-25 11:26:01] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-25 11:26:05] 🧠 [AI GATE] Buy of TAO VETOED by AI Brain (Confidence: 45%) | Thesis: TAO is attempting a breakout in a risk-on regime, but fails multiple evolved strategy rules regarding volume confirmation."
     ]
   },
   "positions": [
@@ -1282,21 +1282,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.799,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX displays oversold conditions with an RSI of 29.2, but lacks the necessary volume confirmation and macro alignment for a high-probability reversal.",
-      "risk_factors": "Macro regime explicitly suppresses alts (allow_alts: false) and relative volume (0.92) fails the minimum threshold of 1.5x, significantly increasing bull trap risk.",
-      "timestamp": "2026-10-25T09:29:13.009645"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.791,
       "approved": false,
       "action": "REJECT",
@@ -1877,6 +1862,21 @@
       "primary_thesis": "AVAX is showing extreme weakness with a 1-hour RSI of 26.2 and dismal relative volume (RVOL 0.08), failing all mandatory volume and trend filters.",
       "risk_factors": "Macro regime explicitly suppresses altcoins ('allow_alts': false), volume is anemic, and the asset is in a heavy downtrend with declining momentum.",
       "timestamp": "2026-10-25T10:10:27.586543"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 8.797,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 10,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "AVAX is heavily suppressed with an anemic RVOL of 0.12, deeply oversold RSI at 25.5, and macro regime explicitly forbidding altcoin exposure under current chop conditions.",
+      "risk_factors": "Zero volume participation, bearish hourly trend alignment, and strict macro rules blocking altcoin trades eliminate any statistical edge.",
+      "timestamp": "2026-10-25T10:11:30.836478"
     }
   ],
   "performance": {
@@ -2994,5 +2994,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T11:25:31.051844"
+  "snapshot_synced_at": "2026-10-25T11:27:04.492395"
 }
