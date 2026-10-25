@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T11:13:04.485776",
+  "timestamp": "2026-10-25T11:14:37.911175",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -88,11 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 11:03:39] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 11:03:39] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-25 11:04:41] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 11:04:41] Macro Regime: RISK_ON | BTC 24h: +0.93% | Alts Allowed: True",
-      "[2026-10-25 11:04:41] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 11:04:41] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-25 11:05:43] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 11:05:43] Macro Regime: RISK_ON | BTC 24h: +1.08% | Alts Allowed: True",
@@ -127,7 +122,12 @@
       "[2026-10-25 11:12:57] Macro Regime: RISK_ON | BTC 24h: +1.09% | Alts Allowed: True",
       "[2026-10-25 11:12:57] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 11:12:57] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-25 11:13:01] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR fails strict evolved strategy rules requiring RVOL > 1.5 for long breakout entries, currently printing an insufficient RVOL of 1.03."
+      "[2026-10-25 11:13:01] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR fails strict evolved strategy rules requiring RVOL > 1.5 for long breakout entries, currently printing an insufficient RVOL of 1.03.",
+      "[2026-10-25 11:14:01] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 11:14:01] Macro Regime: RISK_ON | BTC 24h: +1.19% | Alts Allowed: True",
+      "[2026-10-25 11:14:01] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 11:14:01] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-25 11:14:08] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR shows slight 24-hour upside movement, but fails critical volume filters with RVOL at 1.03 against our strict 1.5x minimum requirement."
     ]
   },
   "positions": [
@@ -1248,21 +1248,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
-      "current_price": 8.821,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "AVAX is showing weak relative volume (Rvol 0.48) under a neutral macro regime where altcoins are explicitly restricted by the broader market filter.",
-      "risk_factors": "Macro status has alts suppressed (allow_alts: false) to prevent bull traps, and volume is severely below the 20-period baseline.",
-      "timestamp": "2026-10-25T09:18:39.267414"
-    },
-    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Equities",
       "symbol": "CRWD",
@@ -1845,6 +1830,21 @@
       "primary_thesis": "Macro regime explicitly restricts altcoins due to neutral BTC chop, invalidating the trade setup despite oversold RSI and decent relative volume.",
       "risk_factors": "Macro rule violation: 'allow_alts' is false under current choppy BTC market conditions, exposing alts to suppression and bull traps.",
       "timestamp": "2026-10-25T09:58:49.805795"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 100.66,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "SOL is showing oversold conditions and strong RVOL, but macro regime explicitly suppresses altcoins with 'allow_alts: false' and hourly trend is bearish.",
+      "risk_factors": "Trading altcoins during a macro chop regime where alts are suppressed risks catching a falling knife as BTC trades neutral.",
+      "timestamp": "2026-10-25T09:59:53.088453"
     }
   ],
   "performance": {
@@ -2962,5 +2962,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T11:13:04.206015"
+  "snapshot_synced_at": "2026-10-25T11:14:37.587909"
 }
