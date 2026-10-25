@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T11:23:58.141085",
+  "timestamp": "2026-10-25T11:25:31.341806",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 09:44:19] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-25 09:49:19] Running portfolio evaluation cycle...",
       "[2026-10-25 09:49:19] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 09:54:21] Running portfolio evaluation cycle...",
       "[2026-10-25 09:54:36] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
@@ -71,7 +69,9 @@
       "[2026-10-25 11:15:07] Running portfolio evaluation cycle...",
       "[2026-10-25 11:15:23] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
       "[2026-10-25 11:20:23] Running portfolio evaluation cycle...",
-      "[2026-10-25 11:20:27] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-25 11:20:27] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 11:25:29] Running portfolio evaluation cycle...",
+      "[2026-10-25 11:25:29] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
@@ -108,12 +108,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 11:16:13] Macro Regime: RISK_ON | BTC 24h: +1.23% | Alts Allowed: True",
-      "[2026-10-25 11:16:13] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 11:16:13] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-25 11:16:16] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR is showing mild 24-hour momentum in a risk-on regime, but fails critical volume rules.",
-      "[2026-10-25 11:17:16] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 11:17:17] Macro Regime: RISK_ON | BTC 24h: +1.56% | Alts Allowed: True",
       "[2026-10-25 11:17:17] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 11:17:17] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-25 11:17:21] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR shows a bullish hourly trend and positive macro backdrop, but fails core quantitative volume rules.",
@@ -147,7 +141,13 @@
       "[2026-10-25 11:23:45] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.48 | Peak: $4.49 | PnL: -0.36% ($19.75) | Vol: High-Beta Alpha Runner",
       "[2026-10-25 11:23:47] Deployable cash ($118.63 of $142.81 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-25 11:23:47] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-25 11:23:52] 🧠 [AI GATE] Buy of TAO VETOED by AI Brain (Confidence: 35%) | Thesis: TAO shows moderate intraday gains under a bullish risk-on regime, but fails critical volume filters."
+      "[2026-10-25 11:23:52] 🧠 [AI GATE] Buy of TAO VETOED by AI Brain (Confidence: 35%) | Thesis: TAO shows moderate intraday gains under a bullish risk-on regime, but fails critical volume filters.",
+      "[2026-10-25 11:24:52] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 11:24:52] Macro Regime: RISK_ON | BTC 24h: +1.44% | Alts Allowed: True",
+      "[2026-10-25 11:24:52] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.47 | Peak: $4.49 | PnL: -0.42% ($19.74) | Vol: High-Beta Alpha Runner",
+      "[2026-10-25 11:24:54] Deployable cash ($118.63 of $142.81 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-25 11:24:54] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-25 11:24:59] 🧠 [AI GATE] Buy of TAO VETOED by AI Brain (Confidence: 35%) | Thesis: TAO shows moderate 24-hour upside, but fails crucial evolved strategy rules requiring RVOL > 1.5."
     ]
   },
   "positions": [
@@ -1282,21 +1282,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.795,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 15,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX exhibits weak volume (Rvol 0.92) and a bearish hourly trend while macro rules explicitly restrict altcoins due to a neutral chop regime.",
-      "risk_factors": "Catching a falling knife in a suppressed altcoin environment with declining momentum and sub-average volume confirmation.",
-      "timestamp": "2026-10-25T09:28:09.816946"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.799,
       "approved": false,
       "action": "REJECT",
@@ -1877,6 +1862,21 @@
       "primary_thesis": "Macro regime explicitly suppresses altcoins with allow_alts set to false and volume is severely depressed at an rvol of 0.08.",
       "risk_factors": "Extreme lack of volume confirmation and macro chop regime targeting altcoins makes this setup a high-probability bull trap.",
       "timestamp": "2026-10-25T10:09:24.447783"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 8.803,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 10,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "AVAX is showing extreme weakness with a 1-hour RSI of 26.2 and dismal relative volume (RVOL 0.08), failing all mandatory volume and trend filters.",
+      "risk_factors": "Macro regime explicitly suppresses altcoins ('allow_alts': false), volume is anemic, and the asset is in a heavy downtrend with declining momentum.",
+      "timestamp": "2026-10-25T10:10:27.586543"
     }
   ],
   "performance": {
@@ -2994,5 +2994,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T11:23:57.843067"
+  "snapshot_synced_at": "2026-10-25T11:25:31.051844"
 }
