@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T12:28:28.784350",
+  "timestamp": "2026-10-25T12:30:03.226963",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.17,
@@ -129,13 +129,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 12:22:15] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.52 | Peak: $4.53 | PnL: +0.60% ($19.94) | Vol: High-Beta Alpha Runner",
-      "[2026-10-25 12:22:15] Deployable cash ($93.64 of $117.82 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
-      "[2026-10-25 12:22:15] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-25 12:23:16] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 12:23:16] Macro Regime: RISK_ON | BTC 24h: +1.19% | Alts Allowed: True",
-      "[2026-10-25 12:23:16] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $251.43 | Peak: $252.17 | PnL: -0.29% ($24.69) | Vol: AI Alpha Runner",
-      "[2026-10-25 12:23:16] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.52 | Peak: $4.53 | PnL: +0.61% ($19.94) | Vol: High-Beta Alpha Runner",
       "[2026-10-25 12:23:16] Deployable cash ($93.64 of $117.82 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
       "[2026-10-25 12:23:16] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-25 12:24:17] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -168,7 +161,14 @@
       "[2026-10-25 12:28:27] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $250.80 | Peak: $252.17 | PnL: -0.54% ($24.63) | Vol: AI Alpha Runner",
       "[2026-10-25 12:28:27] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.52 | Peak: $4.53 | PnL: +0.61% ($19.94) | Vol: High-Beta Alpha Runner",
       "[2026-10-25 12:28:27] Deployable cash ($93.64 of $117.82 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
-      "[2026-10-25 12:28:27] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-25 12:28:27] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-25 12:29:28] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 12:29:28] Macro Regime: RISK_ON | BTC 24h: +1.21% | Alts Allowed: True",
+      "[2026-10-25 12:29:28] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $251.10 | Peak: $252.17 | PnL: -0.42% ($24.66) | Vol: AI Alpha Runner",
+      "[2026-10-25 12:29:28] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.53 | Peak: $4.53 | PnL: +0.81% ($19.98) | Vol: High-Beta Alpha Runner",
+      "[2026-10-25 12:29:28] Deployable cash ($93.64 of $117.82 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
+      "[2026-10-25 12:29:28] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-25 12:29:32] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 60%) | Thesis: Despite high relative volume and a bullish macro regime, ETH's 1-hour RSI is sitting at a weak 38.0, indicating insufficient momentum confirmation for a safe long breakout entry."
     ]
   },
   "positions": [
@@ -1314,21 +1314,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.809,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 10,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX is suffering from severe relative weakness with abysmal volume (rvol 0.08) and a bearish hourly trend while macro rules explicitly forbid altcoins due to a neutral chop regime.",
-      "risk_factors": "Extreme lack of volume and macro ban on altcoin exposure make this a high-risk trap with no bullish institutional confirmation.",
-      "timestamp": "2026-10-25T10:07:17.327709"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.799,
       "approved": false,
       "action": "REJECT",
@@ -1909,6 +1894,21 @@
       "primary_thesis": "AVAX displays oversold mean reversion characteristics with an RSI of 27.4, but macroeconomic rules strictly prohibit altcoin trades under neutral BTC conditions.",
       "risk_factors": "Macro regime explicitly suppresses altcoins with 'allow_alts': false, combined with weak relative volume (RVOL 0.51) indicating a lack of institutional buying pressure.",
       "timestamp": "2026-10-25T10:48:49.703328"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 8.829,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "AVAX is failing macro filter rules ('allow_alts': false) and exhibits extremely weak relative volume (RVOL 0.51) during a neutral market regime.",
+      "risk_factors": "Low volume mean-reversion setup with suppressed altcoin regime and ongoing downward weekly price momentum.",
+      "timestamp": "2026-10-25T10:49:53.089244"
     }
   ],
   "performance": {
@@ -3026,5 +3026,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T12:28:28.479946"
+  "snapshot_synced_at": "2026-10-25T12:30:02.899333"
 }
