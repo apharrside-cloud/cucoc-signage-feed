@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T07:12:44.979796",
+  "timestamp": "2026-10-25T07:14:18.657044",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -28,12 +28,10 @@
         "current_price": 257.58,
         "pnl_pct": 1.33,
         "pnl_usd": 0.4,
-        "last_ai_eval_ts": 1792925552.5962818
+        "last_ai_eval_ts": 1792926776.0904298
       }
     },
     "logs": [
-      "[2026-10-25 05:31:52] Running portfolio evaluation cycle...",
-      "[2026-10-25 05:31:53] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 05:36:55] Running portfolio evaluation cycle...",
       "[2026-10-25 05:36:56] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 05:41:56] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-25 07:02:35] Running portfolio evaluation cycle...",
       "[2026-10-25 07:02:35] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 07:07:35] Running portfolio evaluation cycle...",
-      "[2026-10-25 07:07:51] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
+      "[2026-10-25 07:07:51] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
+      "[2026-10-25 07:12:51] Running portfolio evaluation cycle...",
+      "[2026-10-25 07:12:56] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
@@ -80,18 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.38192542399643,
-      "btc_price": 80252.55,
+      "btc_change_24h": -0.40531448733079,
+      "btc_price": 80247.89,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.38% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.41% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 07:04:04] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 07:04:04] Macro Regime: NEUTRAL | BTC 24h: -0.33% | Alts Allowed: False",
-      "[2026-10-25 07:04:04] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 07:04:04] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 07:04:05] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.0 (chg -1.22%)!",
       "[2026-10-25 07:04:07] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX exhibits extremely weak volume (Rvol 0.25) and bearish hourly trend alignment during a macro chop regime.",
       "[2026-10-25 07:05:07] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -127,7 +123,11 @@
       "[2026-10-25 07:12:18] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 07:12:18] Macro Regime: NEUTRAL | BTC 24h: -0.38% | Alts Allowed: False",
       "[2026-10-25 07:12:18] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 07:12:18] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-25 07:12:18] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 07:13:19] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 07:13:20] Macro Regime: NEUTRAL | BTC 24h: -0.41% | Alts Allowed: False",
+      "[2026-10-25 07:13:20] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 07:13:20] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -2959,5 +2959,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T07:12:44.662991"
+  "snapshot_synced_at": "2026-10-25T07:14:18.353293"
 }
