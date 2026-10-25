@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-25T12:55:26.897704",
+  "timestamp": "2026-10-25T12:57:02.763170",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.61,
+    "total_equity": 325.94,
     "total_cash": 230.1,
-    "cash_pct": 70.7,
+    "cash_pct": 70.6,
     "weekly_realized_pnl": -2.01,
     "win_rate": 58.18181818181818,
     "winning_trades": 64,
@@ -28,12 +28,10 @@
         "current_price": 257.58,
         "pnl_pct": 1.33,
         "pnl_usd": 0.4,
-        "last_ai_eval_ts": 1792946466.5903103
+        "last_ai_eval_ts": 1792947370.6644237
       }
     },
     "logs": [
-      "[2026-10-25 11:15:07] Running portfolio evaluation cycle...",
-      "[2026-10-25 11:15:23] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
       "[2026-10-25 11:20:23] Running portfolio evaluation cycle...",
       "[2026-10-25 11:20:27] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 11:25:29] Running portfolio evaluation cycle...",
@@ -71,20 +69,22 @@
       "[2026-10-25 12:46:08] Running portfolio evaluation cycle...",
       "[2026-10-25 12:46:09] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 12:51:09] Running portfolio evaluation cycle...",
-      "[2026-10-25 12:51:10] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-25 12:51:10] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 12:56:10] Running portfolio evaluation cycle...",
+      "[2026-10-25 12:56:10] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
-    "total_usd": 162.83,
+    "total_usd": 163.16,
     "cash_usd": 97.82,
-    "crypto_usd": 65.01,
+    "crypto_usd": 65.34,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.6413945153337,
-      "btc_price": 80573.43,
+      "btc_change_24h": 0.7694382983069,
+      "btc_price": 80716.31,
       "allow_alts": true,
       "allow_core": true,
-      "reason": "BTC strong +0.64% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.77% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {
       "NEAR": {
@@ -92,15 +92,15 @@
         "pair": "NEAR-USDC",
         "entry_price": 4.4935,
         "shares": 4.411,
-        "peak_price": 4.6211,
+        "peak_price": 4.657,
         "tp1_hit": false,
         "tp2_hit": false,
         "stop_loss_pct": -3.5,
         "trailing_active": false,
         "entry_time": "2026-10-25T11:22:44.860452",
-        "current_price": 4.6211,
-        "pnl_pct": 2.84,
-        "value_usd": 20.38,
+        "current_price": 4.657,
+        "pnl_pct": 3.64,
+        "value_usd": 20.54,
         "tp1_pct": 8.0,
         "tp2_pct": 15.0,
         "trailing_pullback_pct": 3.0,
@@ -112,15 +112,15 @@
         "pair": "TAO-USDC",
         "entry_price": 252.17,
         "shares": 0.0982,
-        "peak_price": 252.4,
+        "peak_price": 253.49,
         "tp1_hit": false,
         "tp2_hit": false,
         "stop_loss_pct": -3.5,
         "trailing_active": false,
         "entry_time": "2026-10-25T11:41:40.819402",
-        "current_price": 252.4,
-        "pnl_pct": 0.09,
-        "value_usd": 24.79,
+        "current_price": 253.49,
+        "pnl_pct": 0.52,
+        "value_usd": 24.89,
         "tp1_pct": 8.5,
         "tp2_pct": 16.0,
         "trailing_pullback_pct": 3.0,
@@ -132,15 +132,15 @@
         "pair": "ETH-USDC",
         "entry_price": 2343.68,
         "shares": 0.00846014,
-        "peak_price": 2344.9,
+        "peak_price": 2353.2,
         "tp1_hit": false,
         "tp2_hit": false,
         "stop_loss_pct": -3.5,
         "trailing_active": false,
         "entry_time": "2026-10-25T12:33:51.359976",
-        "current_price": 2344.9,
-        "pnl_pct": 0.05,
-        "value_usd": 19.84,
+        "current_price": 2353.2,
+        "pnl_pct": 0.41,
+        "value_usd": 19.91,
         "tp1_pct": 8.5,
         "tp2_pct": 12.0,
         "trailing_pullback_pct": 2.5,
@@ -149,18 +149,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 12:48:10] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $251.88 | Peak: $252.17 | PnL: -0.12% ($24.73) | Vol: AI Alpha Runner",
-      "[2026-10-25 12:48:10] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.60 | Peak: $4.60 | PnL: +2.31% ($20.28) | Vol: High-Beta Alpha Runner",
-      "[2026-10-25 12:48:10] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,342.66 | Peak: $2,343.68 | PnL: -0.04% ($19.82) | Vol: Large-Cap Low Volatility",
-      "[2026-10-25 12:48:10] Auto-buy paused: Total cash is $97.82, but $24.18 is vaulted to protect banked profits. Deployable: $73.64",
-      "[2026-10-25 12:49:10] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 12:49:11] Macro Regime: RISK_ON | BTC 24h: +0.94% | Alts Allowed: True",
-      "[2026-10-25 12:49:11] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $251.71 | Peak: $252.17 | PnL: -0.18% ($24.72) | Vol: AI Alpha Runner",
-      "[2026-10-25 12:49:11] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.60 | Peak: $4.60 | PnL: +2.30% ($20.28) | Vol: High-Beta Alpha Runner",
-      "[2026-10-25 12:49:11] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,342.35 | Peak: $2,343.68 | PnL: -0.06% ($19.82) | Vol: Large-Cap Low Volatility",
-      "[2026-10-25 12:49:11] Auto-buy paused: Total cash is $97.82, but $24.18 is vaulted to protect banked profits. Deployable: $73.64",
-      "[2026-10-25 12:50:11] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 12:50:12] Macro Regime: RISK_ON | BTC 24h: +0.69% | Alts Allowed: True",
       "[2026-10-25 12:50:12] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $251.57 | Peak: $252.17 | PnL: -0.24% ($24.70) | Vol: AI Alpha Runner",
       "[2026-10-25 12:50:12] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.59 | Peak: $4.60 | PnL: +2.14% ($20.25) | Vol: High-Beta Alpha Runner",
       "[2026-10-25 12:50:12] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,342.28 | Peak: $2,343.68 | PnL: -0.06% ($19.82) | Vol: Large-Cap Low Volatility",
@@ -188,7 +176,19 @@
       "[2026-10-25 12:54:34] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $252.40 | Peak: $252.40 | PnL: +0.09% ($24.79) | Vol: AI Alpha Runner",
       "[2026-10-25 12:54:34] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.62 | Peak: $4.62 | PnL: +2.84% ($20.38) | Vol: High-Beta Alpha Runner",
       "[2026-10-25 12:54:34] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,344.90 | Peak: $2,344.90 | PnL: +0.05% ($19.84) | Vol: Large-Cap Low Volatility",
-      "[2026-10-25 12:54:34] Auto-buy paused: Total cash is $97.82, but $24.18 is vaulted to protect banked profits. Deployable: $73.64"
+      "[2026-10-25 12:54:34] Auto-buy paused: Total cash is $97.82, but $24.18 is vaulted to protect banked profits. Deployable: $73.64",
+      "[2026-10-25 12:55:34] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 12:55:34] Macro Regime: RISK_ON | BTC 24h: +0.68% | Alts Allowed: True",
+      "[2026-10-25 12:55:34] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $252.83 | Peak: $252.83 | PnL: +0.26% ($24.83) | Vol: AI Alpha Runner",
+      "[2026-10-25 12:55:34] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.63 | Peak: $4.63 | PnL: +3.06% ($20.43) | Vol: High-Beta Alpha Runner",
+      "[2026-10-25 12:55:34] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,346.45 | Peak: $2,346.45 | PnL: +0.12% ($19.85) | Vol: Large-Cap Low Volatility",
+      "[2026-10-25 12:55:34] Auto-buy paused: Total cash is $97.82, but $24.18 is vaulted to protect banked profits. Deployable: $73.64",
+      "[2026-10-25 12:56:45] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 12:56:45] Macro Regime: RISK_ON | BTC 24h: +0.77% | Alts Allowed: True",
+      "[2026-10-25 12:56:45] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $253.49 | Peak: $253.49 | PnL: +0.52% ($24.89) | Vol: AI Alpha Runner",
+      "[2026-10-25 12:56:45] [NEAR] Qty: 4.411 | Entry: $4.49 | Current: $4.66 | Peak: $4.66 | PnL: +3.64% ($20.54) | Vol: High-Beta Alpha Runner",
+      "[2026-10-25 12:56:45] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,353.20 | Peak: $2,353.20 | PnL: +0.41% ($19.91) | Vol: Large-Cap Low Volatility",
+      "[2026-10-25 12:56:45] Auto-buy paused: Total cash is $97.82, but $24.18 is vaulted to protect banked profits. Deployable: $73.64"
     ]
   },
   "positions": [
@@ -208,10 +208,10 @@
       "symbol": "NEAR",
       "shares": 4.411,
       "entry_price": 4.4935,
-      "current_price": 4.6211,
-      "value_usd": 20.38,
-      "pnl_pct": 2.84,
-      "pnl_usd": 0.56,
+      "current_price": 4.657,
+      "value_usd": 20.54,
+      "pnl_pct": 3.64,
+      "pnl_usd": 0.72,
       "trailing_info": "TP1: +8.0% | Stop: -3.5%"
     },
     {
@@ -219,10 +219,10 @@
       "symbol": "TAO",
       "shares": 0.0982,
       "entry_price": 252.17,
-      "current_price": 252.4,
-      "value_usd": 24.79,
-      "pnl_pct": 0.09,
-      "pnl_usd": 0.03,
+      "current_price": 253.49,
+      "value_usd": 24.89,
+      "pnl_pct": 0.52,
+      "pnl_usd": 0.13,
       "trailing_info": "TP1: +8.5% | Stop: -3.5%"
     },
     {
@@ -230,10 +230,10 @@
       "symbol": "ETH",
       "shares": 0.00846014,
       "entry_price": 2343.68,
-      "current_price": 2344.9,
-      "value_usd": 19.84,
-      "pnl_pct": 0.05,
-      "pnl_usd": 0.01,
+      "current_price": 2353.2,
+      "value_usd": 19.91,
+      "pnl_pct": 0.41,
+      "pnl_usd": 0.08,
       "trailing_info": "TP1: +8.5% | Stop: -3.5%"
     }
   ],
@@ -1951,7 +1951,7 @@
     "max_drawdown_pct": 13.3,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.6055928,
+    "current_equity": 325.9355928,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3057,5 +3057,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T12:55:26.104110"
+  "snapshot_synced_at": "2026-10-25T12:57:01.877573"
 }
