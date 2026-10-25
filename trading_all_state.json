@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T15:22:16.303427",
+  "timestamp": "2026-10-25T15:23:49.891271",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.31,
@@ -28,13 +28,10 @@
         "current_price": 257.58,
         "pnl_pct": 1.33,
         "pnl_usd": 0.4,
-        "last_ai_eval_ts": 1792954932.6554286
+        "last_ai_eval_ts": 1792956156.189215
       }
     },
     "logs": [
-      "[2026-10-25 13:41:29] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-25 13:46:31] Running portfolio evaluation cycle...",
-      "[2026-10-25 13:46:32] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 13:51:32] Running portfolio evaluation cycle...",
       "[2026-10-25 13:51:32] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 13:56:32] Running portfolio evaluation cycle...",
@@ -71,7 +68,10 @@
       "[2026-10-25 15:12:15] Running portfolio evaluation cycle...",
       "[2026-10-25 15:12:16] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 15:17:16] Running portfolio evaluation cycle...",
-      "[2026-10-25 15:17:31] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
+      "[2026-10-25 15:17:31] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
+      "[2026-10-25 15:22:31] Running portfolio evaluation cycle...",
+      "[2026-10-25 15:22:36] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 15:22:38] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is up +1.33% near peak profitability after a 48-hour hold, warranting a tightened stop to lock in gains as resistance approaches."
     ]
   },
   "coinbase": {
@@ -80,22 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.14901996979547,
-      "btc_price": 80511.71,
+      "btc_change_24h": 0.09995117477763,
+      "btc_price": 80489.63,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral +0.15% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral +0.10% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 15:12:08] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 15:12:09] Macro Regime: NEUTRAL | BTC 24h: +0.05% | Alts Allowed: False",
-      "[2026-10-25 15:12:09] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 15:12:09] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-25 15:13:10] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 15:13:10] Macro Regime: NEUTRAL | BTC 24h: +0.09% | Alts Allowed: False",
-      "[2026-10-25 15:13:10] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 15:13:10] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 15:14:11] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 15:14:11] Macro Regime: NEUTRAL | BTC 24h: +0.10% | Alts Allowed: False",
       "[2026-10-25 15:14:11] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +119,15 @@
       "[2026-10-25 15:21:19] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 15:21:19] Macro Regime: NEUTRAL | BTC 24h: +0.15% | Alts Allowed: False",
       "[2026-10-25 15:21:19] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 15:21:19] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-25 15:21:19] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 15:22:20] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 15:22:21] Macro Regime: NEUTRAL | BTC 24h: +0.14% | Alts Allowed: False",
+      "[2026-10-25 15:22:21] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 15:22:21] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 15:23:22] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 15:23:22] Macro Regime: NEUTRAL | BTC 24h: +0.10% | Alts Allowed: False",
+      "[2026-10-25 15:23:22] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 15:23:22] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -1290,21 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.798,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "Macro regime explicitly restricts altcoins due to chop conditions and alts suppressed status.",
-      "risk_factors": "Severe lack of volume (RVOL 0.17) and bearish hourly trend alignment violate multiple evolved strategy rules.",
-      "timestamp": "2026-10-25T10:17:50.587771"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.79,
       "approved": false,
       "action": "REJECT",
@@ -1885,6 +1870,21 @@
       "primary_thesis": "NEAR shows marginal RVOL and positive hourly trend alignment, but mixed macro headlines and neutral RSI below 50 fail to clear our stringent elite breakout criteria.",
       "risk_factors": "RSI is stagnant at 45.2 below the midline, indicating lack of immediate aggressive buying pressure amid choppy broader altcoin performance.",
       "timestamp": "2026-10-25T11:00:31.547817"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "NEAR",
+      "current_price": 4.5051,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "NEAR shows decent RVOL (1.55) in a RISK_ON macro regime, but neutral RSI (45.2) and mixed altcoin market breadth warn against a breakout entry.",
+      "risk_factors": "General market weakness with 80% of tokens falling and sub-optimal momentum confluence increase the probability of a failed breakout.",
+      "timestamp": "2026-10-25T11:01:35.313773"
     }
   ],
   "performance": {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T15:22:16.004689"
+  "snapshot_synced_at": "2026-10-25T15:23:49.590045"
 }
