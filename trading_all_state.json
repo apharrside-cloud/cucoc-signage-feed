@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-25T14:37:05.730132",
+  "timestamp": "2026-10-25T14:38:39.061333",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.7,
+    "total_equity": 325.71,
     "total_cash": 250.3,
     "cash_pct": 76.8,
     "weekly_realized_pnl": -1.44,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 12:56:10] Running portfolio evaluation cycle...",
-      "[2026-10-25 12:56:10] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 13:01:13] Running portfolio evaluation cycle...",
       "[2026-10-25 13:01:14] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 13:06:14] Running portfolio evaluation cycle...",
@@ -71,20 +69,22 @@
       "[2026-10-25 14:27:03] Running portfolio evaluation cycle...",
       "[2026-10-25 14:27:03] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 14:32:03] Running portfolio evaluation cycle...",
-      "[2026-10-25 14:32:04] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-25 14:32:04] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 14:37:06] Running portfolio evaluation cycle...",
+      "[2026-10-25 14:37:07] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
-    "total_usd": 162.92,
+    "total_usd": 162.93,
     "cash_usd": 118.02,
-    "crypto_usd": 44.9,
+    "crypto_usd": 44.92,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.40318359639818,
-      "btc_price": 80567.37,
+      "btc_change_24h": 0.46190283519439,
+      "btc_price": 80571.3,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral +0.40% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral +0.46% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {
       "TAO": {
@@ -92,15 +92,15 @@
         "pair": "TAO-USDC",
         "entry_price": 252.17,
         "shares": 0.0982,
-        "peak_price": 254.61,
+        "peak_price": 254.67,
         "tp1_hit": false,
         "tp2_hit": false,
         "stop_loss_pct": 0.2,
         "trailing_active": false,
         "entry_time": "2026-10-25T11:41:40.819402",
-        "current_price": 254.6,
-        "pnl_pct": 0.96,
-        "value_usd": 25.0,
+        "current_price": 254.67,
+        "pnl_pct": 0.99,
+        "value_usd": 25.01,
         "tp1_pct": 8.5,
         "tp2_pct": 16.0,
         "trailing_pullback_pct": 3.0,
@@ -115,33 +115,20 @@
         "peak_price": 2359.88,
         "tp1_hit": false,
         "tp2_hit": false,
-        "stop_loss_pct": -1.5,
+        "stop_loss_pct": 0.2,
         "trailing_active": false,
         "entry_time": "2026-10-25T12:33:51.359976",
-        "current_price": 2352.2,
-        "pnl_pct": 0.36,
-        "value_usd": 19.9,
+        "current_price": 2353.22,
+        "pnl_pct": 0.41,
+        "value_usd": 19.91,
         "tp1_pct": 8.5,
         "tp2_pct": 12.0,
         "trailing_pullback_pct": 2.5,
         "volatility_profile": "Large-Cap Low Volatility",
-        "last_ai_eval_ts": 1792952571.6382525
+        "last_ai_eval_ts": 1792953496.5266955
       }
     },
     "logs": [
-      "[2026-10-25 14:30:06] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $254.56 | Peak: $254.56 | PnL: +0.95% ($25.00) | Vol: AI Alpha Runner",
-      "[2026-10-25 14:30:06] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,351.85 | Peak: $2,359.88 | PnL: +0.35% ($19.90) | Vol: Large-Cap Low Volatility",
-      "[2026-10-25 14:30:06] Deployable cash ($93.84 of $118.02 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
-      "[2026-10-25 14:30:06] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-25 14:31:07] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 14:31:07] Macro Regime: NEUTRAL | BTC 24h: +0.36% | Alts Allowed: False",
-      "[2026-10-25 14:31:07] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $254.43 | Peak: $254.56 | PnL: +0.90% ($24.99) | Vol: AI Alpha Runner",
-      "[2026-10-25 14:31:07] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,352.02 | Peak: $2,359.88 | PnL: +0.36% ($19.90) | Vol: Large-Cap Low Volatility",
-      "[2026-10-25 14:31:07] Deployable cash ($93.84 of $118.02 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
-      "[2026-10-25 14:31:07] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-25 14:32:08] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 14:32:08] Macro Regime: NEUTRAL | BTC 24h: +0.40% | Alts Allowed: False",
-      "[2026-10-25 14:32:08] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $254.50 | Peak: $254.56 | PnL: +0.92% ($24.99) | Vol: AI Alpha Runner",
       "[2026-10-25 14:32:08] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,352.42 | Peak: $2,359.88 | PnL: +0.37% ($19.90) | Vol: Large-Cap Low Volatility",
       "[2026-10-25 14:32:08] Deployable cash ($93.84 of $118.02 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
       "[2026-10-25 14:32:08] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
@@ -168,7 +155,20 @@
       "[2026-10-25 14:36:13] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $254.60 | Peak: $254.61 | PnL: +0.96% ($25.00) | Vol: AI Alpha Runner",
       "[2026-10-25 14:36:13] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,352.20 | Peak: $2,359.88 | PnL: +0.36% ($19.90) | Vol: Large-Cap Low Volatility",
       "[2026-10-25 14:36:13] Deployable cash ($93.84 of $118.02 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
-      "[2026-10-25 14:36:13] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-25 14:36:13] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 14:37:14] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 14:37:15] Macro Regime: NEUTRAL | BTC 24h: +0.44% | Alts Allowed: False",
+      "[2026-10-25 14:37:15] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $254.67 | Peak: $254.67 | PnL: +0.99% ($25.01) | Vol: AI Alpha Runner",
+      "[2026-10-25 14:37:15] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,353.10 | Peak: $2,359.88 | PnL: +0.40% ($19.91) | Vol: Large-Cap Low Volatility",
+      "[2026-10-25 14:37:15] Deployable cash ($93.84 of $118.02 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
+      "[2026-10-25 14:37:15] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 14:38:16] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 14:38:16] Macro Regime: NEUTRAL | BTC 24h: +0.46% | Alts Allowed: False",
+      "[2026-10-25 14:38:16] [TAO] Qty: 0.0982 | Entry: $252.17 | Current: $254.67 | Peak: $254.67 | PnL: +0.99% ($25.01) | Vol: AI Alpha Runner",
+      "[2026-10-25 14:38:16] [ETH] Qty: 0.00846014 | Entry: $2,343.68 | Current: $2,353.22 | Peak: $2,359.88 | PnL: +0.41% ($19.91) | Vol: Large-Cap Low Volatility",
+      "[2026-10-25 14:38:18] 🧠 [AI TIGHTEN STOP] Raising stop loss for ETH from -1.5% to 0.2% | Reason: Market regime is NEUTRAL with alts suppressed, and ETH has pulled back slightly from its peak, warranting locking in gains and tightening the stop.",
+      "[2026-10-25 14:38:18] Deployable cash ($93.84 of $118.02 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
+      "[2026-10-25 14:38:18] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -188,10 +188,10 @@
       "symbol": "TAO",
       "shares": 0.0982,
       "entry_price": 252.17,
-      "current_price": 254.6,
-      "value_usd": 25.0,
-      "pnl_pct": 0.96,
-      "pnl_usd": 0.24,
+      "current_price": 254.67,
+      "value_usd": 25.01,
+      "pnl_pct": 0.99,
+      "pnl_usd": 0.25,
       "trailing_info": "TP1: +8.5% | Stop: 0.2%"
     },
     {
@@ -199,11 +199,11 @@
       "symbol": "ETH",
       "shares": 0.00846014,
       "entry_price": 2343.68,
-      "current_price": 2352.2,
-      "value_usd": 19.9,
-      "pnl_pct": 0.36,
-      "pnl_usd": 0.07,
-      "trailing_info": "TP1: +8.5% | Stop: -1.5%"
+      "current_price": 2353.22,
+      "value_usd": 19.91,
+      "pnl_pct": 0.41,
+      "pnl_usd": 0.08,
+      "trailing_info": "TP1: +8.5% | Stop: 0.2%"
     }
   ],
   "closed_trades": [
@@ -1327,21 +1327,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.799,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 10,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX is heavily suppressed by macro regime constraints (allow_alts: false) and extremely weak volume profile (RVOL 0.12), failing all mandatory volume and regime filters.",
-      "risk_factors": "Severe lack of market participation, bearish hourly trend, and macro suppression creating high probability of capital erosion or bull trap.",
-      "timestamp": "2026-10-25T10:13:37.631309"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.801,
       "approved": false,
       "action": "REJECT",
@@ -1922,6 +1907,21 @@
       "primary_thesis": "AVAX fails macro constraints (allow_alts is false during a neutral BTC chop regime) and exhibits weak volume (RVOL 0.52).",
       "risk_factors": "Low relative volume, lack of altcoin regime permission, and ongoing downward pressure (-11% weekly drop) invalidate the mean-reversion setup.",
       "timestamp": "2026-10-25T10:55:11.325307"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 8.861,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "AVAX is currently restricted under the macro regime filter as alts are suppressed due to neutral BTC chop, and RVOL is critically weak at 0.52.",
+      "risk_factors": "Low relative volume, macro rule disallowing altcoin positions, and ongoing downward price pressure following recent weekly drops.",
+      "timestamp": "2026-10-25T10:56:15.170073"
     }
   ],
   "performance": {
@@ -1933,7 +1933,7 @@
     "max_drawdown_pct": 13.3,
     "trades_count_today": 1,
     "realized_pnl_today": 0.57,
-    "current_equity": 325.6955928,
+    "current_equity": 325.7055928,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3052,5 +3052,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T14:37:05.434891"
+  "snapshot_synced_at": "2026-10-25T14:38:38.778179"
 }
