@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T16:37:00.689695",
+  "timestamp": "2026-10-25T16:38:33.860171",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.31,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 15:02:14] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is near peak profit at +1.33% after 48 hours; tightening the stop to +1.0% locks in gains against potential intraday resistance.",
-      "[2026-10-25 15:07:14] Running portfolio evaluation cycle...",
       "[2026-10-25 15:07:15] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 15:12:15] Running portfolio evaluation cycle...",
       "[2026-10-25 15:12:16] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
@@ -71,7 +69,9 @@
       "[2026-10-25 16:27:54] Running portfolio evaluation cycle...",
       "[2026-10-25 16:27:55] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 16:32:55] Running portfolio evaluation cycle...",
-      "[2026-10-25 16:32:55] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-25 16:32:55] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 16:37:55] Running portfolio evaluation cycle...",
+      "[2026-10-25 16:38:11] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
     ]
   },
   "coinbase": {
@@ -80,18 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.04491101864627,
-      "btc_price": 80434.09,
+      "btc_change_24h": -0.05831082015479,
+      "btc_price": 80435.56,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.04% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.06% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 16:27:42] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 16:27:42] Macro Regime: NEUTRAL | BTC 24h: -0.01% | Alts Allowed: False",
-      "[2026-10-25 16:27:42] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 16:27:42] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 16:28:44] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 16:28:44] Macro Regime: NEUTRAL | BTC 24h: -0.00% | Alts Allowed: False",
       "[2026-10-25 16:28:44] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +123,11 @@
       "[2026-10-25 16:36:54] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 16:36:54] Macro Regime: NEUTRAL | BTC 24h: -0.04% | Alts Allowed: False",
       "[2026-10-25 16:36:54] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 16:36:54] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-25 16:36:54] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 16:37:55] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 16:37:56] Macro Regime: NEUTRAL | BTC 24h: -0.06% | Alts Allowed: False",
+      "[2026-10-25 16:37:56] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 16:37:56] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T16:37:00.360566"
+  "snapshot_synced_at": "2026-10-25T16:38:33.573853"
 }
