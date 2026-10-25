@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T01:50:14.433744",
+  "timestamp": "2026-10-25T01:51:48.036904",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -28,12 +28,10 @@
         "current_price": 257.58,
         "pnl_pct": 1.33,
         "pnl_usd": 0.4,
-        "last_ai_eval_ts": 1792906194.5884452
+        "last_ai_eval_ts": 1792907418.110567
       }
     },
     "logs": [
-      "[2026-10-25 00:09:14] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-25 00:14:16] Running portfolio evaluation cycle...",
       "[2026-10-25 00:14:16] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 00:19:16] Running portfolio evaluation cycle...",
       "[2026-10-25 00:19:17] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
@@ -71,7 +69,9 @@
       "[2026-10-25 01:39:58] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 01:44:58] Running portfolio evaluation cycle...",
       "[2026-10-25 01:45:13] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
-      "[2026-10-25 01:50:13] Running portfolio evaluation cycle..."
+      "[2026-10-25 01:50:13] Running portfolio evaluation cycle...",
+      "[2026-10-25 01:50:18] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 01:50:20] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is near peak profit of +1.35% with minimal pullback, warranting a tightened stop to lock in gains while allowing room for continuation."
     ]
   },
   "coinbase": {
@@ -80,18 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.25062762310496,
-      "btc_price": 80439.44,
+      "btc_change_24h": -0.2932389876671,
+      "btc_price": 80414.44,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.25% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.29% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 01:40:44] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 01:40:44] Macro Regime: NEUTRAL | BTC 24h: -0.16% | Alts Allowed: False",
-      "[2026-10-25 01:40:44] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 01:40:44] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 01:41:45] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 01:41:45] Macro Regime: NEUTRAL | BTC 24h: -0.16% | Alts Allowed: False",
       "[2026-10-25 01:41:45] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +123,11 @@
       "[2026-10-25 01:49:56] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 01:49:56] Macro Regime: NEUTRAL | BTC 24h: -0.25% | Alts Allowed: False",
       "[2026-10-25 01:49:56] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 01:49:56] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-25 01:49:56] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 01:50:57] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 01:50:57] Macro Regime: NEUTRAL | BTC 24h: -0.29% | Alts Allowed: False",
+      "[2026-10-25 01:50:57] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 01:50:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
-      "current_price": 102.47,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-24T00:15:55.253507"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SOL",
       "current_price": 102.49,
       "approved": false,
       "action": "REJECT",
@@ -1843,6 +1828,21 @@
       "primary_thesis": "ETH volume profile is exceptionally anemic with an RVOL of 0.17, failing all volume expansion rules required for a high-probability mean reversion or trend continuation entry.",
       "risk_factors": "Severe lack of volume participation (RVOL 0.17) amid ongoing ETF outflows and broader crypto market deleveraging creates a high risk of a bull trap.",
       "timestamp": "2026-10-24T15:14:30.206266"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2334.6,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 30,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "ETH is exhibiting weak relative volume (RVOL 0.17) and negative 24-hour momentum, failing multiple strict volume-expansion and strategy rules for entry.",
+      "risk_factors": "Extremely low breakout volume combined with broader macroeconomic chop and continued ETF outflows presents an unacceptable probability of fakeout and capital loss.",
+      "timestamp": "2026-10-24T15:15:37.696289"
     }
   ],
   "performance": {
@@ -2960,5 +2960,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T01:50:14.068733"
+  "snapshot_synced_at": "2026-10-25T01:51:47.730355"
 }
