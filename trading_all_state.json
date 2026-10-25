@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T05:32:52.485538",
+  "timestamp": "2026-10-25T05:34:26.188934",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -88,12 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 05:26:26] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 05:26:26] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-25 05:26:26] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.4 (chg -0.53%)!",
-      "[2026-10-25 05:26:29] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX fails all volume and macro criteria with weak RVOL of 0.32 and a bearish hourly trend while macro regime strictly prohibits altcoins.",
-      "[2026-10-25 05:27:29] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 05:27:29] Macro Regime: NEUTRAL | BTC 24h: -0.39% | Alts Allowed: False",
       "[2026-10-25 05:27:29] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 05:27:29] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 05:27:30] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.4 (chg -0.67%)!",
@@ -127,7 +121,13 @@
       "[2026-10-25 05:32:45] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 05:32:45] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 05:32:46] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.5 (chg -0.99%)!",
-      "[2026-10-25 05:32:48] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX is currently in a bearish hourly trend with severe volume exhaustion (RVOL 0.32) under a neutral macro regime that explicitly disallows altcoin exposure."
+      "[2026-10-25 05:32:48] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX is currently in a bearish hourly trend with severe volume exhaustion (RVOL 0.32) under a neutral macro regime that explicitly disallows altcoin exposure.",
+      "[2026-10-25 05:33:48] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 05:33:49] Macro Regime: NEUTRAL | BTC 24h: -0.50% | Alts Allowed: False",
+      "[2026-10-25 05:33:49] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 05:33:49] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 05:33:49] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.5 (chg -0.81%)!",
+      "[2026-10-25 05:33:51] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX fails macro and volume requirements with a neutral regime blocking altcoins, bearish hourly trend, and an extremely weak RVOL of 0.32."
     ]
   },
   "positions": [
@@ -1251,21 +1251,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
-      "current_price": 102.62,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-24T00:53:50.646052"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SOL",
       "current_price": 102.647,
       "approved": false,
       "action": "REJECT",
@@ -1843,6 +1828,21 @@
       "primary_thesis": "ETH is exhibiting weak relative volume (Rvol 0.45) with ongoing ETF outflows and macro chop, offering no statistical edge for long entries.",
       "risk_factors": "Low volume churn, negative institutional flows, and declining momentum near key support levels increase the risk of a breakdown.",
       "timestamp": "2026-10-24T15:38:59.978901"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2339.05,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 30,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "ETH shows oversold conditions on the hourly chart, but weak volume profile and negative institutional ETF outflows preclude entry.",
+      "risk_factors": "Low relative volume (RVOL 0.45), ongoing Ethereum ETF outflows, and weak macro alignment present an unacceptably high risk of continued downside chop.",
+      "timestamp": "2026-10-24T15:40:05.727215"
     }
   ],
   "performance": {
@@ -2960,5 +2960,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T05:32:52.154611"
+  "snapshot_synced_at": "2026-10-25T05:34:25.895861"
 }
