@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T07:06:25.598300",
+  "timestamp": "2026-10-25T07:08:00.062557",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.58,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 05:26:52] Running portfolio evaluation cycle...",
-      "[2026-10-25 05:26:52] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 05:31:52] Running portfolio evaluation cycle...",
       "[2026-10-25 05:31:53] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 05:36:55] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-25 06:57:34] Running portfolio evaluation cycle...",
       "[2026-10-25 06:57:35] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 07:02:35] Running portfolio evaluation cycle...",
-      "[2026-10-25 07:02:35] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-25 07:02:35] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 07:07:35] Running portfolio evaluation cycle...",
+      "[2026-10-25 07:07:51] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
     ]
   },
   "coinbase": {
@@ -80,18 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.37730113491844,
-      "btc_price": 80292.01,
+      "btc_change_24h": -0.4248898815063,
+      "btc_price": 80252.56,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.38% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.42% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 06:59:50] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 06:59:51] Macro Regime: NEUTRAL | BTC 24h: -0.49% | Alts Allowed: False",
-      "[2026-10-25 06:59:51] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 06:59:51] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 06:59:51] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.4 (chg -1.59%)!",
       "[2026-10-25 06:59:54] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX fails multiple hard rules with abysmal volume (RVOL 0.25), bearish hourly trend, and macro regime explicitly forbidding altcoin exposure.",
       "[2026-10-25 07:00:54] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -127,7 +123,11 @@
       "[2026-10-25 07:06:11] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 07:06:11] Macro Regime: NEUTRAL | BTC 24h: -0.38% | Alts Allowed: False",
       "[2026-10-25 07:06:11] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 07:06:11] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-25 07:06:11] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 07:07:12] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 07:07:12] Macro Regime: NEUTRAL | BTC 24h: -0.42% | Alts Allowed: False",
+      "[2026-10-25 07:07:12] Deployable cash ($138.62 of $162.80 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 07:07:12] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -2959,5 +2959,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T07:06:25.251786"
+  "snapshot_synced_at": "2026-10-25T07:07:59.753358"
 }
