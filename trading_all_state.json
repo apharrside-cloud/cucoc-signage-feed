@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-26T12:58:25.335564",
+  "timestamp": "2026-10-26T12:59:59.024720",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 324.33,
-    "total_cash": 269.4,
-    "cash_pct": 83.1,
+    "total_equity": 324.34,
+    "total_cash": 239.4,
+    "cash_pct": 73.8,
     "weekly_realized_pnl": -0.29,
     "win_rate": 58.26086956521739,
     "winning_trades": 67,
@@ -15,8 +15,8 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 162.767464965,
-    "cash": 107.84,
+    "total_value": 162.780209675,
+    "cash": 77.84,
     "positions": {
       "TSLA": {
         "symbol": "TSLA",
@@ -25,9 +25,9 @@
         "high_water_mark": 395.7,
         "tp1_hit": false,
         "entry_time": "2026-10-26T11:43:09.147336",
-        "current_price": 395.105,
-        "pnl_pct": 0.08,
-        "pnl_usd": 0.02,
+        "current_price": 395.02,
+        "pnl_pct": 0.06,
+        "pnl_usd": 0.01,
         "last_ai_eval_ts": 1793033255.0626905
       },
       "AVGO": {
@@ -37,25 +37,25 @@
         "high_water_mark": 330.365,
         "tp1_hit": false,
         "entry_time": "2026-10-26T12:31:03.141177",
-        "current_price": 329.285,
-        "pnl_pct": -0.32,
-        "pnl_usd": -0.09,
+        "current_price": 329.495,
+        "pnl_pct": -0.25,
+        "pnl_usd": -0.08,
         "last_ai_eval_ts": 1793033277.3774853
       },
       "MU": {
         "symbol": "MU",
-        "shares": 0.033129,
+        "shares": 0.03309,
         "entry_price": 905.55,
-        "high_water_mark": 905.55,
+        "high_water_mark": 906.69,
         "tp1_hit": false,
-        "entry_time": "2026-10-26T12:58:12.117009"
+        "entry_time": "2026-10-26T12:58:12.117009",
+        "current_price": 906.69,
+        "pnl_pct": 0.13,
+        "pnl_usd": 0.04,
+        "last_ai_eval_ts": 1793033953.3274026
       }
     },
     "logs": [
-      "[2026-10-26 12:50:41] Available deployable cash ($95.69 of $107.84 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
-      "[2026-10-26 12:50:42] VWAP Filter: Skipping NVDA because price ($215.08) is BELOW session VWAP ($215.89).",
-      "[2026-10-26 12:51:42] Running portfolio evaluation cycle...",
-      "[2026-10-26 12:51:42] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $394.72 | PnL: -0.02% ($-0.01) | Peak: $395.70",
       "[2026-10-26 12:51:42] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $328.99 | PnL: -0.41% ($-0.12) | Peak: $330.37",
       "[2026-10-26 12:51:42] Available deployable cash ($95.69 of $107.84 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-26 12:51:43] VWAP Filter: Skipping NVDA because price ($215.19) is BELOW session VWAP ($215.89).",
@@ -91,7 +91,11 @@
       "[2026-10-26 12:57:46] VWAP Filter: Skipping NVDA because price ($215.53) is BELOW session VWAP ($215.89).",
       "[2026-10-26 12:57:46] VWAP Filter: Skipping TQQQ because price ($68.50) is BELOW session VWAP ($68.63).",
       "[2026-10-26 12:58:10] 🔥 Found momentum breakout: MU (+3.19%) @ $905.55. Executing AI-APPROVED BUY of $30.00...",
-      "[2026-10-26 12:58:12] Buy order placed: {'data': {'order': {'id': '6adf867e-5f26-4787-a2d9-50398c4bf0b9', 'ref_id': '01a17925-5f37-7054-b7f5-fcd3ad6390b8', 'instrument_id': '0a8a072c-e52c-4e41-a2ee-8adbd72217d3', 'symbol': 'MU', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.033090', 'cumulative_quantity': '0.000000', 'price': '906.580000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '30.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-26T16:57:34.870946Z', 'last_transaction_at': '2026-10-26T16:57:34.870946Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}"
+      "[2026-10-26 12:58:12] Buy order placed: {'data': {'order': {'id': '6adf867e-5f26-4787-a2d9-50398c4bf0b9', 'ref_id': '01a17925-5f37-7054-b7f5-fcd3ad6390b8', 'instrument_id': '0a8a072c-e52c-4e41-a2ee-8adbd72217d3', 'symbol': 'MU', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.033090', 'cumulative_quantity': '0.000000', 'price': '906.580000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '30.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-26T16:57:34.870946Z', 'last_transaction_at': '2026-10-26T16:57:34.870946Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
+      "[2026-10-26 12:59:12] Running portfolio evaluation cycle...",
+      "[2026-10-26 12:59:13] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $395.02 | PnL: +0.06% ($+0.01) | Peak: $395.70",
+      "[2026-10-26 12:59:13] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $329.50 | PnL: -0.25% ($-0.08) | Peak: $330.37",
+      "[2026-10-26 12:59:13] [MU] Shares: 0.033090 | Entry: $905.55 | Current: $906.69 | PnL: +0.13% ($+0.04) | Peak: $906.69"
     ]
   },
   "coinbase": {
@@ -100,23 +104,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.84342877938397,
-      "btc_price": 79996.19,
+      "btc_change_24h": -0.75793082987347,
+      "btc_price": 80080.47,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.84% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.76% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 12:48:26] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 12:48:26] Macro Regime: NEUTRAL | BTC 24h: -0.97% | Alts Allowed: False",
-      "[2026-10-26 12:48:26] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 12:48:26] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 12:49:28] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 12:49:28] Macro Regime: NEUTRAL | BTC 24h: -0.93% | Alts Allowed: False",
-      "[2026-10-26 12:49:28] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 12:49:28] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 12:50:30] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 12:50:30] Macro Regime: NEUTRAL | BTC 24h: -0.81% | Alts Allowed: False",
       "[2026-10-26 12:50:30] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -148,7 +144,15 @@
       "[2026-10-26 12:57:45] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 12:57:45] Macro Regime: NEUTRAL | BTC 24h: -0.84% | Alts Allowed: False",
       "[2026-10-26 12:57:45] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 12:57:45] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-26 12:57:45] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 12:58:48] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 12:58:48] Macro Regime: NEUTRAL | BTC 24h: -0.79% | Alts Allowed: False",
+      "[2026-10-26 12:58:48] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 12:58:48] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 12:59:51] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 12:59:51] Macro Regime: NEUTRAL | BTC 24h: -0.76% | Alts Allowed: False",
+      "[2026-10-26 12:59:51] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 12:59:51] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -157,10 +161,10 @@
       "symbol": "TSLA",
       "shares": 0.063352,
       "entry_price": 394.8,
-      "current_price": 395.105,
+      "current_price": 395.02,
       "value_usd": 25.03,
-      "pnl_pct": 0.08,
-      "pnl_usd": 0.02,
+      "pnl_pct": 0.06,
+      "pnl_usd": 0.01,
       "trailing_info": "Peak: $395.70 | Trailing 3.5%"
     },
     {
@@ -168,22 +172,22 @@
       "symbol": "AVGO",
       "shares": 0.090793,
       "entry_price": 330.33,
-      "current_price": 329.285,
-      "value_usd": 29.9,
-      "pnl_pct": -0.32,
-      "pnl_usd": -0.09,
+      "current_price": 329.495,
+      "value_usd": 29.92,
+      "pnl_pct": -0.25,
+      "pnl_usd": -0.08,
       "trailing_info": "Peak: $330.37 | Trailing 3.5%"
     },
     {
       "account": "Robinhood",
       "symbol": "MU",
-      "shares": 0.033129,
+      "shares": 0.03309,
       "entry_price": 905.55,
-      "current_price": 905.55,
+      "current_price": 906.69,
       "value_usd": 30.0,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
-      "trailing_info": "Peak: $905.55 | Trailing 3.5%"
+      "pnl_pct": 0.13,
+      "pnl_usd": 0.04,
+      "trailing_info": "Peak: $906.69 | Trailing 3.5%"
     }
   ],
   "closed_trades": [
@@ -1965,7 +1969,7 @@
     "max_drawdown_pct": 13.51,
     "trades_count_today": 2,
     "realized_pnl_today": -0.29,
-    "current_equity": 324.327464965,
+    "current_equity": 324.340209675,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3136,5 +3140,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T12:58:25.028803"
+  "snapshot_synced_at": "2026-10-26T12:59:58.722128"
 }
