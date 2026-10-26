@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T21:07:58.251746",
+  "timestamp": "2026-10-25T21:09:31.684831",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.05,
@@ -80,24 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.90943624694259,
-      "btc_price": 79951.37,
+      "btc_change_24h": -0.9901946021046,
+      "btc_price": 79886.21,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.91% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.99% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 20:57:02] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 20:58:02] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 20:58:02] Macro Regime: RISK_OFF | BTC 24h: -1.00% | Alts Allowed: False",
-      "[2026-10-25 20:58:02] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 20:59:03] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 20:59:03] Macro Regime: NEUTRAL | BTC 24h: -0.97% | Alts Allowed: False",
-      "[2026-10-25 20:59:03] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 20:59:03] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-25 21:00:04] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 21:00:04] Macro Regime: NEUTRAL | BTC 24h: -0.92% | Alts Allowed: False",
       "[2026-10-25 21:00:04] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 21:00:04] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 21:01:06] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -127,7 +117,17 @@
       "[2026-10-25 21:07:14] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 21:07:14] Macro Regime: NEUTRAL | BTC 24h: -0.91% | Alts Allowed: False",
       "[2026-10-25 21:07:14] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 21:07:14] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-25 21:07:14] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 21:08:15] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 21:08:15] Macro Regime: NEUTRAL | BTC 24h: -0.99% | Alts Allowed: False",
+      "[2026-10-25 21:08:15] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 21:08:15] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 21:09:16] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 21:09:16] Macro Regime: NEUTRAL | BTC 24h: -0.97% | Alts Allowed: False",
+      "[2026-10-25 21:09:16] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 21:09:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 21:09:17] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=34.9 (chg -0.97%)!",
+      "[2026-10-25 21:09:20] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 0%) | Thesis: Fails volume confirmation rules with a severely depressed RVOL of 0.23, combined with a bearish 1-hour trend and RSI at 34.9 indicating lack of upward momentum."
     ]
   },
   "positions": [
@@ -1290,21 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.795,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 10,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX is heavily suppressed with abysmal relative volume (rvol 0.39) and a bearish hourly trend while macro rules strictly prohibit altcoin exposure.",
-      "risk_factors": "Macro regime explicitly disallows alts (allow_alts: false) and volume is far below the mandatory 1.5x threshold, presenting extreme chop risk.",
-      "timestamp": "2026-10-25T10:32:40.977528"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.798,
       "approved": false,
       "action": "REJECT",
@@ -1885,6 +1870,21 @@
       "primary_thesis": "TAO shows moderate 24-hour upside, but fails crucial evolved strategy rules requiring RVOL > 1.5.",
       "risk_factors": "Current relative volume (RVOL 0.84) is severely below the 1.5x minimum threshold, indicating a lack of institutional breakout participation.",
       "timestamp": "2026-10-25T11:24:55.757218"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "TAO",
+      "current_price": 249.98,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "TAO is attempting a breakout in a risk-on regime, but fails multiple evolved strategy rules regarding volume confirmation.",
+      "risk_factors": "Current RVOL (1.13) fails the strict 1.5x minimum threshold required for crypto long breakout entries, indicating insufficient institutional backing.",
+      "timestamp": "2026-10-25T11:26:02.830665"
     }
   ],
   "performance": {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T21:07:57.793952"
+  "snapshot_synced_at": "2026-10-25T21:09:31.382607"
 }
