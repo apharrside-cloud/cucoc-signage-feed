@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T21:21:59.485649",
+  "timestamp": "2026-10-25T21:23:32.846077",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.01,
@@ -88,12 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 21:13:30] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 35%) | Thesis: RVOL is severely depressed at 0.23 against a 1-hour bearish trend, violating mandatory volume expansion rules.",
-      "[2026-10-25 21:14:30] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 21:14:31] Macro Regime: NEUTRAL | BTC 24h: -0.99% | Alts Allowed: False",
-      "[2026-10-25 21:14:31] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 21:14:31] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-25 21:14:31] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=34.7 (chg -0.99%)!",
       "[2026-10-25 21:14:34] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 35%) | Thesis: The asset is in a mean-reversion chop regime with weak relative volume (RVOL 0.4) and bearish 1-hour trend alignment, failing all strict long criteria.",
       "[2026-10-25 21:15:34] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 21:15:34] Macro Regime: NEUTRAL | BTC 24h: -0.88% | Alts Allowed: False",
@@ -127,7 +121,13 @@
       "[2026-10-25 21:21:45] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 21:21:45] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 21:21:46] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.6 (chg -0.93%)!",
-      "[2026-10-25 21:21:50] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 30%) | Thesis: The strategy mode is mean reversion with an oversold RSI of 33.6, but the asset fails strict volume rules with an RVOL of 0.56 against required minimums."
+      "[2026-10-25 21:21:50] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 30%) | Thesis: The strategy mode is mean reversion with an oversold RSI of 33.6, but the asset fails strict volume rules with an RVOL of 0.56 against required minimums.",
+      "[2026-10-25 21:22:50] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 21:22:50] Macro Regime: NEUTRAL | BTC 24h: -0.93% | Alts Allowed: False",
+      "[2026-10-25 21:22:50] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 21:22:50] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 21:22:50] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.6 (chg -0.93%)!",
+      "[2026-10-25 21:22:53] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 35%) | Thesis: RVOL is severely depressed at 0.56 against a bearish hourly trend and low momentum volume profile, failing multiple mandatory crypto long rules."
     ]
   },
   "positions": [
@@ -1290,21 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.822,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX is experiencing weak volume (RVOL 0.47) and failing macro alignment filters that explicitly suppress altcoins during neutral BTC regimes.",
-      "risk_factors": "Low relative volume, weak downward momentum, and macro prohibition against altcoins create a high probability of a bull trap.",
-      "timestamp": "2026-10-25T10:42:29.298734"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.834,
       "approved": false,
       "action": "REJECT",
@@ -1885,6 +1870,21 @@
       "primary_thesis": "TAO is attempting a breakout in a risk-on regime, but fails multiple evolved quantitative volume filters.",
       "risk_factors": "Current RVOL of 1.25 fails the strict strategy rule requiring RVOL >= 1.5x for crypto long breakouts, and RSI at 46 indicates lack of strong immediate momentum.",
       "timestamp": "2026-10-25T11:34:58.849753"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "TAO",
+      "current_price": 251.46,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "TAO is showing neutral RSI (48.9) and lacks a strong breakout confirmation candle despite meeting baseline RVOL parameters.",
+      "risk_factors": "RSI near neutral midpoint and lack of decisive momentum suggest potential range-bound chop rather than a high-conviction breakout.",
+      "timestamp": "2026-10-25T11:36:06.431190"
     }
   ],
   "performance": {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T21:21:59.105730"
+  "snapshot_synced_at": "2026-10-25T21:23:32.544225"
 }
