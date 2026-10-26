@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T09:39:45.639266",
+  "timestamp": "2026-10-26T09:41:20.954104",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.31,
@@ -19,11 +19,6 @@
     "cash": 162.78,
     "positions": {},
     "logs": [
-      "[2026-10-26 09:10:51] No positions currently held.",
-      "[2026-10-26 09:15:51] Running portfolio evaluation cycle...",
-      "[2026-10-26 09:15:52] No positions currently held.",
-      "[2026-10-26 09:20:52] Running portfolio evaluation cycle...",
-      "[2026-10-26 09:20:52] No positions currently held.",
       "[2026-10-26 09:25:52] Running portfolio evaluation cycle...",
       "[2026-10-26 09:25:53] No positions currently held.",
       "[2026-10-26 09:30:53] Running portfolio evaluation cycle...",
@@ -58,7 +53,12 @@
       "[2026-10-26 09:38:44] No positions currently held.",
       "[2026-10-26 09:38:44] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-26 09:39:00] 🧠 [AI GATE] Buy of ARM VETOED by AI Brain (Confidence: 45%) | Thesis: ARM is showing intraday upside momentum above VWAP, but conflicting news headlines regarding valuation debates and legal/tokenization objections introduce unnecessary headline risk.",
-      "[2026-10-26 09:39:00] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-26 09:39:00] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-26 09:40:00] Running portfolio evaluation cycle...",
+      "[2026-10-26 09:40:01] No positions currently held.",
+      "[2026-10-26 09:40:01] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-26 09:40:22] 🧠 [AI GATE] Buy of SMH VETOED by AI Brain (Confidence: 45%) | Thesis: SMH is trading above intraday VWAP with a +1.73% gain, but lacks comprehensive volume profile confirmation and faces mixed macro sentiment from recent tech pullback headlines.",
+      "[2026-10-26 09:40:22] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
     ]
   },
   "coinbase": {
@@ -67,18 +67,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.4207477667054,
-      "btc_price": 79898.13,
+      "btc_change_24h": -0.59456220153219,
+      "btc_price": 79786.88,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.42% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.59% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 09:29:17] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 09:30:18] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 09:30:18] Macro Regime: NEUTRAL | BTC 24h: -0.47% | Alts Allowed: False",
-      "[2026-10-26 09:30:18] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 09:30:18] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 09:31:19] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 09:31:20] Macro Regime: NEUTRAL | BTC 24h: -0.67% | Alts Allowed: False",
@@ -114,7 +110,11 @@
       "[2026-10-26 09:39:30] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 09:39:30] Macro Regime: NEUTRAL | BTC 24h: -0.42% | Alts Allowed: False",
       "[2026-10-26 09:39:30] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 09:39:30] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 09:39:30] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 09:40:32] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 09:40:32] Macro Regime: NEUTRAL | BTC 24h: -0.59% | Alts Allowed: False",
+      "[2026-10-26 09:40:32] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 09:40:32] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [],
@@ -1265,21 +1265,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2315.05,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 10,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "ETH is exhibiting weak relative volume (RVOL 0.17) and an oversold RSI of 31.7 under a choppy macro regime, violating strict quantitative rules requiring RVOL > 1.5 for entry.",
-      "risk_factors": "Extremely low volume expansion and neutral-to-bearish market regime create a high probability of a bull trap or continued range-bound drift.",
-      "timestamp": "2026-10-26T03:14:25.878879"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2316.24,
       "approved": false,
       "action": "REJECT",
@@ -1860,6 +1845,21 @@
       "primary_thesis": "ETH is exhibiting weak relative volume (RVOL 0.56) failing all mandatory volume breakout and expansion filters.",
       "risk_factors": "Low volume churn during a neutral macro regime increases vulnerability to false mean-reversion bounces and liquidity sweeps.",
       "timestamp": "2026-10-26T03:55:34.333345"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2315.99,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 35,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "ETH RVOL is exceptionally low at 0.56, failing the mandatory evolved rule requiring RVOL > 1.5 and volume confirmation for entries.",
+      "risk_factors": "Low relative volume signals a lack of institutional backing, significantly increasing the probability of a failed mean-reversion setup or chop trap.",
+      "timestamp": "2026-10-26T03:56:37.504852"
     }
   ],
   "performance": {
@@ -3016,5 +3016,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T09:39:44.657497"
+  "snapshot_synced_at": "2026-10-26T09:41:20.623087"
 }
