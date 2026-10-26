@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T19:10:05.684541",
+  "timestamp": "2026-10-26T19:11:39.155831",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.45,
@@ -89,14 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 19:03:57] Macro Regime: NEUTRAL | BTC 24h: -0.85% | Alts Allowed: False",
-      "[2026-10-26 19:03:57] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 19:03:57] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 19:04:59] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 19:04:59] Macro Regime: NEUTRAL | BTC 24h: -0.82% | Alts Allowed: False",
-      "[2026-10-26 19:04:59] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 19:04:59] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 19:05:01] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -1.43%)!",
       "[2026-10-26 19:05:01] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=37.5 (chg -0.81%)!",
       "[2026-10-26 19:05:06] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: ETH is in a bearish hourly trend with extremely low relative volume (RVOL 0.09) and an RSI of 37.4, failing all mandatory crypto momentum and breakout volume filters.",
       "[2026-10-26 19:06:06] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -128,7 +120,15 @@
       "[2026-10-26 19:10:03] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 19:10:03] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 19:10:04] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=34.9 (chg -1.51%)!",
-      "[2026-10-26 19:10:05] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=38.0 (chg -0.75%)!"
+      "[2026-10-26 19:10:05] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=38.0 (chg -0.75%)!",
+      "[2026-10-26 19:10:07] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a bearish 1-hour trend with severely anemic relative volume (0.07x) and an RSI of 34.9, failing all required long entry criteria.",
+      "[2026-10-26 19:11:07] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 19:11:08] Macro Regime: NEUTRAL | BTC 24h: -0.66% | Alts Allowed: False",
+      "[2026-10-26 19:11:08] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 19:11:08] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 19:11:09] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=35.7 (chg -1.36%)!",
+      "[2026-10-26 19:11:09] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=38.0 (chg -0.66%)!",
+      "[2026-10-26 19:11:12] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is currently experiencing bearish hourly momentum with RSI at 35.7 and an extremely weak relative volume of 0.09, violating all volume expansion and trend alignment rules."
     ]
   },
   "positions": [
@@ -1315,36 +1315,6 @@
   "ai_decisions": [
     {
       "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
-      "current_price": 2298.41,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 15,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "Declining hourly trend and critically low relative volume (0.36 RVOL) directly violate our core algorithmic execution constraints for ETH.",
-      "risk_factors": "Low volume churn during a bearish hourly trend creates high vulnerability to fakeouts and sudden downside continuation.",
-      "timestamp": "2026-10-26T10:08:08.868892"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "ARM",
-      "current_price": 213.66,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 55,
-      "position_usd": 15.0,
-      "stop_loss_pct": -2.5,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "ARM is trading near VWAP during regular hours, but headlines regarding valuation concerns and recent 8% weekly drawdown present an unclear directional edge.",
-      "risk_factors": "Mixed regulatory/tokenization objections and recent downside momentum create excessive binary risk that fails to meet the strict 75% confidence threshold.",
-      "timestamp": "2026-10-26T10:10:59.715554"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
       "symbol": "TQQQ",
       "current_price": 67.35,
@@ -1902,6 +1872,35 @@
       "new_stop_pct": 0.8,
       "reasoning": "Locking in gains as price pulls back 0.52% from its peak of +1.63% while encountering resistance near session highs.",
       "timestamp": "2026-10-26T12:12:36.232386"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "NVDA",
+      "entry_price": 217.17,
+      "current_price": 215.59,
+      "pnl_pct": -0.73,
+      "hours_held": 1.0,
+      "action": "EXIT_EARLY",
+      "confidence": 85,
+      "new_stop_pct": null,
+      "reasoning": "NVDA has pulled back 0.80% from its peak, pushing PnL to -0.73% below entry as upside momentum has completely stalled.",
+      "timestamp": "2026-10-26T12:21:36.761607"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "SOXL",
+      "current_price": 90.93,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "SOXL is showing strong intraday upside momentum, but mixed macro headlines regarding chip stocks and negative multi-timeframe VWAP positioning create conflicting execution signals.",
+      "risk_factors": "Extreme volatility in leveraged semiconductor ETFs combined with sliding broader tech markets increases risk of severe gap-downs or swift trend reversals.",
+      "timestamp": "2026-10-26T12:23:04.630329"
     }
   ],
   "performance": {
@@ -3084,5 +3083,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T19:10:05.349776"
+  "snapshot_synced_at": "2026-10-26T19:11:38.849202"
 }
