@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T01:18:46.289344",
+  "timestamp": "2026-10-26T01:20:19.708031",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.21,
@@ -79,18 +79,15 @@
     "cash_usd": 162.53,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "NEUTRAL",
-      "btc_change_24h": -0.98925715983069,
-      "btc_price": 79998.7,
+      "status": "RISK_OFF",
+      "btc_change_24h": -1.00719077204881,
+      "btc_price": 79984.21,
       "allow_alts": false,
-      "allow_core": true,
-      "reason": "BTC neutral -0.99% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "allow_core": false,
+      "reason": "BTC down -1.01% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 01:07:33] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 01:08:33] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 01:08:33] Macro Regime: RISK_OFF | BTC 24h: -1.04% | Alts Allowed: False",
       "[2026-10-26 01:08:33] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 01:09:34] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 01:09:34] Macro Regime: RISK_OFF | BTC 24h: -1.05% | Alts Allowed: False",
@@ -127,7 +124,10 @@
       "[2026-10-26 01:18:42] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 01:18:43] Macro Regime: NEUTRAL | BTC 24h: -0.99% | Alts Allowed: False",
       "[2026-10-26 01:18:43] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 01:18:43] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 01:18:43] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 01:19:44] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 01:19:44] Macro Regime: RISK_OFF | BTC 24h: -1.01% | Alts Allowed: False",
+      "[2026-10-26 01:19:44] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1287,6 +1287,21 @@
   ],
   "ai_decisions": [
     {
+      "id": "dec_1792991938_66b3de",
+      "timestamp": "2026-10-26T01:18:58.743821",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "BTC",
+      "title": "Breaking Catalyst: Bitcoin wallet bug let rogue servers steal funds when users tried to speed up pa",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": 0.0,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "NEUTRAL",
+      "impact": "CATALYST_ANALYZED"
+    },
+    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "NEAR",
@@ -1870,21 +1885,6 @@
       "primary_thesis": "FET fails strict evolved strategy rules requiring RVOL > 1.5 (current RVOL is 1.0) and has a negative news catalyst regarding a recent exploit.",
       "risk_factors": "Low volume breakout attempt failing to meet quantitative filters combined with protocol exploit headlines representing direct fundamental risk.",
       "timestamp": "2026-10-25T11:51:37.708177"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
-      "current_price": 0.17655,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "FET fails multiple mandatory strategy filters, lacking the required relative volume expansion (RVOL 1.0 vs 1.5 requirement) and exhibiting exploit headlines.",
-      "risk_factors": "Active exploit news regarding Fetch.ai ecosystem and failure to meet the minimum RVOL breakout threshold of 1.5x.",
-      "timestamp": "2026-10-25T11:52:43.705023"
     }
   ],
   "performance": {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T01:18:45.971634"
+  "snapshot_synced_at": "2026-10-26T01:20:19.319677"
 }
