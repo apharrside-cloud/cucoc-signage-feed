@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T19:05:24.976246",
+  "timestamp": "2026-10-26T19:06:58.496871",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.6,
@@ -89,14 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 18:55:37] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 18:56:39] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 18:56:39] Macro Regime: NEUTRAL | BTC 24h: -0.73% | Alts Allowed: False",
-      "[2026-10-26 18:56:39] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 18:56:39] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 18:57:41] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 18:57:42] Macro Regime: NEUTRAL | BTC 24h: -0.68% | Alts Allowed: False",
-      "[2026-10-26 18:57:42] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 18:57:42] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 18:58:44] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 18:58:44] Macro Regime: NEUTRAL | BTC 24h: -0.68% | Alts Allowed: False",
@@ -128,7 +120,15 @@
       "[2026-10-26 19:04:59] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 19:05:01] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -1.43%)!",
       "[2026-10-26 19:05:01] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=37.5 (chg -0.81%)!",
-      "[2026-10-26 19:05:06] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: ETH is in a bearish hourly trend with extremely low relative volume (RVOL 0.09) and an RSI of 37.4, failing all mandatory crypto momentum and breakout volume filters."
+      "[2026-10-26 19:05:06] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: ETH is in a bearish hourly trend with extremely low relative volume (RVOL 0.09) and an RSI of 37.4, failing all mandatory crypto momentum and breakout volume filters.",
+      "[2026-10-26 19:06:06] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 19:06:06] Macro Regime: NEUTRAL | BTC 24h: -0.86% | Alts Allowed: False",
+      "[2026-10-26 19:06:06] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 19:06:06] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 19:06:07] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=34.9 (chg -1.53%)!",
+      "[2026-10-26 19:06:08] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -1.46%)!",
+      "[2026-10-26 19:06:08] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=37.5 (chg -0.86%)!",
+      "[2026-10-26 19:06:10] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL exhibits extreme low relative volume (RVOL 0.07) and a bearish hourly trend with RSI at 34.9, failing all required momentum and volume expansion filters."
     ]
   },
   "positions": [
@@ -1317,21 +1317,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2295.36,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "ETH is exhibiting mean-reversion characteristics in a bearish hourly trend while macro regime flags a neutral/chop environment.",
-      "risk_factors": "Hourly trend is bearish with declining BTC prices and negative 24h change, violating multi-timeframe trend alignment rules for long entries.",
-      "timestamp": "2026-10-26T10:03:29.387391"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2298.76,
       "approved": false,
       "action": "REJECT",
@@ -1905,6 +1890,20 @@
       "new_stop_pct": null,
       "reasoning": "Position shows structural weakness with PnL dropping to -0.54% under a neutral crypto market regime where alts lack broader BTC correlation support.",
       "timestamp": "2026-10-26T11:52:43.651240"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AVGO",
+      "entry_price": 326.77,
+      "current_price": 330.74,
+      "pnl_pct": 1.21,
+      "hours_held": 1.6,
+      "action": "TIGHTEN_STOP",
+      "confidence": 90,
+      "new_stop_pct": 0.8,
+      "reasoning": "Locking in gains by tightening the stop as the position experiences a 0.41% pullback from its peak of +1.63% amidst fading momentum.",
+      "timestamp": "2026-10-26T11:57:23.953727"
     }
   ],
   "performance": {
@@ -3087,5 +3086,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T19:05:24.619771"
+  "snapshot_synced_at": "2026-10-26T19:06:58.154679"
 }
