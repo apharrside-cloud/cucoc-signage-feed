@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T02:07:05.878032",
+  "timestamp": "2026-10-26T02:08:39.529620",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.21,
@@ -32,7 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-26 00:32:38] Running portfolio evaluation cycle...",
       "[2026-10-26 00:32:39] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-26 00:37:42] Running portfolio evaluation cycle...",
       "[2026-10-26 00:37:42] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
@@ -71,7 +70,8 @@
       "[2026-10-26 01:58:28] Running portfolio evaluation cycle...",
       "[2026-10-26 01:58:28] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-26 02:03:28] Running portfolio evaluation cycle...",
-      "[2026-10-26 02:03:29] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-26 02:03:29] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-26 02:08:29] Running portfolio evaluation cycle..."
     ]
   },
   "coinbase": {
@@ -88,13 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 01:59:27] Macro Regime: NEUTRAL | BTC 24h: -0.46% | Alts Allowed: False",
-      "[2026-10-26 01:59:27] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 01:59:27] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 02:00:28] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 02:00:28] Macro Regime: NEUTRAL | BTC 24h: -0.45% | Alts Allowed: False",
-      "[2026-10-26 02:00:28] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 02:00:28] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 02:01:29] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 02:01:30] Macro Regime: NEUTRAL | BTC 24h: -0.39% | Alts Allowed: False",
       "[2026-10-26 02:01:30] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +120,14 @@
       "[2026-10-26 02:06:47] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 02:06:47] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=34.9 (chg -1.21%)!",
       "[2026-10-26 02:06:47] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=37.6 (chg -0.58%)!",
-      "[2026-10-26 02:06:53] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 10%) | Thesis: The trade candidate violates core strategy rules requiring an RVOL greater than 1.5x (current RVOL is 0.03) and positive order book delta confirmation for ETH longs."
+      "[2026-10-26 02:06:53] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 10%) | Thesis: The trade candidate violates core strategy rules requiring an RVOL greater than 1.5x (current RVOL is 0.03) and positive order book delta confirmation for ETH longs.",
+      "[2026-10-26 02:07:53] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 02:07:53] Macro Regime: NEUTRAL | BTC 24h: -0.60% | Alts Allowed: False",
+      "[2026-10-26 02:07:53] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 02:07:53] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 02:07:54] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=34.9 (chg -1.26%)!",
+      "[2026-10-26 02:07:54] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=37.6 (chg -0.60%)!",
+      "[2026-10-26 02:07:56] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: ETH is exhibiting extremely weak relative volume (RVOL 0.03) against our strict rules requiring RVOL >= 1.5, failing the mandatory volume confirmation filter."
     ]
   },
   "positions": [
@@ -1290,21 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "NEAR",
-      "current_price": 4.5118,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "NEAR shows slight 24h gains and a bullish hourly trend, but fails strict quantitative strategy rules requiring RVOL >= 1.5 (current RVOL is 1.03).",
-      "risk_factors": "Insufficient volume expansion (RVOL 1.03) violates multiple evolutionary rules requiring institutional breakout volume >1.5x.",
-      "timestamp": "2026-10-25T11:15:09.802095"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "NEAR",
       "current_price": 4.5078,
       "approved": false,
       "action": "REJECT",
@@ -1885,6 +1870,21 @@
       "primary_thesis": "FET fails strict volume and momentum rules required for breakout entries, showing an inadequate RVOL of 1.07 against the mandatory 1.5x minimum.",
       "risk_factors": "Negative catalyst headlines involving Fetch.ai exploit reports combined with low relative volume increase downside trap risk.",
       "timestamp": "2026-10-25T11:58:44.728295"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.17617,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 40,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "FET fails multiple mandatory volume and momentum filters with an RVOL of 1.07 (below the 1.5 threshold) and neutral RSI at 44.4.",
+      "risk_factors": "Recent security exploit headlines involving Fetch.ai create severe binary risk, and current volume is insufficient to support a breakout.",
+      "timestamp": "2026-10-25T11:59:57.692543"
     }
   ],
   "performance": {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T02:07:05.589611"
+  "snapshot_synced_at": "2026-10-26T02:08:39.239609"
 }
