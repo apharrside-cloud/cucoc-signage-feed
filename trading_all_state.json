@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T02:42:56.829642",
+  "timestamp": "2026-10-26T02:44:30.257446",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.11,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.58086475,
+    "total_value": 162.57850441,
     "cash": 132.28,
     "positions": {
       "CRWD": {
@@ -28,13 +28,10 @@
         "current_price": 257.58,
         "pnl_pct": 1.33,
         "pnl_usd": 0.4,
-        "last_ai_eval_ts": 1792996133.2817893
+        "last_ai_eval_ts": 1792997037.0084085
       }
     },
     "logs": [
-      "[2026-10-26 01:13:10] Running portfolio evaluation cycle...",
-      "[2026-10-26 01:13:11] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-26 01:18:11] Running portfolio evaluation cycle...",
       "[2026-10-26 01:18:14] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-26 01:23:14] Running portfolio evaluation cycle...",
       "[2026-10-26 01:23:15] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
@@ -71,7 +68,10 @@
       "[2026-10-26 02:33:55] Running portfolio evaluation cycle...",
       "[2026-10-26 02:33:55] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-26 02:38:55] Running portfolio evaluation cycle...",
-      "[2026-10-26 02:38:56] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-26 02:38:56] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-26 02:43:56] Running portfolio evaluation cycle...",
+      "[2026-10-26 02:43:57] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-26 02:43:59] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is up +1.33% near peak excursion after 60 hours; tightening stop to lock in profits against potential resistance stalling."
     ]
   },
   "coinbase": {
@@ -88,14 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 02:38:39] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 02:38:39] Macro Regime: NEUTRAL | BTC 24h: -0.69% | Alts Allowed: False",
-      "[2026-10-26 02:38:39] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 02:38:39] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 02:38:39] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.6 (chg -0.65%)!",
-      "[2026-10-26 02:38:39] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.6 (chg -1.40%)!",
-      "[2026-10-26 02:38:39] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=35.3 (chg -0.69%)!",
-      "[2026-10-26 02:38:42] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: RVOL is severely depressed at 0.35 against strict rule requirements of >1.5, showing a complete lack of volume expansion for mean reversion entry.",
       "[2026-10-26 02:39:42] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 02:39:42] Macro Regime: NEUTRAL | BTC 24h: -0.67% | Alts Allowed: False",
       "[2026-10-26 02:39:42] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +119,15 @@
       "[2026-10-26 02:42:52] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.6 (chg -0.54%)!",
       "[2026-10-26 02:42:52] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.7 (chg -1.29%)!",
       "[2026-10-26 02:42:52] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=34.8 (chg -0.68%)!",
-      "[2026-10-26 02:42:55] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: ETH RVOL is 0.44, severely failing the mandatory rule requiring RVOL > 1.5 and minimum 2.5x volume expansion."
+      "[2026-10-26 02:42:55] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: ETH RVOL is 0.44, severely failing the mandatory rule requiring RVOL > 1.5 and minimum 2.5x volume expansion.",
+      "[2026-10-26 02:43:55] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 02:43:55] Macro Regime: NEUTRAL | BTC 24h: -0.67% | Alts Allowed: False",
+      "[2026-10-26 02:43:55] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 02:43:55] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 02:43:55] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=38.0 (chg -0.41%)!",
+      "[2026-10-26 02:43:55] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=32.2 (chg -1.27%)!",
+      "[2026-10-26 02:43:55] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=34.8 (chg -0.67%)!",
+      "[2026-10-26 02:43:57] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1290,36 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
-      "current_price": 0.17652,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET fails strict volume and momentum criteria with an RVOL of 1.0 failing the mandatory >1.5x requirement.",
-      "risk_factors": "Active exploit news involving Fetch.ai and NuNet alongside neutral RSI and weak relative volume create high downside risk.",
-      "timestamp": "2026-10-25T11:54:55.939336"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
-      "current_price": 0.17623,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET fails multiple mandatory quantitative criteria including insufficient relative volume (RVOL 1.07 < 1.5 required) and mediocre RSI (44.4).",
-      "risk_factors": "Active exploit news affecting Fetch.ai/NuNet ecosystem alongside weak volume profile violates core evolved strategy rules.",
-      "timestamp": "2026-10-25T11:56:02.072663"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
       "current_price": 0.17625,
       "approved": false,
       "action": "REJECT",
@@ -1865,6 +1835,36 @@
       "primary_thesis": "Declining volume profile and low relative volume (RVOL 0.4) fail to meet mandatory quantitative volume expansion thresholds for entry.",
       "risk_factors": "Hourly trend is bearish with RSI at 34.7 under a choppy neutral macro regime, creating high risk of continued downside continuation.",
       "timestamp": "2026-10-25T21:15:34.982192"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "BTC",
+      "current_price": 79892.67,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "The asset exhibits extremely weak volume (RVOL 0.4) and a bearish hourly trend, completely failing mandatory rules requiring RVOL > 1.5 for entry.",
+      "risk_factors": "Low volume and bearish momentum in a neutral macro chopping regime dramatically increase the probability of a fakeout and capital loss.",
+      "timestamp": "2026-10-25T21:16:38.087040"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "BTC",
+      "current_price": 79874.89,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "The asset is exhibiting weak momentum with an RSI of 34.7 and an RVOL of 0.4, violating all strict volume and trend filters.",
+      "risk_factors": "Low relative volume, bearish hourly trend, and neutral macro chop regime create a high probability of further downward drift.",
+      "timestamp": "2026-10-25T21:17:41.287295"
     }
   ],
   "performance": {
@@ -1876,7 +1876,7 @@
     "max_drawdown_pct": 13.31,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.11086475,
+    "current_equity": 325.10850441,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3021,5 +3021,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T02:42:56.505900"
+  "snapshot_synced_at": "2026-10-26T02:44:29.950872"
 }
