@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T11:01:05.582272",
+  "timestamp": "2026-10-26T11:02:39.079580",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.66,
+    "total_equity": 325.68,
     "total_cash": 270.23,
     "cash_pct": 83.0,
     "weekly_realized_pnl": 0.0,
@@ -15,19 +15,19 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 163.13055329,
+    "total_value": 163.145638282,
     "cash": 107.7,
     "positions": {
       "AVGO": {
         "symbol": "AVGO",
         "shares": 0.076616,
         "entry_price": 326.77,
-        "high_water_mark": 329.98,
+        "high_water_mark": 330.31,
         "tp1_hit": false,
         "entry_time": "2026-10-26T10:22:16.085193",
-        "current_price": 329.98,
-        "pnl_pct": 0.98,
-        "pnl_usd": 0.25,
+        "current_price": 330.31,
+        "pnl_pct": 1.08,
+        "pnl_usd": 0.27,
         "last_ai_eval_ts": 1793026522.8889866
       },
       "TSLA": {
@@ -37,15 +37,13 @@
         "high_water_mark": 396.38,
         "tp1_hit": false,
         "entry_time": "2026-10-26T10:36:37.710526",
-        "current_price": 395.95,
-        "pnl_pct": 0.53,
-        "pnl_usd": 0.16,
+        "current_price": 395.811,
+        "pnl_pct": 0.5,
+        "pnl_usd": 0.15,
         "last_ai_eval_ts": 1793026403.1698494
       }
     },
     "logs": [
-      "[2026-10-26 10:50:20] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
-      "[2026-10-26 10:51:20] Running portfolio evaluation cycle...",
       "[2026-10-26 10:51:21] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $328.88 | PnL: +0.64% ($+0.16) | Peak: $328.88",
       "[2026-10-26 10:51:21] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $394.72 | PnL: +0.22% ($+0.07) | Peak: $394.88",
       "[2026-10-26 10:51:21] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
@@ -83,7 +81,9 @@
       "[2026-10-26 11:00:51] Running portfolio evaluation cycle...",
       "[2026-10-26 11:00:51] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $330.31 | PnL: +1.08% ($+0.27) | Peak: $330.31",
       "[2026-10-26 11:00:51] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $395.81 | PnL: +0.50% ($+0.15) | Peak: $396.38",
-      "[2026-10-26 11:00:51] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum..."
+      "[2026-10-26 11:00:51] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
+      "[2026-10-26 11:01:42] 🧠 [AI GATE] Buy of CRWD VETOED by AI Brain (Confidence: 60%) | Thesis: CRWD is showing strong momentum above VWAP supported by cybersecurity sector tailwinds, but deployable capital is extremely restricted at $95.55 and the stock is already up 120% this year, raising valuation exhaustion risks.",
+      "[2026-10-26 11:01:42] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
     ]
   },
   "coinbase": {
@@ -92,18 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.3011793095415,
-      "btc_price": 80284.25,
+      "btc_change_24h": -0.38910669964719,
+      "btc_price": 80291.5,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.30% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.39% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 10:50:29] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:50:29] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 10:51:30] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 10:51:31] Macro Regime: NEUTRAL | BTC 24h: -0.40% | Alts Allowed: False",
       "[2026-10-26 10:51:31] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 10:51:31] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 10:52:32] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -139,7 +135,11 @@
       "[2026-10-26 10:59:41] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 10:59:41] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 11:00:42] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 11:00:44] Failed to get balances: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))"
+      "[2026-10-26 11:00:44] Failed to get balances: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))",
+      "[2026-10-26 11:01:44] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 11:01:45] Macro Regime: NEUTRAL | BTC 24h: -0.39% | Alts Allowed: False",
+      "[2026-10-26 11:01:45] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 11:01:45] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -148,21 +148,21 @@
       "symbol": "AVGO",
       "shares": 0.076616,
       "entry_price": 326.77,
-      "current_price": 329.98,
-      "value_usd": 25.28,
-      "pnl_pct": 0.98,
-      "pnl_usd": 0.25,
-      "trailing_info": "Peak: $329.98 | Trailing 3.5%"
+      "current_price": 330.31,
+      "value_usd": 25.31,
+      "pnl_pct": 1.08,
+      "pnl_usd": 0.27,
+      "trailing_info": "Peak: $330.31 | Trailing 3.5%"
     },
     {
       "account": "Robinhood",
       "symbol": "TSLA",
       "shares": 0.076142,
       "entry_price": 393.86,
-      "current_price": 395.95,
-      "value_usd": 30.15,
-      "pnl_pct": 0.53,
-      "pnl_usd": 0.16,
+      "current_price": 395.811,
+      "value_usd": 30.14,
+      "pnl_pct": 0.5,
+      "pnl_usd": 0.15,
       "trailing_info": "Peak: $396.38 | Trailing 3.5%"
     }
   ],
@@ -1313,21 +1313,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2312.52,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 15,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "ETH is exhibiting weak mean-reversion characteristics in a bearish hourly trend with severely suppressed volume (RVOL 0.42), failing all mandatory volume and momentum expansion rules.",
-      "risk_factors": "Low relative volume, bearish hourly trend alignment, and a neutral macro regime with altcoin suppression rules active create a high probability of a bull trap.",
-      "timestamp": "2026-10-26T03:40:48.083363"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2313.51,
       "approved": false,
       "action": "REJECT",
@@ -1908,6 +1893,21 @@
       "primary_thesis": "ETH shows weak volume confirmation with an RVOL of 0.46, falling far below the strict minimum threshold of 1.5 required for entry.",
       "risk_factors": "Low relative volume coupled with a neutral macro market regime and declining AI-related crypto sentiment drastically increases the probability of a fakeout.",
       "timestamp": "2026-10-26T04:32:04.772534"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2320.92,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 30,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "ETH is failing multiple mandatory evolution rules, showing low relative volume (0.46) and weak momentum below breakout thresholds.",
+      "risk_factors": "RVOL of 0.46 severely violates the mandatory 1.5x minimum volume requirement, exposing the trade to low-liquidity slippage and fakeouts.",
+      "timestamp": "2026-10-26T04:33:08.030068"
     }
   ],
   "performance": {
@@ -1919,7 +1919,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.66055329,
+    "current_equity": 325.675638282,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3064,5 +3064,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T11:01:05.301830"
+  "snapshot_synced_at": "2026-10-26T11:02:38.774681"
 }
