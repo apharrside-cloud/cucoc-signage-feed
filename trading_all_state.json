@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T19:03:51.294113",
+  "timestamp": "2026-10-26T19:05:24.976246",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.6,
@@ -80,26 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.72498953516204,
-      "btc_price": 79758.01,
+      "btc_change_24h": -0.84595621081917,
+      "btc_price": 79662.56,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.72% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.85% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 18:53:32] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 18:53:32] Macro Regime: NEUTRAL | BTC 24h: -0.74% | Alts Allowed: False",
-      "[2026-10-26 18:53:32] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 18:53:32] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 18:54:34] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 18:54:34] Macro Regime: NEUTRAL | BTC 24h: -0.75% | Alts Allowed: False",
-      "[2026-10-26 18:54:34] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 18:54:34] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 18:55:36] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 18:55:37] Macro Regime: NEUTRAL | BTC 24h: -0.75% | Alts Allowed: False",
-      "[2026-10-26 18:55:37] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 18:55:37] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 18:56:39] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 18:56:39] Macro Regime: NEUTRAL | BTC 24h: -0.73% | Alts Allowed: False",
@@ -128,7 +117,18 @@
       "[2026-10-26 19:02:54] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 19:02:54] Macro Regime: NEUTRAL | BTC 24h: -0.72% | Alts Allowed: False",
       "[2026-10-26 19:02:54] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 19:02:54] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-26 19:02:54] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 19:03:57] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 19:03:57] Macro Regime: NEUTRAL | BTC 24h: -0.85% | Alts Allowed: False",
+      "[2026-10-26 19:03:57] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 19:03:57] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 19:04:59] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 19:04:59] Macro Regime: NEUTRAL | BTC 24h: -0.82% | Alts Allowed: False",
+      "[2026-10-26 19:04:59] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 19:04:59] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 19:05:01] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -1.43%)!",
+      "[2026-10-26 19:05:01] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=37.5 (chg -0.81%)!",
+      "[2026-10-26 19:05:06] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: ETH is in a bearish hourly trend with extremely low relative volume (RVOL 0.09) and an RSI of 37.4, failing all mandatory crypto momentum and breakout volume filters."
     ]
   },
   "positions": [
@@ -1317,21 +1317,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2304.1,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 40,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "ETH is exhibiting a mean-reversion setup with strong volume, but macro regime is NEUTRAL and hourly trend is BEARISH.",
-      "risk_factors": "Hourly trend is bearish against a backdrop of broader market AI-related selloffs and BTC dipping below $80,000.",
-      "timestamp": "2026-10-26T10:01:21.326116"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2295.36,
       "approved": false,
       "action": "REJECT",
@@ -1906,6 +1891,20 @@
       "primary_thesis": "RENDER exhibits confirmed relative strength (+2.83% vs BTC) under a decoupled breakout mode with RVOL at 1.55x, bullish 1H structure, and clean volume confirmation.",
       "risk_factors": "Broader crypto market is in a neutral chop regime, exposing the asset to sudden macro correlation pullbacks if BTC breaks lower.",
       "timestamp": "2026-10-26T11:48:13.839665"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Crypto",
+      "symbol": "NEAR",
+      "entry_price": 4.6081,
+      "current_price": 4.5834,
+      "pnl_pct": -0.54,
+      "hours_held": 0.3,
+      "action": "EXIT_EARLY",
+      "confidence": 88,
+      "new_stop_pct": null,
+      "reasoning": "Position shows structural weakness with PnL dropping to -0.54% under a neutral crypto market regime where alts lack broader BTC correlation support.",
+      "timestamp": "2026-10-26T11:52:43.651240"
     }
   ],
   "performance": {
@@ -3088,5 +3087,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T19:03:51.003914"
+  "snapshot_synced_at": "2026-10-26T19:05:24.619771"
 }
