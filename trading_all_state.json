@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T07:26:43.344609",
+  "timestamp": "2026-10-26T07:28:16.836000",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.31,
@@ -67,18 +67,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.15433893212946,
-      "btc_price": 80199.25,
+      "btc_change_24h": -0.19884660998401,
+      "btc_price": 80163.5,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.15% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.20% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 07:17:21] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 07:17:21] Macro Regime: NEUTRAL | BTC 24h: -0.15% | Alts Allowed: False",
-      "[2026-10-26 07:17:21] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 07:17:21] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 07:18:22] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 07:18:23] Macro Regime: NEUTRAL | BTC 24h: -0.18% | Alts Allowed: False",
       "[2026-10-26 07:18:23] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -114,7 +110,11 @@
       "[2026-10-26 07:26:32] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 07:26:32] Macro Regime: NEUTRAL | BTC 24h: -0.15% | Alts Allowed: False",
       "[2026-10-26 07:26:32] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 07:26:32] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 07:26:32] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 07:27:33] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 07:27:34] Macro Regime: NEUTRAL | BTC 24h: -0.20% | Alts Allowed: False",
+      "[2026-10-26 07:27:34] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 07:27:34] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [],
@@ -1262,6 +1262,21 @@
   ],
   "ai_decisions": [
     {
+      "id": "dec_1793014044_48c0ce",
+      "timestamp": "2026-10-26T07:27:24.235493",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "BTC",
+      "title": "Breaking Catalyst: Bitcoin holds near $80,000 as oil retreats and the Fed decision looms",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": 0.0,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "NEUTRAL",
+      "impact": "CATALYST_ANALYZED"
+    },
+    {
       "id": "dec_1793012960_c98e33",
       "timestamp": "2026-10-26T07:09:20.217770",
       "category": "catalyst",
@@ -1844,21 +1859,6 @@
       "primary_thesis": "Although ETH is a core asset and shows an hourly bullish trend, current relative volume (RVOL 0.46) completely fails all evolved strategy rules requiring RVOL > 1.5 and a minimum 1.5x volume expansion.",
       "risk_factors": "Low volume churn during a neutral market regime increases the probability of a fakeout and failure to sustain mean reversion.",
       "timestamp": "2026-10-26T03:47:07.946980"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
-      "current_price": 2319.06,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "ETH exhibits an extremely low relative volume (RVOL 0.46) failing mandatory rules requiring RVOL > 1.5 and >50% volume expansion for execution.",
-      "risk_factors": "Sub-threshold volume and weak momentum indicate potential liquidity traps in a neutral macroeconomic regime.",
-      "timestamp": "2026-10-26T03:48:11.696174"
     }
   ],
   "performance": {
@@ -3015,5 +3015,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T07:26:43.040621"
+  "snapshot_synced_at": "2026-10-26T07:28:16.520899"
 }
