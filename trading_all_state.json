@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T05:14:09.643816",
+  "timestamp": "2026-10-26T05:15:43.124704",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.2,
@@ -15,12 +15,10 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.66819733,
+    "total_value": 162.6693775,
     "cash": 132.28,
     "positions": {},
     "logs": [
-      "[2026-10-26 03:34:24] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
-      "[2026-10-26 03:34:24] Failed to fetch portfolio data.",
       "[2026-10-26 03:39:24] Running portfolio evaluation cycle...",
       "[2026-10-26 03:39:28] No positions currently held.",
       "[2026-10-26 03:44:28] Running portfolio evaluation cycle...",
@@ -58,7 +56,9 @@
       "[2026-10-26 05:04:37] Running portfolio evaluation cycle...",
       "[2026-10-26 05:04:38] No positions currently held.",
       "[2026-10-26 05:09:38] Running portfolio evaluation cycle...",
-      "[2026-10-26 05:09:38] No positions currently held."
+      "[2026-10-26 05:09:38] No positions currently held.",
+      "[2026-10-26 05:14:38] Running portfolio evaluation cycle...",
+      "[2026-10-26 05:14:39] No positions currently held."
     ]
   },
   "coinbase": {
@@ -75,12 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 05:07:24] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 05:07:24] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 05:07:24] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.2 (chg -0.42%)!",
-      "[2026-10-26 05:07:27] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: ETH exhibits extremely low relative volume (rvol 0.03) and weak RSI at 37.2, failing multiple evolved strategy volume filters.",
-      "[2026-10-26 05:08:27] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 05:08:27] Macro Regime: NEUTRAL | BTC 24h: -0.27% | Alts Allowed: False",
       "[2026-10-26 05:08:27] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 05:08:27] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 05:08:28] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.2 (chg -0.46%)!",
@@ -114,7 +108,13 @@
       "[2026-10-26 05:13:45] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 05:13:45] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 05:13:46] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.5 (chg -0.27%)!",
-      "[2026-10-26 05:13:48] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: Expecting ',' delimiter: line 8 column 102 (char 384)"
+      "[2026-10-26 05:13:48] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: Expecting ',' delimiter: line 8 column 102 (char 384)",
+      "[2026-10-26 05:14:48] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 05:14:48] Macro Regime: NEUTRAL | BTC 24h: +0.07% | Alts Allowed: False",
+      "[2026-10-26 05:14:48] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 05:14:48] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 05:14:49] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.8 (chg -0.27%)!",
+      "[2026-10-26 05:14:52] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: ETH exhibits severe volume exhaustion with an abysmal 1-hour RVOL of 0.11, failing all evolutionary rule mandates requiring RVOL > 1.5."
     ]
   },
   "positions": [],
@@ -1265,21 +1265,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2318.9,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "The asset exhibits an extremely anemic relative volume (RVOL 0.07), failing all mandatory volume expansion and breakout confirmation rules.",
-      "risk_factors": "Low volume churn in a neutral macro chop regime creates a high probability of a bull trap or false breakdown.",
-      "timestamp": "2026-10-26T03:04:56.533890"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2318.41,
       "approved": false,
       "action": "REJECT",
@@ -1859,6 +1844,21 @@
       "primary_thesis": "Although ETH is a core asset, relative volume is severely depressed at 0.46, failing the mandatory RVOL > 1.5 threshold required for safe entry.",
       "risk_factors": "Low volume churn during a neutral macro chop regime presents a high probability of a false breakdown or continuation of the 24-hour downward drift.",
       "timestamp": "2026-10-26T03:45:01.468276"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2317.69,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "RVOL is severely depressed at 0.46, failing all evolved strategy rules requiring relative volume above 1.5x for crypto entries.",
+      "risk_factors": "Low volume churn in a neutral macro regime creates high vulnerability to fakeouts and unfavorable slippage.",
+      "timestamp": "2026-10-26T03:46:04.730832"
     }
   ],
   "performance": {
@@ -1870,7 +1870,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.19819732999997,
+    "current_equity": 325.19937749999997,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3015,5 +3015,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T05:14:09.361306"
+  "snapshot_synced_at": "2026-10-26T05:15:42.785522"
 }
