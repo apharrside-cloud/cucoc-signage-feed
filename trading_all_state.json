@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T10:14:10.086466",
+  "timestamp": "2026-10-26T10:15:43.674407",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.25,
+    "total_equity": 325.28,
     "total_cash": 295.31,
     "cash_pct": 90.8,
     "weekly_realized_pnl": 0.0,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.721284,
+    "total_value": 162.747912,
     "cash": 132.78,
     "positions": {
       "TSLA": {
@@ -25,24 +25,13 @@
         "high_water_mark": 394.47,
         "tp1_hit": false,
         "entry_time": "2026-10-26T10:01:54.132855",
-        "current_price": 393.55,
-        "pnl_pct": -0.15,
-        "pnl_usd": -0.04,
+        "current_price": 393.9,
+        "pnl_pct": -0.06,
+        "pnl_usd": -0.02,
         "last_ai_eval_ts": 1793023385.1148856
       }
     },
     "logs": [
-      "[2026-10-26 10:01:52] 🔥 Found momentum breakout: TSLA (+5.89%) @ $394.13. Executing AI-APPROVED BUY of $30.00...",
-      "[2026-10-26 10:01:54] Buy order placed: {'data': {'order': {'id': '6adf5d2c-a2a6-4930-821f-c6191dbeeb14', 'ref_id': '01a17883-f736-72ed-befc-6d33e05d81e7', 'instrument_id': 'e39ed23a-7bd1-4587-b060-71988d9ef483', 'symbol': 'TSLA', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.076070', 'cumulative_quantity': '0.000000', 'price': '394.350000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '30.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-26T14:01:16.947448Z', 'last_transaction_at': '2026-10-26T14:01:16.947448Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
-      "[2026-10-26 10:02:04] Telegram send failed: The read operation timed out",
-      "[2026-10-26 10:03:04] Running portfolio evaluation cycle...",
-      "[2026-10-26 10:03:05] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $393.73 | PnL: -0.10% ($-0.03) | Peak: $394.13",
-      "[2026-10-26 10:03:33] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-26 10:03:34] VWAP Filter: Skipping SOXL because price ($84.92) is BELOW session VWAP ($86.37).",
-      "[2026-10-26 10:04:34] Running portfolio evaluation cycle...",
-      "[2026-10-26 10:04:35] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $394.03 | PnL: -0.03% ($-0.01) | Peak: $394.13",
-      "[2026-10-26 10:04:35] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-26 10:04:35] VWAP Filter: Skipping SOXL because price ($85.00) is BELOW session VWAP ($86.34).",
       "[2026-10-26 10:05:35] Running portfolio evaluation cycle...",
       "[2026-10-26 10:05:51] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
       "[2026-10-26 10:05:51] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
@@ -71,7 +60,18 @@
       "[2026-10-26 10:12:49] VWAP Filter: Skipping NVDA because price ($214.58) is BELOW session VWAP ($214.64).",
       "[2026-10-26 10:12:50] VWAP Filter: Skipping SOXL because price ($85.66) is BELOW session VWAP ($86.25).",
       "[2026-10-26 10:13:10] 🧠 [AI GATE] Buy of TQQQ VETOED by AI Brain (Confidence: 45%) | Thesis: Although TQQQ shows positive intraday movement, price is significantly below the intraday VWAP of $86.25 indicating weak momentum structure and counter-trend vulnerability.",
-      "[2026-10-26 10:13:10] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-26 10:13:10] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-26 10:14:10] Running portfolio evaluation cycle...",
+      "[2026-10-26 10:14:11] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $392.93 | PnL: -0.31% ($-0.09) | Peak: $394.47",
+      "[2026-10-26 10:14:11] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-26 10:14:11] VWAP Filter: Skipping NVDA because price ($214.57) is BELOW session VWAP ($214.63).",
+      "[2026-10-26 10:14:11] VWAP Filter: Skipping SOXL because price ($85.91) is BELOW session VWAP ($86.24).",
+      "[2026-10-26 10:15:11] Running portfolio evaluation cycle...",
+      "[2026-10-26 10:15:12] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $393.90 | PnL: -0.06% ($-0.02) | Peak: $394.47",
+      "[2026-10-26 10:15:12] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-26 10:15:13] VWAP Filter: Skipping SOXL because price ($85.95) is BELOW session VWAP ($86.24).",
+      "[2026-10-26 10:15:35] 🧠 [AI GATE] Buy of NVDA VETOED by AI Brain (Confidence: 45%) | Thesis: NVDA is exhibiting strong equity momentum during regular hours with intraday price action holding above VWAP.",
+      "[2026-10-26 10:15:35] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
     ]
   },
   "coinbase": {
@@ -80,18 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.57949896708954,
-      "btc_price": 79788.74,
+      "btc_change_24h": -0.51202573396813,
+      "btc_price": 79856.46,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.58% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.51% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 10:03:29] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.8 (chg -1.53%)!",
-      "[2026-10-26 10:04:16] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH is exhibiting mean-reversion characteristics in a bearish hourly trend while macro regime flags a neutral/chop environment.",
-      "[2026-10-26 10:05:16] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 10:05:16] Macro Regime: NEUTRAL | BTC 24h: -0.85% | Alts Allowed: False",
       "[2026-10-26 10:05:16] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 10:05:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 10:05:17] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -1.33%)!",
@@ -127,7 +123,11 @@
       "[2026-10-26 10:13:42] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 10:13:42] Macro Regime: NEUTRAL | BTC 24h: -0.58% | Alts Allowed: False",
       "[2026-10-26 10:13:42] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:13:42] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 10:13:42] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 10:14:43] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 10:14:43] Macro Regime: NEUTRAL | BTC 24h: -0.51% | Alts Allowed: False",
+      "[2026-10-26 10:14:43] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 10:14:43] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -136,10 +136,10 @@
       "symbol": "TSLA",
       "shares": 0.07608,
       "entry_price": 394.13,
-      "current_price": 393.55,
-      "value_usd": 29.94,
-      "pnl_pct": -0.15,
-      "pnl_usd": -0.04,
+      "current_price": 393.9,
+      "value_usd": 29.97,
+      "pnl_pct": -0.06,
+      "pnl_usd": -0.02,
       "trailing_info": "Peak: $394.47 | Trailing 3.5%"
     }
   ],
@@ -1290,21 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2317.55,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 40,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "ETH is currently experiencing weak retail interest with RVOL at 0.27, failing mandatory volume requirements for execution.",
-      "risk_factors": "Extremely low relative volume (0.27) combined with a neutral macro regime and declining 24-hour change presents high chop risk and false breakout vulnerability.",
-      "timestamp": "2026-10-26T03:26:02.627169"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2316.11,
       "approved": false,
       "action": "REJECT",
@@ -1885,6 +1870,21 @@
       "primary_thesis": "The asset exhibits an extremely low relative volume (rvol: 0.2) and bearish hourly trend alignment, failing all strict momentum and volume constraints for entry.",
       "risk_factors": "Low volume churn during a bearish hourly trend creates a high probability of a value trap and immediate capital drawdown.",
       "timestamp": "2026-10-26T04:10:14.892474"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2312.1,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "Fails multiple quantitative rules including weak volume (RVOL 0.29 vs minimum 1.5 requirement), bearish hourly trend, and declining momentum.",
+      "risk_factors": "Low volume churn in a bearish hourly trend with negative macro sentiment risks a sharp breakdown into liquidity voids.",
+      "timestamp": "2026-10-26T04:18:21.877712"
     }
   ],
   "performance": {
@@ -1896,7 +1896,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.251284,
+    "current_equity": 325.277912,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T10:14:09.789124"
+  "snapshot_synced_at": "2026-10-26T10:15:43.367404"
 }
