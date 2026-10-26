@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T04:05:33.835393",
+  "timestamp": "2026-10-26T04:07:07.100343",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.99,
@@ -66,18 +66,15 @@
     "cash_usd": 162.53,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "NEUTRAL",
-      "btc_change_24h": -0.4163318977747,
-      "btc_price": 80093.77,
+      "status": "RISK_OFF",
+      "btc_change_24h": -1.00980476396003,
+      "btc_price": 79723.1,
       "allow_alts": false,
-      "allow_core": true,
-      "reason": "BTC neutral -0.42% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "allow_core": false,
+      "reason": "BTC down -1.01% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 04:00:49] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 04:00:49] Macro Regime: NEUTRAL | BTC 24h: -0.78% | Alts Allowed: False",
-      "[2026-10-26 04:00:49] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 04:00:49] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 04:00:49] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=37.3 (chg -0.93%)!",
       "[2026-10-26 04:00:50] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=32.6 (chg -1.21%)!",
@@ -114,7 +111,10 @@
       "[2026-10-26 04:05:02] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.6 (chg -1.19%)!",
       "[2026-10-26 04:05:03] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=30.5 (chg -1.54%)!",
       "[2026-10-26 04:05:03] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=35.2 (chg -0.96%)!",
-      "[2026-10-26 04:05:09] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: The asset exhibits extremely weak volume (RVOL 0.05) and a bearish hourly trend, failing all mandatory volume and momentum confluence requirements for a high-probability entry."
+      "[2026-10-26 04:05:09] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: The asset exhibits extremely weak volume (RVOL 0.05) and a bearish hourly trend, failing all mandatory volume and momentum confluence requirements for a high-probability entry.",
+      "[2026-10-26 04:06:09] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 04:06:09] Macro Regime: RISK_OFF | BTC 24h: -1.01% | Alts Allowed: False",
+      "[2026-10-26 04:06:09] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [],
@@ -3014,5 +3014,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T04:05:33.514331"
+  "snapshot_synced_at": "2026-10-26T04:07:06.785400"
 }
