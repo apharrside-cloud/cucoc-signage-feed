@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T19:17:55.405816",
+  "timestamp": "2026-10-26T19:19:28.998513",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.46,
@@ -89,12 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 19:11:09] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=38.0 (chg -0.66%)!",
-      "[2026-10-26 19:11:12] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is currently experiencing bearish hourly momentum with RSI at 35.7 and an extremely weak relative volume of 0.09, violating all volume expansion and trend alignment rules.",
-      "[2026-10-26 19:12:12] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 19:12:12] Macro Regime: NEUTRAL | BTC 24h: -0.71% | Alts Allowed: False",
-      "[2026-10-26 19:12:12] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 19:12:12] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 19:12:13] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=35.7 (chg -1.41%)!",
       "[2026-10-26 19:12:14] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=38.0 (chg -0.71%)!",
       "[2026-10-26 19:12:16] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a bearish hourly trend with severe lack of volume (RVOL 0.09) and failing strategy criteria.",
@@ -128,7 +122,13 @@
       "[2026-10-26 19:17:34] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 19:17:34] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 19:17:35] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.6 (chg -1.23%)!",
-      "[2026-10-26 19:17:38] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL exhibits extremely weak relative volume (RVOL 0.12) and a bearish hourly trend with RSI at 36.6, completely failing all mandatory long entry criteria and momentum filters."
+      "[2026-10-26 19:17:38] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL exhibits extremely weak relative volume (RVOL 0.12) and a bearish hourly trend with RSI at 36.6, completely failing all mandatory long entry criteria and momentum filters.",
+      "[2026-10-26 19:18:38] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 19:18:38] Macro Regime: NEUTRAL | BTC 24h: -0.55% | Alts Allowed: False",
+      "[2026-10-26 19:18:38] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 19:18:38] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 19:18:39] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.6 (chg -1.21%)!",
+      "[2026-10-26 19:18:42] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL exhibits extremely weak relative volume (RVOL 0.12) and a bearish hourly trend while macro alts are restricted under current chop conditions."
     ]
   },
   "positions": [
@@ -1316,21 +1316,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "TSLA",
-      "current_price": 393.86,
-      "approved": true,
-      "action": "BUY",
-      "confidence": 85,
-      "position_usd": 30.0,
-      "stop_loss_pct": -2.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "TSLA is breaking out on a major bullish institutional upgrade catalyst regarding SpaceX prospects, trading cleanly above intraday VWAP with strong momentum.",
-      "risk_factors": "Overhead resistance and potential intraday profit-taking after a +5.8% gap-up rally.",
-      "timestamp": "2026-10-26T10:36:17.297941"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "SMH",
       "current_price": 535.13,
       "approved": false,
@@ -1901,6 +1886,21 @@
       "primary_thesis": "AVGO is trading above intraday VWAP with +2.69% momentum, supported by a major AI infrastructure catalyst involving custom silicon investments.",
       "risk_factors": "Broad market equity volatility or sudden intraday mean-reversion toward VWAP could trigger stops.",
       "timestamp": "2026-10-26T12:30:37.404118"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "AMD",
+      "current_price": 530.3653,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "AMD is showing strong momentum during regular trading hours backed by AI infrastructure capex news, but available deployable cash is severely restricted relative to the equity share price.",
+      "risk_factors": "Deployable cash of $95.69 is insufficient to execute a safe fractional share position with a proper risk-managed stop loss without violating position sizing constraints.",
+      "timestamp": "2026-10-26T12:32:43.293877"
     }
   ],
   "performance": {
@@ -3083,5 +3083,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T19:17:55.071281"
+  "snapshot_synced_at": "2026-10-26T19:19:28.700674"
 }
