@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T07:08:00.734677",
+  "timestamp": "2026-10-26T07:09:34.281819",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.26,
@@ -67,22 +67,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.0276972399987,
-      "btc_price": 80202.38,
+      "btc_change_24h": 0.00798019017541,
+      "btc_price": 80204.99,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.03% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral +0.01% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 06:57:57] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 06:57:57] Macro Regime: NEUTRAL | BTC 24h: +0.18% | Alts Allowed: False",
-      "[2026-10-26 06:57:57] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 06:57:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 06:58:58] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 06:58:58] Macro Regime: NEUTRAL | BTC 24h: +0.14% | Alts Allowed: False",
-      "[2026-10-26 06:58:58] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 06:58:58] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 06:59:59] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 06:59:59] Macro Regime: NEUTRAL | BTC 24h: +0.09% | Alts Allowed: False",
       "[2026-10-26 06:59:59] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -114,7 +106,15 @@
       "[2026-10-26 07:07:08] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 07:07:09] Macro Regime: NEUTRAL | BTC 24h: -0.03% | Alts Allowed: False",
       "[2026-10-26 07:07:09] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 07:07:09] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 07:07:09] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 07:08:10] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 07:08:10] Macro Regime: NEUTRAL | BTC 24h: -0.04% | Alts Allowed: False",
+      "[2026-10-26 07:08:10] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 07:08:10] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 07:09:11] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 07:09:11] Macro Regime: NEUTRAL | BTC 24h: +0.01% | Alts Allowed: False",
+      "[2026-10-26 07:09:11] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 07:09:11] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [],
@@ -1262,6 +1262,21 @@
   ],
   "ai_decisions": [
     {
+      "id": "dec_1793012960_c98e33",
+      "timestamp": "2026-10-26T07:09:20.217770",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "AMZN, BTC, MSFT",
+      "title": "Breaking Catalyst: Live news: Brent Crude slides below $110 as Iran deal hopes grow and Brazil stoc",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored BEARISH (-0.60). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": -0.6,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "BEARISH",
+      "impact": "CATALYST_ANALYZED"
+    },
+    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
@@ -1844,21 +1859,6 @@
       "primary_thesis": "ETH exhibits an extremely low relative volume (RVOL 0.46) failing mandatory rules requiring RVOL > 1.5 and >50% volume expansion for execution.",
       "risk_factors": "Sub-threshold volume and weak momentum indicate potential liquidity traps in a neutral macroeconomic regime.",
       "timestamp": "2026-10-26T03:48:11.696174"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
-      "current_price": 2318.35,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 40,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "ETH is exhibiting weak relative volume (0.52 RVOL) and a low RSI of 33.1 during a neutral macro regime, failing all mandatory volume and breakout filter rules.",
-      "risk_factors": "Low volume churn in a neutral chop regime creates severe risk of false momentum and downside slippage.",
-      "timestamp": "2026-10-26T03:49:14.745552"
     }
   ],
   "performance": {
@@ -3015,5 +3015,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T07:08:00.418459"
+  "snapshot_synced_at": "2026-10-26T07:09:33.978431"
 }
