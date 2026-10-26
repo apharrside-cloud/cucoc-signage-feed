@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T04:33:37.210814",
+  "timestamp": "2026-10-26T04:35:10.580942",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.06,
+    "total_equity": 325.14,
     "total_cash": 294.81,
     "cash_pct": 90.7,
     "weekly_realized_pnl": 0.0,
@@ -15,12 +15,10 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.5277571,
+    "total_value": 162.61272934,
     "cash": 132.28,
     "positions": {},
     "logs": [
-      "[2026-10-26 02:59:01] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-26 03:04:02] Running portfolio evaluation cycle...",
       "[2026-10-26 03:04:03] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-26 03:09:03] Running portfolio evaluation cycle...",
       "[2026-10-26 03:09:03] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
@@ -58,7 +56,9 @@
       "[2026-10-26 04:24:33] Running portfolio evaluation cycle...",
       "[2026-10-26 04:24:33] No positions currently held.",
       "[2026-10-26 04:29:33] Running portfolio evaluation cycle...",
-      "[2026-10-26 04:29:34] No positions currently held."
+      "[2026-10-26 04:29:34] No positions currently held.",
+      "[2026-10-26 04:34:34] Running portfolio evaluation cycle...",
+      "[2026-10-26 04:34:34] No positions currently held."
     ]
   },
   "coinbase": {
@@ -75,12 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 04:26:48] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.6 (chg -1.02%)!",
-      "[2026-10-26 04:26:48] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=37.5 (chg -0.62%)!",
-      "[2026-10-26 04:26:50] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 10%) | Thesis: The setup violates multiple mandatory strategy rules, showing low relative volume (0.4 RVOL) and a bearish hourly trend during a broader market sell-off.",
-      "[2026-10-26 04:27:50] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 04:27:50] Macro Regime: NEUTRAL | BTC 24h: -0.35% | Alts Allowed: False",
-      "[2026-10-26 04:27:50] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 04:27:50] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 04:27:51] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.6 (chg -0.73%)!",
       "[2026-10-26 04:27:51] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=37.5 (chg -0.34%)!",
@@ -114,7 +108,13 @@
       "[2026-10-26 04:33:07] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 04:33:07] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 04:33:07] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=35.2 (chg -0.57%)!",
-      "[2026-10-26 04:33:10] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 30%) | Thesis: ETH is failing multiple mandatory evolution rules, showing low relative volume (0.46) and weak momentum below breakout thresholds."
+      "[2026-10-26 04:33:10] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 30%) | Thesis: ETH is failing multiple mandatory evolution rules, showing low relative volume (0.46) and weak momentum below breakout thresholds.",
+      "[2026-10-26 04:34:10] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 04:34:10] Macro Regime: NEUTRAL | BTC 24h: -0.33% | Alts Allowed: False",
+      "[2026-10-26 04:34:10] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 04:34:10] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 04:34:11] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=36.4 (chg -0.46%)!",
+      "[2026-10-26 04:34:13] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: The trade candidate is rejected because relative volume is exceptionally weak at 0.53, failing multiple strict rules requiring RVOL > 1.5 and breakout volume expansion."
     ]
   },
   "positions": [],
@@ -1265,21 +1265,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2314.15,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "ETH is exhibiting weak relative volume (RVOL 0.44) well below the mandatory 1.5x threshold required for execution.",
-      "risk_factors": "Low volume churn during a neutral market regime increases susceptibility to fakeouts and capital drawdown.",
-      "timestamp": "2026-10-26T02:40:46.097939"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2313.86,
       "approved": false,
       "action": "REJECT",
@@ -1858,6 +1843,21 @@
       "primary_thesis": "RVOL is severely depressed at 0.22, failing all evolved strategy rules requiring relative volume above 1.5x for crypto entries.",
       "risk_factors": "Extremely low liquidity and volume profile create high slippage risk and susceptibility to false moves in a neutral macro regime.",
       "timestamp": "2026-10-26T03:19:42.191892"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2316.06,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 35,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "RVOL is critically weak at 0.22, failing all strict volume and breakout confirmation rules required for entry.",
+      "risk_factors": "Extremely low relative volume combined with a neutral macro regime risks value trapping and downward drift.",
+      "timestamp": "2026-10-26T03:20:45.462949"
     }
   ],
   "performance": {
@@ -1869,7 +1869,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.0577571,
+    "current_equity": 325.14272933999996,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3014,5 +3014,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T04:33:36.870376"
+  "snapshot_synced_at": "2026-10-26T04:35:10.274570"
 }
