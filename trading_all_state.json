@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T09:53:50.841865",
+  "timestamp": "2026-10-26T09:55:24.355418",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.31,
@@ -19,12 +19,6 @@
     "cash": 162.78,
     "positions": {},
     "logs": [
-      "[2026-10-26 09:40:22] 🧠 [AI GATE] Buy of SMH VETOED by AI Brain (Confidence: 45%) | Thesis: SMH is trading above intraday VWAP with a +1.73% gain, but lacks comprehensive volume profile confirmation and faces mixed macro sentiment from recent tech pullback headlines.",
-      "[2026-10-26 09:40:22] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
-      "[2026-10-26 09:41:22] Running portfolio evaluation cycle...",
-      "[2026-10-26 09:41:23] No positions currently held.",
-      "[2026-10-26 09:41:23] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-26 09:42:23] Running portfolio evaluation cycle...",
       "[2026-10-26 09:42:23] No positions currently held.",
       "[2026-10-26 09:42:23] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-26 09:43:24] Running portfolio evaluation cycle...",
@@ -58,7 +52,13 @@
       "[2026-10-26 09:52:19] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-26 09:53:19] Running portfolio evaluation cycle...",
       "[2026-10-26 09:53:19] No positions currently held.",
-      "[2026-10-26 09:53:19] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-26 09:53:19] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-26 09:54:19] Running portfolio evaluation cycle...",
+      "[2026-10-26 09:54:20] No positions currently held.",
+      "[2026-10-26 09:54:20] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-26 09:55:20] Running portfolio evaluation cycle...",
+      "[2026-10-26 09:55:21] No positions currently held.",
+      "[2026-10-26 09:55:21] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -66,18 +66,15 @@
     "cash_usd": 162.53,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "NEUTRAL",
-      "btc_change_24h": -0.84832440513268,
-      "btc_price": 79589.05,
+      "status": "RISK_OFF",
+      "btc_change_24h": -1.07283748856759,
+      "btc_price": 79425.74,
       "allow_alts": false,
-      "allow_core": true,
-      "reason": "BTC neutral -0.85% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "allow_core": false,
+      "reason": "BTC down -1.07% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 09:43:36] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 09:44:37] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 09:44:37] Macro Regime: NEUTRAL | BTC 24h: -0.98% | Alts Allowed: False",
       "[2026-10-26 09:44:37] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 09:44:37] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 09:45:39] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -114,7 +111,10 @@
       "[2026-10-26 09:53:50] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 09:53:50] Macro Regime: NEUTRAL | BTC 24h: -0.94% | Alts Allowed: False",
       "[2026-10-26 09:53:50] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 09:53:50] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 09:53:50] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 09:54:51] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 09:54:51] Macro Regime: RISK_OFF | BTC 24h: -1.07% | Alts Allowed: False",
+      "[2026-10-26 09:54:51] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [],
@@ -3016,5 +3016,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T09:53:50.522550"
+  "snapshot_synced_at": "2026-10-26T09:55:24.041044"
 }
