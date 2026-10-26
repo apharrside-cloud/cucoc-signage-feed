@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T04:36:44.028081",
+  "timestamp": "2026-10-26T04:38:17.510837",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.14,
@@ -75,12 +75,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 04:29:57] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 04:29:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 04:29:57] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=35.2 (chg -0.63%)!",
-      "[2026-10-26 04:30:00] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: ETH volume is severely depressed with an RVOL of 0.46, violating all mandatory volume expansion and relative volume rules required for entry.",
-      "[2026-10-26 04:31:00] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 04:31:00] Macro Regime: NEUTRAL | BTC 24h: -0.31% | Alts Allowed: False",
       "[2026-10-26 04:31:00] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 04:31:00] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 04:31:01] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=35.2 (chg -0.63%)!",
@@ -114,7 +108,13 @@
       "[2026-10-26 04:36:17] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 04:36:17] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 04:36:17] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=36.4 (chg -0.59%)!",
-      "[2026-10-26 04:36:20] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH is exhibiting weak mean-reversion characteristics under an anemic RVOL of 0.53, failing multiple mandatory volume expansion rules for long entry."
+      "[2026-10-26 04:36:20] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH is exhibiting weak mean-reversion characteristics under an anemic RVOL of 0.53, failing multiple mandatory volume expansion rules for long entry.",
+      "[2026-10-26 04:37:20] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 04:37:20] Macro Regime: NEUTRAL | BTC 24h: -0.35% | Alts Allowed: False",
+      "[2026-10-26 04:37:20] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 04:37:20] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 04:37:21] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=36.4 (chg -0.58%)!",
+      "[2026-10-26 04:37:24] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 30%) | Thesis: ETH is exhibiting weak relative volume (0.53) and neutral macro conditions, violating core evolved strategy rules requiring rvol > 1.5 for entry."
     ]
   },
   "positions": [],
@@ -1262,21 +1262,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
-      "current_price": 2313.84,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-26T02:43:55.881186"
-    },
-    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Equities",
       "symbol": "CRWD",
@@ -1858,6 +1843,21 @@
       "primary_thesis": "The trade candidate fails multiple mandatory evolved strategy rules, notably requiring an RVOL > 1.5 and a minimum 2.5x volume expansion, whereas current RVOL is severely depressed at 0.22.",
       "risk_factors": "Extremely low relative volume (0.22) in a neutral macro regime creates a high probability of value trap chop and liquidity slippage.",
       "timestamp": "2026-10-26T03:22:51.973336"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2317.17,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 35,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "ETH is exhibiting weak relative volume (RVOL 0.27) and a low RSI (31.8) failing mandatory criteria requiring RVOL > 1.5 and positive order book delta for long entries.",
+      "risk_factors": "Low volume churn during a neutral macro regime increases vulnerability to a false breakdown or continued chop.",
+      "timestamp": "2026-10-26T03:23:55.207725"
     }
   ],
   "performance": {
@@ -3014,5 +3014,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T04:36:43.735393"
+  "snapshot_synced_at": "2026-10-26T04:38:17.230031"
 }
