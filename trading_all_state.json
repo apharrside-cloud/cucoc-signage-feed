@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T11:24:32.083013",
+  "timestamp": "2026-10-26T11:26:05.933300",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.69,
+    "total_equity": 325.68,
     "total_cash": 270.25,
     "cash_pct": 83.0,
     "weekly_realized_pnl": 0.0,
@@ -15,19 +15,19 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 163.1605811,
+    "total_value": 163.15070524,
     "cash": 107.72,
     "positions": {
       "AVGO": {
         "symbol": "AVGO",
         "shares": 0.076616,
         "entry_price": 326.77,
-        "high_water_mark": 331.5325,
+        "high_water_mark": 331.575,
         "tp1_hit": false,
         "entry_time": "2026-10-26T10:22:16.085193",
-        "current_price": 331.5325,
-        "pnl_pct": 1.46,
-        "pnl_usd": 0.36,
+        "current_price": 331.575,
+        "pnl_pct": 1.47,
+        "pnl_usd": 0.37,
         "last_ai_eval_ts": 1793027447.4832876
       },
       "NVDA": {
@@ -37,17 +37,13 @@
         "high_water_mark": 217.32,
         "tp1_hit": false,
         "entry_time": "2026-10-26T11:19:25.780270",
-        "current_price": 217.315,
-        "pnl_pct": 0.07,
-        "pnl_usd": 0.02,
+        "current_price": 217.225,
+        "pnl_pct": 0.03,
+        "pnl_usd": 0.01,
         "last_ai_eval_ts": 1793028026.9894116
       }
     },
     "logs": [
-      "[2026-10-26 11:13:52] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
-      "[2026-10-26 11:14:52] Running portfolio evaluation cycle...",
-      "[2026-10-26 11:14:53] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $330.63 | PnL: +1.18% ($+0.30) | Peak: $331.35",
-      "[2026-10-26 11:14:53] Available deployable cash ($125.57 of $137.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-26 11:15:16] 🧠 [AI GATE] Buy of SMH VETOED by AI Brain (Confidence: 45%) | Thesis: SMH is showing intraday strength and trading above VWAP, but lacks explicit volume expansion metrics and institutional participation confirmation to meet stringent breakout criteria.",
       "[2026-10-26 11:15:16] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
       "[2026-10-26 11:16:16] Running portfolio evaluation cycle...",
@@ -83,7 +79,11 @@
       "[2026-10-26 11:24:20] [NVDA] Shares: 0.138232 | Entry: $217.17 | Current: $217.31 | PnL: +0.07% ($+0.02) | Peak: $217.32",
       "[2026-10-26 11:24:20] Available deployable cash ($95.57 of $107.72 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-26 11:24:23] 🧠 [AI GATE] Buy of AMD VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman",
-      "[2026-10-26 11:24:23] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-26 11:24:23] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-26 11:25:23] Running portfolio evaluation cycle...",
+      "[2026-10-26 11:25:24] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $331.57 | PnL: +1.47% ($+0.37) | Peak: $331.57",
+      "[2026-10-26 11:25:24] [NVDA] Shares: 0.138232 | Entry: $217.17 | Current: $217.22 | PnL: +0.03% ($+0.01) | Peak: $217.32",
+      "[2026-10-26 11:25:24] Available deployable cash ($95.57 of $107.72 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -92,18 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.1701698727468,
-      "btc_price": 80574.15,
+      "btc_change_24h": 0.15702642596492,
+      "btc_price": 80565.0,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral +0.17% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral +0.16% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 11:15:03] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 11:15:03] Macro Regime: NEUTRAL | BTC 24h: -0.37% | Alts Allowed: False",
-      "[2026-10-26 11:15:03] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 11:15:03] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 11:16:04] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 11:16:04] Macro Regime: NEUTRAL | BTC 24h: -0.34% | Alts Allowed: False",
       "[2026-10-26 11:16:04] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -139,7 +135,11 @@
       "[2026-10-26 11:24:15] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 11:24:15] Macro Regime: NEUTRAL | BTC 24h: +0.17% | Alts Allowed: False",
       "[2026-10-26 11:24:15] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 11:24:15] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 11:24:15] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 11:25:16] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 11:25:17] Macro Regime: NEUTRAL | BTC 24h: +0.16% | Alts Allowed: False",
+      "[2026-10-26 11:25:17] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 11:25:17] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -148,21 +148,21 @@
       "symbol": "AVGO",
       "shares": 0.076616,
       "entry_price": 326.77,
-      "current_price": 331.5325,
+      "current_price": 331.575,
       "value_usd": 25.4,
-      "pnl_pct": 1.46,
-      "pnl_usd": 0.36,
-      "trailing_info": "Peak: $331.53 | Trailing 3.5%"
+      "pnl_pct": 1.47,
+      "pnl_usd": 0.37,
+      "trailing_info": "Peak: $331.57 | Trailing 3.5%"
     },
     {
       "account": "Robinhood",
       "symbol": "NVDA",
       "shares": 0.138232,
       "entry_price": 217.17,
-      "current_price": 217.315,
-      "value_usd": 30.04,
-      "pnl_pct": 0.07,
-      "pnl_usd": 0.02,
+      "current_price": 217.225,
+      "value_usd": 30.03,
+      "pnl_pct": 0.03,
+      "pnl_usd": 0.01,
       "trailing_info": "Peak: $217.32 | Trailing 3.5%"
     }
   ],
@@ -1919,7 +1919,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.69058110000003,
+    "current_equity": 325.68070524,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3064,5 +3064,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T11:24:31.772337"
+  "snapshot_synced_at": "2026-10-26T11:26:05.594756"
 }
