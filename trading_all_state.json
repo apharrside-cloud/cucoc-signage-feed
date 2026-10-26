@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T14:19:44.748958",
+  "timestamp": "2026-10-26T14:21:18.605051",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 324.61,
+    "total_equity": 324.59,
     "total_cash": 269.51,
     "cash_pct": 83.0,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 163.04649919,
+    "total_value": 163.0304274,
     "cash": 107.95,
     "positions": {
       "TSLA": {
@@ -25,9 +25,9 @@
         "high_water_mark": 396.972,
         "tp1_hit": false,
         "entry_time": "2026-10-26T11:43:09.147336",
-        "current_price": 395.215,
-        "pnl_pct": 0.11,
-        "pnl_usd": 0.03,
+        "current_price": 394.775,
+        "pnl_pct": -0.01,
+        "pnl_usd": -0.0,
         "last_ai_eval_ts": 1793038093.5275126
       },
       "AVGO": {
@@ -37,18 +37,13 @@
         "high_water_mark": 331.635,
         "tp1_hit": false,
         "entry_time": "2026-10-26T12:31:03.141177",
-        "current_price": 331.09,
-        "pnl_pct": 0.23,
-        "pnl_usd": 0.07,
+        "current_price": 331.2,
+        "pnl_pct": 0.26,
+        "pnl_usd": 0.08,
         "last_ai_eval_ts": 1793038104.0164723
       }
     },
     "logs": [
-      "[2026-10-26 14:10:32] Running portfolio evaluation cycle...",
-      "[2026-10-26 14:10:33] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $395.48 | PnL: +0.17% ($+0.04) | Peak: $396.97",
-      "[2026-10-26 14:10:33] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $331.45 | PnL: +0.34% ($+0.10) | Peak: $331.63",
-      "[2026-10-26 14:10:33] Available deployable cash ($95.80 of $107.95 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
-      "[2026-10-26 14:11:33] Running portfolio evaluation cycle...",
       "[2026-10-26 14:11:33] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $395.41 | PnL: +0.15% ($+0.04) | Peak: $396.97",
       "[2026-10-26 14:11:33] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $331.25 | PnL: +0.28% ($+0.08) | Peak: $331.63",
       "[2026-10-26 14:11:33] Available deployable cash ($95.80 of $107.95 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
@@ -83,7 +78,12 @@
       "[2026-10-26 14:19:39] Running portfolio evaluation cycle...",
       "[2026-10-26 14:19:39] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $394.77 | PnL: -0.01% ($-0.00) | Peak: $396.97",
       "[2026-10-26 14:19:39] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $331.20 | PnL: +0.26% ($+0.08) | Peak: $331.63",
-      "[2026-10-26 14:19:39] Available deployable cash ($95.80 of $107.95 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum..."
+      "[2026-10-26 14:19:39] Available deployable cash ($95.80 of $107.95 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
+      "[2026-10-26 14:19:45] 🧠 [AI GATE] Buy of SMH VETOED by AI Brain (Confidence: 60%) | Thesis: SMH is showing strong intraday upside momentum above VWAP during regular hours, but deployable cash is limited and broader tech sentiment faces mixed near-term catalysts.",
+      "[2026-10-26 14:19:45] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-26 14:20:45] Running portfolio evaluation cycle...",
+      "[2026-10-26 14:21:00] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
+      "[2026-10-26 14:21:00] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
     ]
   },
   "coinbase": {
@@ -92,23 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.62052538527034,
-      "btc_price": 80128.13,
+      "btc_change_24h": -0.58091622848677,
+      "btc_price": 80166.27,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.62% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.58% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 14:09:47] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 14:09:47] Macro Regime: NEUTRAL | BTC 24h: -0.47% | Alts Allowed: False",
-      "[2026-10-26 14:09:47] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 14:09:47] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 14:10:49] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 14:10:49] Macro Regime: NEUTRAL | BTC 24h: -0.51% | Alts Allowed: False",
-      "[2026-10-26 14:10:49] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 14:10:49] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 14:11:51] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 14:11:51] Macro Regime: NEUTRAL | BTC 24h: -0.48% | Alts Allowed: False",
       "[2026-10-26 14:11:51] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +132,15 @@
       "[2026-10-26 14:19:08] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 14:19:08] Macro Regime: NEUTRAL | BTC 24h: -0.62% | Alts Allowed: False",
       "[2026-10-26 14:19:08] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 14:19:08] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-26 14:19:08] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 14:20:10] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 14:20:10] Macro Regime: NEUTRAL | BTC 24h: -0.61% | Alts Allowed: False",
+      "[2026-10-26 14:20:10] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 14:20:10] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 14:21:12] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 14:21:12] Macro Regime: NEUTRAL | BTC 24h: -0.58% | Alts Allowed: False",
+      "[2026-10-26 14:21:12] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 14:21:12] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -149,10 +149,10 @@
       "symbol": "TSLA",
       "shares": 0.063352,
       "entry_price": 394.8,
-      "current_price": 395.215,
-      "value_usd": 25.04,
-      "pnl_pct": 0.11,
-      "pnl_usd": 0.03,
+      "current_price": 394.775,
+      "value_usd": 25.01,
+      "pnl_pct": -0.01,
+      "pnl_usd": -0.0,
       "trailing_info": "Peak: $396.97 | Trailing 3.5%"
     },
     {
@@ -160,10 +160,10 @@
       "symbol": "AVGO",
       "shares": 0.090793,
       "entry_price": 330.33,
-      "current_price": 331.09,
-      "value_usd": 30.06,
-      "pnl_pct": 0.23,
-      "pnl_usd": 0.07,
+      "current_price": 331.2,
+      "value_usd": 30.07,
+      "pnl_pct": 0.26,
+      "pnl_usd": 0.08,
       "trailing_info": "Peak: $331.63 | Trailing 3.5%"
     }
   ],
@@ -1340,21 +1340,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2328.15,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "ETH is exhibiting weak relative volume (RVOL 0.6) and a neutral macro regime, failing to meet strict EVOLVED STRATEGY rules requiring RVOL > 1.5.",
-      "risk_factors": "Low volume churn in a neutral macro regime increases vulnerability to a sharp downward retracement.",
-      "timestamp": "2026-10-26T04:42:38.181543"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2326.62,
       "approved": false,
       "action": "REJECT",
@@ -1935,6 +1920,21 @@
       "primary_thesis": "AVGO is trading above intraday VWAP with strong institutional momentum backed by a massive AI infrastructure investment catalyst from Meta.",
       "risk_factors": "Broad market tech sector reversal could invalidate the breakout and test daily support levels.",
       "timestamp": "2026-10-26T10:21:47.544844"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "CRWD",
+      "current_price": 261.78,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "CRWD is trading above intraday VWAP with positive momentum amid bullish AI cybersecurity sentiment.",
+      "risk_factors": "Deployable cash of $95.63 and max position guidelines limit capital allocation, and headlines note the stock is already up 120% this year, increasing valuation and pullback risks.",
+      "timestamp": "2026-10-26T10:30:52.315838"
     }
   ],
   "performance": {
@@ -1946,7 +1946,7 @@
     "max_drawdown_pct": 13.51,
     "trades_count_today": 2,
     "realized_pnl_today": -0.29,
-    "current_equity": 324.60649919,
+    "current_equity": 324.5904274,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3117,5 +3117,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T14:19:44.322995"
+  "snapshot_synced_at": "2026-10-26T14:21:18.179910"
 }
