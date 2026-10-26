@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T11:08:53.626632",
+  "timestamp": "2026-10-26T11:10:27.248774",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.65,
@@ -44,13 +44,6 @@
       }
     },
     "logs": [
-      "[2026-10-26 10:58:50] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $329.80 | PnL: +0.93% ($+0.23) | Peak: $329.80",
-      "[2026-10-26 10:58:50] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $396.38 | PnL: +0.64% ($+0.19) | Peak: $396.38",
-      "[2026-10-26 10:58:50] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
-      "[2026-10-26 10:59:50] Running portfolio evaluation cycle...",
-      "[2026-10-26 10:59:51] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $329.98 | PnL: +0.98% ($+0.25) | Peak: $329.98",
-      "[2026-10-26 10:59:51] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $395.95 | PnL: +0.53% ($+0.16) | Peak: $396.38",
-      "[2026-10-26 10:59:51] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-26 11:00:51] Running portfolio evaluation cycle...",
       "[2026-10-26 11:00:51] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $330.31 | PnL: +1.08% ($+0.27) | Peak: $330.31",
       "[2026-10-26 11:00:51] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $395.81 | PnL: +0.50% ($+0.15) | Peak: $396.38",
@@ -83,7 +76,14 @@
       "[2026-10-26 11:08:21] Running portfolio evaluation cycle...",
       "[2026-10-26 11:08:22] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $331.35 | PnL: +1.40% ($+0.35) | Peak: $331.35",
       "[2026-10-26 11:08:22] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $394.49 | PnL: +0.16% ($+0.05) | Peak: $396.38",
-      "[2026-10-26 11:08:22] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum..."
+      "[2026-10-26 11:08:22] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
+      "[2026-10-26 11:09:22] Running portfolio evaluation cycle...",
+      "[2026-10-26 11:09:23] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $331.25 | PnL: +1.37% ($+0.34) | Peak: $331.35",
+      "[2026-10-26 11:09:23] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $394.24 | PnL: +0.10% ($+0.03) | Peak: $396.38",
+      "[2026-10-26 11:09:45] 🧠 [AI TIGHTEN STOP] Raising stop loss for TSLA from -4.5% to 0.2% | Reason: Price pulled back from its peak PnL of +0.64% down to +0.10%, indicating stalling momentum; tightening the stop locks in a small profit and protects against further retracement.",
+      "[2026-10-26 11:09:45] 🚨 STOP LOSS TRIGGERED for TSLA at 0.10% (threshold: 0.2%)!",
+      "[2026-10-26 11:09:46] Stop Loss order response: {'data': {'order': {'id': '6adf6d15-d4ba-4032-af9f-635b8614ca87', 'ref_id': '01a178c2-1a90-7e38-b3e7-8fec4cd4165d', 'instrument_id': 'e39ed23a-7bd1-4587-b060-71988d9ef483', 'symbol': 'TSLA', 'side': 'sell', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.076142', 'cumulative_quantity': '0.000000', 'price': None, 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': None, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-26T15:09:09.240741Z', 'last_transaction_at': '2026-10-26T15:09:09.240741Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
+      "[2026-10-26 11:09:46] Error in evaluation cycle: name 'entry_time' is not defined"
     ]
   },
   "coinbase": {
@@ -92,22 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.30445356431488,
-      "btc_price": 80318.73,
+      "btc_change_24h": -0.35339727325712,
+      "btc_price": 80304.39,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.30% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.35% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 10:57:38] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:57:38] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 10:58:39] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 10:58:40] Macro Regime: NEUTRAL | BTC 24h: -0.42% | Alts Allowed: False",
-      "[2026-10-26 10:58:40] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:58:40] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 10:59:41] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 10:59:41] Macro Regime: NEUTRAL | BTC 24h: -0.30% | Alts Allowed: False",
       "[2026-10-26 10:59:41] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 10:59:41] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 11:00:42] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -139,7 +131,15 @@
       "[2026-10-26 11:07:53] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 11:07:54] Macro Regime: NEUTRAL | BTC 24h: -0.30% | Alts Allowed: False",
       "[2026-10-26 11:07:54] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 11:07:54] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 11:07:54] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 11:08:55] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 11:08:55] Macro Regime: NEUTRAL | BTC 24h: -0.33% | Alts Allowed: False",
+      "[2026-10-26 11:08:55] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 11:08:55] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 11:09:56] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 11:09:56] Macro Regime: NEUTRAL | BTC 24h: -0.35% | Alts Allowed: False",
+      "[2026-10-26 11:09:56] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 11:09:56] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -1313,21 +1313,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2315.7,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 15,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "ETH is exhibiting weak relative volume (0.42 RVOL) and bearish hourly trend alignment, failing all strict volume and momentum expansion rules required for entry.",
-      "risk_factors": "Low volume mean-reversion in a neutral macro chop regime risks a continuation breakdown toward lower support.",
-      "timestamp": "2026-10-26T03:42:54.820081"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2317.94,
       "approved": false,
       "action": "REJECT",
@@ -1908,6 +1893,21 @@
       "primary_thesis": "The trade candidate is rejected because relative volume is exceptionally weak at 0.53, failing multiple strict rules requiring RVOL > 1.5 and breakout volume expansion.",
       "risk_factors": "Low volume churn combined with a neutral macro regime and declining crypto sentiment creates a high probability of a bull trap or false breakdown.",
       "timestamp": "2026-10-26T04:34:11.448432"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2320.39,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 30,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "ETH volume is anemic with an RVOL of 0.53, failing all minimum volume and relative volume breakout expansion criteria.",
+      "risk_factors": "Low volume churn in a neutral macro regime with Bitcoin dipping below $80k increases vulnerability to downside liquidation.",
+      "timestamp": "2026-10-26T04:35:14.508636"
     }
   ],
   "performance": {
@@ -3064,5 +3064,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T11:08:53.268868"
+  "snapshot_synced_at": "2026-10-26T11:10:26.959454"
 }
