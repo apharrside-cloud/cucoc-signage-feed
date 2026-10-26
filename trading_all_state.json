@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-25T20:19:41.009094",
+  "timestamp": "2026-10-25T20:21:14.830072",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.3,
+    "total_equity": 325.29,
     "total_cash": 294.81,
     "cash_pct": 90.6,
     "weekly_realized_pnl": 0.0,
@@ -15,7 +15,7 @@
     "today_trades_count": 3
   },
   "robinhood": {
-    "total_value": 162.77205229,
+    "total_value": 162.75789025,
     "cash": 132.28,
     "positions": {
       "CRWD": {
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 18:49:28] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-25 18:49:30] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is up 1.33% near peak excursion; locking in gains with a tightened stop protects profits against potential resistance stalling.",
       "[2026-10-25 18:54:30] Running portfolio evaluation cycle...",
       "[2026-10-25 18:54:31] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 18:59:31] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-25 20:10:09] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 20:10:11] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is up 1.33% near peak excursion and approaching resistance, so we are tightening the stop to lock in profits.",
       "[2026-10-25 20:15:11] Running portfolio evaluation cycle...",
-      "[2026-10-25 20:15:12] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-25 20:15:12] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 20:20:12] Running portfolio evaluation cycle...",
+      "[2026-10-25 20:20:12] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
@@ -80,18 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.73562330294541,
-      "btc_price": 80064.79,
+      "btc_change_24h": -0.81607285256906,
+      "btc_price": 80000.01,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.74% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.82% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 20:10:09] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 20:10:09] Macro Regime: NEUTRAL | BTC 24h: -0.86% | Alts Allowed: False",
-      "[2026-10-25 20:10:09] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 20:10:09] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-25 20:11:10] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 20:11:10] Macro Regime: NEUTRAL | BTC 24h: -0.77% | Alts Allowed: False",
       "[2026-10-25 20:11:10] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +123,11 @@
       "[2026-10-25 20:19:20] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 20:19:21] Macro Regime: NEUTRAL | BTC 24h: -0.74% | Alts Allowed: False",
       "[2026-10-25 20:19:21] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 20:19:21] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-25 20:19:21] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 20:20:22] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 20:20:22] Macro Regime: NEUTRAL | BTC 24h: -0.82% | Alts Allowed: False",
+      "[2026-10-25 20:20:22] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 20:20:22] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -1896,7 +1896,7 @@
     "max_drawdown_pct": 13.3,
     "trades_count_today": 3,
     "realized_pnl_today": 0.9099999999999999,
-    "current_equity": 325.30205229,
+    "current_equity": 325.28789025000003,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T20:19:40.695439"
+  "snapshot_synced_at": "2026-10-25T20:21:14.398450"
 }
