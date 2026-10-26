@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T09:49:09.365589",
+  "timestamp": "2026-10-26T09:50:43.085940",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.31,
@@ -19,9 +19,6 @@
     "cash": 162.78,
     "positions": {},
     "logs": [
-      "[2026-10-26 09:36:17] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
-      "[2026-10-26 09:37:17] Running portfolio evaluation cycle...",
-      "[2026-10-26 09:37:18] No positions currently held.",
       "[2026-10-26 09:37:18] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-26 09:37:44] 🧠 [AI GATE] Buy of TQQQ VETOED by AI Brain (Confidence: 45%) | Thesis: TQQQ shows positive daily momentum up 1.7%, but intraday price action remains below VWAP with insufficient volume expansion data to validate a high-probability breakout.",
       "[2026-10-26 09:37:44] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
@@ -58,7 +55,10 @@
       "[2026-10-26 09:47:27] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-26 09:48:27] Running portfolio evaluation cycle...",
       "[2026-10-26 09:48:27] No positions currently held.",
-      "[2026-10-26 09:48:27] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-26 09:48:27] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-26 09:49:28] Running portfolio evaluation cycle...",
+      "[2026-10-26 09:49:43] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
+      "[2026-10-26 09:49:43] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
     ]
   },
   "coinbase": {
@@ -66,19 +66,15 @@
     "cash_usd": 162.53,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "RISK_OFF",
-      "btc_change_24h": -1.02227073806069,
-      "btc_price": 79455.55,
+      "status": "NEUTRAL",
+      "btc_change_24h": -0.84321389287796,
+      "btc_price": 79591.06,
       "allow_alts": false,
-      "allow_core": false,
-      "reason": "BTC down -1.02% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "allow_core": true,
+      "reason": "BTC neutral -0.84% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 09:38:29] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 09:39:30] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 09:39:30] Macro Regime: NEUTRAL | BTC 24h: -0.42% | Alts Allowed: False",
-      "[2026-10-26 09:39:30] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 09:39:30] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 09:40:32] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 09:40:32] Macro Regime: NEUTRAL | BTC 24h: -0.59% | Alts Allowed: False",
@@ -114,7 +110,11 @@
       "[2026-10-26 09:47:42] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 09:48:43] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 09:48:43] Macro Regime: RISK_OFF | BTC 24h: -1.02% | Alts Allowed: False",
-      "[2026-10-26 09:48:43] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-26 09:48:43] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 09:49:44] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 09:49:44] Macro Regime: NEUTRAL | BTC 24h: -0.84% | Alts Allowed: False",
+      "[2026-10-26 09:49:44] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 09:49:44] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [],
@@ -3016,5 +3016,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T09:49:09.071325"
+  "snapshot_synced_at": "2026-10-26T09:50:42.800309"
 }
