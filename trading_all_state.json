@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T10:04:47.911004",
+  "timestamp": "2026-10-26T10:06:21.519901",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.29,
+    "total_equity": 325.31,
     "total_cash": 295.31,
     "cash_pct": 90.8,
     "weekly_realized_pnl": 0.0,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.7578024,
+    "total_value": 162.7798656,
     "cash": 132.78,
     "positions": {
       "TSLA": {
@@ -32,10 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-26 09:52:19] No positions currently held.",
-      "[2026-10-26 09:52:19] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-26 09:53:19] Running portfolio evaluation cycle...",
-      "[2026-10-26 09:53:19] No positions currently held.",
       "[2026-10-26 09:53:19] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-26 09:54:19] Running portfolio evaluation cycle...",
       "[2026-10-26 09:54:20] No positions currently held.",
@@ -71,7 +67,11 @@
       "[2026-10-26 10:04:34] Running portfolio evaluation cycle...",
       "[2026-10-26 10:04:35] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $394.03 | PnL: -0.03% ($-0.01) | Peak: $394.13",
       "[2026-10-26 10:04:35] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-26 10:04:35] VWAP Filter: Skipping SOXL because price ($85.00) is BELOW session VWAP ($86.34)."
+      "[2026-10-26 10:04:35] VWAP Filter: Skipping SOXL because price ($85.00) is BELOW session VWAP ($86.34).",
+      "[2026-10-26 10:05:35] Running portfolio evaluation cycle...",
+      "[2026-10-26 10:05:51] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
+      "[2026-10-26 10:05:51] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-26 10:05:54] VWAP Filter: Skipping SOXL because price ($85.36) is BELOW session VWAP ($86.32)."
     ]
   },
   "coinbase": {
@@ -88,12 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 09:52:48] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 09:52:48] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 09:53:50] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 09:53:50] Macro Regime: NEUTRAL | BTC 24h: -0.94% | Alts Allowed: False",
-      "[2026-10-26 09:53:50] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 09:53:50] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 09:54:51] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 09:54:51] Macro Regime: RISK_OFF | BTC 24h: -1.07% | Alts Allowed: False",
       "[2026-10-26 09:54:51] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +121,13 @@
       "[2026-10-26 10:03:28] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 10:03:28] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 10:03:29] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.8 (chg -1.53%)!",
-      "[2026-10-26 10:04:16] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH is exhibiting mean-reversion characteristics in a bearish hourly trend while macro regime flags a neutral/chop environment."
+      "[2026-10-26 10:04:16] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH is exhibiting mean-reversion characteristics in a bearish hourly trend while macro regime flags a neutral/chop environment.",
+      "[2026-10-26 10:05:16] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 10:05:16] Macro Regime: NEUTRAL | BTC 24h: -0.85% | Alts Allowed: False",
+      "[2026-10-26 10:05:16] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 10:05:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 10:05:17] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -1.33%)!",
+      "[2026-10-26 10:05:40] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: Rejecting ETH trade due to severe lack of volume (RVOL 0.36), bearish hourly trend alignment, RSI at 37.4, and macro chop regime where altcoins are suppressed."
     ]
   },
   "positions": [
@@ -1290,21 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2316.06,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "RVOL is critically weak at 0.22, failing all strict volume and breakout confirmation rules required for entry.",
-      "risk_factors": "Extremely low relative volume combined with a neutral macro regime risks value trapping and downward drift.",
-      "timestamp": "2026-10-26T03:20:45.462949"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2316.77,
       "approved": false,
       "action": "REJECT",
@@ -1885,6 +1870,21 @@
       "primary_thesis": "ETH is exhibiting weak relative volume (RVOL 0.61) below the required 1.5x baseline and RSI at 32.6 indicates lack of bullish momentum.",
       "risk_factors": "Low volume churn in a neutral macro regime increases vulnerability to false mean-reversion bounces and further downside drift.",
       "timestamp": "2026-10-26T04:01:53.547916"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2312.49,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 35,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "ETH exhibits weak momentum with RVOL at 0.61 (failing the >1.5 requirement) and RSI in a bearish continuation zone rather than an actionable mean reversion setup.",
+      "risk_factors": "Low relative volume, macro neutral/chop regime suppressing alt upside, and lack of institutional volume confirmation.",
+      "timestamp": "2026-10-26T04:02:57.001058"
     }
   ],
   "performance": {
@@ -1896,7 +1896,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.28780240000003,
+    "current_equity": 325.30986559999997,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T10:04:47.605798"
+  "snapshot_synced_at": "2026-10-26T10:06:21.189503"
 }
