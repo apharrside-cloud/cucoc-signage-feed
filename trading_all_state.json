@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-25T21:50:02.512986",
+  "timestamp": "2026-10-25T21:51:36.001682",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.15,
+    "total_equity": 325.03,
     "total_cash": 294.81,
     "cash_pct": 90.7,
     "weekly_realized_pnl": 0.0,
@@ -15,7 +15,7 @@
     "today_trades_count": 3
   },
   "robinhood": {
-    "total_value": 162.61863019,
+    "total_value": 162.5041537,
     "cash": 132.28,
     "positions": {
       "CRWD": {
@@ -28,13 +28,10 @@
         "current_price": 257.58,
         "pnl_pct": 1.33,
         "pnl_usd": 0.4,
-        "last_ai_eval_ts": 1792978251.8496366
+        "last_ai_eval_ts": 1792979461.470102
       }
     },
     "logs": [
-      "[2026-10-25 20:15:11] Running portfolio evaluation cycle...",
-      "[2026-10-25 20:15:12] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-25 20:20:12] Running portfolio evaluation cycle...",
       "[2026-10-25 20:20:12] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 20:25:13] Running portfolio evaluation cycle...",
       "[2026-10-25 20:25:13] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
@@ -71,7 +68,10 @@
       "[2026-10-25 21:40:54] Running portfolio evaluation cycle...",
       "[2026-10-25 21:40:55] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 21:45:55] Running portfolio evaluation cycle...",
-      "[2026-10-25 21:46:00] Failed to fetch portfolio data."
+      "[2026-10-25 21:46:00] Failed to fetch portfolio data.",
+      "[2026-10-25 21:51:00] Running portfolio evaluation cycle...",
+      "[2026-10-25 21:51:01] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 21:51:03] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is near peak profit (+1.33%) after a multi-day hold, so locking in gains via a tightened stop is prudent given regular market session volatility."
     ]
   },
   "coinbase": {
@@ -80,20 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.54631352537549,
-      "btc_price": 79535.85,
+      "btc_change_24h": -1.55076633238624,
+      "btc_price": 79514.02,
       "allow_alts": false,
       "allow_core": false,
       "reason": "BTC down -1.55% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 21:36:25] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 21:37:26] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 21:37:26] Macro Regime: RISK_OFF | BTC 24h: -1.08% | Alts Allowed: False",
-      "[2026-10-25 21:37:26] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 21:38:26] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 21:38:26] Macro Regime: RISK_OFF | BTC 24h: -1.17% | Alts Allowed: False",
       "[2026-10-25 21:38:26] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 21:39:27] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 21:39:27] Macro Regime: RISK_OFF | BTC 24h: -1.25% | Alts Allowed: False",
@@ -127,7 +121,13 @@
       "[2026-10-25 21:48:32] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 21:49:32] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 21:49:32] Macro Regime: RISK_OFF | BTC 24h: -1.55% | Alts Allowed: False",
-      "[2026-10-25 21:49:32] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-25 21:49:32] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 21:50:33] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 21:50:33] Macro Regime: RISK_OFF | BTC 24h: -1.57% | Alts Allowed: False",
+      "[2026-10-25 21:50:33] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 21:51:33] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 21:51:34] Macro Regime: RISK_OFF | BTC 24h: -1.55% | Alts Allowed: False",
+      "[2026-10-25 21:51:34] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1290,21 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.845,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "AVAX is currently restricted by macro rules allowing only Core assets while altcoins are suppressed.",
-      "risk_factors": "Low relative volume (RVOL 0.52) and weak macro regime prohibiting altcoin exposure.",
-      "timestamp": "2026-10-25T10:53:02.685397"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.8498,
       "approved": false,
       "action": "REJECT",
@@ -1885,6 +1870,21 @@
       "primary_thesis": "FET fails strict breakout volume and momentum constraints with an RVOL of 0.86 well below the required 1.5x threshold.",
       "risk_factors": "Negative exploit news involving Fetch.ai combined with sub-par volume and weak RSI (43.7) significantly increases downside vulnerability.",
       "timestamp": "2026-10-25T11:46:05.283244"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.17652,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 35,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "FET shows mild 24h gains under a risk-on macro regime, but fails critical quantitative volume rules.",
+      "risk_factors": "RVOL is 0.86 (below the mandatory 1.5x minimum), and active exploit news involving Fetch.ai creates severe headline risk.",
+      "timestamp": "2026-10-25T11:47:11.367938"
     }
   ],
   "performance": {
@@ -1896,7 +1896,7 @@
     "max_drawdown_pct": 13.31,
     "trades_count_today": 3,
     "realized_pnl_today": 0.9099999999999999,
-    "current_equity": 325.14863019,
+    "current_equity": 325.0341537,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T21:50:02.213395"
+  "snapshot_synced_at": "2026-10-25T21:51:35.694254"
 }
