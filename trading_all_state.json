@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T10:39:13.532830",
+  "timestamp": "2026-10-26T10:40:47.142148",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.2,
+    "total_equity": 325.19,
     "total_cash": 270.23,
     "cash_pct": 83.1,
     "weekly_realized_pnl": 0.0,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.67377046,
+    "total_value": 162.65858472,
     "cash": 107.7,
     "positions": {
       "AVGO": {
@@ -25,10 +25,10 @@
         "high_water_mark": 326.77,
         "tp1_hit": false,
         "entry_time": "2026-10-26T10:22:16.085193",
-        "current_price": 326.11,
-        "pnl_pct": -0.2,
-        "pnl_usd": -0.05,
-        "last_ai_eval_ts": 1793024597.3291616
+        "current_price": 326.2,
+        "pnl_pct": -0.17,
+        "pnl_usd": -0.04,
+        "last_ai_eval_ts": 1793025547.6994116
       },
       "TSLA": {
         "symbol": "TSLA",
@@ -37,18 +37,13 @@
         "high_water_mark": 393.86,
         "tp1_hit": false,
         "entry_time": "2026-10-26T10:36:37.710526",
-        "current_price": 393.855,
-        "pnl_pct": -0.0,
-        "pnl_usd": -0.0,
+        "current_price": 393.51,
+        "pnl_pct": -0.09,
+        "pnl_usd": -0.03,
         "last_ai_eval_ts": 1793025459.061057
       }
     },
     "logs": [
-      "[2026-10-26 10:28:50] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $394.70 | PnL: +0.15% ($+0.04) | Peak: $396.44",
-      "[2026-10-26 10:28:50] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $325.98 | PnL: -0.24% ($-0.06) | Peak: $326.77",
-      "[2026-10-26 10:28:50] Available deployable cash ($95.63 of $107.78 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
-      "[2026-10-26 10:29:50] Running portfolio evaluation cycle...",
-      "[2026-10-26 10:29:50] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $395.17 | PnL: +0.26% ($+0.08) | Peak: $396.44",
       "[2026-10-26 10:29:50] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $326.17 | PnL: -0.19% ($-0.05) | Peak: $326.77",
       "[2026-10-26 10:29:50] Available deployable cash ($95.63 of $107.78 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-26 10:30:51] Running portfolio evaluation cycle...",
@@ -83,7 +78,12 @@
       "[2026-10-26 10:37:39] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $393.86 | PnL: -0.00% ($-0.00) | Peak: $393.86",
       "[2026-10-26 10:38:06] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-26 10:39:06] Running portfolio evaluation cycle...",
-      "[2026-10-26 10:39:07] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $326.20 | PnL: -0.17% ($-0.04) | Peak: $326.77"
+      "[2026-10-26 10:39:07] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $326.20 | PnL: -0.17% ($-0.04) | Peak: $326.77",
+      "[2026-10-26 10:39:32] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $393.51 | PnL: -0.09% ($-0.03) | Peak: $393.86",
+      "[2026-10-26 10:39:32] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
+      "[2026-10-26 10:39:33] VWAP Filter: Skipping MU because price ($891.26) is BELOW session VWAP ($893.73).",
+      "[2026-10-26 10:40:05] 🧠 [AI GATE] Buy of SMH VETOED by AI Brain (Confidence: 40%) | Thesis: SMH is trading significantly below its intraday VWAP ($535.13 vs $893.73), indicating severe intraday weakness despite a positive daily change percentage.",
+      "[2026-10-26 10:40:05] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
     ]
   },
   "coinbase": {
@@ -92,22 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.59147151229845,
-      "btc_price": 79787.8,
+      "btc_change_24h": -0.57721828604207,
+      "btc_price": 79799.24,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.59% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.58% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 10:29:02] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 10:29:03] Macro Regime: NEUTRAL | BTC 24h: -0.64% | Alts Allowed: False",
-      "[2026-10-26 10:29:03] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:29:03] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 10:30:04] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 10:30:04] Macro Regime: NEUTRAL | BTC 24h: -0.61% | Alts Allowed: False",
-      "[2026-10-26 10:30:04] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:30:04] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 10:31:05] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 10:31:05] Macro Regime: NEUTRAL | BTC 24h: -0.61% | Alts Allowed: False",
       "[2026-10-26 10:31:05] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -139,7 +131,15 @@
       "[2026-10-26 10:38:14] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 10:38:14] Macro Regime: NEUTRAL | BTC 24h: -0.59% | Alts Allowed: False",
       "[2026-10-26 10:38:14] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:38:14] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 10:38:14] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 10:39:15] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 10:39:16] Macro Regime: NEUTRAL | BTC 24h: -0.50% | Alts Allowed: False",
+      "[2026-10-26 10:39:16] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 10:39:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 10:40:17] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 10:40:17] Macro Regime: NEUTRAL | BTC 24h: -0.58% | Alts Allowed: False",
+      "[2026-10-26 10:40:17] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 10:40:17] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -148,10 +148,10 @@
       "symbol": "AVGO",
       "shares": 0.076616,
       "entry_price": 326.77,
-      "current_price": 326.11,
+      "current_price": 326.2,
       "value_usd": 24.99,
-      "pnl_pct": -0.2,
-      "pnl_usd": -0.05,
+      "pnl_pct": -0.17,
+      "pnl_usd": -0.04,
       "trailing_info": "Peak: $326.77 | Trailing 3.5%"
     },
     {
@@ -159,10 +159,10 @@
       "symbol": "TSLA",
       "shares": 0.076142,
       "entry_price": 393.86,
-      "current_price": 393.855,
-      "value_usd": 29.99,
-      "pnl_pct": -0.0,
-      "pnl_usd": -0.0,
+      "current_price": 393.51,
+      "value_usd": 29.96,
+      "pnl_pct": -0.09,
+      "pnl_usd": -0.03,
       "trailing_info": "Peak: $393.86 | Trailing 3.5%"
     }
   ],
@@ -1313,21 +1313,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2313.73,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "ETH volume and RVOL are severely depressed (RVOL 0.32), failing all mandatory volume breakout and relative volume filters.",
-      "risk_factors": "Extremely low relative volume (0.32) combined with a neutral macro regime and declining momentum creates a high risk of value trap and chop.",
-      "timestamp": "2026-10-26T03:32:22.459344"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2315.43,
       "approved": false,
       "action": "REJECT",
@@ -1908,6 +1893,21 @@
       "primary_thesis": "ETH is exhibiting weak bearish mean-reversion characteristics with severe volume exhaustion (RVOL 0.35) and a bearish hourly trend, failing all strict long criteria.",
       "risk_factors": "Low relative volume, ongoing AI-related market selloff breaking key psychological thresholds like Bitcoin dipping below $80,000, and counter-trend positioning.",
       "timestamp": "2026-10-26T04:23:38.200371"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2316.51,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "ETH exhibits extremely low relative volume (RVOL 0.4) with a bearish hourly trend and RSI near oversold levels during a broader AI-driven market selloff.",
+      "risk_factors": "Fails multiple mandatory volume filters (RVOL < 1.5) and occurs amidst negative macro sentiment and dipping Bitcoin prices.",
+      "timestamp": "2026-10-26T04:24:41.620160"
     }
   ],
   "performance": {
@@ -1919,7 +1919,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.20377046,
+    "current_equity": 325.18858472,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3064,5 +3064,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T10:39:13.199681"
+  "snapshot_synced_at": "2026-10-26T10:40:46.792383"
 }
