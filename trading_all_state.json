@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T21:32:53.814008",
+  "timestamp": "2026-10-25T21:34:27.223733",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.15,
@@ -80,24 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.07306530108167,
-      "btc_price": 79806.96,
+      "btc_change_24h": -1.03186627998799,
+      "btc_price": 79834.09,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.07% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.03% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 21:24:57] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 21:24:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-25 21:24:57] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.8 (chg -0.85%)!",
-      "[2026-10-25 21:25:00] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 35%) | Thesis: The strategy mode is mean reversion with a bearish hourly trend and weak volume (RVOL 0.71), failing all mandatory long-entry rules requiring volume expansion and bullish momentum.",
-      "[2026-10-25 21:26:00] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 21:26:00] Macro Regime: NEUTRAL | BTC 24h: -0.72% | Alts Allowed: False",
-      "[2026-10-25 21:26:00] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 21:26:00] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-25 21:26:01] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.8 (chg -0.73%)!",
-      "[2026-10-25 21:26:03] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 30%) | Thesis: RVOL is severely depressed at 0.71 (failing the strict >1.5x threshold) alongside a bearish hourly trend and neutral macro chop regime.",
       "[2026-10-25 21:27:03] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 21:27:03] Macro Regime: NEUTRAL | BTC 24h: -0.79% | Alts Allowed: False",
       "[2026-10-25 21:27:03] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +117,17 @@
       "[2026-10-25 21:31:17] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 21:32:17] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 21:32:18] Macro Regime: RISK_OFF | BTC 24h: -1.07% | Alts Allowed: False",
-      "[2026-10-25 21:32:18] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-25 21:32:18] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 21:33:18] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 21:33:18] Macro Regime: RISK_OFF | BTC 24h: -1.03% | Alts Allowed: False",
+      "[2026-10-25 21:33:18] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 21:34:18] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 21:34:19] Macro Regime: NEUTRAL | BTC 24h: -0.95% | Alts Allowed: False",
+      "[2026-10-25 21:34:19] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 21:34:19] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-25 21:34:19] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=38.0 (chg -1.49%)!",
+      "[2026-10-25 21:34:19] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=34.0 (chg -0.96%)!",
+      "[2026-10-25 21:34:22] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: Asset is in a mean-reversion mode with bearish hourly trend and insufficient volume support (RVOL 1.16) failing to meet rigorous breakout standards."
     ]
   },
   "positions": [
@@ -1290,21 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.838,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX is currently showing oversold conditions with an RSI of 27.4, but relative volume is weak at 0.51.",
-      "risk_factors": "Macro regime explicitly suppresses altcoins with 'allow_alts': false due to chop conditions, and RVOL fails all evolution rules requiring > 1.5.",
-      "timestamp": "2026-10-25T10:50:56.452189"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.846,
       "approved": false,
       "action": "REJECT",
@@ -1885,6 +1870,21 @@
       "primary_thesis": "Macro regime is risk-on, but RENDER lacks the strict volume expansion required for breakout entry.",
       "risk_factors": "RVOL is 0.96 (below the mandatory 1.5x minimum), violating evolved strategy rules for volume confirmation.",
       "timestamp": "2026-10-25T11:43:53.183818"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "RENDER",
+      "current_price": 1.704,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 35,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "RENDER fails multiple evolved strategy rules requiring relative volume (Rvol) > 1.5x (current Rvol is 0.96) and confirmed breakout momentum.",
+      "risk_factors": "Sub-average relative volume and neutral RSI (45.9) indicate weak participation, carrying a high risk of a bull trap or mean-reversion.",
+      "timestamp": "2026-10-25T11:44:58.985564"
     }
   ],
   "performance": {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T21:32:53.482909"
+  "snapshot_synced_at": "2026-10-25T21:34:26.940634"
 }
