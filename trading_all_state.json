@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T13:09:21.914848",
+  "timestamp": "2026-10-26T13:10:55.731094",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.57,
@@ -15,7 +15,7 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 163.0057580702,
+    "total_value": 163.00970219,
     "cash": 77.84,
     "positions": {
       "TSLA": {
@@ -25,8 +25,8 @@
         "high_water_mark": 396.05,
         "tp1_hit": false,
         "entry_time": "2026-10-26T11:43:09.147336",
-        "current_price": 396.05,
-        "pnl_pct": 0.32,
+        "current_price": 395.985,
+        "pnl_pct": 0.3,
         "pnl_usd": 0.08,
         "last_ai_eval_ts": 1793034293.816285
       },
@@ -37,9 +37,9 @@
         "high_water_mark": 330.365,
         "tp1_hit": false,
         "entry_time": "2026-10-26T12:31:03.141177",
-        "current_price": 329.995,
-        "pnl_pct": -0.1,
-        "pnl_usd": -0.03,
+        "current_price": 330.11,
+        "pnl_pct": -0.07,
+        "pnl_usd": -0.02,
         "last_ai_eval_ts": 1793034298.1299121
       },
       "MU": {
@@ -49,17 +49,13 @@
         "high_water_mark": 910.21,
         "tp1_hit": false,
         "entry_time": "2026-10-26T12:58:12.117009",
-        "current_price": 910.21,
-        "pnl_pct": 0.51,
+        "current_price": 910.09,
+        "pnl_pct": 0.5,
         "pnl_usd": 0.15,
         "last_ai_eval_ts": 1793033953.3274026
       }
     },
     "logs": [
-      "[2026-10-26 12:58:10] 🔥 Found momentum breakout: MU (+3.19%) @ $905.55. Executing AI-APPROVED BUY of $30.00...",
-      "[2026-10-26 12:58:12] Buy order placed: {'data': {'order': {'id': '6adf867e-5f26-4787-a2d9-50398c4bf0b9', 'ref_id': '01a17925-5f37-7054-b7f5-fcd3ad6390b8', 'instrument_id': '0a8a072c-e52c-4e41-a2ee-8adbd72217d3', 'symbol': 'MU', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.033090', 'cumulative_quantity': '0.000000', 'price': '906.580000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '30.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-26T16:57:34.870946Z', 'last_transaction_at': '2026-10-26T16:57:34.870946Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
-      "[2026-10-26 12:59:12] Running portfolio evaluation cycle...",
-      "[2026-10-26 12:59:13] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $395.02 | PnL: +0.06% ($+0.01) | Peak: $395.70",
       "[2026-10-26 12:59:13] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $329.50 | PnL: -0.25% ($-0.08) | Peak: $330.37",
       "[2026-10-26 12:59:13] [MU] Shares: 0.033090 | Entry: $905.55 | Current: $906.69 | PnL: +0.13% ($+0.04) | Peak: $906.69",
       "[2026-10-26 13:00:32] Running portfolio evaluation cycle...",
@@ -95,7 +91,11 @@
       "[2026-10-26 13:09:16] Running portfolio evaluation cycle...",
       "[2026-10-26 13:09:17] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $396.05 | PnL: +0.32% ($+0.08) | Peak: $396.05",
       "[2026-10-26 13:09:17] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $330.00 | PnL: -0.10% ($-0.03) | Peak: $330.37",
-      "[2026-10-26 13:09:17] [MU] Shares: 0.033090 | Entry: $905.55 | Current: $910.21 | PnL: +0.51% ($+0.15) | Peak: $910.21"
+      "[2026-10-26 13:09:17] [MU] Shares: 0.033090 | Entry: $905.55 | Current: $910.21 | PnL: +0.51% ($+0.15) | Peak: $910.21",
+      "[2026-10-26 13:10:17] Running portfolio evaluation cycle...",
+      "[2026-10-26 13:10:17] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $395.99 | PnL: +0.30% ($+0.08) | Peak: $396.05",
+      "[2026-10-26 13:10:17] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $330.11 | PnL: -0.07% ($-0.02) | Peak: $330.37",
+      "[2026-10-26 13:10:17] [MU] Shares: 0.033090 | Entry: $905.55 | Current: $910.09 | PnL: +0.50% ($+0.15) | Peak: $910.21"
     ]
   },
   "coinbase": {
@@ -104,19 +104,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.42195033997673,
-      "btc_price": 80356.2,
+      "btc_change_24h": -0.44129933040307,
+      "btc_price": 80319.38,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.42% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.44% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 12:59:51] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 12:59:51] Macro Regime: NEUTRAL | BTC 24h: -0.76% | Alts Allowed: False",
-      "[2026-10-26 12:59:51] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 12:59:51] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 13:00:54] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 13:00:54] Macro Regime: NEUTRAL | BTC 24h: -0.70% | Alts Allowed: False",
       "[2026-10-26 13:00:54] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -152,7 +148,11 @@
       "[2026-10-26 13:09:16] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 13:09:16] Macro Regime: NEUTRAL | BTC 24h: -0.42% | Alts Allowed: False",
       "[2026-10-26 13:09:16] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 13:09:16] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-26 13:09:16] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 13:10:18] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 13:10:19] Macro Regime: NEUTRAL | BTC 24h: -0.44% | Alts Allowed: False",
+      "[2026-10-26 13:10:19] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 13:10:19] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -161,9 +161,9 @@
       "symbol": "TSLA",
       "shares": 0.063352,
       "entry_price": 394.8,
-      "current_price": 396.05,
+      "current_price": 395.985,
       "value_usd": 25.09,
-      "pnl_pct": 0.32,
+      "pnl_pct": 0.3,
       "pnl_usd": 0.08,
       "trailing_info": "Peak: $396.05 | Trailing 3.5%"
     },
@@ -172,10 +172,10 @@
       "symbol": "AVGO",
       "shares": 0.090793,
       "entry_price": 330.33,
-      "current_price": 329.995,
-      "value_usd": 29.96,
-      "pnl_pct": -0.1,
-      "pnl_usd": -0.03,
+      "current_price": 330.11,
+      "value_usd": 29.97,
+      "pnl_pct": -0.07,
+      "pnl_usd": -0.02,
       "trailing_info": "Peak: $330.37 | Trailing 3.5%"
     },
     {
@@ -183,9 +183,9 @@
       "symbol": "MU",
       "shares": 0.03309,
       "entry_price": 905.55,
-      "current_price": 910.21,
-      "value_usd": 30.12,
-      "pnl_pct": 0.51,
+      "current_price": 910.09,
+      "value_usd": 30.11,
+      "pnl_pct": 0.5,
       "pnl_usd": 0.15,
       "trailing_info": "Peak: $910.21 | Trailing 3.5%"
     }
@@ -1969,7 +1969,7 @@
     "max_drawdown_pct": 13.51,
     "trades_count_today": 2,
     "realized_pnl_today": -0.29,
-    "current_equity": 324.5657580702,
+    "current_equity": 324.56970219000004,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3140,5 +3140,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T13:09:21.598443"
+  "snapshot_synced_at": "2026-10-26T13:10:55.413256"
 }
