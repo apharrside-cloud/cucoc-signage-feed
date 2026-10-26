@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T10:48:36.321692",
+  "timestamp": "2026-10-26T10:50:09.980239",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.44,
@@ -44,12 +44,6 @@
       }
     },
     "logs": [
-      "[2026-10-26 10:40:05] 🧠 [AI GATE] Buy of SMH VETOED by AI Brain (Confidence: 40%) | Thesis: SMH is trading significantly below its intraday VWAP ($535.13 vs $893.73), indicating severe intraday weakness despite a positive daily change percentage.",
-      "[2026-10-26 10:40:05] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
-      "[2026-10-26 10:41:05] Running portfolio evaluation cycle...",
-      "[2026-10-26 10:41:05] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $326.57 | PnL: -0.06% ($-0.01) | Peak: $326.77",
-      "[2026-10-26 10:41:05] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $393.90 | PnL: +0.01% ($+0.00) | Peak: $393.90",
-      "[2026-10-26 10:41:05] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-26 10:41:06] VWAP Filter: Skipping MU because price ($891.63) is BELOW session VWAP ($893.70).",
       "[2026-10-26 10:41:28] 🧠 [AI GATE] Buy of ARM VETOED by AI Brain (Confidence: 45%) | Thesis: ARM is showing a +3.13% intraday bounce, but the current price of $216.92 sits well below the reported intraday VWAP of $893.7, indicating structural data anomaly or severe weakness.",
       "[2026-10-26 10:41:28] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
@@ -83,7 +77,13 @@
       "[2026-10-26 10:47:19] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-26 10:47:25] 🧠 [AI GATE] Buy of MU VETOED by AI Brain (Confidence: 45%) | Thesis: Micron is seeing intraday momentum above VWAP, but mixed headlines including sharp post-earnings drops and downside risk commentary undermine a high-confidence long thesis.",
       "[2026-10-26 10:47:25] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
-      "[2026-10-26 10:48:25] Running portfolio evaluation cycle..."
+      "[2026-10-26 10:48:25] Running portfolio evaluation cycle...",
+      "[2026-10-26 10:48:40] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
+      "[2026-10-26 10:48:40] Failed to fetch portfolio data.",
+      "[2026-10-26 10:49:40] Running portfolio evaluation cycle...",
+      "[2026-10-26 10:49:45] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $328.85 | PnL: +0.64% ($+0.16) | Peak: $328.85",
+      "[2026-10-26 10:49:45] [TSLA] Shares: 0.076142 | Entry: $393.86 | Current: $394.83 | PnL: +0.25% ($+0.07) | Peak: $394.88",
+      "[2026-10-26 10:49:45] Available deployable cash ($95.55 of $107.70 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -92,18 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.53371119872016,
-      "btc_price": 79875.14,
+      "btc_change_24h": -0.36059574805036,
+      "btc_price": 80030.23,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.53% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.36% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 10:39:15] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 10:39:16] Macro Regime: NEUTRAL | BTC 24h: -0.50% | Alts Allowed: False",
-      "[2026-10-26 10:39:16] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:39:16] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 10:40:17] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 10:40:17] Macro Regime: NEUTRAL | BTC 24h: -0.58% | Alts Allowed: False",
       "[2026-10-26 10:40:17] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -139,7 +135,11 @@
       "[2026-10-26 10:48:27] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 10:48:27] Macro Regime: NEUTRAL | BTC 24h: -0.53% | Alts Allowed: False",
       "[2026-10-26 10:48:27] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:48:27] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 10:48:27] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 10:49:28] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 10:49:28] Macro Regime: NEUTRAL | BTC 24h: -0.36% | Alts Allowed: False",
+      "[2026-10-26 10:49:28] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 10:49:28] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -3064,5 +3064,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T10:48:35.992529"
+  "snapshot_synced_at": "2026-10-26T10:50:09.675942"
 }
