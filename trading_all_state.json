@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T19:19:28.998513",
+  "timestamp": "2026-10-26T19:21:03.614916",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.46,
@@ -80,25 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.84595621081917,
-      "btc_price": 79662.56,
+      "btc_change_24h": -0.52070750098547,
+      "btc_price": 79798.17,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.85% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.52% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 19:12:13] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=35.7 (chg -1.41%)!",
-      "[2026-10-26 19:12:14] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=38.0 (chg -0.71%)!",
-      "[2026-10-26 19:12:16] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a bearish hourly trend with severe lack of volume (RVOL 0.09) and failing strategy criteria.",
-      "[2026-10-26 19:13:16] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 19:13:16] Macro Regime: NEUTRAL | BTC 24h: -0.71% | Alts Allowed: False",
-      "[2026-10-26 19:13:16] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 19:13:16] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 19:13:17] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=35.7 (chg -1.34%)!",
-      "[2026-10-26 19:13:18] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=38.0 (chg -0.71%)!",
-      "[2026-10-26 19:13:20] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a mean-reversion and bearish hourly trend regime with abysmal relative volume (0.09) failing all evolutionary breakout rules.",
       "[2026-10-26 19:14:20] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 19:14:20] Macro Regime: NEUTRAL | BTC 24h: -0.72% | Alts Allowed: False",
       "[2026-10-26 19:14:20] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +118,17 @@
       "[2026-10-26 19:18:38] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 19:18:38] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 19:18:39] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.6 (chg -1.21%)!",
-      "[2026-10-26 19:18:42] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL exhibits extremely weak relative volume (RVOL 0.12) and a bearish hourly trend while macro alts are restricted under current chop conditions."
+      "[2026-10-26 19:18:42] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL exhibits extremely weak relative volume (RVOL 0.12) and a bearish hourly trend while macro alts are restricted under current chop conditions.",
+      "[2026-10-26 19:19:42] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 19:19:43] Macro Regime: NEUTRAL | BTC 24h: -0.53% | Alts Allowed: False",
+      "[2026-10-26 19:19:43] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 19:19:43] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 19:19:44] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.6 (chg -1.09%)!",
+      "[2026-10-26 19:19:47] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: SOL is in a bearish hourly trend with extremely anemic relative volume (0.12 rvol), failing all strict momentum and volume filtering criteria for entry.",
+      "[2026-10-26 19:20:47] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 19:20:48] Macro Regime: NEUTRAL | BTC 24h: -0.52% | Alts Allowed: False",
+      "[2026-10-26 19:20:48] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 19:20:48] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -1316,21 +1316,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "SMH",
-      "current_price": 535.13,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 40,
-      "position_usd": 15.0,
-      "stop_loss_pct": -2.0,
-      "take_profit_pct": 4.0,
-      "primary_thesis": "SMH is trading significantly below its intraday VWAP ($535.13 vs $893.73), indicating severe intraday weakness despite a positive daily change percentage.",
-      "risk_factors": "Discrepancy between price and VWAP points to a potential data anomaly, erratic price action, or heavy distribution throughout the session.",
-      "timestamp": "2026-10-26T10:39:33.521072"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "ARM",
       "current_price": 216.92,
       "approved": false,
@@ -1901,6 +1886,21 @@
       "primary_thesis": "AMD is showing strong momentum during regular trading hours backed by AI infrastructure capex news, but available deployable cash is severely restricted relative to the equity share price.",
       "risk_factors": "Deployable cash of $95.69 is insufficient to execute a safe fractional share position with a proper risk-managed stop loss without violating position sizing constraints.",
       "timestamp": "2026-10-26T12:32:43.293877"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "SOXL",
+      "current_price": 90.65,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "Although SOXL is showing an intraday bounce, conflicting headlines regarding 6-month lows, oil surges, and heavy retail bullishness create excessive headline risk and lack clean institutional accumulation.",
+      "risk_factors": "Mixed macroeconomic signals involving oil, geopolitical tensions, and sector-wide chip volatility present high binary risk that could reverse the intraday gain instantly.",
+      "timestamp": "2026-10-26T12:53:45.532364"
     }
   ],
   "performance": {
@@ -3083,5 +3083,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T19:19:28.700674"
+  "snapshot_synced_at": "2026-10-26T19:21:03.313486"
 }
