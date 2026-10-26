@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T02:28:55.207718",
+  "timestamp": "2026-10-26T02:30:28.741040",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.17,
+    "total_equity": 325.13,
     "total_cash": 294.81,
     "cash_pct": 90.7,
     "weekly_realized_pnl": 0.0,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.64105342,
+    "total_value": 162.60446815,
     "cash": 132.28,
     "positions": {
       "CRWD": {
@@ -28,11 +28,10 @@
         "current_price": 257.58,
         "pnl_pct": 1.33,
         "pnl_usd": 0.4,
-        "last_ai_eval_ts": 1792995229.0977523
+        "last_ai_eval_ts": 1792996133.2817893
       }
     },
     "logs": [
-      "[2026-10-26 00:58:06] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-26 01:03:06] Running portfolio evaluation cycle...",
       "[2026-10-26 01:03:07] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-26 01:08:07] Running portfolio evaluation cycle...",
@@ -71,7 +70,8 @@
       "[2026-10-26 02:23:51] Running portfolio evaluation cycle...",
       "[2026-10-26 02:23:52] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-26 02:28:52] Running portfolio evaluation cycle...",
-      "[2026-10-26 02:28:53] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-26 02:28:53] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-26 02:28:55] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is up 1.33% near peak price after nearly 60 hours, warranting a tightened stop to lock in profits against stalling momentum."
     ]
   },
   "coinbase": {
@@ -88,21 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 02:22:49] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 02:22:49] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 02:22:50] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=33.6 (chg -1.27%)!",
-      "[2026-10-26 02:22:50] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.7 (chg -0.62%)!",
-      "[2026-10-26 02:22:52] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH shows oversold conditions with RSI at 33.6, but extremely low relative volume (RVOL 0.18) and a neutral macro regime invalidate any long entry setup.",
-      "[2026-10-26 02:23:52] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 02:23:53] Macro Regime: NEUTRAL | BTC 24h: -0.68% | Alts Allowed: False",
-      "[2026-10-26 02:23:53] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 02:23:53] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 02:23:53] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=33.3 (chg -1.36%)!",
-      "[2026-10-26 02:23:53] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.3 (chg -0.68%)!",
-      "[2026-10-26 02:23:57] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 40%) | Thesis: ETH shows oversold conditions on the hourly chart with an hourly bullish trend, but the current volume profile fails to confirm institutional participation.",
-      "[2026-10-26 02:24:57] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 02:24:57] Macro Regime: NEUTRAL | BTC 24h: -0.75% | Alts Allowed: False",
-      "[2026-10-26 02:24:57] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 02:24:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 02:24:57] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=33.3 (chg -1.47%)!",
       "[2026-10-26 02:24:58] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.3 (chg -0.75%)!",
@@ -127,7 +112,22 @@
       "[2026-10-26 02:28:07] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 02:28:07] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=33.3 (chg -1.61%)!",
       "[2026-10-26 02:28:07] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.3 (chg -0.82%)!",
-      "[2026-10-26 02:28:10] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH relative volume is extremely low at 0.21, failing all mandatory RVOL > 1.5 and volume expansion criteria."
+      "[2026-10-26 02:28:10] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH relative volume is extremely low at 0.21, failing all mandatory RVOL > 1.5 and volume expansion criteria.",
+      "[2026-10-26 02:29:10] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 02:29:10] Macro Regime: NEUTRAL | BTC 24h: -0.80% | Alts Allowed: False",
+      "[2026-10-26 02:29:10] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 02:29:10] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 02:29:11] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.1 (chg -1.57%)!",
+      "[2026-10-26 02:29:11] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=34.4 (chg -0.80%)!",
+      "[2026-10-26 02:29:13] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: ETH is exhibiting extremely weak momentum with an RVOL of 0.27 against strict strategy rules requiring RVOL >= 1.5, failing all volume and trend criteria.",
+      "[2026-10-26 02:30:13] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 02:30:13] Macro Regime: NEUTRAL | BTC 24h: -0.83% | Alts Allowed: False",
+      "[2026-10-26 02:30:13] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 02:30:13] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 02:30:13] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=37.7 (chg -1.12%)!",
+      "[2026-10-26 02:30:14] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.1 (chg -1.60%)!",
+      "[2026-10-26 02:30:14] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=34.4 (chg -0.83%)!",
+      "[2026-10-26 02:30:16] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: ETH is exhibiting weak bearish continuation with severe negative relative volume (RVOL 0.27) and RSI at 31.1, failing all multi-timeframe and volume expansion requirements for a high-probability entry."
     ]
   },
   "positions": [
@@ -1290,36 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "TAO",
-      "current_price": 252.01,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "TAO shows baseline RVOL of 1.5 and a bullish hourly trend under a Risk-On regime, but lacks the stronger 2.5x volume expansion threshold required for high-probability breakout validation.",
-      "risk_factors": "RVOL at exactly 1.5 meets minimum criteria but does not provide an overwhelming institutional volume footprint, increasing vulnerability to a false breakout near current consolidation levels.",
-      "timestamp": "2026-10-25T11:39:25.238514"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "TAO",
-      "current_price": 252.49,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "TAO is showing neutral momentum with an RSI of 48.9, failing to meet the required high-conviction breakout parameters.",
-      "risk_factors": "Lack of strong directional momentum and RSI near the midpoint suggest potential range-bound chop rather than a confirmed trend continuation.",
-      "timestamp": "2026-10-25T11:40:30.914211"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "TAO",
       "current_price": 252.17,
       "approved": true,
       "action": "BUY",
@@ -1873,6 +1843,34 @@
       "new_stop_pct": 1.0,
       "reasoning": "Position is up +1.33% near peak price; tightening the stop locks in gains while allowing room for continuation during regular market hours.",
       "timestamp": "2026-10-25T17:28:28.256106"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "CRWD",
+      "entry_price": 254.1921,
+      "current_price": 257.58,
+      "pnl_pct": 1.33,
+      "hours_held": 51.0,
+      "action": "TIGHTEN_STOP",
+      "confidence": 92,
+      "new_stop_pct": 1.0,
+      "reasoning": "Position is up +1.33% near peak excursion; locking in gains by trailing the stop to +1.0% protects capital against potential resistance rejection.",
+      "timestamp": "2026-10-25T17:43:32.601970"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "CRWD",
+      "entry_price": 254.1921,
+      "current_price": 257.58,
+      "pnl_pct": 1.33,
+      "hours_held": 52.1,
+      "action": "TIGHTEN_STOP",
+      "confidence": 90,
+      "new_stop_pct": 1.0,
+      "reasoning": "Position is up 1.33% near peak excursion; locking in gains with a tightened stop protects profits against potential resistance stalling.",
+      "timestamp": "2026-10-25T18:49:28.939014"
     }
   ],
   "performance": {
@@ -3029,5 +3027,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T02:28:54.873166"
+  "snapshot_synced_at": "2026-10-26T02:30:28.435028"
 }
