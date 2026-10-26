@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-25T22:21:11.561938",
+  "timestamp": "2026-10-25T22:22:45.175293",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.13,
+    "total_equity": 325.12,
     "total_cash": 294.81,
     "cash_pct": 90.7,
     "weekly_realized_pnl": 0.0,
@@ -15,7 +15,7 @@
     "today_trades_count": 3
   },
   "robinhood": {
-    "total_value": 162.59502679,
+    "total_value": 162.59384662,
     "cash": 132.28,
     "positions": {
       "CRWD": {
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-25 20:50:40] Running portfolio evaluation cycle...",
-      "[2026-10-25 20:50:41] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 20:55:41] Running portfolio evaluation cycle...",
       "[2026-10-25 20:55:42] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 21:00:42] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-25 22:11:42] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-25 22:11:44] 🧠 [AI TIGHTEN STOP] Raising stop loss for CRWD from -4.5% to 1.0% | Reason: Position is near peak profit at +1.33% with minimal pullback, warranting a tightened stop to lock in gains.",
       "[2026-10-25 22:16:44] Running portfolio evaluation cycle...",
-      "[2026-10-25 22:16:44] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
+      "[2026-10-25 22:16:44] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
+      "[2026-10-25 22:21:44] Running portfolio evaluation cycle...",
+      "[2026-10-25 22:21:45] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63"
     ]
   },
   "coinbase": {
@@ -80,17 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.42205355118349,
-      "btc_price": 79603.2,
+      "btc_change_24h": -1.56753462393919,
+      "btc_price": 79478.3,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.42% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.57% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-25 22:07:43] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-25 22:08:43] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-25 22:08:43] Macro Regime: RISK_OFF | BTC 24h: -1.23% | Alts Allowed: False",
       "[2026-10-25 22:08:43] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 22:09:44] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 22:09:44] Macro Regime: RISK_OFF | BTC 24h: -1.29% | Alts Allowed: False",
@@ -127,7 +124,10 @@
       "[2026-10-25 22:19:50] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-25 22:20:50] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-25 22:20:50] Macro Regime: RISK_OFF | BTC 24h: -1.42% | Alts Allowed: False",
-      "[2026-10-25 22:20:50] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-25 22:20:50] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-25 22:21:51] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-25 22:21:51] Macro Regime: RISK_OFF | BTC 24h: -1.57% | Alts Allowed: False",
+      "[2026-10-25 22:21:51] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1896,7 +1896,7 @@
     "max_drawdown_pct": 13.31,
     "trades_count_today": 3,
     "realized_pnl_today": 0.9099999999999999,
-    "current_equity": 325.12502679,
+    "current_equity": 325.12384662,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-25T22:21:11.241502"
+  "snapshot_synced_at": "2026-10-25T22:22:44.861448"
 }
