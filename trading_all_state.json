@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-26T14:22:53.062030",
+  "timestamp": "2026-10-26T14:24:27.128319",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 324.57,
-    "total_cash": 269.51,
-    "cash_pct": 83.0,
+    "total_equity": 324.5,
+    "total_cash": 244.51,
+    "cash_pct": 75.3,
     "weekly_realized_pnl": -0.29,
     "win_rate": 58.26086956521739,
     "winning_trades": 67,
@@ -15,8 +15,8 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 163.01036651,
-    "cash": 107.95,
+    "total_value": 162.942877829,
+    "cash": 82.95,
     "positions": {
       "TSLA": {
         "symbol": "TSLA",
@@ -25,10 +25,10 @@
         "high_water_mark": 396.972,
         "tp1_hit": false,
         "entry_time": "2026-10-26T11:43:09.147336",
-        "current_price": 394.51,
-        "pnl_pct": -0.07,
-        "pnl_usd": -0.02,
-        "last_ai_eval_ts": 1793038093.5275126
+        "current_price": 394.0191,
+        "pnl_pct": -0.2,
+        "pnl_usd": -0.05,
+        "last_ai_eval_ts": 1793039004.920325
       },
       "AVGO": {
         "symbol": "AVGO",
@@ -37,27 +37,25 @@
         "high_water_mark": 331.635,
         "tp1_hit": false,
         "entry_time": "2026-10-26T12:31:03.141177",
-        "current_price": 331.15,
-        "pnl_pct": 0.25,
-        "pnl_usd": 0.07,
-        "last_ai_eval_ts": 1793038104.0164723
+        "current_price": 331.038,
+        "pnl_pct": 0.21,
+        "pnl_usd": 0.06,
+        "last_ai_eval_ts": 1793039009.562834
       },
       "AMD": {
         "symbol": "AMD",
-        "shares": 0.046889,
+        "shares": 0.046891,
         "entry_price": 533.17,
         "high_water_mark": 533.17,
         "tp1_hit": false,
-        "entry_time": "2026-10-26T14:22:23.745657"
+        "entry_time": "2026-10-26T14:22:23.745657",
+        "current_price": 532.645,
+        "pnl_pct": -0.1,
+        "pnl_usd": -0.02,
+        "last_ai_eval_ts": 1793039015.5495865
       }
     },
     "logs": [
-      "[2026-10-26 14:12:34] Available deployable cash ($95.80 of $107.95 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
-      "[2026-10-26 14:13:34] Running portfolio evaluation cycle...",
-      "[2026-10-26 14:13:35] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $395.47 | PnL: +0.17% ($+0.04) | Peak: $396.97",
-      "[2026-10-26 14:13:35] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $331.10 | PnL: +0.23% ($+0.07) | Peak: $331.63",
-      "[2026-10-26 14:13:35] Available deployable cash ($95.80 of $107.95 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
-      "[2026-10-26 14:14:35] Running portfolio evaluation cycle...",
       "[2026-10-26 14:14:36] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $395.17 | PnL: +0.09% ($+0.02) | Peak: $396.97",
       "[2026-10-26 14:14:36] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $330.86 | PnL: +0.16% ($+0.05) | Peak: $331.63",
       "[2026-10-26 14:14:36] Available deployable cash ($95.80 of $107.95 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
@@ -91,7 +89,13 @@
       "[2026-10-26 14:22:05] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $331.15 | PnL: +0.25% ($+0.07) | Peak: $331.63",
       "[2026-10-26 14:22:05] Available deployable cash ($95.80 of $107.95 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-26 14:22:22] 🔥 Found momentum breakout: AMD (+3.17%) @ $533.17. Executing AI-APPROVED BUY of $25.00...",
-      "[2026-10-26 14:22:23] Buy order placed: {'data': {'order': {'id': '6adf9a3a-3c86-4985-9d87-d9d3c2ef69d6', 'ref_id': '01a17972-742a-7d4e-8aa9-d6e3e8b23dbe', 'instrument_id': '940fc3f5-1db5-4fed-b452-f3a2e4562b5f', 'symbol': 'AMD', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.046880', 'cumulative_quantity': '0.000000', 'price': '533.200000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '25.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-26T18:21:46.509131Z', 'last_transaction_at': '2026-10-26T18:21:46.509131Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}"
+      "[2026-10-26 14:22:23] Buy order placed: {'data': {'order': {'id': '6adf9a3a-3c86-4985-9d87-d9d3c2ef69d6', 'ref_id': '01a17972-742a-7d4e-8aa9-d6e3e8b23dbe', 'instrument_id': '940fc3f5-1db5-4fed-b452-f3a2e4562b5f', 'symbol': 'AMD', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.046880', 'cumulative_quantity': '0.000000', 'price': '533.200000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '25.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-26T18:21:46.509131Z', 'last_transaction_at': '2026-10-26T18:21:46.509131Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
+      "[2026-10-26 14:23:24] Running portfolio evaluation cycle...",
+      "[2026-10-26 14:23:24] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $394.02 | PnL: -0.20% ($-0.05) | Peak: $396.97",
+      "[2026-10-26 14:23:28] 🧠 [AI PROACTIVE EXIT] TSLA flagged for early exit: TSLA has pulled back 0.74% from its peak of +0.55%, slipping into negative PnL (-0.20%) after 2.7 hours, indicating fading momentum and structural weakness that warrants cutting the trade before a deeper drawdown.",
+      "[2026-10-26 14:23:29] AI position supervision warning: name 'entry_time' is not defined",
+      "[2026-10-26 14:23:29] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $331.04 | PnL: +0.21% ($+0.06) | Peak: $331.63",
+      "[2026-10-26 14:23:35] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $532.64 | PnL: -0.10% ($-0.02) | Peak: $533.17"
     ]
   },
   "coinbase": {
@@ -100,23 +104,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.58392219926171,
-      "btc_price": 80170.0,
+      "btc_change_24h": -0.57212448329023,
+      "btc_price": 80140.2,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.58% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.57% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 14:12:54] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 14:12:54] Macro Regime: NEUTRAL | BTC 24h: -0.46% | Alts Allowed: False",
-      "[2026-10-26 14:12:54] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 14:12:54] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 14:13:56] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 14:13:56] Macro Regime: NEUTRAL | BTC 24h: -0.53% | Alts Allowed: False",
-      "[2026-10-26 14:13:56] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 14:13:56] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 14:14:58] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 14:14:58] Macro Regime: NEUTRAL | BTC 24h: -0.56% | Alts Allowed: False",
       "[2026-10-26 14:14:58] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -148,7 +144,15 @@
       "[2026-10-26 14:22:14] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 14:22:15] Macro Regime: NEUTRAL | BTC 24h: -0.58% | Alts Allowed: False",
       "[2026-10-26 14:22:15] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 14:22:15] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-26 14:22:15] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 14:23:17] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 14:23:17] Macro Regime: NEUTRAL | BTC 24h: -0.64% | Alts Allowed: False",
+      "[2026-10-26 14:23:17] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 14:23:17] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 14:24:19] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 14:24:19] Macro Regime: NEUTRAL | BTC 24h: -0.57% | Alts Allowed: False",
+      "[2026-10-26 14:24:19] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 14:24:19] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -157,10 +161,10 @@
       "symbol": "TSLA",
       "shares": 0.063352,
       "entry_price": 394.8,
-      "current_price": 394.51,
-      "value_usd": 24.99,
-      "pnl_pct": -0.07,
-      "pnl_usd": -0.02,
+      "current_price": 394.0191,
+      "value_usd": 24.96,
+      "pnl_pct": -0.2,
+      "pnl_usd": -0.05,
       "trailing_info": "Peak: $396.97 | Trailing 3.5%"
     },
     {
@@ -168,21 +172,21 @@
       "symbol": "AVGO",
       "shares": 0.090793,
       "entry_price": 330.33,
-      "current_price": 331.15,
-      "value_usd": 30.07,
-      "pnl_pct": 0.25,
-      "pnl_usd": 0.07,
+      "current_price": 331.038,
+      "value_usd": 30.06,
+      "pnl_pct": 0.21,
+      "pnl_usd": 0.06,
       "trailing_info": "Peak: $331.63 | Trailing 3.5%"
     },
     {
       "account": "Robinhood",
       "symbol": "AMD",
-      "shares": 0.046889,
+      "shares": 0.046891,
       "entry_price": 533.17,
-      "current_price": 533.17,
-      "value_usd": 25.0,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
+      "current_price": 532.645,
+      "value_usd": 24.98,
+      "pnl_pct": -0.1,
+      "pnl_usd": -0.02,
       "trailing_info": "Peak: $533.17 | Trailing 3.5%"
     }
   ],
@@ -1359,21 +1363,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2323.18,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "ETH is exhibiting weak relative volume (RVOL 0.91) and a low RSI of 37.2, failing strict evolution rules requiring RVOL > 1.5 and volume expansion for long entries.",
-      "risk_factors": "Low volume churn in a neutral macro regime paired with declining BTC momentum creates high vulnerability to bull traps and continued downside.",
-      "timestamp": "2026-10-26T04:59:00.988385"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2322.56,
       "approved": false,
       "action": "REJECT",
@@ -1953,6 +1942,21 @@
       "new_stop_pct": null,
       "reasoning": "Price has pulled back 0.64% from its +0.59% peak, failing to sustain upward momentum near resistance; locking in an early exit to preserve capital.",
       "timestamp": "2026-10-26T10:34:41.784993"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "TSLA",
+      "current_price": 393.86,
+      "approved": true,
+      "action": "BUY",
+      "confidence": 85,
+      "position_usd": 30.0,
+      "stop_loss_pct": -2.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "TSLA is breaking out on a major bullish institutional upgrade catalyst regarding SpaceX prospects, trading cleanly above intraday VWAP with strong momentum.",
+      "risk_factors": "Overhead resistance and potential intraday profit-taking after a +5.8% gap-up rally.",
+      "timestamp": "2026-10-26T10:36:17.297941"
     }
   ],
   "performance": {
@@ -1964,7 +1968,7 @@
     "max_drawdown_pct": 13.51,
     "trades_count_today": 2,
     "realized_pnl_today": -0.29,
-    "current_equity": 324.57036651,
+    "current_equity": 324.502877829,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3135,5 +3139,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T14:22:52.753196"
+  "snapshot_synced_at": "2026-10-26T14:24:26.731088"
 }
