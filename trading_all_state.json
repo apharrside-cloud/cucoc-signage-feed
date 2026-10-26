@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T14:29:09.694067",
+  "timestamp": "2026-10-26T14:30:43.543655",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.43,
@@ -15,7 +15,7 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 162.86877587,
+    "total_value": 162.8679899014,
     "cash": 107.91,
     "positions": {
       "AVGO": {
@@ -25,9 +25,9 @@
         "high_water_mark": 331.635,
         "tp1_hit": false,
         "entry_time": "2026-10-26T12:31:03.141177",
-        "current_price": 330.64,
-        "pnl_pct": 0.09,
-        "pnl_usd": 0.03,
+        "current_price": 330.7398,
+        "pnl_pct": 0.12,
+        "pnl_usd": 0.04,
         "last_ai_eval_ts": 1793039009.562834
       },
       "AMD": {
@@ -37,23 +37,13 @@
         "high_water_mark": 533.17,
         "tp1_hit": false,
         "entry_time": "2026-10-26T14:22:23.745657",
-        "current_price": 531.8865,
-        "pnl_pct": -0.24,
-        "pnl_usd": -0.06,
+        "current_price": 531.64,
+        "pnl_pct": -0.29,
+        "pnl_usd": -0.07,
         "last_ai_eval_ts": 1793039015.5495865
       }
     },
     "logs": [
-      "[2026-10-26 14:20:45] Running portfolio evaluation cycle...",
-      "[2026-10-26 14:21:00] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
-      "[2026-10-26 14:21:00] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
-      "[2026-10-26 14:22:00] Running portfolio evaluation cycle...",
-      "[2026-10-26 14:22:05] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $394.51 | PnL: -0.07% ($-0.02) | Peak: $396.97",
-      "[2026-10-26 14:22:05] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $331.15 | PnL: +0.25% ($+0.07) | Peak: $331.63",
-      "[2026-10-26 14:22:05] Available deployable cash ($95.80 of $107.95 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
-      "[2026-10-26 14:22:22] 🔥 Found momentum breakout: AMD (+3.17%) @ $533.17. Executing AI-APPROVED BUY of $25.00...",
-      "[2026-10-26 14:22:23] Buy order placed: {'data': {'order': {'id': '6adf9a3a-3c86-4985-9d87-d9d3c2ef69d6', 'ref_id': '01a17972-742a-7d4e-8aa9-d6e3e8b23dbe', 'instrument_id': '940fc3f5-1db5-4fed-b452-f3a2e4562b5f', 'symbol': 'AMD', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.046880', 'cumulative_quantity': '0.000000', 'price': '533.200000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '25.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-26T18:21:46.509131Z', 'last_transaction_at': '2026-10-26T18:21:46.509131Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
-      "[2026-10-26 14:23:24] Running portfolio evaluation cycle...",
       "[2026-10-26 14:23:24] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $394.02 | PnL: -0.20% ($-0.05) | Peak: $396.97",
       "[2026-10-26 14:23:28] 🧠 [AI PROACTIVE EXIT] TSLA flagged for early exit: TSLA has pulled back 0.74% from its peak of +0.55%, slipping into negative PnL (-0.20%) after 2.7 hours, indicating fading momentum and structural weakness that warrants cutting the trade before a deeper drawdown.",
       "[2026-10-26 14:23:29] AI position supervision warning: name 'entry_time' is not defined",
@@ -83,7 +73,17 @@
       "[2026-10-26 14:28:27] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.89 | PnL: -0.24% ($-0.06) | Peak: $533.17",
       "[2026-10-26 14:28:27] Available deployable cash ($95.76 of $107.91 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-26 14:28:30] 🧠 [AI GATE] Buy of CRWD VETOED by AI Brain (Confidence: 60%) | Thesis: CRWD is trading above intraday VWAP with a +2.34% gain amid cybersecurity sector momentum, butdeployable cash is severely limited relative to optimal position sizing.",
-      "[2026-10-26 14:28:30] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-26 14:28:30] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-26 14:29:30] Running portfolio evaluation cycle...",
+      "[2026-10-26 14:29:31] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $330.79 | PnL: +0.14% ($+0.04) | Peak: $331.63",
+      "[2026-10-26 14:29:31] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.66 | PnL: -0.28% ($-0.07) | Peak: $533.17",
+      "[2026-10-26 14:29:31] Available deployable cash ($95.76 of $107.91 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
+      "[2026-10-26 14:30:31] Running portfolio evaluation cycle...",
+      "[2026-10-26 14:30:32] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $330.74 | PnL: +0.12% ($+0.04) | Peak: $331.63",
+      "[2026-10-26 14:30:32] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.64 | PnL: -0.29% ($-0.07) | Peak: $533.17",
+      "[2026-10-26 14:30:32] Available deployable cash ($95.76 of $107.91 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
+      "[2026-10-26 14:30:41] 🧠 [AI GATE] Buy of PLTR VETOED by AI Brain (Confidence: 60%) | Thesis: PLTR is showing intraday momentum above VWAP supported by positive AI software growth headlines.",
+      "[2026-10-26 14:30:41] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
     ]
   },
   "coinbase": {
@@ -92,23 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.62005288178944,
-      "btc_price": 80072.57,
+      "btc_change_24h": -0.54983210333249,
+      "btc_price": 80112.58,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.62% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.55% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 14:19:08] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 14:19:08] Macro Regime: NEUTRAL | BTC 24h: -0.62% | Alts Allowed: False",
-      "[2026-10-26 14:19:08] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 14:19:08] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 14:20:10] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 14:20:10] Macro Regime: NEUTRAL | BTC 24h: -0.61% | Alts Allowed: False",
-      "[2026-10-26 14:20:10] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 14:20:10] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 14:21:12] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 14:21:12] Macro Regime: NEUTRAL | BTC 24h: -0.58% | Alts Allowed: False",
       "[2026-10-26 14:21:12] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +132,15 @@
       "[2026-10-26 14:28:28] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 14:28:28] Macro Regime: NEUTRAL | BTC 24h: -0.62% | Alts Allowed: False",
       "[2026-10-26 14:28:28] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 14:28:28] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-26 14:28:28] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 14:29:31] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 14:29:31] Macro Regime: NEUTRAL | BTC 24h: -0.58% | Alts Allowed: False",
+      "[2026-10-26 14:29:31] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 14:29:31] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 14:30:33] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 14:30:33] Macro Regime: NEUTRAL | BTC 24h: -0.55% | Alts Allowed: False",
+      "[2026-10-26 14:30:33] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 14:30:33] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -149,10 +149,10 @@
       "symbol": "AVGO",
       "shares": 0.090793,
       "entry_price": 330.33,
-      "current_price": 330.64,
-      "value_usd": 30.02,
-      "pnl_pct": 0.09,
-      "pnl_usd": 0.03,
+      "current_price": 330.7398,
+      "value_usd": 30.03,
+      "pnl_pct": 0.12,
+      "pnl_usd": 0.04,
       "trailing_info": "Peak: $331.63 | Trailing 3.5%"
     },
     {
@@ -160,10 +160,10 @@
       "symbol": "AMD",
       "shares": 0.046891,
       "entry_price": 533.17,
-      "current_price": 531.8865,
-      "value_usd": 24.94,
-      "pnl_pct": -0.24,
-      "pnl_usd": -0.06,
+      "current_price": 531.64,
+      "value_usd": 24.93,
+      "pnl_pct": -0.29,
+      "pnl_usd": -0.07,
       "trailing_info": "Peak: $533.17 | Trailing 3.5%"
     }
   ],
@@ -1340,21 +1340,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2320.99,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 10,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "The trade is rejected due to extremely weak relative volume (rvol of 0.03) which completely violates mandatory strategy rules requiring rvol > 1.5.",
-      "risk_factors": "Failing institutional volume confirmation combined with macro AI-related market selloff headlines creates a high probability of entering a value trap.",
-      "timestamp": "2026-10-26T05:04:17.879672"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2322.48,
       "approved": false,
       "action": "REJECT",
@@ -1934,6 +1919,21 @@
       "primary_thesis": "Although NVDA shows positive intraday price change and AI sector tailwinds, the current market price is significantly below the VWAP indicator, signaling intraday weakness.",
       "risk_factors": "Trading below intraday VWAP combined with mixed AI warehouse critique headlines creates unfavorable short-term execution risks.",
       "timestamp": "2026-10-26T10:46:00.127955"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "MU",
+      "current_price": 893.74,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "Micron is seeing intraday momentum above VWAP, but mixed headlines including sharp post-earnings drops and downside risk commentary undermine a high-confidence long thesis.",
+      "risk_factors": "Conflicting catalyst headlines regarding post-earnings sell-offs and heavy downside volatility create elevated binary risk for an equity breakout.",
+      "timestamp": "2026-10-26T10:47:20.523642"
     }
   ],
   "performance": {
@@ -1945,7 +1945,7 @@
     "max_drawdown_pct": 13.51,
     "trades_count_today": 2,
     "realized_pnl_today": -0.29,
-    "current_equity": 324.42877587,
+    "current_equity": 324.4279899014,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3116,5 +3116,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T14:29:09.368770"
+  "snapshot_synced_at": "2026-10-26T14:30:42.986495"
 }
