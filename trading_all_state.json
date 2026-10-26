@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T02:24:14.387363",
+  "timestamp": "2026-10-26T02:25:48.089182",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.17,
@@ -88,13 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 02:18:34] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 02:18:34] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 02:18:35] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=32.8 (chg -1.26%)!",
-      "[2026-10-26 02:18:35] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=35.9 (chg -0.63%)!",
-      "[2026-10-26 02:18:38] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: Although ETH is a permitted core asset and showing mean-reversion potential near hourly support, volume conditions fail mandatory strategy rules.",
-      "[2026-10-26 02:19:38] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 02:19:38] Macro Regime: NEUTRAL | BTC 24h: -0.65% | Alts Allowed: False",
       "[2026-10-26 02:19:38] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 02:19:38] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 02:19:38] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=33.6 (chg -1.32%)!",
@@ -127,7 +120,14 @@
       "[2026-10-26 02:23:53] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 02:23:53] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=33.3 (chg -1.36%)!",
       "[2026-10-26 02:23:53] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.3 (chg -0.68%)!",
-      "[2026-10-26 02:23:57] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 40%) | Thesis: ETH shows oversold conditions on the hourly chart with an hourly bullish trend, but the current volume profile fails to confirm institutional participation."
+      "[2026-10-26 02:23:57] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 40%) | Thesis: ETH shows oversold conditions on the hourly chart with an hourly bullish trend, but the current volume profile fails to confirm institutional participation.",
+      "[2026-10-26 02:24:57] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 02:24:57] Macro Regime: NEUTRAL | BTC 24h: -0.75% | Alts Allowed: False",
+      "[2026-10-26 02:24:57] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 02:24:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 02:24:57] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=33.3 (chg -1.47%)!",
+      "[2026-10-26 02:24:58] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=36.3 (chg -0.75%)!",
+      "[2026-10-26 02:25:00] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH shows oversold conditions on the hourly chart, but entering a long setup violates multiple rigorous evolved strategy filters including extremely weak relative volume (RVOL 0.21 vs required >= 1.5)."
     ]
   },
   "positions": [
@@ -1289,21 +1289,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
-      "symbol": "SOL",
-      "current_price": 101.39,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 30,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "SOL fails multiple core evolved strategy rules requiring RVOL > 1.5 (current RVOL is 0.94) and RSI is weak at 37.5 despite a breakout strategy mode.",
-      "risk_factors": "Sub-average relative volume and weak momentum indicators indicate lack of institutional backing, raising the probability of a false breakout.",
-      "timestamp": "2026-10-25T11:33:51.963703"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
       "symbol": "TAO",
       "current_price": 251.36,
       "approved": false,
@@ -1878,6 +1863,20 @@
       "new_stop_pct": 1.0,
       "reasoning": "Position is up +1.33% near peak profitability after a 48-hour hold, warranting a tightened stop to lock in gains as resistance approaches.",
       "timestamp": "2026-10-25T15:22:36.189224"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "CRWD",
+      "entry_price": 254.1921,
+      "current_price": 257.58,
+      "pnl_pct": 1.33,
+      "hours_held": 49.2,
+      "action": "TIGHTEN_STOP",
+      "confidence": 90,
+      "new_stop_pct": 1.0,
+      "reasoning": "Position is up +1.33% near peak excursion and approaching potential overhead resistance, warranting a tightened stop to lock in profits.",
+      "timestamp": "2026-10-25T15:52:44.636199"
     }
   ],
   "performance": {
@@ -3034,5 +3033,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T02:24:14.108637"
+  "snapshot_synced_at": "2026-10-26T02:25:47.774530"
 }
