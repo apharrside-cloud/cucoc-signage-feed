@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T10:09:29.045007",
+  "timestamp": "2026-10-26T10:11:02.594213",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.32,
+    "total_equity": 325.25,
     "total_cash": 295.31,
     "cash_pct": 90.8,
     "weekly_realized_pnl": 0.0,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.79356,
+    "total_value": 162.7190016,
     "cash": 132.78,
     "positions": {
       "TSLA": {
@@ -25,19 +25,13 @@
         "high_water_mark": 394.47,
         "tp1_hit": false,
         "entry_time": "2026-10-26T10:01:54.132855",
-        "current_price": 394.47,
-        "pnl_pct": 0.09,
-        "pnl_usd": 0.03,
+        "current_price": 393.49,
+        "pnl_pct": -0.16,
+        "pnl_usd": -0.05,
         "last_ai_eval_ts": 1793023385.1148856
       }
     },
     "logs": [
-      "[2026-10-26 09:57:21] Running portfolio evaluation cycle...",
-      "[2026-10-26 09:57:22] No positions currently held.",
-      "[2026-10-26 09:57:22] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-26 09:58:22] Running portfolio evaluation cycle...",
-      "[2026-10-26 09:58:22] No positions currently held.",
-      "[2026-10-26 09:58:22] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-26 09:59:23] Running portfolio evaluation cycle...",
       "[2026-10-26 09:59:23] No positions currently held.",
       "[2026-10-26 09:59:23] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
@@ -71,7 +65,13 @@
       "[2026-10-26 10:07:56] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-26 10:08:56] Running portfolio evaluation cycle...",
       "[2026-10-26 10:08:57] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $394.47 | PnL: +0.09% ($+0.03) | Peak: $394.47",
-      "[2026-10-26 10:08:57] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum..."
+      "[2026-10-26 10:08:57] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-26 10:09:57] Running portfolio evaluation cycle...",
+      "[2026-10-26 10:09:58] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $393.49 | PnL: -0.16% ($-0.05) | Peak: $394.47",
+      "[2026-10-26 10:09:58] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-26 10:10:58] Running portfolio evaluation cycle...",
+      "[2026-10-26 10:10:59] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $393.65 | PnL: -0.12% ($-0.04) | Peak: $394.47",
+      "[2026-10-26 10:10:59] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -79,23 +79,15 @@
     "cash_usd": 162.53,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "RISK_OFF",
-      "btc_change_24h": -1.07487996125275,
-      "btc_price": 79411.23,
+      "status": "NEUTRAL",
+      "btc_change_24h": -0.55218075756987,
+      "btc_price": 79798.76,
       "allow_alts": false,
-      "allow_core": false,
-      "reason": "BTC down -1.07% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "allow_core": true,
+      "reason": "BTC neutral -0.55% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 09:57:54] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 09:58:54] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 09:58:54] Macro Regime: RISK_OFF | BTC 24h: -1.07% | Alts Allowed: False",
-      "[2026-10-26 09:58:54] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 09:59:55] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 09:59:55] Macro Regime: NEUTRAL | BTC 24h: -0.96% | Alts Allowed: False",
-      "[2026-10-26 09:59:55] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 09:59:55] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 09:59:56] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.8 (chg -1.49%)!",
       "[2026-10-26 10:00:20] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 45%) | Thesis: Although ETH volume is elevated, the hourly trend is bearish and RSI is weak at 37.8, conflicting with the required bullish structural confirmation for long entries.",
       "[2026-10-26 10:01:20] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -127,7 +119,15 @@
       "[2026-10-26 10:08:08] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 10:08:08] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 10:08:08] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -1.40%)!",
-      "[2026-10-26 10:08:37] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: Declining hourly trend and critically low relative volume (0.36 RVOL) directly violate our core algorithmic execution constraints for ETH."
+      "[2026-10-26 10:08:37] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: Declining hourly trend and critically low relative volume (0.36 RVOL) directly violate our core algorithmic execution constraints for ETH.",
+      "[2026-10-26 10:09:37] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 10:09:37] Macro Regime: NEUTRAL | BTC 24h: -0.86% | Alts Allowed: False",
+      "[2026-10-26 10:09:37] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 10:09:37] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 10:10:38] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 10:10:38] Macro Regime: NEUTRAL | BTC 24h: -0.55% | Alts Allowed: False",
+      "[2026-10-26 10:10:38] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 10:10:38] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -136,10 +136,10 @@
       "symbol": "TSLA",
       "shares": 0.07608,
       "entry_price": 394.13,
-      "current_price": 394.47,
-      "value_usd": 30.01,
-      "pnl_pct": 0.09,
-      "pnl_usd": 0.03,
+      "current_price": 393.49,
+      "value_usd": 29.94,
+      "pnl_pct": -0.16,
+      "pnl_usd": -0.05,
       "trailing_info": "Peak: $394.47 | Trailing 3.5%"
     }
   ],
@@ -1896,7 +1896,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.32356000000004,
+    "current_equity": 325.24900160000004,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T10:09:28.725429"
+  "snapshot_synced_at": "2026-10-26T10:11:02.262660"
 }
