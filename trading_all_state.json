@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T10:07:55.314877",
+  "timestamp": "2026-10-26T10:09:29.045007",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.3,
+    "total_equity": 325.32,
     "total_cash": 295.31,
     "cash_pct": 90.8,
     "weekly_realized_pnl": 0.0,
@@ -15,29 +15,23 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.767700408,
+    "total_value": 162.79356,
     "cash": 132.78,
     "positions": {
       "TSLA": {
         "symbol": "TSLA",
         "shares": 0.07608,
         "entry_price": 394.13,
-        "high_water_mark": 394.185,
+        "high_water_mark": 394.47,
         "tp1_hit": false,
         "entry_time": "2026-10-26T10:01:54.132855",
-        "current_price": 394.185,
-        "pnl_pct": 0.01,
-        "pnl_usd": 0.0,
+        "current_price": 394.47,
+        "pnl_pct": 0.09,
+        "pnl_usd": 0.03,
         "last_ai_eval_ts": 1793023385.1148856
       }
     },
     "logs": [
-      "[2026-10-26 09:55:20] Running portfolio evaluation cycle...",
-      "[2026-10-26 09:55:21] No positions currently held.",
-      "[2026-10-26 09:55:21] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-26 09:56:21] Running portfolio evaluation cycle...",
-      "[2026-10-26 09:56:21] No positions currently held.",
-      "[2026-10-26 09:56:21] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-26 09:57:21] Running portfolio evaluation cycle...",
       "[2026-10-26 09:57:22] No positions currently held.",
       "[2026-10-26 09:57:22] Available deployable cash ($150.63 of $162.78 total, $12.15 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
@@ -71,7 +65,13 @@
       "[2026-10-26 10:06:54] Running portfolio evaluation cycle...",
       "[2026-10-26 10:06:55] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $394.19 | PnL: +0.01% ($+0.00) | Peak: $394.19",
       "[2026-10-26 10:06:55] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-26 10:06:55] VWAP Filter: Skipping NVDA because price ($214.42) is BELOW session VWAP ($214.68)."
+      "[2026-10-26 10:06:55] VWAP Filter: Skipping NVDA because price ($214.42) is BELOW session VWAP ($214.68).",
+      "[2026-10-26 10:07:55] Running portfolio evaluation cycle...",
+      "[2026-10-26 10:07:56] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $394.44 | PnL: +0.08% ($+0.02) | Peak: $394.44",
+      "[2026-10-26 10:07:56] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-26 10:08:56] Running portfolio evaluation cycle...",
+      "[2026-10-26 10:08:57] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $394.47 | PnL: +0.09% ($+0.03) | Peak: $394.47",
+      "[2026-10-26 10:08:57] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -88,12 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 09:56:52] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 09:56:52] Macro Regime: NEUTRAL | BTC 24h: -0.95% | Alts Allowed: False",
-      "[2026-10-26 09:56:52] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 09:56:52] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 09:57:54] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 09:57:54] Macro Regime: RISK_OFF | BTC 24h: -1.10% | Alts Allowed: False",
       "[2026-10-26 09:57:54] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 09:58:54] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 09:58:54] Macro Regime: RISK_OFF | BTC 24h: -1.07% | Alts Allowed: False",
@@ -127,7 +121,13 @@
       "[2026-10-26 10:06:40] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 10:06:40] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 10:06:41] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -1.38%)!",
-      "[2026-10-26 10:07:07] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: The trade is rejected due to extremely weak volume (RVOL 0.36) violating multiple strict system rules requiring RVOL > 1.5, alongside a bearish hourly trend and neutral macro chop regime."
+      "[2026-10-26 10:07:07] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: The trade is rejected due to extremely weak volume (RVOL 0.36) violating multiple strict system rules requiring RVOL > 1.5, alongside a bearish hourly trend and neutral macro chop regime.",
+      "[2026-10-26 10:08:07] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 10:08:08] Macro Regime: NEUTRAL | BTC 24h: -0.91% | Alts Allowed: False",
+      "[2026-10-26 10:08:08] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 10:08:08] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 10:08:08] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg -1.40%)!",
+      "[2026-10-26 10:08:37] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 15%) | Thesis: Declining hourly trend and critically low relative volume (0.36 RVOL) directly violate our core algorithmic execution constraints for ETH."
     ]
   },
   "positions": [
@@ -136,11 +136,11 @@
       "symbol": "TSLA",
       "shares": 0.07608,
       "entry_price": 394.13,
-      "current_price": 394.185,
-      "value_usd": 29.99,
-      "pnl_pct": 0.01,
-      "pnl_usd": 0.0,
-      "trailing_info": "Peak: $394.19 | Trailing 3.5%"
+      "current_price": 394.47,
+      "value_usd": 30.01,
+      "pnl_pct": 0.09,
+      "pnl_usd": 0.03,
+      "trailing_info": "Peak: $394.47 | Trailing 3.5%"
     }
   ],
   "closed_trades": [
@@ -1290,21 +1290,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2316.78,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 15,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "The trade candidate fails multiple mandatory evolved strategy rules, notably requiring an RVOL > 1.5 and a minimum 2.5x volume expansion, whereas current RVOL is severely depressed at 0.22.",
-      "risk_factors": "Extremely low relative volume (0.22) in a neutral macro regime creates a high probability of value trap chop and liquidity slippage.",
-      "timestamp": "2026-10-26T03:22:51.973336"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2317.17,
       "approved": false,
       "action": "REJECT",
@@ -1885,6 +1870,21 @@
       "primary_thesis": "The setup completely fails all volume and trend rules, showing an abysmal RVOL of 0.05 against required minimum thresholds of 1.5x alongside a bearish hourly trend.",
       "risk_factors": "Extremely low relative volume indicates zero institutional backing, making any mean-reversion attempt highly susceptible to a continuation trap in a bearish hourly structure.",
       "timestamp": "2026-10-26T04:04:00.217783"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "ETH",
+      "current_price": 2306.85,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "The asset exhibits extremely weak volume (RVOL 0.05) and a bearish hourly trend, failing all mandatory volume and momentum confluence requirements for a high-probability entry.",
+      "risk_factors": "Severe lack of participation volume combined with a bearish macro and hourly trend creates high risk of continuation downward into liquidity vacuums.",
+      "timestamp": "2026-10-26T04:05:03.448912"
     }
   ],
   "performance": {
@@ -1896,7 +1896,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.29770040799997,
+    "current_equity": 325.32356000000004,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3041,5 +3041,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T10:07:54.997513"
+  "snapshot_synced_at": "2026-10-26T10:09:28.725429"
 }
