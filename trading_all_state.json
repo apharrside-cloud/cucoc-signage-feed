@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T19:27:17.498931",
+  "timestamp": "2026-10-26T19:28:50.968445",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 324.49,
+    "total_equity": 324.5,
     "total_cash": 269.47,
     "cash_pct": 83.0,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 162.93362937,
+    "total_value": 162.94430597,
     "cash": 107.91,
     "positions": {
       "AMD": {
@@ -28,12 +28,10 @@
         "current_price": 531.47,
         "pnl_pct": -0.32,
         "pnl_usd": -0.08,
-        "last_ai_eval_ts": 1793056351.7201266
+        "last_ai_eval_ts": 1793057255.7591965
       }
     },
     "logs": [
-      "[2026-10-26 17:46:51] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
-      "[2026-10-26 17:51:51] Running portfolio evaluation cycle...",
       "[2026-10-26 17:51:52] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-26 17:56:54] Running portfolio evaluation cycle...",
       "[2026-10-26 17:56:54] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
@@ -71,7 +69,9 @@
       "[2026-10-26 19:17:33] Running portfolio evaluation cycle...",
       "[2026-10-26 19:17:34] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-26 19:22:34] Running portfolio evaluation cycle...",
-      "[2026-10-26 19:22:35] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34"
+      "[2026-10-26 19:22:35] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
+      "[2026-10-26 19:27:35] Running portfolio evaluation cycle...",
+      "[2026-10-26 19:27:35] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34"
     ]
   },
   "coinbase": {
@@ -80,19 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.2484234235078,
-      "btc_price": 79878.06,
+      "btc_change_24h": 0.08066269665916,
+      "btc_price": 79903.04,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.25% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral +0.08% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 19:18:38] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 19:18:38] Macro Regime: NEUTRAL | BTC 24h: -0.55% | Alts Allowed: False",
-      "[2026-10-26 19:18:38] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 19:18:38] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 19:18:39] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.6 (chg -1.21%)!",
       "[2026-10-26 19:18:42] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL exhibits extremely weak relative volume (RVOL 0.12) and a bearish hourly trend while macro alts are restricted under current chop conditions.",
       "[2026-10-26 19:19:42] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -128,7 +124,11 @@
       "[2026-10-26 19:27:05] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 19:27:05] Macro Regime: NEUTRAL | BTC 24h: -0.25% | Alts Allowed: False",
       "[2026-10-26 19:27:05] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 19:27:05] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-26 19:27:05] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 19:28:07] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 19:28:07] Macro Regime: NEUTRAL | BTC 24h: +0.08% | Alts Allowed: False",
+      "[2026-10-26 19:28:07] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 19:28:07] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -1912,7 +1912,7 @@
     "max_drawdown_pct": 13.51,
     "trades_count_today": 2,
     "realized_pnl_today": -0.29,
-    "current_equity": 324.49362937,
+    "current_equity": 324.50430597,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3083,5 +3083,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T19:27:17.211202"
+  "snapshot_synced_at": "2026-10-26T19:28:50.668788"
 }
