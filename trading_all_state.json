@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T10:25:06.358501",
+  "timestamp": "2026-10-26T10:26:39.821739",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.4,
+    "total_equity": 325.29,
     "total_cash": 270.31,
     "cash_pct": 83.1,
     "weekly_realized_pnl": 0.0,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.87199372,
+    "total_value": 162.7581251016,
     "cash": 107.78,
     "positions": {
       "TSLA": {
@@ -25,9 +25,9 @@
         "high_water_mark": 396.44,
         "tp1_hit": false,
         "entry_time": "2026-10-26T10:01:54.132855",
-        "current_price": 395.695,
-        "pnl_pct": 0.4,
-        "pnl_usd": 0.12,
+        "current_price": 394.55,
+        "pnl_pct": 0.11,
+        "pnl_usd": 0.03,
         "last_ai_eval_ts": 1793024317.77435
       },
       "AVGO": {
@@ -37,17 +37,13 @@
         "high_water_mark": 326.77,
         "tp1_hit": false,
         "entry_time": "2026-10-26T10:22:16.085193",
-        "current_price": 326.095,
-        "pnl_pct": -0.21,
-        "pnl_usd": -0.05,
+        "current_price": 325.8401,
+        "pnl_pct": -0.28,
+        "pnl_usd": -0.07,
         "last_ai_eval_ts": 1793024597.3291616
       }
     },
     "logs": [
-      "[2026-10-26 10:14:10] Running portfolio evaluation cycle...",
-      "[2026-10-26 10:14:11] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $392.93 | PnL: -0.31% ($-0.09) | Peak: $394.47",
-      "[2026-10-26 10:14:11] Available deployable cash ($120.63 of $132.78 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-26 10:14:11] VWAP Filter: Skipping NVDA because price ($214.57) is BELOW session VWAP ($214.63).",
       "[2026-10-26 10:14:11] VWAP Filter: Skipping SOXL because price ($85.91) is BELOW session VWAP ($86.24).",
       "[2026-10-26 10:15:11] Running portfolio evaluation cycle...",
       "[2026-10-26 10:15:12] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $393.90 | PnL: -0.06% ($-0.02) | Peak: $394.47",
@@ -83,7 +79,11 @@
       "[2026-10-26 10:24:45] Running portfolio evaluation cycle...",
       "[2026-10-26 10:24:46] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $395.69 | PnL: +0.40% ($+0.12) | Peak: $396.44",
       "[2026-10-26 10:24:46] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $326.10 | PnL: -0.21% ($-0.05) | Peak: $326.77",
-      "[2026-10-26 10:24:46] Available deployable cash ($95.63 of $107.78 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum..."
+      "[2026-10-26 10:24:46] Available deployable cash ($95.63 of $107.78 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
+      "[2026-10-26 10:25:46] Running portfolio evaluation cycle...",
+      "[2026-10-26 10:25:47] [TSLA] Shares: 0.076080 | Entry: $394.13 | Current: $394.55 | PnL: +0.11% ($+0.03) | Peak: $396.44",
+      "[2026-10-26 10:25:47] [AVGO] Shares: 0.076616 | Entry: $326.77 | Current: $325.84 | PnL: -0.28% ($-0.07) | Peak: $326.77",
+      "[2026-10-26 10:25:47] Available deployable cash ($95.63 of $107.78 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -92,18 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.40652605034184,
-      "btc_price": 79919.56,
+      "btc_change_24h": -0.51735110451245,
+      "btc_price": 79816.7,
       "allow_alts": false,
       "allow_core": true,
-      "reason": "BTC neutral -0.41% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
+      "reason": "BTC neutral -0.52% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 10:15:45] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 10:15:45] Macro Regime: NEUTRAL | BTC 24h: -0.60% | Alts Allowed: False",
-      "[2026-10-26 10:15:45] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:15:45] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 10:16:46] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 10:16:46] Macro Regime: NEUTRAL | BTC 24h: -0.52% | Alts Allowed: False",
       "[2026-10-26 10:16:46] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -139,7 +135,11 @@
       "[2026-10-26 10:24:57] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 10:24:57] Macro Regime: NEUTRAL | BTC 24h: -0.41% | Alts Allowed: False",
       "[2026-10-26 10:24:57] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 10:24:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
+      "[2026-10-26 10:24:57] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 10:25:58] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 10:25:58] Macro Regime: NEUTRAL | BTC 24h: -0.52% | Alts Allowed: False",
+      "[2026-10-26 10:25:58] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 10:25:58] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [
@@ -148,10 +148,10 @@
       "symbol": "TSLA",
       "shares": 0.07608,
       "entry_price": 394.13,
-      "current_price": 395.695,
-      "value_usd": 30.1,
-      "pnl_pct": 0.4,
-      "pnl_usd": 0.12,
+      "current_price": 394.55,
+      "value_usd": 30.02,
+      "pnl_pct": 0.11,
+      "pnl_usd": 0.03,
       "trailing_info": "Peak: $396.44 | Trailing 3.5%"
     },
     {
@@ -159,10 +159,10 @@
       "symbol": "AVGO",
       "shares": 0.076616,
       "entry_price": 326.77,
-      "current_price": 326.095,
-      "value_usd": 24.98,
-      "pnl_pct": -0.21,
-      "pnl_usd": -0.05,
+      "current_price": 325.8401,
+      "value_usd": 24.96,
+      "pnl_pct": -0.28,
+      "pnl_usd": -0.07,
       "trailing_info": "Peak: $326.77 | Trailing 3.5%"
     }
   ],
@@ -1919,7 +1919,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.40199372,
+    "current_equity": 325.28812510160003,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3064,5 +3064,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T10:25:06.001958"
+  "snapshot_synced_at": "2026-10-26T10:26:39.536924"
 }
