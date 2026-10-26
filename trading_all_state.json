@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T02:56:58.312834",
+  "timestamp": "2026-10-26T02:58:31.995399",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.12,
@@ -88,14 +88,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 02:52:18] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 02:52:19] Macro Regime: NEUTRAL | BTC 24h: -0.51% | Alts Allowed: False",
-      "[2026-10-26 02:52:19] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 02:52:19] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 02:52:19] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.4 (chg +0.11%)!",
-      "[2026-10-26 02:52:19] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=32.1 (chg -0.93%)!",
-      "[2026-10-26 02:52:19] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=34.9 (chg -0.51%)!",
-      "[2026-10-26 02:52:21] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
       "[2026-10-26 02:53:21] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 02:53:21] Macro Regime: NEUTRAL | BTC 24h: -0.50% | Alts Allowed: False",
       "[2026-10-26 02:53:21] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -127,7 +119,15 @@
       "[2026-10-26 02:56:30] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=38.0 (chg -0.10%)!",
       "[2026-10-26 02:56:30] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=32.5 (chg -1.03%)!",
       "[2026-10-26 02:56:30] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=35.4 (chg -0.59%)!",
-      "[2026-10-26 02:56:32] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
+      "[2026-10-26 02:56:32] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-26 02:57:32] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 02:57:32] Macro Regime: NEUTRAL | BTC 24h: -0.53% | Alts Allowed: False",
+      "[2026-10-26 02:57:32] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 02:57:32] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 02:57:33] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=38.0 (chg -0.09%)!",
+      "[2026-10-26 02:57:33] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=32.5 (chg -0.93%)!",
+      "[2026-10-26 02:57:33] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=35.4 (chg -0.53%)!",
+      "[2026-10-26 02:57:35] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH is exhibiting weak relative volume (RVOL 0.51) failing all strict momentum and volume expansion filters required for entry."
     ]
   },
   "positions": [
@@ -1291,20 +1291,6 @@
       "asset_class": "Crypto",
       "symbol": "NEAR",
       "entry_price": 4.4935,
-      "current_price": 4.6597,
-      "pnl_pct": 3.7,
-      "hours_held": 1.8,
-      "action": "TIGHTEN_STOP",
-      "confidence": 92,
-      "new_stop_pct": 3.0,
-      "reasoning": "NEAR is holding strong near session highs with a negligible pullback of 0.17%, allowing us to lock in a +3.0% profit floor against sudden volatility.",
-      "timestamp": "2026-10-25T13:08:04.492040"
-    },
-    {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Crypto",
-      "symbol": "NEAR",
-      "entry_price": 4.4935,
       "current_price": 4.6425,
       "pnl_pct": 3.32,
       "hours_held": 2.8,
@@ -1864,6 +1850,20 @@
       "new_stop_pct": 1.0,
       "reasoning": "Position is near peak profit (+1.33%) after a multi-day hold, so locking in gains via a tightened stop is prudent given regular market session volatility.",
       "timestamp": "2026-10-25T21:51:01.470109"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "CRWD",
+      "entry_price": 254.1921,
+      "current_price": 257.58,
+      "pnl_pct": 1.33,
+      "hours_held": 55.5,
+      "action": "TIGHTEN_STOP",
+      "confidence": 90,
+      "new_stop_pct": 1.0,
+      "reasoning": "Position is near peak profit at +1.33% with minimal pullback, warranting a tightened stop to lock in gains.",
+      "timestamp": "2026-10-25T22:11:42.196314"
     }
   ],
   "performance": {
@@ -3020,5 +3020,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T02:56:58.009695"
+  "snapshot_synced_at": "2026-10-26T02:58:31.693467"
 }
