@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T04:44:31.767771",
+  "timestamp": "2026-10-26T04:46:05.149772",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.14,
@@ -15,12 +15,10 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.60918883,
+    "total_value": 162.60800866,
     "cash": 132.28,
     "positions": {},
     "logs": [
-      "[2026-10-26 03:09:03] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
-      "[2026-10-26 03:14:03] Running portfolio evaluation cycle...",
       "[2026-10-26 03:14:04] [CRWD] Shares: 0.118017 | Entry: $254.19 | Current: $257.58 | PnL: +1.33% ($+0.40) | Peak: $257.63",
       "[2026-10-26 03:14:06] 🧠 [AI PROACTIVE EXIT] CRWD flagged for early exit: Securing +1.33% realized gain near peak favorable excursion after a 60.5-hour hold to lock in profits ahead of potential intraday resistance.",
       "[2026-10-26 03:14:07] AI position supervision warning: name 'entry_time' is not defined",
@@ -58,7 +56,9 @@
       "[2026-10-26 04:34:34] Running portfolio evaluation cycle...",
       "[2026-10-26 04:34:34] No positions currently held.",
       "[2026-10-26 04:39:34] Running portfolio evaluation cycle...",
-      "[2026-10-26 04:39:35] No positions currently held."
+      "[2026-10-26 04:39:35] No positions currently held.",
+      "[2026-10-26 04:44:35] Running portfolio evaluation cycle...",
+      "[2026-10-26 04:44:36] No positions currently held."
     ]
   },
   "coinbase": {
@@ -66,23 +66,15 @@
     "cash_usd": 162.53,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "RISK_OFF",
-      "btc_change_24h": -1.04646848714002,
-      "btc_price": 79667.32,
+      "status": "NEUTRAL",
+      "btc_change_24h": -0.25910989593311,
+      "btc_price": 80182.3,
       "allow_alts": false,
-      "allow_core": false,
-      "reason": "BTC down -1.05% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "allow_core": true,
+      "reason": "BTC neutral -0.26% (Chop regime - alts suppressed to stop bull traps, only Core permitted)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 04:37:20] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 04:37:20] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
-      "[2026-10-26 04:37:21] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=36.4 (chg -0.58%)!",
-      "[2026-10-26 04:37:24] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 30%) | Thesis: ETH is exhibiting weak relative volume (0.53) and neutral macro conditions, violating core evolved strategy rules requiring rvol > 1.5 for entry.",
-      "[2026-10-26 04:38:24] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 04:38:24] Macro Regime: NEUTRAL | BTC 24h: -0.32% | Alts Allowed: False",
-      "[2026-10-26 04:38:24] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 04:38:24] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 04:38:24] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=36.4 (chg -0.49%)!",
       "[2026-10-26 04:38:27] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: RVOL is severely depressed at 0.53, failing all mandatory volume criteria required for an asymmetric entry setup.",
       "[2026-10-26 04:39:27] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -114,7 +106,15 @@
       "[2026-10-26 04:43:40] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 04:43:40] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
       "[2026-10-26 04:43:41] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.6 (chg -0.46%)!",
-      "[2026-10-26 04:43:43] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH is exhibiting weak relative volume (RVOL 0.6) and a mean-reversion setup that fails strict evolved strategy rules requiring RVOL > 1.5 and positive volume expansion for entry."
+      "[2026-10-26 04:43:43] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 35%) | Thesis: ETH is exhibiting weak relative volume (RVOL 0.6) and a mean-reversion setup that fails strict evolved strategy rules requiring RVOL > 1.5 and positive volume expansion for entry.",
+      "[2026-10-26 04:44:43] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 04:44:44] Macro Regime: NEUTRAL | BTC 24h: -0.23% | Alts Allowed: False",
+      "[2026-10-26 04:44:44] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 04:44:44] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)...",
+      "[2026-10-26 04:45:45] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 04:45:45] Macro Regime: NEUTRAL | BTC 24h: -0.26% | Alts Allowed: False",
+      "[2026-10-26 04:45:45] Deployable cash ($138.35 of $162.53 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 04:45:45] Regime is NEUTRAL/CHOP. Switching to Mean-Reversion Oversold Dip Scanner (Core coins only)..."
     ]
   },
   "positions": [],
@@ -1870,7 +1870,7 @@
     "max_drawdown_pct": 13.33,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.13918882999997,
+    "current_equity": 325.13800865999997,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3015,5 +3015,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T04:44:31.449480"
+  "snapshot_synced_at": "2026-10-26T04:46:04.848965"
 }
