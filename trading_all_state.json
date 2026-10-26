@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T13:21:52.412759",
+  "timestamp": "2026-10-26T13:23:26.344130",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 324.83,
+    "total_equity": 324.85,
     "total_cash": 239.4,
     "cash_pct": 73.7,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 163.272861399,
+    "total_value": 163.28842966,
     "cash": 77.84,
     "positions": {
       "TSLA": {
@@ -25,22 +25,22 @@
         "high_water_mark": 396.972,
         "tp1_hit": false,
         "entry_time": "2026-10-26T11:43:09.147336",
-        "current_price": 396.67,
-        "pnl_pct": 0.47,
+        "current_price": 396.7386,
+        "pnl_pct": 0.49,
         "pnl_usd": 0.12,
-        "last_ai_eval_ts": 1793034293.816285
+        "last_ai_eval_ts": 1793035314.6226287
       },
       "AVGO": {
         "symbol": "AVGO",
         "shares": 0.090793,
         "entry_price": 330.33,
-        "high_water_mark": 330.935,
+        "high_water_mark": 331.1,
         "tp1_hit": false,
         "entry_time": "2026-10-26T12:31:03.141177",
-        "current_price": 330.835,
-        "pnl_pct": 0.15,
-        "pnl_usd": 0.05,
-        "last_ai_eval_ts": 1793034298.1299121
+        "current_price": 331.1,
+        "pnl_pct": 0.23,
+        "pnl_usd": 0.07,
+        "last_ai_eval_ts": 1793035350.4446158
       },
       "MU": {
         "symbol": "MU",
@@ -49,17 +49,13 @@
         "high_water_mark": 915.09,
         "tp1_hit": false,
         "entry_time": "2026-10-26T12:58:12.117009",
-        "current_price": 914.785,
-        "pnl_pct": 1.02,
-        "pnl_usd": 0.31,
+        "current_price": 914.0767,
+        "pnl_pct": 0.94,
+        "pnl_usd": 0.28,
         "last_ai_eval_ts": 1793034860.6275938
       }
     },
     "logs": [
-      "[2026-10-26 13:10:17] [MU] Shares: 0.033090 | Entry: $905.55 | Current: $910.09 | PnL: +0.50% ($+0.15) | Peak: $910.21",
-      "[2026-10-26 13:11:17] Running portfolio evaluation cycle...",
-      "[2026-10-26 13:11:18] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $396.46 | PnL: +0.42% ($+0.11) | Peak: $396.46",
-      "[2026-10-26 13:11:18] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $330.15 | PnL: -0.05% ($-0.02) | Peak: $330.37",
       "[2026-10-26 13:11:18] [MU] Shares: 0.033090 | Entry: $905.55 | Current: $909.76 | PnL: +0.46% ($+0.14) | Peak: $910.21",
       "[2026-10-26 13:12:18] Running portfolio evaluation cycle...",
       "[2026-10-26 13:12:19] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $396.53 | PnL: +0.44% ($+0.11) | Peak: $396.53",
@@ -95,7 +91,11 @@
       "[2026-10-26 13:19:34] [MU] Shares: 0.033090 | Entry: $905.55 | Current: $914.78 | PnL: +1.02% ($+0.31) | Peak: $915.09",
       "[2026-10-26 13:20:34] Running portfolio evaluation cycle...",
       "[2026-10-26 13:20:50] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
-      "[2026-10-26 13:21:50] Running portfolio evaluation cycle..."
+      "[2026-10-26 13:21:50] Running portfolio evaluation cycle...",
+      "[2026-10-26 13:21:54] [TSLA] Shares: 0.063352 | Entry: $394.80 | Current: $396.74 | PnL: +0.49% ($+0.12) | Peak: $396.97",
+      "[2026-10-26 13:22:30] 🧠 [AI TIGHTEN STOP] Raising stop loss for TSLA from -4.5% to 0.2% | Reason: Position is nearing the 0.5% scale-out threshold near peak favorable excursion; tightening the stop secures gains against minor overhead resistance.",
+      "[2026-10-26 13:22:30] [AVGO] Shares: 0.090793 | Entry: $330.33 | Current: $331.10 | PnL: +0.23% ($+0.07) | Peak: $331.10",
+      "[2026-10-26 13:22:52] [MU] Shares: 0.033090 | Entry: $905.55 | Current: $914.08 | PnL: +0.94% ($+0.28) | Peak: $915.09"
     ]
   },
   "coinbase": {
@@ -104,19 +104,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.3659628186237,
-      "btc_price": 80409.57,
+      "btc_change_24h": -0.49078335077372,
+      "btc_price": 80335.94,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.37% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.49% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 13:12:24] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 13:12:24] Macro Regime: NEUTRAL | BTC 24h: -0.46% | Alts Allowed: False",
-      "[2026-10-26 13:12:24] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 13:12:24] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 13:13:26] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 13:13:27] Macro Regime: NEUTRAL | BTC 24h: -0.38% | Alts Allowed: False",
       "[2026-10-26 13:13:27] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -152,7 +148,11 @@
       "[2026-10-26 13:21:49] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 13:21:49] Macro Regime: NEUTRAL | BTC 24h: -0.59% | Alts Allowed: False",
       "[2026-10-26 13:21:49] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 13:21:49] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-26 13:21:49] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 13:22:52] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 13:22:52] Macro Regime: NEUTRAL | BTC 24h: -0.49% | Alts Allowed: False",
+      "[2026-10-26 13:22:52] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 13:22:52] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -161,9 +161,9 @@
       "symbol": "TSLA",
       "shares": 0.063352,
       "entry_price": 394.8,
-      "current_price": 396.67,
+      "current_price": 396.7386,
       "value_usd": 25.13,
-      "pnl_pct": 0.47,
+      "pnl_pct": 0.49,
       "pnl_usd": 0.12,
       "trailing_info": "Peak: $396.97 | Trailing 3.5%"
     },
@@ -172,21 +172,21 @@
       "symbol": "AVGO",
       "shares": 0.090793,
       "entry_price": 330.33,
-      "current_price": 330.835,
-      "value_usd": 30.04,
-      "pnl_pct": 0.15,
-      "pnl_usd": 0.05,
-      "trailing_info": "Peak: $330.94 | Trailing 3.5%"
+      "current_price": 331.1,
+      "value_usd": 30.06,
+      "pnl_pct": 0.23,
+      "pnl_usd": 0.07,
+      "trailing_info": "Peak: $331.10 | Trailing 3.5%"
     },
     {
       "account": "Robinhood",
       "symbol": "MU",
       "shares": 0.03309,
       "entry_price": 905.55,
-      "current_price": 914.785,
-      "value_usd": 30.27,
-      "pnl_pct": 1.02,
-      "pnl_usd": 0.31,
+      "current_price": 914.0767,
+      "value_usd": 30.25,
+      "pnl_pct": 0.94,
+      "pnl_usd": 0.28,
       "trailing_info": "Peak: $915.09 | Trailing 3.5%"
     }
   ],
@@ -1363,21 +1363,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "ETH",
-      "current_price": 2318.34,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 10,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "The asset is exhibiting weak volume (RVOL 0.4) and bearish hourly trend alignment during a market chop regime.",
-      "risk_factors": "Low relative volume, bearish 1-hour trend, and negative macro altcoin suppression rules violate all core strategy requirements.",
-      "timestamp": "2026-10-26T04:27:51.593207"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "ETH",
       "current_price": 2320.21,
       "approved": false,
       "action": "REJECT",
@@ -1958,6 +1943,21 @@
       "primary_thesis": "ARM is showing intraday upside momentum above VWAP, but conflicting news headlines regarding valuation debates and legal/tokenization objections introduce unnecessary headline risk.",
       "risk_factors": "Recent 8% pullback last week combined with regulatory/corporate objections and lack of explicit volume breakout confirmation creates an unfavorable risk-reward profile.",
       "timestamp": "2026-10-26T09:38:45.692824"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "SMH",
+      "current_price": 536.31,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.5,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "SMH is trading above intraday VWAP with a +1.73% gain, but lacks comprehensive volume profile confirmation and faces mixed macro sentiment from recent tech pullback headlines.",
+      "risk_factors": "Broader tech sector volatility and lack of explicit institutional volume metrics create insufficient edge to meet the stringent 75% confidence threshold.",
+      "timestamp": "2026-10-26T09:40:02.390087"
     }
   ],
   "performance": {
@@ -1969,7 +1969,7 @@
     "max_drawdown_pct": 13.51,
     "trades_count_today": 2,
     "realized_pnl_today": -0.29,
-    "current_equity": 324.83286139899997,
+    "current_equity": 324.84842965999997,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3140,5 +3140,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T13:21:51.917708"
+  "snapshot_synced_at": "2026-10-26T13:23:26.011254"
 }
