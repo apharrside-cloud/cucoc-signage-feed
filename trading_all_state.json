@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T17:52:54.114175",
+  "timestamp": "2026-10-27T17:54:27.579841",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.55,
@@ -101,11 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 17:44:07] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 40%) | Thesis: SUI shows bullish hourly trend and positive macro backdrop, but fails strict crypto strategy rules requiring RVOL >= 1.5x (current RVOL is 0.8).",
-      "[2026-10-27 17:45:07] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 17:45:07] Macro Regime: RISK_ON | BTC 24h: +1.09% | Alts Allowed: True",
-      "[2026-10-27 17:45:07] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 17:45:07] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 17:45:11] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI is attempting a breakout near overhead resistance while showing weak relative volume (0.8 RVOL), violating strict evolution rules requiring RVOL >= 1.5x.",
       "[2026-10-27 17:46:11] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 17:46:11] Macro Regime: RISK_ON | BTC 24h: +1.14% | Alts Allowed: True",
@@ -140,7 +135,12 @@
       "[2026-10-27 17:52:34] Macro Regime: RISK_ON | BTC 24h: +1.06% | Alts Allowed: True",
       "[2026-10-27 17:52:34] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 17:52:34] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 17:52:38] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 55%) | Thesis: SUI shows bullish 1-hour trend alignment and a RISK_ON macro backdrop, but fails strict volume rules."
+      "[2026-10-27 17:52:38] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 55%) | Thesis: SUI shows bullish 1-hour trend alignment and a RISK_ON macro backdrop, but fails strict volume rules.",
+      "[2026-10-27 17:53:38] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 17:53:38] Macro Regime: RISK_ON | BTC 24h: +1.07% | Alts Allowed: True",
+      "[2026-10-27 17:53:38] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 17:53:38] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 17:53:42] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI shows bullish hourly structure in a risk-on regime, but fails critical evolved strategy rules requiring relative volume (RVOL) of at least 1.5x (current RVOL is 1.17)."
     ]
   },
   "positions": [
@@ -1337,20 +1337,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Equities",
-      "symbol": "ORCL",
-      "entry_price": 131.425,
-      "current_price": 131.96,
-      "pnl_pct": 0.41,
-      "hours_held": 0.3,
-      "action": "TIGHTEN_STOP",
-      "confidence": 85,
-      "new_stop_pct": 0.2,
-      "reasoning": "Position has pulled back from a peak of +0.62% to +0.41%, crossing the tactical threshold to lock in partial gains and trail the stop.",
-      "timestamp": "2026-10-27T12:34:20.356606"
-    },
-    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
@@ -1933,6 +1919,21 @@
       "primary_thesis": "FET shows bullish hourly trend alignment under a Risk-On macro regime, but fails critical volume rules.",
       "risk_factors": "RVOL is flat at 1.0 (well below the mandatory 1.5x minimum threshold), compounded by recent exploit headlines involving Fetch.ai.",
       "timestamp": "2026-10-27T13:29:14.276074"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.17962,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "FET shows bullish hourly trend alignment under a risk-on macro regime, but fails critical volume rules.",
+      "risk_factors": "RVOL is flat at 1.0, violating multiple evolved strategy rules requiring minimum 1.5x to 2.5x volume expansion, compounded by negative exploit news regarding Fetch.ai.",
+      "timestamp": "2026-10-27T13:30:19.181743"
     }
   ],
   "performance": {
@@ -3115,5 +3116,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T17:52:53.807491"
+  "snapshot_synced_at": "2026-10-27T17:54:27.261060"
 }
