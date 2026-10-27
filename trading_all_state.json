@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T07:19:36.019552",
+  "timestamp": "2026-10-27T07:21:09.544666",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.52,
+    "total_equity": 325.45,
     "total_cash": 269.47,
     "cash_pct": 82.8,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 163.9647990159,
+    "total_value": 163.8934306,
     "cash": 107.91,
     "positions": {
       "AMD": {
@@ -28,12 +28,10 @@
         "current_price": 531.47,
         "pnl_pct": -0.32,
         "pnl_usd": -0.08,
-        "last_ai_eval_ts": 1793099058.1873505
+        "last_ai_eval_ts": 1793099982.8236792
       }
     },
     "logs": [
-      "[2026-10-27 05:43:37] Running portfolio evaluation cycle...",
-      "[2026-10-27 05:43:52] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
       "[2026-10-27 05:43:52] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
       "[2026-10-27 05:48:52] Running portfolio evaluation cycle...",
       "[2026-10-27 05:48:57] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
@@ -71,7 +69,9 @@
       "[2026-10-27 07:09:37] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
       "[2026-10-27 07:09:37] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
       "[2026-10-27 07:14:37] Running portfolio evaluation cycle...",
-      "[2026-10-27 07:14:42] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34"
+      "[2026-10-27 07:14:42] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
+      "[2026-10-27 07:19:42] Running portfolio evaluation cycle...",
+      "[2026-10-27 07:19:42] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34"
     ]
   },
   "coinbase": {
@@ -80,23 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.50600322828937,
-      "btc_price": 79742.16,
+      "btc_change_24h": -0.4702266517664,
+      "btc_price": 79773.82,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.51% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.47% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 07:09:22] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 07:09:22] Macro Regime: NEUTRAL | BTC 24h: -0.29% | Alts Allowed: False",
-      "[2026-10-27 07:09:22] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 07:09:22] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 07:10:24] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 07:10:24] Macro Regime: NEUTRAL | BTC 24h: -0.33% | Alts Allowed: False",
-      "[2026-10-27 07:10:24] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 07:10:24] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 07:11:26] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 07:11:27] Macro Regime: NEUTRAL | BTC 24h: -0.29% | Alts Allowed: False",
       "[2026-10-27 07:11:27] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +120,15 @@
       "[2026-10-27 07:18:43] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 07:18:43] Macro Regime: NEUTRAL | BTC 24h: -0.51% | Alts Allowed: False",
       "[2026-10-27 07:18:43] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 07:18:43] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-27 07:18:43] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 07:19:45] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 07:19:45] Macro Regime: NEUTRAL | BTC 24h: -0.52% | Alts Allowed: False",
+      "[2026-10-27 07:19:45] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 07:19:45] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 07:20:48] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 07:20:48] Macro Regime: NEUTRAL | BTC 24h: -0.47% | Alts Allowed: False",
+      "[2026-10-27 07:20:48] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 07:20:48] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -1923,7 +1923,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.52479901590004,
+    "current_equity": 325.4534306,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3094,5 +3094,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T07:19:35.711627"
+  "snapshot_synced_at": "2026-10-27T07:21:09.234333"
 }
