@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T16:55:05.929759",
+  "timestamp": "2026-10-27T16:56:39.620513",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.33,
@@ -44,10 +44,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 16:00:50] Running portfolio evaluation cycle...",
-      "[2026-10-27 16:00:53] Failed to fetch portfolio data.",
-      "[2026-10-27 16:05:53] Running portfolio evaluation cycle...",
-      "[2026-10-27 16:05:54] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-27 16:05:54] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
       "[2026-10-27 16:05:54] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $130.55 | PnL: -0.44% ($-0.11) | Peak: $132.10",
       "[2026-10-27 16:06:02] 🧠 [AI PROACTIVE EXIT] ORCL flagged for early exit: Price has pulled back 1.17% from its peak, erasing unrealized gains and turning negative, indicating structural weakness and fading momentum after failing to sustain highs.",
@@ -83,7 +79,11 @@
       "[2026-10-27 16:46:32] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
       "[2026-10-27 16:51:32] Running portfolio evaluation cycle...",
       "[2026-10-27 16:51:33] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-27 16:51:33] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
+      "[2026-10-27 16:51:33] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
+      "[2026-10-27 16:56:33] Running portfolio evaluation cycle...",
+      "[2026-10-27 16:56:34] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-27 16:56:38] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Locking in substantial gains following a +5.72% peak as minor pullback emerges from overhead resistance.",
+      "[2026-10-27 16:56:38] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
     ]
   },
   "coinbase": {
@@ -92,19 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.16263201636186,
-      "btc_price": 80653.79,
+      "btc_change_24h": 1.15086487334679,
+      "btc_price": 80641.91,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.16% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.15% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 16:45:37] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 16:45:37] Macro Regime: RISK_ON | BTC 24h: +1.08% | Alts Allowed: True",
-      "[2026-10-27 16:45:37] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 16:45:37] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 16:46:39] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 16:46:39] Macro Regime: RISK_ON | BTC 24h: +1.13% | Alts Allowed: True",
       "[2026-10-27 16:46:39] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +136,11 @@
       "[2026-10-27 16:54:55] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 16:54:55] Macro Regime: RISK_ON | BTC 24h: +1.16% | Alts Allowed: True",
       "[2026-10-27 16:54:55] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 16:54:55] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 16:54:55] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 16:55:57] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 16:55:57] Macro Regime: RISK_ON | BTC 24h: +1.15% | Alts Allowed: True",
+      "[2026-10-27 16:55:57] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 16:55:57] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1339,21 +1339,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "SMH",
-      "current_price": 557.72,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -2.5,
-      "take_profit_pct": 5.5,
-      "primary_thesis": "SMH is showing strong intraday momentum above VWAP (+2.97%), but mixed sector news and lack of explicit volume confirmation metrics fail to meet our stringent high-conviction threshold.",
-      "risk_factors": "Broad market tech weakness following a rough week for the Nasdaq introduces systemic pullback risk into semiconductor momentum breakouts.",
-      "timestamp": "2026-10-27T12:06:42.570815"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "CRWD",
       "current_price": 268.325,
       "approved": false,
@@ -1932,6 +1917,21 @@
       "primary_thesis": "SMH is showing strong intraday momentum above VWAP, but deployable cash is severely restricted and headlines highlight broader market volatility risks.",
       "risk_factors": "Unfavorable macroeconomic tech sector weakness following poor Nasdaq performance outweighs the immediate breakout setup.",
       "timestamp": "2026-10-27T12:56:55.169328"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.1797,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "FET exhibits positive breakout metrics and strong RVOL, but active breaking news reveals a $2 million exploit involving Fetch.ai, introducing severe protocol risk and potential downside contagion.",
+      "risk_factors": "Active exploit headline on Fetch.ai and NTX hitting all-time low creates critical binary risk and immediate counterparty/smart contract vulnerability.",
+      "timestamp": "2026-10-27T12:57:04.766607"
     }
   ],
   "performance": {
@@ -3114,5 +3114,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T16:55:05.634502"
+  "snapshot_synced_at": "2026-10-27T16:56:39.198678"
 }
