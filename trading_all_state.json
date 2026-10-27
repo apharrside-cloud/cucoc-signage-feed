@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T18:56:55.899904",
+  "timestamp": "2026-10-27T18:58:29.551518",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.59,
+    "total_equity": 326.55,
     "total_cash": 258.28,
     "cash_pct": 79.1,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.0326326484,
+    "total_value": 164.992341802,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -28,7 +28,7 @@
         "current_price": 560.45,
         "pnl_pct": 5.12,
         "pnl_usd": 0.64,
-        "last_ai_eval_ts": 1793140967.424471
+        "last_ai_eval_ts": 1793141891.4357479
       },
       "AVGO": {
         "symbol": "AVGO",
@@ -40,14 +40,10 @@
         "current_price": 342.46,
         "pnl_pct": 0.8,
         "pnl_usd": 0.24,
-        "last_ai_eval_ts": 1793140969.3036563
+        "last_ai_eval_ts": 1793141893.425026
       }
     },
     "logs": [
-      "[2026-10-27 17:57:27] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-27 17:57:29] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Locking in substantial gains following a minor peak pullback while the broader equity trend remains intact.",
-      "[2026-10-27 17:57:29] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
-      "[2026-10-27 18:02:32] Running portfolio evaluation cycle...",
       "[2026-10-27 18:02:33] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-27 18:02:33] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
       "[2026-10-27 18:07:33] Running portfolio evaluation cycle...",
@@ -83,7 +79,11 @@
       "[2026-10-27 18:48:06] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
       "[2026-10-27 18:53:06] Running portfolio evaluation cycle...",
       "[2026-10-27 18:53:10] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-27 18:53:10] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
+      "[2026-10-27 18:53:10] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
+      "[2026-10-27 18:58:10] Running portfolio evaluation cycle...",
+      "[2026-10-27 18:58:11] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-27 18:58:13] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
+      "[2026-10-27 18:58:15] 🧠 [AI TIGHTEN STOP] Raising stop loss for AVGO from -4.5% to 0.5% | Reason: Locking in gains as price pulls back 0.55% from the +1.36% peak after 8 hours of holding, protecting accrued profits against momentum exhaustion."
     ]
   },
   "coinbase": {
@@ -101,12 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 18:48:21] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: The trade candidate fails critical news scrubbing and security vetting due to active exploit headlines involving Fetch.ai.",
-      "[2026-10-27 18:49:21] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:49:21] Macro Regime: RISK_ON | BTC 24h: +1.11% | Alts Allowed: True",
-      "[2026-10-27 18:49:21] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:49:21] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:49:25] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET is facing severe critical fundamental risk due to recent exploit headlines involving Fetch.ai and NuNet, introducing unacceptable binary downside.",
       "[2026-10-27 18:50:25] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 18:50:26] Macro Regime: RISK_ON | BTC 24h: +1.08% | Alts Allowed: True",
       "[2026-10-27 18:50:26] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +134,13 @@
       "[2026-10-27 18:56:54] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 18:56:54] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
       "[2026-10-27 18:56:54] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:56:54] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 18:56:54] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 18:56:58] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET exhibits strong relative volume and breakout metrics, but recent exploit and security headlines present severe binary risk.",
+      "[2026-10-27 18:57:58] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 18:57:58] Macro Regime: RISK_ON | BTC 24h: +1.21% | Alts Allowed: True",
+      "[2026-10-27 18:57:58] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 18:57:58] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 18:58:03] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: Despite high relative volume and bullish hourly trend confluence, severe negative headlines regarding Fetch.ai and NuNet exploit make this entry unsafe."
     ]
   },
   "positions": [
@@ -1338,51 +1338,6 @@
   "ai_decisions": [
     {
       "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "ORCL",
-      "current_price": 131.13,
-      "approved": true,
-      "action": "BUY",
-      "confidence": 78,
-      "position_usd": 25.0,
-      "stop_loss_pct": -2.0,
-      "take_profit_pct": 5.5,
-      "primary_thesis": "ORCL is breaking out +4% on major fundamental catalyst news integrating Google TPUs and expanding AI infrastructure deals, trading above intraday VWAP with strong institutional accumulation.",
-      "risk_factors": "Broad market equity volatility or profit-taking after a gap-up move could pull price back below VWAP.",
-      "timestamp": "2026-10-27T13:21:41.861329"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
-      "current_price": 0.18037,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET fails strict volume expansion rules with a low relative volume of 0.88 against required thresholds of >= 1.5x.",
-      "risk_factors": "Exploit headlines involving Fetch.ai and NuNet combined with weak volume profile signal a high risk of fakeout and downward pressure.",
-      "timestamp": "2026-10-27T13:26:51.296383"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
-      "current_price": 0.17996,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET is printing high RSI with weak relative volume (0.88x) and faces severe negative exploit news risk.",
-      "risk_factors": "Active exploit headlines regarding Fetch.ai and sub-par volume expansion strictly violate mandatory breakout rules.",
-      "timestamp": "2026-10-27T13:27:56.417486"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
       "current_price": 0.17978,
@@ -1922,6 +1877,51 @@
       "new_stop_pct": 0.25,
       "reasoning": "AVGO has pulled back 0.66% from its peak of +1.36%, hitting our rule to scale or tighten stops as momentum stalls above 0.5% profit.",
       "timestamp": "2026-10-27T15:55:30.431104"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "NEAR",
+      "current_price": 4.6274,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "NEAR fails to meet critical evolutionary volume filters, showing an RVOL of 1.0 against the mandatory 1.5x minimum requirement for breakout entries.",
+      "risk_factors": "Lack of volume expansion combined with an elevated RSI of 71.7 creates high vulnerability to a bull trap and immediate momentum reversal.",
+      "timestamp": "2026-10-27T15:55:49.868669"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "NEAR",
+      "current_price": 4.629,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 40,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "NEAR is showing mild bullish hourly trend context in a risk-on regime, but fails critical volume rules.",
+      "risk_factors": "Relative volume (RVOL = 1.0) fails the strict mandate of >= 1.5x to 2.5x required for crypto breakout long entries, and recent news shows underperformance.",
+      "timestamp": "2026-10-27T15:56:53.892990"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "NEAR",
+      "current_price": 4.6319,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "NEAR is exhibiting bullish hourly trend structure in a risk-on macro regime, but fails critical volume rules.",
+      "risk_factors": "Relative volume (RVOL) is sitting at 1.0, failing the strict evolved strategy rule requiring RVOL >= 1.5x and 2.5x volume expansion for crypto breakout long entries.",
+      "timestamp": "2026-10-27T15:57:57.808044"
     }
   ],
   "performance": {
@@ -1933,7 +1933,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.5926326484,
+    "current_equity": 326.552341802,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3104,5 +3104,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T18:56:55.503162"
+  "snapshot_synced_at": "2026-10-27T18:58:29.225351"
 }
