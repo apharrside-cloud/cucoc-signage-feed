@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T16:00:23.460302",
+  "timestamp": "2026-10-27T16:01:57.560806",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.53,
@@ -56,8 +56,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 15:50:24] Running portfolio evaluation cycle...",
-      "[2026-10-27 15:50:24] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $561.86 | PnL: +5.38% ($+0.67) | Peak: $563.68",
       "[2026-10-27 15:50:24] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $343.95 | PnL: +1.24% ($+0.37) | Peak: $344.37",
       "[2026-10-27 15:50:24] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.41 | PnL: +0.21% ($+0.05) | Peak: $132.10",
       "[2026-10-27 15:51:24] Running portfolio evaluation cycle...",
@@ -95,7 +93,9 @@
       "[2026-10-27 15:58:34] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.54 | PnL: +0.82% ($+0.25) | Peak: $344.37",
       "[2026-10-27 15:58:34] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $130.66 | PnL: -0.36% ($-0.09) | Peak: $132.10",
       "[2026-10-27 15:59:34] Running portfolio evaluation cycle...",
-      "[2026-10-27 15:59:50] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
+      "[2026-10-27 15:59:50] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
+      "[2026-10-27 16:00:50] Running portfolio evaluation cycle...",
+      "[2026-10-27 16:00:53] Failed to fetch portfolio data."
     ]
   },
   "coinbase": {
@@ -113,11 +113,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 15:52:34] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 15:52:34] Macro Regime: RISK_ON | BTC 24h: +0.99% | Alts Allowed: True",
-      "[2026-10-27 15:52:34] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 15:52:34] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 15:52:37] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR is exhibiting high RSI levels near 73.5, but fails critical volume requirements with an RVOL of 0.94 against the mandated minimum 1.5x threshold.",
       "[2026-10-27 15:53:37] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 15:53:38] Macro Regime: RISK_ON | BTC 24h: +0.98% | Alts Allowed: True",
       "[2026-10-27 15:53:38] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -152,7 +147,12 @@
       "[2026-10-27 16:00:04] Macro Regime: RISK_ON | BTC 24h: +1.05% | Alts Allowed: True",
       "[2026-10-27 16:00:04] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 16:00:04] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 16:00:08] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR shows bullish 1-hour trend alignment and a risk-on macro regime, but fails critical volume rules."
+      "[2026-10-27 16:00:08] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR shows bullish 1-hour trend alignment and a risk-on macro regime, but fails critical volume rules.",
+      "[2026-10-27 16:01:08] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 16:01:08] Macro Regime: RISK_ON | BTC 24h: +1.14% | Alts Allowed: True",
+      "[2026-10-27 16:01:08] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 16:01:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 16:01:12] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR is showing mild intraday strength in a Risk-On regime, but fails critical evolved strategy rules requiring relative volume >= 1.5x on breakout entries."
     ]
   },
   "positions": [
@@ -1360,21 +1360,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "HOOD",
-      "current_price": 96.1065,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -2.5,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "HOOD shows positive intraday momentum above VWAP and sympathy gains from fintech sector earnings beats, but lack of volume profile confirmation makes it a mediocre setup.",
-      "risk_factors": "Recent 11% weekly drawdown indicates persistent overhead selling pressure and choppy sentiment.",
-      "timestamp": "2026-10-27T11:43:49.687625"
-    },
-    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Equities",
       "symbol": "AVGO",
@@ -1954,6 +1939,21 @@
       "primary_thesis": "HOOD shows a +3.66% intraday move following sector sympathy, but trades significantly below its multi-timeframe intraday VWAP ($266.45 anomaly/data distortion), lacking clean technical confluence.",
       "risk_factors": "Mixed headline sentiment with recent 11% weekly pullback creates high downside vulnerability and structural uncertainty.",
       "timestamp": "2026-10-27T12:53:27.305748"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.17972,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "FET shows solid relative volume (2.01x) and bullish 1-hour trend alignment, but breaking news reveals a critical exploit of Fetch.ai and NuNet for $2 Million.",
+      "risk_factors": "Active exploit headlines and project security incidents create severe negative fundamental risk and outweigh technical breakout indicators.",
+      "timestamp": "2026-10-27T12:53:41.668243"
     }
   ],
   "performance": {
@@ -3136,5 +3136,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T16:00:23.152691"
+  "snapshot_synced_at": "2026-10-27T16:01:57.219601"
 }
