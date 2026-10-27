@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T18:39:46.115630",
+  "timestamp": "2026-10-27T18:41:19.706774",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.68,
@@ -101,12 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 18:31:12] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:31:16] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI shows bullish hourly structure in a risk-on macro environment, but current relative volume (rvol 1.04) fails the mandatory evolution rule requiring rvol >= 1.5x for crypto breakout entries.",
-      "[2026-10-27 18:32:16] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:32:16] Macro Regime: RISK_ON | BTC 24h: +1.26% | Alts Allowed: True",
-      "[2026-10-27 18:32:16] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:32:16] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 18:32:20] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI fails the mandatory evolved strategy rules requiring a relative volume (rvol) >= 1.5x on crypto breakout entries, currently sitting at a weak 1.04 rvol.",
       "[2026-10-27 18:33:20] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 18:33:20] Macro Regime: RISK_ON | BTC 24h: +1.25% | Alts Allowed: True",
@@ -140,7 +134,13 @@
       "[2026-10-27 18:39:43] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 18:39:43] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
       "[2026-10-27 18:39:43] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:39:43] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 18:39:43] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 18:39:48] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows strong relative volume and hourly bullish continuation, but headline risks regarding a Fetch.ai exploit create severe binary downside risk.",
+      "[2026-10-27 18:40:48] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 18:40:48] Macro Regime: RISK_ON | BTC 24h: +1.15% | Alts Allowed: True",
+      "[2026-10-27 18:40:48] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 18:40:48] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 18:40:52] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET is rejected due to critical negative news catalysts involving a $2 million exploit and an all-time low for related token NTX, which invalidate the breakout thesis."
     ]
   },
   "positions": [
@@ -1340,36 +1340,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
-      "current_price": 0.17968,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "FET shows positive momentum and volume expansion, but critical exploit headlines regarding Fetch.ai create severe binary risk.",
-      "risk_factors": "Fetch.ai exploitation headlines and protocol security breaches represent an unquantifiable fundamental risk that overrides technical setup.",
-      "timestamp": "2026-10-27T12:52:35.882774"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "HOOD",
-      "current_price": 96.24,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "HOOD shows a +3.66% intraday move following sector sympathy, but trades significantly below its multi-timeframe intraday VWAP ($266.45 anomaly/data distortion), lacking clean technical confluence.",
-      "risk_factors": "Mixed headline sentiment with recent 11% weekly pullback creates high downside vulnerability and structural uncertainty.",
-      "timestamp": "2026-10-27T12:53:27.305748"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
       "current_price": 0.17972,
       "approved": false,
       "action": "REJECT",
@@ -1932,6 +1902,34 @@
       "new_stop_pct": 4.25,
       "reasoning": "Locking in substantial gains following a minor pullback from the peak of +5.23% while the uptrend remains generally intact.",
       "timestamp": "2026-10-27T14:05:32.236317"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "ORCL",
+      "entry_price": 131.13,
+      "current_price": 131.5619,
+      "pnl_pct": 0.33,
+      "hours_held": 0.8,
+      "action": "TIGHTEN_STOP",
+      "confidence": 85,
+      "new_stop_pct": 0.15,
+      "reasoning": "Securing profits as price pulls back from the +0.50% peak (+0.33% current PnL) to lock in gains after hitting our initial partial-take-profit threshold.",
+      "timestamp": "2026-10-27T14:09:31.257486"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "ORCL",
+      "entry_price": 131.13,
+      "current_price": 131.73,
+      "pnl_pct": 0.46,
+      "hours_held": 1.1,
+      "action": "TIGHTEN_STOP",
+      "confidence": 85,
+      "new_stop_pct": 0.25,
+      "reasoning": "Position has reached +0.46% PnL nearing the 0.5% partial scale-out threshold; tightening the stop protects capital against potential resistance at peak levels.",
+      "timestamp": "2026-10-27T14:25:18.589008"
     }
   ],
   "performance": {
@@ -3114,5 +3112,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T18:39:45.762454"
+  "snapshot_synced_at": "2026-10-27T18:41:19.401383"
 }
