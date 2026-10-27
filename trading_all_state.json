@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T11:05:13.169764",
+  "timestamp": "2026-10-27T11:06:46.976086",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.29,
+    "total_equity": 326.3,
     "total_cash": 270.28,
     "cash_pct": 82.8,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 164.73135041,
+    "total_value": 164.738484625,
     "cash": 108.72,
     "positions": {
       "AMD": {
@@ -25,29 +25,25 @@
         "high_water_mark": 554.13,
         "tp1_hit": false,
         "entry_time": "2026-10-26T14:22:23.745657",
-        "current_price": 553.04,
-        "pnl_pct": 3.73,
-        "pnl_usd": 0.93,
+        "current_price": 553.19,
+        "pnl_pct": 3.75,
+        "pnl_usd": 0.94,
         "last_ai_eval_ts": 1793113024.859797
       },
       "AVGO": {
         "symbol": "AVGO",
         "shares": 0.088302,
         "entry_price": 339.7399,
-        "high_water_mark": 340.635,
+        "high_water_mark": 340.77,
         "tp1_hit": false,
         "entry_time": "2026-10-27T10:56:03.613275",
-        "current_price": 340.635,
-        "pnl_pct": 0.26,
-        "pnl_usd": 0.08,
+        "current_price": 340.77,
+        "pnl_pct": 0.3,
+        "pnl_usd": 0.09,
         "last_ai_eval_ts": 1793113027.990198
       }
     },
     "logs": [
-      "[2026-10-27 10:56:02] 🔥 Found momentum breakout: AVGO (+3.21%) @ $339.74. Executing AI-APPROVED BUY of $30.00...",
-      "[2026-10-27 10:56:03] Buy order placed: {'data': {'order': {'id': '6ae0bb5d-2667-4a4b-bc65-674d71682591', 'ref_id': '01a17ddb-e60b-79dd-9aca-59b2555078c6', 'instrument_id': '698f04e6-1710-4f34-b7af-4a88fe5e47b3', 'symbol': 'AVGO', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.088310', 'cumulative_quantity': '0.000000', 'price': '339.680000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '30.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-27T14:55:25.834517Z', 'last_transaction_at': '2026-10-27T14:55:25.834517Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
-      "[2026-10-27 10:57:04] Running portfolio evaluation cycle...",
-      "[2026-10-27 10:57:04] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $553.53 | PnL: +3.82% ($+0.95) | Peak: $554.13",
       "[2026-10-27 10:57:07] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $339.62 | PnL: -0.04% ($-0.01) | Peak: $339.74",
       "[2026-10-27 10:57:10] Available deployable cash ($96.57 of $108.72 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-27 10:58:10] Running portfolio evaluation cycle...",
@@ -83,7 +79,11 @@
       "[2026-10-27 11:04:05] Available deployable cash ($96.57 of $108.72 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-27 11:04:21] MCP tool call timeout (15s) on get_equity_historicals. Killing stale process.",
       "[2026-10-27 11:04:52] 🧠 [AI GATE] Buy of SMH VETOED by AI Brain (Confidence: 60%) | Thesis: SMH is showing strong intraday upside momentum, but deployable cash is severely restricted and headlines highlight lagging dividend payouts and sector volatility.",
-      "[2026-10-27 11:04:52] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-27 11:04:52] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-27 11:05:52] Running portfolio evaluation cycle...",
+      "[2026-10-27 11:05:56] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $553.19 | PnL: +3.75% ($+0.94) | Peak: $554.13",
+      "[2026-10-27 11:05:56] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $340.77 | PnL: +0.30% ($+0.09) | Peak: $340.77",
+      "[2026-10-27 11:05:56] Available deployable cash ($96.57 of $108.72 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -92,19 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.04995486261355,
-      "btc_price": 80292.39,
+      "btc_change_24h": -0.09252890688187,
+      "btc_price": 80268.12,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.05% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.09% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 10:55:34] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 10:55:34] Macro Regime: NEUTRAL | BTC 24h: +0.08% | Alts Allowed: False",
-      "[2026-10-27 10:55:34] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 10:55:34] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 10:56:36] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 10:56:36] Macro Regime: NEUTRAL | BTC 24h: +0.10% | Alts Allowed: False",
       "[2026-10-27 10:56:36] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +136,11 @@
       "[2026-10-27 11:04:57] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 11:04:58] Macro Regime: NEUTRAL | BTC 24h: -0.05% | Alts Allowed: False",
       "[2026-10-27 11:04:58] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 11:04:58] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-27 11:04:58] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 11:06:00] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 11:06:00] Macro Regime: NEUTRAL | BTC 24h: -0.09% | Alts Allowed: False",
+      "[2026-10-27 11:06:00] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 11:06:00] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -149,10 +149,10 @@
       "symbol": "AMD",
       "shares": 0.046891,
       "entry_price": 533.17,
-      "current_price": 553.04,
-      "value_usd": 25.93,
-      "pnl_pct": 3.73,
-      "pnl_usd": 0.93,
+      "current_price": 553.19,
+      "value_usd": 25.94,
+      "pnl_pct": 3.75,
+      "pnl_usd": 0.94,
       "trailing_info": "Peak: $554.13 | Trailing 3.5%"
     },
     {
@@ -160,11 +160,11 @@
       "symbol": "AVGO",
       "shares": 0.088302,
       "entry_price": 339.7399,
-      "current_price": 340.635,
-      "value_usd": 30.08,
-      "pnl_pct": 0.26,
-      "pnl_usd": 0.08,
-      "trailing_info": "Peak: $340.63 | Trailing 3.5%"
+      "current_price": 340.77,
+      "value_usd": 30.09,
+      "pnl_pct": 0.3,
+      "pnl_usd": 0.09,
+      "trailing_info": "Peak: $340.77 | Trailing 3.5%"
     }
   ],
   "closed_trades": [
@@ -1946,7 +1946,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.29135041,
+    "current_equity": 326.298484625,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3117,5 +3117,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T11:05:12.850921"
+  "snapshot_synced_at": "2026-10-27T11:06:46.643019"
 }
