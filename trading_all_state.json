@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T15:36:56.579759",
+  "timestamp": "2026-10-27T15:38:30.180825",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.93,
+    "total_equity": 326.87,
     "total_cash": 258.28,
     "cash_pct": 79.0,
     "weekly_realized_pnl": -0.29,
@@ -15,18 +15,18 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.368753245,
+    "total_value": 165.31340979,
     "cash": 96.72,
     "positions": {
       "AMD": {
         "symbol": "AMD",
         "shares": 0.023445,
         "entry_price": 533.17,
-        "high_water_mark": 562.18,
+        "high_water_mark": 562.345,
         "tp1_hit": true,
         "entry_time": "2026-10-26T14:22:23.745657",
-        "current_price": 562.18,
-        "pnl_pct": 5.44,
+        "current_price": 562.345,
+        "pnl_pct": 5.47,
         "pnl_usd": 0.68,
         "last_ai_eval_ts": 1793129058.460848
       },
@@ -37,9 +37,9 @@
         "high_water_mark": 343.765,
         "tp1_hit": false,
         "entry_time": "2026-10-27T10:56:03.613275",
-        "current_price": 343.765,
-        "pnl_pct": 1.18,
-        "pnl_usd": 0.36,
+        "current_price": 343.4,
+        "pnl_pct": 1.08,
+        "pnl_usd": 0.32,
         "last_ai_eval_ts": 1793129060.5911758
       },
       "ORCL": {
@@ -49,17 +49,13 @@
         "high_water_mark": 132.1,
         "tp1_hit": false,
         "entry_time": "2026-10-27T13:21:57.420132",
-        "current_price": 131.855,
-        "pnl_pct": 0.55,
-        "pnl_usd": 0.14,
+        "current_price": 131.69,
+        "pnl_pct": 0.43,
+        "pnl_usd": 0.11,
         "last_ai_eval_ts": 1793129262.8088567
       }
     },
     "logs": [
-      "[2026-10-27 15:27:42] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $559.20 | PnL: +4.88% ($+0.61) | Peak: $561.04",
-      "[2026-10-27 15:27:42] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.16 | PnL: +0.71% ($+0.21) | Peak: $343.19",
-      "[2026-10-27 15:27:42] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.39 | PnL: +0.20% ($+0.05) | Peak: $132.10",
-      "[2026-10-27 15:27:44] 🧠 [AI TIGHTEN STOP] Raising stop loss for ORCL from -4.5% to 0.05% | Reason: Price has pulled back 0.54% from its peak of +0.74%, signaling fading momentum; tightening the stop locks in a small gain and protects against a full reversal.",
       "[2026-10-27 15:28:44] Running portfolio evaluation cycle...",
       "[2026-10-27 15:28:45] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $559.17 | PnL: +4.88% ($+0.61) | Peak: $561.04",
       "[2026-10-27 15:28:45] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.17 | PnL: +0.72% ($+0.21) | Peak: $343.19",
@@ -95,7 +91,11 @@
       "[2026-10-27 15:36:50] Running portfolio evaluation cycle...",
       "[2026-10-27 15:36:50] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $562.18 | PnL: +5.44% ($+0.68) | Peak: $562.18",
       "[2026-10-27 15:36:50] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $343.76 | PnL: +1.18% ($+0.36) | Peak: $343.76",
-      "[2026-10-27 15:36:50] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.85 | PnL: +0.55% ($+0.14) | Peak: $132.10"
+      "[2026-10-27 15:36:50] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.85 | PnL: +0.55% ($+0.14) | Peak: $132.10",
+      "[2026-10-27 15:37:50] Running portfolio evaluation cycle...",
+      "[2026-10-27 15:37:51] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $562.35 | PnL: +5.47% ($+0.68) | Peak: $562.35",
+      "[2026-10-27 15:37:51] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $343.40 | PnL: +1.08% ($+0.32) | Peak: $343.76",
+      "[2026-10-27 15:37:51] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.69 | PnL: +0.43% ($+0.11) | Peak: $132.10"
     ]
   },
   "coinbase": {
@@ -104,19 +104,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.86302783784677,
-      "btc_price": 80560.43,
+      "btc_change_24h": 0.81483997655371,
+      "btc_price": 80578.63,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.86% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.81% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 15:27:37] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 15:27:37] Macro Regime: RISK_ON | BTC 24h: +0.79% | Alts Allowed: True",
-      "[2026-10-27 15:27:37] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 15:27:37] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 15:28:38] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 15:28:39] Macro Regime: RISK_ON | BTC 24h: +0.81% | Alts Allowed: True",
       "[2026-10-27 15:28:39] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -152,7 +148,11 @@
       "[2026-10-27 15:36:55] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 15:36:55] Macro Regime: RISK_ON | BTC 24h: +0.85% | Alts Allowed: True",
       "[2026-10-27 15:36:55] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 15:36:55] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 15:36:55] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 15:37:57] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 15:37:57] Macro Regime: RISK_ON | BTC 24h: +0.81% | Alts Allowed: True",
+      "[2026-10-27 15:37:57] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 15:37:57] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -161,21 +161,21 @@
       "symbol": "AMD",
       "shares": 0.023445,
       "entry_price": 533.17,
-      "current_price": 562.18,
+      "current_price": 562.345,
       "value_usd": 13.18,
-      "pnl_pct": 5.44,
+      "pnl_pct": 5.47,
       "pnl_usd": 0.68,
-      "trailing_info": "Peak: $562.18 | Trailing 3.5%"
+      "trailing_info": "Peak: $562.35 | Trailing 3.5%"
     },
     {
       "account": "Robinhood",
       "symbol": "AVGO",
       "shares": 0.088302,
       "entry_price": 339.7399,
-      "current_price": 343.765,
-      "value_usd": 30.36,
-      "pnl_pct": 1.18,
-      "pnl_usd": 0.36,
+      "current_price": 343.4,
+      "value_usd": 30.32,
+      "pnl_pct": 1.08,
+      "pnl_usd": 0.32,
       "trailing_info": "Peak: $343.76 | Trailing 3.5%"
     },
     {
@@ -183,10 +183,10 @@
       "symbol": "ORCL",
       "shares": 0.19049,
       "entry_price": 131.13,
-      "current_price": 131.855,
-      "value_usd": 25.12,
-      "pnl_pct": 0.55,
-      "pnl_usd": 0.14,
+      "current_price": 131.69,
+      "value_usd": 25.09,
+      "pnl_pct": 0.43,
+      "pnl_usd": 0.11,
       "trailing_info": "Peak: $132.10 | Trailing 3.5%"
     }
   ],
@@ -1966,7 +1966,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.928753245,
+    "current_equity": 326.87340979,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3137,5 +3137,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T15:36:56.246271"
+  "snapshot_synced_at": "2026-10-27T15:38:29.856996"
 }
