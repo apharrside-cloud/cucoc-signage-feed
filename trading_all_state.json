@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T19:04:44.143793",
+  "timestamp": "2026-10-27T19:06:17.703905",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.6,
@@ -101,11 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 18:56:54] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:56:54] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
-      "[2026-10-27 18:56:54] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:56:54] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:56:58] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET exhibits strong relative volume and breakout metrics, but recent exploit and security headlines present severe binary risk.",
       "[2026-10-27 18:57:58] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 18:57:58] Macro Regime: RISK_ON | BTC 24h: +1.21% | Alts Allowed: True",
       "[2026-10-27 18:57:58] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +135,12 @@
       "[2026-10-27 19:04:24] Macro Regime: RISK_ON | BTC 24h: +1.46% | Alts Allowed: True",
       "[2026-10-27 19:04:24] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 19:04:24] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 19:04:27] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 60%) | Thesis: SUI shows bullish hourly structure and a risk-on macro regime, but fails critical volume rules."
+      "[2026-10-27 19:04:27] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 60%) | Thesis: SUI shows bullish hourly structure and a risk-on macro regime, but fails critical volume rules.",
+      "[2026-10-27 19:05:27] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 19:05:28] Macro Regime: RISK_ON | BTC 24h: +1.52% | Alts Allowed: True",
+      "[2026-10-27 19:05:28] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 19:05:28] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 19:05:32] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 40%) | Thesis: SUI shows bullish hourly structure and BTC is in a risk-on regime, but the trade is rejected due to violating core evolved strategy rules."
     ]
   },
   "positions": [
@@ -1340,21 +1340,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
-      "current_price": 0.17955,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET shows bullish hourly trend and risk-on regime alignment, but fails multiple mandatory quantitative rules.",
-      "risk_factors": "RVOL is only 1.15x (below the mandatory 1.5x minimum threshold) and critical exploit news headlines directly target Fetch.ai.",
-      "timestamp": "2026-10-27T13:41:17.956132"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
       "current_price": 0.17949,
       "approved": false,
       "action": "REJECT",
@@ -1921,6 +1906,20 @@
       "new_stop_pct": 3.5,
       "reasoning": "Securing profits as price pulls back slightly from the +5.72% peak after 25+ hours of holding while maintaining a trailing structure.",
       "timestamp": "2026-10-27T16:11:05.494551"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AMD",
+      "entry_price": 533.17,
+      "current_price": 560.45,
+      "pnl_pct": 5.12,
+      "hours_held": 26.1,
+      "action": "TIGHTEN_STOP",
+      "confidence": 92,
+      "new_stop_pct": 3.5,
+      "reasoning": "Securing +5.12% open profit with a tightened stop following a mild 0.57% pullback from peak excursion to protect gains against fading upside momentum.",
+      "timestamp": "2026-10-27T16:26:20.242473"
     }
   ],
   "performance": {
@@ -3103,5 +3102,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T19:04:43.801193"
+  "snapshot_synced_at": "2026-10-27T19:06:17.407821"
 }
