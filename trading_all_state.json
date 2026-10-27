@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T00:08:53.344048",
+  "timestamp": "2026-10-27T00:10:27.113614",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.38,
@@ -89,14 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 00:03:05] Macro Regime: NEUTRAL | BTC 24h: +0.09% | Alts Allowed: False",
-      "[2026-10-27 00:03:05] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 00:03:05] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 00:04:07] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 00:04:07] Macro Regime: NEUTRAL | BTC 24h: +0.07% | Alts Allowed: False",
-      "[2026-10-27 00:04:07] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 00:04:07] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 00:04:08] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=27.2 (chg -0.44%)!",
       "[2026-10-27 00:04:11] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX exhibits severely depressed relative volume (0.05 rvol), an hourly bearish trend, and macro regime restrictions that forbid standard altcoin long entries.",
       "[2026-10-27 00:05:11] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 00:05:11] Macro Regime: NEUTRAL | BTC 24h: +0.02% | Alts Allowed: False",
@@ -128,7 +120,15 @@
       "[2026-10-27 00:08:25] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.8 (chg -0.25%)!",
       "[2026-10-27 00:08:25] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=27.2 (chg -0.23%)!",
       "[2026-10-27 00:08:26] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.5 (chg +0.08%)!",
-      "[2026-10-27 00:08:29] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a bearish hourly trend with an extremely low relative volume of 0.04x, failing all mandatory volume expansion and trend alignment rules."
+      "[2026-10-27 00:08:29] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a bearish hourly trend with an extremely low relative volume of 0.04x, failing all mandatory volume expansion and trend alignment rules.",
+      "[2026-10-27 00:09:29] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 00:09:29] Macro Regime: NEUTRAL | BTC 24h: +0.03% | Alts Allowed: False",
+      "[2026-10-27 00:09:29] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 00:09:29] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 00:09:30] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.8 (chg -0.33%)!",
+      "[2026-10-27 00:09:30] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=27.6 (chg -0.43%)!",
+      "[2026-10-27 00:09:30] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.6 (chg +0.03%)!",
+      "[2026-10-27 00:09:33] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: The setup fails all quantitative volume rules with an RVOL of 0.04 against a required 1.5x minimum, coupled with a bearish hourly trend and dead momentum."
     ]
   },
   "positions": [
@@ -1315,21 +1315,6 @@
   "ai_decisions": [
     {
       "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "NEAR",
-      "current_price": 4.6081,
-      "approved": true,
-      "action": "BUY",
-      "confidence": 80,
-      "position_usd": 20.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "NEAR demonstrates strong decoupled relative strength against a flat Bitcoin, backed by confirmed 1.65x RVOL and bullish hourly trend alignment during a choppy macro regime.",
-      "risk_factors": "Broader crypto market chop or sudden BTC downside continuation could drag altcoins lower despite current relative strength.",
-      "timestamp": "2026-10-26T11:35:24.452170"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
       "symbol": "QQQ",
       "current_price": 715.05,
@@ -1899,6 +1884,21 @@
       "primary_thesis": "TQQQ shows a strong +3.8% intraday move, but conflicting intraday VWAP positioning and articles highlighting compounding decay and financing headwinds create an unquantifiable structural risk.",
       "risk_factors": "Price is trading disconnected from intraday VWAP indicators with articles warning of leveraged product financing drag and decay risks during volatility.",
       "timestamp": "2026-10-26T14:26:13.029016"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "NVDA",
+      "current_price": 216.24,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "NVDA is exhibiting strong fundamental catalyst headlines and a +2.5% intraday gain.",
+      "risk_factors": "Current price of $216.24 trades significantly below the intraday VWAP of $260.00, indicating severe multi-timeframe divergence and trapping risk.",
+      "timestamp": "2026-10-26T14:27:17.057638"
     }
   ],
   "performance": {
@@ -3081,5 +3081,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T00:08:53.020734"
+  "snapshot_synced_at": "2026-10-27T00:10:26.778564"
 }
