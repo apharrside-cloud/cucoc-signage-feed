@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T00:29:09.665349",
+  "timestamp": "2026-10-27T00:30:43.132509",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.37,
@@ -89,14 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 00:24:32] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 00:24:32] Macro Regime: NEUTRAL | BTC 24h: -0.11% | Alts Allowed: False",
-      "[2026-10-27 00:24:32] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 00:24:32] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 00:24:34] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.8 (chg -0.45%)!",
-      "[2026-10-27 00:24:34] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.6 (chg -0.76%)!",
-      "[2026-10-27 00:24:34] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.8 (chg -0.12%)!",
-      "[2026-10-27 00:24:37] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 30%) | Thesis: SOL is attempting a mean-reversion play near oversold RSI levels, but fails all evolved strategy volume and trend filters.",
       "[2026-10-27 00:25:37] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 00:25:37] Macro Regime: NEUTRAL | BTC 24h: -0.18% | Alts Allowed: False",
       "[2026-10-27 00:25:37] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +120,15 @@
       "[2026-10-27 00:28:52] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.3 (chg -0.52%)!",
       "[2026-10-27 00:28:52] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.3 (chg -0.79%)!",
       "[2026-10-27 00:28:52] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.8 (chg -0.19%)!",
-      "[2026-10-27 00:28:55] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL shows extremely low relative volume (0.1 rvol) and a bearish hourly trend, completely violating our strict volume expansion and trend alignment rules."
+      "[2026-10-27 00:28:55] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL shows extremely low relative volume (0.1 rvol) and a bearish hourly trend, completely violating our strict volume expansion and trend alignment rules.",
+      "[2026-10-27 00:29:55] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 00:29:55] Macro Regime: NEUTRAL | BTC 24h: -0.25% | Alts Allowed: False",
+      "[2026-10-27 00:29:55] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 00:29:55] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 00:29:56] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.3 (chg -0.60%)!",
+      "[2026-10-27 00:29:57] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.3 (chg -0.79%)!",
+      "[2026-10-27 00:29:57] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=32.7 (chg -0.25%)!",
+      "[2026-10-27 00:30:00] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 0%) | Thesis: Setup fails mandatory volume filters with an anemic 1.5h relative volume of 0.1 against a bearish hourly trend."
     ]
   },
   "positions": [
@@ -1316,21 +1316,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "ARM",
-      "current_price": 220.85,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -2.5,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "ARM is showing intraday strength above VWAP, but conflicting news headlines regarding tokenization objections and recent 8% weekly drawdown create valuation uncertainty.",
-      "risk_factors": "Overhead valuation resistance, regulatory objections, and lack of explicit volume confirmation metrics increase the risk of a false breakout.",
-      "timestamp": "2026-10-26T12:55:18.871016"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "MU",
       "current_price": 905.55,
       "approved": true,
@@ -1906,6 +1891,21 @@
       "primary_thesis": "TSLA is showing strong momentum with a +5.9% daily gain trading above intraday VWAP, backed by positive catalyst headlines regarding Optimus and Magnificent 7 dominance.",
       "risk_factors": "The deployable cash available of $95.76 provides extremely limited capital depth, and chasing a near-6% extension without order-book volume metrics or structural pullback confirmation violates strict breakout discipline.",
       "timestamp": "2026-10-26T15:43:10.026093"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "ARM",
+      "current_price": 224.43,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.5,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "ARM is showing intraday momentum above VWAP with a +6.7% gain, butdeployable cash of $95.76 provides limited buffer against high volatility in semiconductor names.",
+      "risk_factors": "Mixed catalyst headlines involving tokenization objections and recent 8% weekly drawdown suggest choppy consolidation rather than clean institutional breakout.",
+      "timestamp": "2026-10-26T15:48:35.720797"
     }
   ],
   "performance": {
@@ -3088,5 +3088,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T00:29:09.359982"
+  "snapshot_synced_at": "2026-10-27T00:30:42.820723"
 }
