@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T14:34:26.616929",
+  "timestamp": "2026-10-27T14:36:00.445833",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.71,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.14975558,
+    "total_value": 165.14880627,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -25,8 +25,8 @@
         "high_water_mark": 561.04,
         "tp1_hit": true,
         "entry_time": "2026-10-26T14:22:23.745657",
-        "current_price": 559.9,
-        "pnl_pct": 5.01,
+        "current_price": 560.065,
+        "pnl_pct": 5.04,
         "pnl_usd": 0.63,
         "last_ai_eval_ts": 1793125259.064863
       },
@@ -37,8 +37,8 @@
         "high_water_mark": 343.195,
         "tp1_hit": false,
         "entry_time": "2026-10-27T10:56:03.613275",
-        "current_price": 342.29,
-        "pnl_pct": 0.75,
+        "current_price": 342.39,
+        "pnl_pct": 0.78,
         "pnl_usd": 0.23,
         "last_ai_eval_ts": 1793125328.0188644
       },
@@ -49,18 +49,13 @@
         "high_water_mark": 131.78,
         "tp1_hit": false,
         "entry_time": "2026-10-27T13:21:57.420132",
-        "current_price": 131.65,
-        "pnl_pct": 0.4,
-        "pnl_usd": 0.1,
+        "current_price": 131.69,
+        "pnl_pct": 0.43,
+        "pnl_usd": 0.11,
         "last_ai_eval_ts": 1793125518.5890033
       }
     },
     "logs": [
-      "[2026-10-27 14:24:17] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.78 | PnL: +0.90% ($+0.27) | Peak: $343.19",
-      "[2026-10-27 14:24:17] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.78 | PnL: +0.50% ($+0.12) | Peak: $131.78",
-      "[2026-10-27 14:25:17] Running portfolio evaluation cycle...",
-      "[2026-10-27 14:25:18] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.00 | PnL: +5.03% ($+0.63) | Peak: $561.04",
-      "[2026-10-27 14:25:18] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.76 | PnL: +0.89% ($+0.27) | Peak: $343.19",
       "[2026-10-27 14:25:18] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.73 | PnL: +0.46% ($+0.11) | Peak: $131.78",
       "[2026-10-27 14:25:20] 🧠 [AI TIGHTEN STOP] Raising stop loss for ORCL from -4.5% to 0.25% | Reason: Position has reached +0.46% PnL nearing the 0.5% partial scale-out threshold; tightening the stop protects capital against potential resistance at peak levels.",
       "[2026-10-27 14:26:20] Running portfolio evaluation cycle...",
@@ -95,7 +90,12 @@
       "[2026-10-27 14:33:26] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $559.90 | PnL: +5.01% ($+0.63) | Peak: $561.04",
       "[2026-10-27 14:33:26] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.29 | PnL: +0.75% ($+0.23) | Peak: $343.19",
       "[2026-10-27 14:33:26] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.65 | PnL: +0.40% ($+0.10) | Peak: $131.78",
-      "[2026-10-27 14:34:26] Running portfolio evaluation cycle..."
+      "[2026-10-27 14:34:26] Running portfolio evaluation cycle...",
+      "[2026-10-27 14:34:26] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.07 | PnL: +5.04% ($+0.63) | Peak: $561.04",
+      "[2026-10-27 14:34:26] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.39 | PnL: +0.78% ($+0.23) | Peak: $343.19",
+      "[2026-10-27 14:34:26] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.69 | PnL: +0.43% ($+0.11) | Peak: $131.78",
+      "[2026-10-27 14:35:26] Running portfolio evaluation cycle...",
+      "[2026-10-27 14:35:42] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
     ]
   },
   "coinbase": {
@@ -104,23 +104,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.38752977591147,
-      "btc_price": 80459.28,
+      "btc_change_24h": 0.396066994255,
+      "btc_price": 80493.38,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral +0.39% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral +0.40% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 14:24:26] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 14:24:26] Macro Regime: RISK_ON | BTC 24h: +0.52% | Alts Allowed: True",
-      "[2026-10-27 14:24:26] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 14:24:26] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 14:25:28] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 14:25:28] Macro Regime: RISK_ON | BTC 24h: +0.52% | Alts Allowed: True",
-      "[2026-10-27 14:25:28] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 14:25:28] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 14:26:30] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 14:26:30] Macro Regime: RISK_ON | BTC 24h: +0.61% | Alts Allowed: True",
       "[2026-10-27 14:26:30] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -152,7 +144,15 @@
       "[2026-10-27 14:33:46] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 14:33:46] Macro Regime: NEUTRAL | BTC 24h: +0.39% | Alts Allowed: False",
       "[2026-10-27 14:33:46] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 14:33:46] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-27 14:33:46] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 14:34:49] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 14:34:49] Macro Regime: NEUTRAL | BTC 24h: +0.38% | Alts Allowed: False",
+      "[2026-10-27 14:34:49] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 14:34:49] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 14:35:51] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 14:35:52] Macro Regime: NEUTRAL | BTC 24h: +0.40% | Alts Allowed: False",
+      "[2026-10-27 14:35:52] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 14:35:52] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -161,9 +161,9 @@
       "symbol": "AMD",
       "shares": 0.023445,
       "entry_price": 533.17,
-      "current_price": 559.9,
+      "current_price": 560.065,
       "value_usd": 13.13,
-      "pnl_pct": 5.01,
+      "pnl_pct": 5.04,
       "pnl_usd": 0.63,
       "trailing_info": "Peak: $561.04 | Trailing 3.5%"
     },
@@ -172,9 +172,9 @@
       "symbol": "AVGO",
       "shares": 0.088302,
       "entry_price": 339.7399,
-      "current_price": 342.29,
-      "value_usd": 30.22,
-      "pnl_pct": 0.75,
+      "current_price": 342.39,
+      "value_usd": 30.23,
+      "pnl_pct": 0.78,
       "pnl_usd": 0.23,
       "trailing_info": "Peak: $343.19 | Trailing 3.5%"
     },
@@ -183,10 +183,10 @@
       "symbol": "ORCL",
       "shares": 0.19049,
       "entry_price": 131.13,
-      "current_price": 131.65,
-      "value_usd": 25.08,
-      "pnl_pct": 0.4,
-      "pnl_usd": 0.1,
+      "current_price": 131.69,
+      "value_usd": 25.09,
+      "pnl_pct": 0.43,
+      "pnl_usd": 0.11,
       "trailing_info": "Peak: $131.78 | Trailing 3.5%"
     }
   ],
@@ -1965,7 +1965,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.70975558,
+    "current_equity": 326.70880626999997,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3136,5 +3136,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T14:34:26.257505"
+  "snapshot_synced_at": "2026-10-27T14:36:00.086299"
 }
