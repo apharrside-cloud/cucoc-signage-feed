@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-27T09:48:35.031592",
+  "timestamp": "2026-10-27T09:50:08.519604",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.23,
+    "total_equity": 326.08,
     "total_cash": 300.28,
-    "cash_pct": 92.0,
+    "cash_pct": 92.1,
     "weekly_realized_pnl": -0.29,
     "win_rate": 58.26086956521739,
     "winning_trades": 67,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 164.66760376,
+    "total_value": 164.5248253541,
     "cash": 138.72,
     "positions": {
       "AMD": {
@@ -25,19 +25,13 @@
         "high_water_mark": 554.13,
         "tp1_hit": false,
         "entry_time": "2026-10-26T14:22:23.745657",
-        "current_price": 553.57,
-        "pnl_pct": 3.83,
-        "pnl_usd": 0.96,
+        "current_price": 550.3151,
+        "pnl_pct": 3.22,
+        "pnl_usd": 0.8,
         "last_ai_eval_ts": 1793108223.595037
       }
     },
     "logs": [
-      "[2026-10-27 09:37:05] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-27 09:37:21] 🧠 [AI GATE] Buy of HOOD VETOED by AI Brain (Confidence: 60%) | Thesis: Robinhood is showing positive sector momentum alongside fintech earnings tailwinds, but lacks clear intraday volume metrics and pristine technical confirmation.",
-      "[2026-10-27 09:37:21] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
-      "[2026-10-27 09:38:21] Running portfolio evaluation cycle...",
-      "[2026-10-27 09:38:22] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $549.86 | PnL: +3.13% ($+0.78) | Peak: $549.86",
-      "[2026-10-27 09:38:22] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-27 09:38:25] 🧠 [AI GATE] Buy of TSLA VETOED by AI Brain (Confidence: 45%) | Thesis: Although TSLA is showing a positive daily change of +2.15%, the price is trading significantly below its intraday VWAP ($548.64 vs $400.03), signaling deep macro-structural weakness and lack of intraday bullish accumulation.",
       "[2026-10-27 09:38:25] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
       "[2026-10-27 09:39:25] Running portfolio evaluation cycle...",
@@ -71,7 +65,13 @@
       "[2026-10-27 09:46:24] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-27 09:47:24] Running portfolio evaluation cycle...",
       "[2026-10-27 09:47:39] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
-      "[2026-10-27 09:47:39] Failed to fetch portfolio data."
+      "[2026-10-27 09:47:39] Failed to fetch portfolio data.",
+      "[2026-10-27 09:48:39] Running portfolio evaluation cycle...",
+      "[2026-10-27 09:48:43] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $551.30 | PnL: +3.40% ($+0.85) | Peak: $554.13",
+      "[2026-10-27 09:48:43] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-27 09:49:43] Running portfolio evaluation cycle...",
+      "[2026-10-27 09:49:44] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $550.32 | PnL: +3.22% ($+0.80) | Peak: $554.13",
+      "[2026-10-27 09:49:44] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -80,19 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.70290910399537,
-      "btc_price": 80031.2,
+      "btc_change_24h": 0.52078793634797,
+      "btc_price": 80036.32,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.70% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.52% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 09:38:21] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=33.2 (chg -1.67%)!",
-      "[2026-10-27 09:38:42] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX is currently in a bearish 1-hour trend with weak volume (rvol 0.63) failing to meet the mandatory rule requiring RVOL >= 1.5x for crypto entries.",
-      "[2026-10-27 09:39:42] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 09:39:42] Macro Regime: NEUTRAL | BTC 24h: +0.22% | Alts Allowed: False",
       "[2026-10-27 09:39:42] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 09:39:42] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 09:39:44] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.0 (chg -1.37%)!",
@@ -128,7 +124,11 @@
       "[2026-10-27 09:48:10] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 09:48:10] Macro Regime: RISK_ON | BTC 24h: +0.70% | Alts Allowed: True",
       "[2026-10-27 09:48:10] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 09:48:10] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 09:48:10] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 09:49:11] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 09:49:12] Macro Regime: RISK_ON | BTC 24h: +0.52% | Alts Allowed: True",
+      "[2026-10-27 09:49:12] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 09:49:12] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -137,10 +137,10 @@
       "symbol": "AMD",
       "shares": 0.046891,
       "entry_price": 533.17,
-      "current_price": 553.57,
-      "value_usd": 25.96,
-      "pnl_pct": 3.83,
-      "pnl_usd": 0.96,
+      "current_price": 550.3151,
+      "value_usd": 25.8,
+      "pnl_pct": 3.22,
+      "pnl_usd": 0.8,
       "trailing_info": "Peak: $554.13 | Trailing 3.5%"
     }
   ],
@@ -1923,7 +1923,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.22760375999997,
+    "current_equity": 326.08482535409996,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3094,5 +3094,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T09:48:34.695564"
+  "snapshot_synced_at": "2026-10-27T09:50:08.171387"
 }
