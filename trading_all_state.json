@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T12:46:16.389892",
+  "timestamp": "2026-10-27T12:47:50.088253",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.66,
+    "total_equity": 326.68,
     "total_cash": 253.4,
     "cash_pct": 77.6,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.099491027,
+    "total_value": 165.11507951,
     "cash": 91.84,
     "positions": {
       "AMD": {
@@ -56,8 +56,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 12:36:33] Running portfolio evaluation cycle...",
-      "[2026-10-27 12:36:34] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $559.33 | PnL: +4.91% ($+0.61) | Peak: $561.04",
       "[2026-10-27 12:36:34] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.68 | PnL: +0.87% ($+0.26) | Peak: $342.92",
       "[2026-10-27 12:36:34] [ORCL] Shares: 0.227981 | Entry: $131.43 | Current: $131.90 | PnL: +0.36% ($+0.11) | Peak: $132.24",
       "[2026-10-27 12:37:34] Running portfolio evaluation cycle...",
@@ -95,7 +93,9 @@
       "[2026-10-27 12:45:39] Running portfolio evaluation cycle...",
       "[2026-10-27 12:45:40] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $558.64 | PnL: +4.78% ($+0.60) | Peak: $561.04",
       "[2026-10-27 12:45:40] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.62 | PnL: +0.85% ($+0.25) | Peak: $343.10",
-      "[2026-10-27 12:45:40] [ORCL] Shares: 0.227981 | Entry: $131.43 | Current: $131.19 | PnL: -0.18% ($-0.05) | Peak: $132.24"
+      "[2026-10-27 12:45:40] [ORCL] Shares: 0.227981 | Entry: $131.43 | Current: $131.19 | PnL: -0.18% ($-0.05) | Peak: $132.24",
+      "[2026-10-27 12:46:40] Running portfolio evaluation cycle...",
+      "[2026-10-27 12:46:56] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
     ]
   },
   "coinbase": {
@@ -113,11 +113,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 12:37:03] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 12:37:04] Macro Regime: RISK_ON | BTC 24h: +1.07% | Alts Allowed: True",
-      "[2026-10-27 12:37:04] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 12:37:04] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 12:37:13] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows positive momentum and acceptable relative volume, but critical exploit headlines regarding Fetch.ai create unacceptable binary event risk.",
       "[2026-10-27 12:38:13] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 12:38:13] Macro Regime: RISK_ON | BTC 24h: +0.99% | Alts Allowed: True",
       "[2026-10-27 12:38:13] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -152,7 +147,12 @@
       "[2026-10-27 12:45:18] Macro Regime: RISK_ON | BTC 24h: +0.84% | Alts Allowed: True",
       "[2026-10-27 12:45:18] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 12:45:18] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 12:45:29] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET is rejected due to severe negative breaking news involving a $2 million exploit and an all-time low for related token NTX by the same attacker."
+      "[2026-10-27 12:45:29] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET is rejected due to severe negative breaking news involving a $2 million exploit and an all-time low for related token NTX by the same attacker.",
+      "[2026-10-27 12:46:29] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 12:46:29] Macro Regime: RISK_ON | BTC 24h: +0.79% | Alts Allowed: True",
+      "[2026-10-27 12:46:29] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 12:46:29] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 12:47:03] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET is disqualified due to severe negative news headlines regarding an active exploit and attacker targeting Fetch.ai infrastructure resulting in a $2 million loss."
     ]
   },
   "positions": [
@@ -1363,21 +1363,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.768,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 30,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "AVAX fails critical volume filters with a dismal relative volume of 0.06 and macro regime blocking altcoins under neutral conditions.",
-      "risk_factors": "Extremely weak participation (RVOL 0.06) during a mean-reversion setup risks severe slippage and continued downside drift.",
-      "timestamp": "2026-10-27T09:10:55.654656"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.778,
       "approved": false,
       "action": "REJECT",
@@ -1957,6 +1942,21 @@
       "primary_thesis": "AVAX is currently in a bearish 1-hour trend with weak relative volume (1.14x vs 1.5x minimum requirement) failing to meet mean reversion or breakout criteria.",
       "risk_factors": "Hourly trend is bearish with declining momentum and broader market macro restrictions disallowing standard altcoin long entries without extreme relative strength.",
       "timestamp": "2026-10-27T10:01:15.755685"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 8.7297,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 35,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "AVAX is currently in a bearish 1-hour trend with weak relative volume (1.14x) and a neutral macro regime that explicitly disallows altcoin momentum longs without decoupled relative strength.",
+      "risk_factors": "Fails multiple mandatory strategy rules including insufficient relative volume (<1.5x requirement) and counter-trend positioning in a bearish hourly structure.",
+      "timestamp": "2026-10-27T10:02:52.834162"
     }
   ],
   "performance": {
@@ -1968,7 +1968,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.659491027,
+    "current_equity": 326.67507951,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3139,5 +3139,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T12:46:16.070030"
+  "snapshot_synced_at": "2026-10-27T12:47:49.776462"
 }
