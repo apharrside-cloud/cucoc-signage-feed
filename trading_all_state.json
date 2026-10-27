@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T17:43:32.173890",
+  "timestamp": "2026-10-27T17:45:05.887788",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.59,
@@ -101,11 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 17:33:27] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 17:34:29] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 17:34:29] Macro Regime: RISK_ON | BTC 24h: +1.46% | Alts Allowed: True",
-      "[2026-10-27 17:34:29] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 17:34:29] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 17:35:31] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 17:35:31] Macro Regime: RISK_ON | BTC 24h: +1.45% | Alts Allowed: True",
       "[2026-10-27 17:35:31] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +135,12 @@
       "[2026-10-27 17:42:54] Macro Regime: RISK_ON | BTC 24h: +1.27% | Alts Allowed: True",
       "[2026-10-27 17:42:54] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 17:42:54] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 17:43:03] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI is attempting a breakout near overhead resistance, but technical filters explicitly prohibit entry due to weak relative volume (RVOL 0.8 vs. required >= 1.5x)."
+      "[2026-10-27 17:43:03] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI is attempting a breakout near overhead resistance, but technical filters explicitly prohibit entry due to weak relative volume (RVOL 0.8 vs. required >= 1.5x).",
+      "[2026-10-27 17:44:03] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 17:44:03] Macro Regime: RISK_ON | BTC 24h: +1.19% | Alts Allowed: True",
+      "[2026-10-27 17:44:03] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 17:44:03] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 17:44:07] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 40%) | Thesis: SUI shows bullish hourly trend and positive macro backdrop, but fails strict crypto strategy rules requiring RVOL >= 1.5x (current RVOL is 0.8)."
     ]
   },
   "positions": [
@@ -1337,21 +1337,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "ORCL",
-      "current_price": 131.425,
-      "approved": true,
-      "action": "BUY",
-      "confidence": 78,
-      "position_usd": 30.0,
-      "stop_loss_pct": -2.0,
-      "take_profit_pct": 5.5,
-      "primary_thesis": "ORCL is breaking out on strong cloud infrastructure and AI expansion catalysts, trading cleanly above intraday VWAP with robust institutional narrative alignment.",
-      "risk_factors": "Broad market equity volatility or profit-taking near recent intraday highs could cause a sudden retest of VWAP support.",
-      "timestamp": "2026-10-27T12:15:29.650867"
-    },
-    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Equities",
       "symbol": "AVGO",
@@ -1932,6 +1917,21 @@
       "primary_thesis": "Although Amazon has massive data center spending tailwinds, the current price is trading significantly below its intraday VWAP, indicating weak immediate momentum.",
       "risk_factors": "Price is trading below VWAP despite a positive change percentage, signaling potential fading momentum and vulnerability to intraday distribution.",
       "timestamp": "2026-10-27T12:59:21.691964"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.18,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "Severe exploit headlines involving Fetch.ai ($2M hack/exploit) introduce extreme binary downside risk that invalidates technical breakout setups.",
+      "risk_factors": "Active attacker exploitation and historic token lows for related assets create catastrophic tail risk despite positive RVOL and macro risk-on conditions.",
+      "timestamp": "2026-10-27T13:00:19.078221"
     }
   ],
   "performance": {
@@ -3114,5 +3114,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T17:43:31.848979"
+  "snapshot_synced_at": "2026-10-27T17:45:05.575079"
 }
