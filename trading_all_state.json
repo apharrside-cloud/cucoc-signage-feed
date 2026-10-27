@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T19:12:32.410981",
+  "timestamp": "2026-10-27T19:14:05.967286",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.52,
+    "total_equity": 326.53,
     "total_cash": 258.28,
     "cash_pct": 79.1,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 164.95554725,
+    "total_value": 164.971078359,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -28,7 +28,7 @@
         "current_price": 560.45,
         "pnl_pct": 5.12,
         "pnl_usd": 0.64,
-        "last_ai_eval_ts": 1793141891.4357479
+        "last_ai_eval_ts": 1793142797.713411
       },
       "AVGO": {
         "symbol": "AVGO",
@@ -40,13 +40,10 @@
         "current_price": 342.46,
         "pnl_pct": 0.8,
         "pnl_usd": 0.24,
-        "last_ai_eval_ts": 1793141893.425026
+        "last_ai_eval_ts": 1793142799.1183364
       }
     },
     "logs": [
-      "[2026-10-27 18:12:34] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-27 18:12:36] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Locking in profits with a tightened stop following a slight pullback from peak price (+5.72%) while maintaining a healthy +5.12% unrealized gain.",
-      "[2026-10-27 18:12:36] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
       "[2026-10-27 18:12:39] 🧠 [AI TIGHTEN STOP] Raising stop loss for AVGO from -4.5% to 0.5% | Reason: Price has pulled back 0.55% from peak profit of +1.36%, triggering our proactive risk management rule to lock in gains above 0.5% as momentum cools.",
       "[2026-10-27 18:17:39] Running portfolio evaluation cycle...",
       "[2026-10-27 18:17:39] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
@@ -83,7 +80,10 @@
       "[2026-10-27 19:03:16] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
       "[2026-10-27 19:08:16] Running portfolio evaluation cycle...",
       "[2026-10-27 19:08:16] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-27 19:08:16] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
+      "[2026-10-27 19:08:16] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
+      "[2026-10-27 19:13:16] Running portfolio evaluation cycle...",
+      "[2026-10-27 19:13:17] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-27 19:13:19] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
     ]
   },
   "coinbase": {
@@ -92,23 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.30705414483582,
-      "btc_price": 80788.06,
+      "btc_change_24h": 1.34706685397387,
+      "btc_price": 80814.82,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.31% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.35% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 19:02:19] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 55%) | Thesis: SUI shows bullish hourly trend confluence in a risk-on macro regime, but fails critical volume rules.",
-      "[2026-10-27 19:03:19] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 19:03:19] Macro Regime: RISK_ON | BTC 24h: +1.32% | Alts Allowed: True",
-      "[2026-10-27 19:03:19] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 19:03:19] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 19:03:23] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 60%) | Thesis: SUI shows bullish 1-hour trend alignment and positive macro risk-on conditions, but current relative volume (rvol 1.18) falls short of the strict evolved strategy rule requiring >= 1.5x relative volume for crypto breakout entries.",
-      "[2026-10-27 19:04:23] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 19:04:24] Macro Regime: RISK_ON | BTC 24h: +1.46% | Alts Allowed: True",
       "[2026-10-27 19:04:24] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 19:04:24] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 19:04:27] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 60%) | Thesis: SUI shows bullish hourly structure and a risk-on macro regime, but fails critical volume rules.",
@@ -140,7 +132,15 @@
       "[2026-10-27 19:11:44] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 19:11:44] Macro Regime: RISK_ON | BTC 24h: +1.31% | Alts Allowed: True",
       "[2026-10-27 19:11:44] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 19:11:44] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 19:11:44] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 19:12:46] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 19:12:46] Macro Regime: RISK_ON | BTC 24h: +1.37% | Alts Allowed: True",
+      "[2026-10-27 19:12:46] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 19:12:46] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 19:13:48] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 19:13:49] Macro Regime: RISK_ON | BTC 24h: +1.35% | Alts Allowed: True",
+      "[2026-10-27 19:13:49] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 19:13:49] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1931,7 +1931,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.51554725,
+    "current_equity": 326.531078359,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3102,5 +3102,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T19:12:32.077808"
+  "snapshot_synced_at": "2026-10-27T19:14:05.649075"
 }
