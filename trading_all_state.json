@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T17:26:21.574180",
+  "timestamp": "2026-10-27T17:27:55.135600",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.44,
+    "total_equity": 326.5,
     "total_cash": 258.28,
     "cash_pct": 79.1,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 164.88275896,
+    "total_value": 164.9407694088,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -28,7 +28,7 @@
         "current_price": 560.45,
         "pnl_pct": 5.12,
         "pnl_usd": 0.64,
-        "last_ai_eval_ts": 1793135502.9568434
+        "last_ai_eval_ts": 1793136427.11992
       },
       "AVGO": {
         "symbol": "AVGO",
@@ -40,13 +40,10 @@
         "current_price": 342.46,
         "pnl_pct": 0.8,
         "pnl_usd": 0.24,
-        "last_ai_eval_ts": 1793135504.8584385
+        "last_ai_eval_ts": 1793136429.1523147
       }
     },
     "logs": [
-      "[2026-10-27 16:26:19] Running portfolio evaluation cycle...",
-      "[2026-10-27 16:26:20] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-27 16:26:23] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Securing +5.12% open profit with a tightened stop following a mild 0.57% pullback from peak excursion to protect gains against fading upside momentum.",
       "[2026-10-27 16:26:23] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
       "[2026-10-27 16:31:25] Running portfolio evaluation cycle...",
       "[2026-10-27 16:31:26] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
@@ -83,7 +80,10 @@
       "[2026-10-27 17:16:47] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
       "[2026-10-27 17:21:47] Running portfolio evaluation cycle...",
       "[2026-10-27 17:22:02] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
-      "[2026-10-27 17:22:02] Failed to fetch portfolio data."
+      "[2026-10-27 17:22:02] Failed to fetch portfolio data.",
+      "[2026-10-27 17:27:02] Running portfolio evaluation cycle...",
+      "[2026-10-27 17:27:07] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-27 17:27:09] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
     ]
   },
   "coinbase": {
@@ -92,19 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.80103878224684,
-      "btc_price": 80541.29,
+      "btc_change_24h": 0.85427950125937,
+      "btc_price": 80583.83,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.80% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.85% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 17:16:55] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 17:16:55] Macro Regime: RISK_ON | BTC 24h: +1.05% | Alts Allowed: True",
-      "[2026-10-27 17:16:55] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 17:16:55] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 17:17:57] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 17:17:57] Macro Regime: RISK_ON | BTC 24h: +1.04% | Alts Allowed: True",
       "[2026-10-27 17:17:57] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +136,11 @@
       "[2026-10-27 17:26:13] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 17:26:13] Macro Regime: RISK_ON | BTC 24h: +0.80% | Alts Allowed: True",
       "[2026-10-27 17:26:13] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 17:26:13] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 17:26:13] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 17:27:15] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 17:27:15] Macro Regime: RISK_ON | BTC 24h: +0.85% | Alts Allowed: True",
+      "[2026-10-27 17:27:15] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 17:27:15] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1943,7 +1943,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.44275896,
+    "current_equity": 326.5007694088,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3114,5 +3114,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T17:26:21.267310"
+  "snapshot_synced_at": "2026-10-27T17:27:54.817987"
 }
