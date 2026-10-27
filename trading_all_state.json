@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T09:47:01.530636",
+  "timestamp": "2026-10-27T09:48:35.031592",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.23,
@@ -32,9 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 09:36:02] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
-      "[2026-10-27 09:37:02] Running portfolio evaluation cycle...",
-      "[2026-10-27 09:37:03] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $546.24 | PnL: +2.45% ($+0.61) | Peak: $547.93",
       "[2026-10-27 09:37:05] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-27 09:37:21] 🧠 [AI GATE] Buy of HOOD VETOED by AI Brain (Confidence: 60%) | Thesis: Robinhood is showing positive sector momentum alongside fintech earnings tailwinds, but lacks clear intraday volume metrics and pristine technical confirmation.",
       "[2026-10-27 09:37:21] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
@@ -71,7 +68,10 @@
       "[2026-10-27 09:45:23] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-27 09:46:23] Running portfolio evaluation cycle...",
       "[2026-10-27 09:46:24] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $553.57 | PnL: +3.83% ($+0.96) | Peak: $554.13",
-      "[2026-10-27 09:46:24] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum..."
+      "[2026-10-27 09:46:24] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-27 09:47:24] Running portfolio evaluation cycle...",
+      "[2026-10-27 09:47:39] MCP tool call timeout (15s) on get_portfolio. Killing stale process.",
+      "[2026-10-27 09:47:39] Failed to fetch portfolio data."
     ]
   },
   "coinbase": {
@@ -80,23 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.57202531642391,
-      "btc_price": 80097.15,
+      "btc_change_24h": 0.70290910399537,
+      "btc_price": 80031.2,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.57% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.70% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 09:37:18] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 09:37:18] Macro Regime: RISK_ON | BTC 24h: +0.77% | Alts Allowed: True",
-      "[2026-10-27 09:37:18] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 09:37:18] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 09:38:19] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 09:38:20] Macro Regime: NEUTRAL | BTC 24h: +0.45% | Alts Allowed: False",
-      "[2026-10-27 09:38:20] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 09:38:20] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 09:38:21] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=33.2 (chg -1.67%)!",
       "[2026-10-27 09:38:42] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX is currently in a bearish 1-hour trend with weak volume (rvol 0.63) failing to meet the mandatory rule requiring RVOL >= 1.5x for crypto entries.",
       "[2026-10-27 09:39:42] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -128,7 +120,15 @@
       "[2026-10-27 09:46:06] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 09:46:06] Macro Regime: RISK_ON | BTC 24h: +0.57% | Alts Allowed: True",
       "[2026-10-27 09:46:06] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 09:46:06] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 09:46:06] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 09:47:08] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 09:47:08] Macro Regime: RISK_ON | BTC 24h: +0.52% | Alts Allowed: True",
+      "[2026-10-27 09:47:08] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 09:47:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 09:48:10] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 09:48:10] Macro Regime: RISK_ON | BTC 24h: +0.70% | Alts Allowed: True",
+      "[2026-10-27 09:48:10] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 09:48:10] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -3094,5 +3094,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T09:47:01.232348"
+  "snapshot_synced_at": "2026-10-27T09:48:34.695564"
 }
