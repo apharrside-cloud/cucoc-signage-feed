@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T18:38:12.461750",
+  "timestamp": "2026-10-27T18:39:46.115630",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.68,
@@ -101,15 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 18:29:08] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:29:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:30:09] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:30:10] Macro Regime: RISK_ON | BTC 24h: +1.21% | Alts Allowed: True",
-      "[2026-10-27 18:30:10] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:30:10] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:31:12] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:31:12] Macro Regime: RISK_ON | BTC 24h: +1.26% | Alts Allowed: True",
-      "[2026-10-27 18:31:12] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 18:31:12] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 18:31:16] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI shows bullish hourly structure in a risk-on macro environment, but current relative volume (rvol 1.04) fails the mandatory evolution rule requiring rvol >= 1.5x for crypto breakout entries.",
       "[2026-10-27 18:32:16] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -140,7 +131,16 @@
       "[2026-10-27 18:37:35] Macro Regime: RISK_ON | BTC 24h: +1.16% | Alts Allowed: True",
       "[2026-10-27 18:37:35] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 18:37:35] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:37:39] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET exhibits strong relative volume and an hourly bullish breakout, but concurrent negative exploit news headlines create unacceptable binary downside risk."
+      "[2026-10-27 18:37:39] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET exhibits strong relative volume and an hourly bullish breakout, but concurrent negative exploit news headlines create unacceptable binary downside risk.",
+      "[2026-10-27 18:38:39] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 18:38:39] Macro Regime: RISK_ON | BTC 24h: +1.15% | Alts Allowed: True",
+      "[2026-10-27 18:38:39] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 18:38:39] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 18:38:43] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 40%) | Thesis: FET shows strong volume expansion and bullish hourly trend alignment, but critical breaking exploit news directly names Fetch.ai as hacked for $2 million.",
+      "[2026-10-27 18:39:43] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 18:39:43] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
+      "[2026-10-27 18:39:43] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 18:39:43] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1338,21 +1338,6 @@
   "ai_decisions": [
     {
       "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "TSLA",
-      "current_price": 405.87,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 55,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "TSLA is showing strong intraday momentum above VWAP following earnings resilience, but deployable cash is severely limited relative to its $405.87 share price.",
-      "risk_factors": "High share price relative to available capital ($109.26) makes proper position sizing and fractional execution impractical under strict cash limits.",
-      "timestamp": "2026-10-27T12:52:22.203883"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
       "current_price": 0.17968,
@@ -1933,6 +1918,20 @@
       "primary_thesis": "FET is attempting an hourly breakout in a risk-on regime, but volume requirements fail our evolved rules.",
       "risk_factors": "Critical exploit news involving Fetch.ai and NuNet alongside RVOL at 1.32 (failing the strict >= 1.5x requirement) present unacceptable risks.",
       "timestamp": "2026-10-27T13:53:07.608655"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AMD",
+      "entry_price": 533.17,
+      "current_price": 559.235,
+      "pnl_pct": 4.89,
+      "hours_held": 23.7,
+      "action": "TIGHTEN_STOP",
+      "confidence": 92,
+      "new_stop_pct": 4.25,
+      "reasoning": "Locking in substantial gains following a minor pullback from the peak of +5.23% while the uptrend remains generally intact.",
+      "timestamp": "2026-10-27T14:05:32.236317"
     }
   ],
   "performance": {
@@ -3115,5 +3114,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T18:38:12.146374"
+  "snapshot_synced_at": "2026-10-27T18:39:45.762454"
 }
