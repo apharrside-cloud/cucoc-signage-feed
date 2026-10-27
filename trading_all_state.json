@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T17:59:08.726406",
+  "timestamp": "2026-10-27T18:00:42.455471",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.66,
@@ -101,11 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 17:51:30] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 17:51:30] Macro Regime: RISK_ON | BTC 24h: +1.09% | Alts Allowed: True",
-      "[2026-10-27 17:51:30] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 17:51:30] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 17:51:34] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 55%) | Thesis: SUI shows bullish hourly structure in a risk-on regime, but RVOL of 1.17 fails our strict evolved rule requiring relative volume >= 1.5x for crypto breakout entries.",
       "[2026-10-27 17:52:34] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 17:52:34] Macro Regime: RISK_ON | BTC 24h: +1.06% | Alts Allowed: True",
       "[2026-10-27 17:52:34] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +135,12 @@
       "[2026-10-27 17:58:59] Macro Regime: RISK_ON | BTC 24h: +1.05% | Alts Allowed: True",
       "[2026-10-27 17:58:59] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 17:58:59] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 17:59:03] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI shows a bullish hourly trend under a risk-on regime, but fails critical volume rules."
+      "[2026-10-27 17:59:03] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI shows a bullish hourly trend under a risk-on regime, but fails critical volume rules.",
+      "[2026-10-27 18:00:03] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 18:00:03] Macro Regime: RISK_ON | BTC 24h: +1.02% | Alts Allowed: True",
+      "[2026-10-27 18:00:03] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 18:00:03] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 18:00:08] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 55%) | Thesis: SUI shows bullish hourly structure in a risk-on macro regime, but fails critical volume rules."
     ]
   },
   "positions": [
@@ -1340,21 +1340,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
-      "current_price": 0.18105,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "FET shows positive RVOL and bullish hourly trend alignment, but active exploit headlines present unacceptable fundamental risk.",
-      "risk_factors": "Fetch.ai exploitation headlines and NTX all-time lows create extreme headline risk and potential contagion/downward pressure.",
-      "timestamp": "2026-10-27T12:41:45.028513"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
       "current_price": 0.1807,
       "approved": false,
       "action": "REJECT",
@@ -1933,6 +1918,21 @@
       "primary_thesis": "FET shows a bullish hourly trend and positive macro regime, but fails critical volume rules with an RVOL of 1.15 (below the required 1.5x minimum threshold).",
       "risk_factors": "Negative news catalyst involving Fetch.ai exploit headlines combined with insufficient relative volume heightens downside breakout failure risk.",
       "timestamp": "2026-10-27T13:42:22.159696"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.17949,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "FET shows a bullish hourly trend and positive macro regime, but fails critical volume and news safety filters.",
+      "risk_factors": "Relative volume of 1.15x misses the strict 1.5x minimum requirement, and negative exploit news regarding Fetch.ai creates severe binary headline risk.",
+      "timestamp": "2026-10-27T13:43:25.819689"
     }
   ],
   "performance": {
@@ -3115,5 +3115,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T17:59:08.395293"
+  "snapshot_synced_at": "2026-10-27T18:00:42.112790"
 }
