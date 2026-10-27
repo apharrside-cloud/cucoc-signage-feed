@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T04:40:09.741671",
+  "timestamp": "2026-10-27T04:41:43.526564",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.24,
@@ -89,12 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 04:33:26] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 04:33:26] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 04:33:27] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.0 (chg -1.45%)!",
-      "[2026-10-27 04:33:30] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX is showing extremely weak relative volume (RVOL 0.23) and bearish recent news headlines following an 11% weekly drop, failing all momentum and volume breakout rules.",
-      "[2026-10-27 04:34:30] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 04:34:30] Macro Regime: NEUTRAL | BTC 24h: -0.55% | Alts Allowed: False",
       "[2026-10-27 04:34:30] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 04:34:30] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 04:34:31] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.3 (chg -1.35%)!",
@@ -128,7 +122,13 @@
       "[2026-10-27 04:39:54] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 04:39:54] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 04:39:55] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.9 (chg -1.50%)!",
-      "[2026-10-27 04:40:01] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX fails all primary volume and breakout criteria with a very weak RVOL of 0.24, well below the mandatory 1.5x threshold required for entry."
+      "[2026-10-27 04:40:01] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 30%) | Thesis: AVAX fails all primary volume and breakout criteria with a very weak RVOL of 0.24, well below the mandatory 1.5x threshold required for entry.",
+      "[2026-10-27 04:41:01] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 04:41:01] Macro Regime: NEUTRAL | BTC 24h: -0.71% | Alts Allowed: False",
+      "[2026-10-27 04:41:01] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 04:41:01] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 04:41:03] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.9 (chg -1.59%)!",
+      "[2026-10-27 04:41:05] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX is showing severe relative weakness with a dismal 1-hour relative volume of 0.24, failing all mandatory volume expansion and momentum criteria."
     ]
   },
   "positions": [
@@ -1317,21 +1317,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
-      "current_price": 99.75,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "SOL is in a bearish hourly trend with severe lack of volume (RVOL 0.16) failing all momentum breakout rules.",
-      "risk_factors": "Extremely low relative volume indicates zero institutional backing and high risk of continued downward chop.",
-      "timestamp": "2026-10-27T02:43:15.688436"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SOL",
       "current_price": 99.79,
       "approved": false,
       "action": "REJECT",
@@ -1912,6 +1897,21 @@
       "primary_thesis": "SOL is in a mean-reversion mode with severe volume starvation (rvol 0.1) and a bearish hourly trend, failing all volume expansion and relative strength rules.",
       "risk_factors": "Extremely low relative volume (0.1) combined with a bearish 1-hour trend and oversold RSI conditions risks a continued drift downward without institutional support.",
       "timestamp": "2026-10-27T03:25:05.128779"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 99.65,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 10,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "SOL exhibits extremely poor volume (RVOL 0.15) and a bearish hourly trend with RSI in oversold without volume support.",
+      "risk_factors": "Fails multiple mandatory volume filters (RVOL < 1.5x), bearish 1-hour trend alignment, and macro chop regime without decoupling strength.",
+      "timestamp": "2026-10-27T03:26:09.569067"
     }
   ],
   "performance": {
@@ -3094,5 +3094,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T04:40:09.421630"
+  "snapshot_synced_at": "2026-10-27T04:41:43.184655"
 }
