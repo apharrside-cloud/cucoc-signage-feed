@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T16:41:01.590892",
+  "timestamp": "2026-10-27T16:42:35.436604",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.33,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 164.774249182,
+    "total_value": 164.77327054,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -28,7 +28,7 @@
         "current_price": 560.45,
         "pnl_pct": 5.12,
         "pnl_usd": 0.64,
-        "last_ai_eval_ts": 1793132780.242464
+        "last_ai_eval_ts": 1793133687.8309991
       },
       "AVGO": {
         "symbol": "AVGO",
@@ -40,14 +40,10 @@
         "current_price": 342.46,
         "pnl_pct": 0.8,
         "pnl_usd": 0.24,
-        "last_ai_eval_ts": 1793132783.204937
+        "last_ai_eval_ts": 1793133689.7725124
       }
     },
     "logs": [
-      "[2026-10-27 15:57:33] Running portfolio evaluation cycle...",
-      "[2026-10-27 15:57:33] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $559.85 | PnL: +5.00% ($+0.63) | Peak: $563.68",
-      "[2026-10-27 15:57:33] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
-      "[2026-10-27 15:57:33] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $130.87 | PnL: -0.20% ($-0.05) | Peak: $132.10",
       "[2026-10-27 15:58:33] Running portfolio evaluation cycle...",
       "[2026-10-27 15:58:34] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.11 | PnL: +5.05% ($+0.63) | Peak: $563.68",
       "[2026-10-27 15:58:34] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.54 | PnL: +0.82% ($+0.25) | Peak: $344.37",
@@ -83,7 +79,11 @@
       "[2026-10-27 16:31:26] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
       "[2026-10-27 16:36:26] Running portfolio evaluation cycle...",
       "[2026-10-27 16:36:27] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-27 16:36:27] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
+      "[2026-10-27 16:36:27] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
+      "[2026-10-27 16:41:27] Running portfolio evaluation cycle...",
+      "[2026-10-27 16:41:27] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-27 16:41:29] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Securing profits as the position pulls back slightly from peak gains of +5.72% after a strong 26-hour run.",
+      "[2026-10-27 16:41:29] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
     ]
   },
   "coinbase": {
@@ -92,23 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.02975506999603,
-      "btc_price": 80569.3,
+      "btc_change_24h": 1.03545069870913,
+      "btc_price": 80564.85,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.03% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.04% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 16:31:09] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 16:31:09] Macro Regime: RISK_ON | BTC 24h: +1.08% | Alts Allowed: True",
-      "[2026-10-27 16:31:09] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 16:31:09] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 16:32:11] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 16:32:11] Macro Regime: RISK_ON | BTC 24h: +1.05% | Alts Allowed: True",
-      "[2026-10-27 16:32:11] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 16:32:11] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 16:33:13] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 16:33:13] Macro Regime: RISK_ON | BTC 24h: +1.01% | Alts Allowed: True",
       "[2026-10-27 16:33:13] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +132,15 @@
       "[2026-10-27 16:40:27] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 16:40:27] Macro Regime: RISK_ON | BTC 24h: +1.03% | Alts Allowed: True",
       "[2026-10-27 16:40:27] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 16:40:27] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 16:40:27] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 16:41:29] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 16:41:29] Macro Regime: RISK_ON | BTC 24h: +0.99% | Alts Allowed: True",
+      "[2026-10-27 16:41:29] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 16:41:29] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 16:42:31] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 16:42:31] Macro Regime: RISK_ON | BTC 24h: +1.04% | Alts Allowed: True",
+      "[2026-10-27 16:42:31] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 16:42:31] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1339,21 +1339,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "TQQQ",
-      "current_price": 71.41,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "TQQQ is showing strong intraday momentum (+4.35%) above VWAP supported by bullish retail and ETF inflows.",
-      "risk_factors": "Leveraged ETF structural decay risks and lack of explicit volume confirmation metrics prevent meeting the stringent 75% confidence threshold.",
-      "timestamp": "2026-10-27T12:02:03.527021"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "SMH",
       "current_price": 557.72,
       "approved": false,
@@ -1932,6 +1917,21 @@
       "primary_thesis": "Rejecting FET due to critical exploit and security breach headlines involving Fetch.ai in the news catalyst dossier.",
       "risk_factors": "Fetch.ai exploitation and active attacker headlines present severe fundamental downside risk and reputational overhang despite technical breakout signals.",
       "timestamp": "2026-10-27T12:56:00.441351"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "SMH",
+      "current_price": 556.37,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.5,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "SMH is showing strong intraday momentum above VWAP, but deployable cash is severely restricted and headlines highlight broader market volatility risks.",
+      "risk_factors": "Unfavorable macroeconomic tech sector weakness following poor Nasdaq performance outweighs the immediate breakout setup.",
+      "timestamp": "2026-10-27T12:56:55.169328"
     }
   ],
   "performance": {
@@ -1943,7 +1943,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.334249182,
+    "current_equity": 326.33327054,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3114,5 +3114,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T16:41:01.223997"
+  "snapshot_synced_at": "2026-10-27T16:42:35.132606"
 }
