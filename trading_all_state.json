@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T18:53:48.476227",
+  "timestamp": "2026-10-27T18:55:22.431451",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.59,
@@ -101,11 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 18:46:08] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:46:09] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
-      "[2026-10-27 18:46:09] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:46:09] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:46:12] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET exhibits strong relative volume and breakout indicators, but negative exploit news presents critical headline risk.",
       "[2026-10-27 18:47:13] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 18:47:13] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
       "[2026-10-27 18:47:13] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +135,12 @@
       "[2026-10-27 18:53:40] Macro Regime: RISK_ON | BTC 24h: +1.15% | Alts Allowed: True",
       "[2026-10-27 18:53:40] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 18:53:40] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:53:45] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET shows strong volume expansion and technical breakout alignment, but breaking news reveals a $2 million exploit on Fetch.ai and NuNet by an attacker."
+      "[2026-10-27 18:53:45] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET shows strong volume expansion and technical breakout alignment, but breaking news reveals a $2 million exploit on Fetch.ai and NuNet by an attacker.",
+      "[2026-10-27 18:54:45] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 18:54:46] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
+      "[2026-10-27 18:54:46] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 18:54:46] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 18:54:49] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET is facing severe negative catalysts with an explicit news headline reporting a $2 million exploit on Fetch.ai by an attacker, creating extreme existential risk."
     ]
   },
   "positions": [
@@ -1338,21 +1338,6 @@
   "ai_decisions": [
     {
       "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
-      "current_price": 0.17969,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "Although FET displays strong relative volume and decoupling attributes, breaking news headlines cite a $2 million exploit involving Fetch.ai and NuNet.",
-      "risk_factors": "Active exploit news and negative token fallout create severe idiosyncratic protocol risk that invalidates the technical breakout thesis.",
-      "timestamp": "2026-10-27T13:02:43.941499"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
       "symbol": "ARM",
       "current_price": 226.77,
@@ -1924,6 +1909,20 @@
       "primary_thesis": "NEAR is showing bullish hourly structure during a risk-on regime, but fails critical volume and RSI filter requirements.",
       "risk_factors": "Relative volume is lagging at 1.0 (violating the >= 1.5x minimum rule for crypto breakout entries) and RSI is overbought at 71.7 with mixed news headlines.",
       "timestamp": "2026-10-27T15:54:45.595776"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AMD",
+      "entry_price": 533.17,
+      "current_price": 558.97,
+      "pnl_pct": 4.84,
+      "hours_held": 25.6,
+      "action": "TIGHTEN_STOP",
+      "confidence": 90,
+      "new_stop_pct": 3.5,
+      "reasoning": "AMD has pulled back 0.84% from its peak of $563.68, and tightening the stop locks in a strong +3.5% gain while allowing room for continuation.",
+      "timestamp": "2026-10-27T15:55:28.360288"
     }
   ],
   "performance": {
@@ -3106,5 +3105,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T18:53:48.165998"
+  "snapshot_synced_at": "2026-10-27T18:55:22.010205"
 }
