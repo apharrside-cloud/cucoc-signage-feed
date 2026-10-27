@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T22:39:25.513080",
+  "timestamp": "2026-10-26T22:41:00.976570",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 324.65,
+    "total_equity": 324.53,
     "total_cash": 269.47,
     "cash_pct": 83.0,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 163.09398916,
+    "total_value": 162.97459455,
     "cash": 107.91,
     "positions": {
       "AMD": {
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-26 20:58:53] Running portfolio evaluation cycle...",
-      "[2026-10-26 20:58:53] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-26 21:03:55] Running portfolio evaluation cycle...",
       "[2026-10-26 21:03:56] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-26 21:08:56] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-26 22:30:01] Running portfolio evaluation cycle...",
       "[2026-10-26 22:30:02] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-26 22:35:02] Running portfolio evaluation cycle...",
-      "[2026-10-26 22:35:03] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34"
+      "[2026-10-26 22:35:03] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
+      "[2026-10-26 22:40:08] Running portfolio evaluation cycle...",
+      "[2026-10-26 22:40:09] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34"
     ]
   },
   "coinbase": {
@@ -89,12 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 22:29:53] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 22:29:53] Macro Regime: NEUTRAL | BTC 24h: +0.43% | Alts Allowed: False",
-      "[2026-10-26 22:29:53] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 22:29:53] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 22:30:55] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 22:30:55] Macro Regime: NEUTRAL | BTC 24h: +0.40% | Alts Allowed: False",
       "[2026-10-26 22:30:55] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 22:30:55] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 22:31:58] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -128,7 +122,13 @@
       "[2026-10-26 22:39:15] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 22:39:15] Macro Regime: NEUTRAL | BTC 24h: +0.37% | Alts Allowed: False",
       "[2026-10-26 22:39:15] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 22:39:15] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-26 22:39:15] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 22:40:17] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 22:40:17] Macro Regime: NEUTRAL | BTC 24h: +0.33% | Alts Allowed: False",
+      "[2026-10-26 22:40:17] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 22:40:17] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 22:40:19] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=38.0 (chg -0.32%)!",
+      "[2026-10-26 22:40:25] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a bearish hourly trend with low relative volume (RVOL 0.21) and failing momentum, completely violating all evolved strategy requirements for volume expansion and trend alignment."
     ]
   },
   "positions": [
@@ -1316,21 +1316,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "ARM",
-      "current_price": 216.92,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "ARM is showing a +3.13% intraday bounce, but the current price of $216.92 sits well below the reported intraday VWAP of $893.7, indicating structural data anomaly or severe weakness.",
-      "risk_factors": "Unreliable technical metrics (VWAP mismatch), negative regulatory headlines regarding stock tokenization, and deployable cash of $95.55 severely limits risk management buffer.",
-      "timestamp": "2026-10-26T10:41:06.426292"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "TQQQ",
       "current_price": 68.195,
       "approved": false,
@@ -1901,6 +1886,21 @@
       "primary_thesis": "Although SOXL is showing an intraday bounce, conflicting headlines regarding 6-month lows, oil surges, and heavy retail bullishness create excessive headline risk and lack clean institutional accumulation.",
       "risk_factors": "Mixed macroeconomic signals involving oil, geopolitical tensions, and sector-wide chip volatility present high binary risk that could reverse the intraday gain instantly.",
       "timestamp": "2026-10-26T12:53:45.532364"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "ARM",
+      "current_price": 220.85,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.5,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "ARM is showing intraday strength above VWAP, but conflicting news headlines regarding tokenization objections and recent 8% weekly drawdown create valuation uncertainty.",
+      "risk_factors": "Overhead valuation resistance, regulatory objections, and lack of explicit volume confirmation metrics increase the risk of a false breakout.",
+      "timestamp": "2026-10-26T12:55:18.871016"
     }
   ],
   "performance": {
@@ -1912,7 +1912,7 @@
     "max_drawdown_pct": 13.51,
     "trades_count_today": 2,
     "realized_pnl_today": -0.29,
-    "current_equity": 324.65398916000004,
+    "current_equity": 324.53459455,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3083,5 +3083,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T22:39:24.927588"
+  "snapshot_synced_at": "2026-10-26T22:41:00.657782"
 }
