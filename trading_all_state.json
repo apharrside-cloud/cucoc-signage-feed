@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T00:15:07.914379",
+  "timestamp": "2026-10-27T00:16:41.359740",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 324.38,
+    "total_equity": 324.37,
     "total_cash": 269.47,
     "cash_pct": 83.1,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 162.81705755,
+    "total_value": 162.81427398,
     "cash": 107.91,
     "positions": {
       "AMD": {
@@ -28,12 +28,10 @@
         "current_price": 531.47,
         "pnl_pct": -0.32,
         "pnl_usd": -0.08,
-        "last_ai_eval_ts": 1793073347.8685868
+        "last_ai_eval_ts": 1793074571.4274142
       }
     },
     "logs": [
-      "[2026-10-26 22:35:02] Running portfolio evaluation cycle...",
-      "[2026-10-26 22:35:03] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-26 22:40:08] Running portfolio evaluation cycle...",
       "[2026-10-26 22:40:09] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-26 22:45:09] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-27 00:05:50] Running portfolio evaluation cycle...",
       "[2026-10-27 00:05:51] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-27 00:10:51] Running portfolio evaluation cycle...",
-      "[2026-10-27 00:11:07] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
+      "[2026-10-27 00:11:07] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
+      "[2026-10-27 00:16:07] Running portfolio evaluation cycle...",
+      "[2026-10-27 00:16:11] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34"
     ]
   },
   "coinbase": {
@@ -89,14 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 00:10:33] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 00:10:33] Macro Regime: NEUTRAL | BTC 24h: +0.02% | Alts Allowed: False",
-      "[2026-10-27 00:10:33] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 00:10:33] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 00:10:34] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.3 (chg -0.34%)!",
-      "[2026-10-27 00:10:35] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=27.6 (chg -0.54%)!",
-      "[2026-10-27 00:10:35] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.6 (chg +0.02%)!",
-      "[2026-10-27 00:10:38] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is currently experiencing bearish hourly momentum with severely depressed relative volume (rvol 0.05) and no institutional volume confirmation.",
       "[2026-10-27 00:11:38] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 00:11:38] Macro Regime: NEUTRAL | BTC 24h: -0.00% | Alts Allowed: False",
       "[2026-10-27 00:11:38] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +120,15 @@
       "[2026-10-27 00:14:53] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.3 (chg -0.63%)!",
       "[2026-10-27 00:14:53] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.3 (chg -0.90%)!",
       "[2026-10-27 00:14:53] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.5 (chg -0.15%)!",
-      "[2026-10-27 00:14:57] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 35%) | Thesis: SOL is currently experiencing low relative volume (0.05) and bearish hourly trend alignment, failing all strict volume and momentum expansion rules required for execution."
+      "[2026-10-27 00:14:57] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 35%) | Thesis: SOL is currently experiencing low relative volume (0.05) and bearish hourly trend alignment, failing all strict volume and momentum expansion rules required for execution.",
+      "[2026-10-27 00:15:57] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 00:15:57] Macro Regime: NEUTRAL | BTC 24h: -0.33% | Alts Allowed: False",
+      "[2026-10-27 00:15:57] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 00:15:57] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 00:15:58] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.5 (chg -0.86%)!",
+      "[2026-10-27 00:15:59] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.3 (chg -1.11%)!",
+      "[2026-10-27 00:15:59] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.5 (chg -0.33%)!",
+      "[2026-10-27 00:16:02] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL is in a bearish hourly trend with an extreme lack of volume (RVOL 0.07) and macro altcoin restrictions active."
     ]
   },
   "positions": [
@@ -1315,20 +1315,6 @@
   "ai_decisions": [
     {
       "type": "POSITION_SUPERVISION",
-      "asset_class": "Equities",
-      "symbol": "AVGO",
-      "entry_price": 326.77,
-      "current_price": 330.74,
-      "pnl_pct": 1.21,
-      "hours_held": 1.6,
-      "action": "TIGHTEN_STOP",
-      "confidence": 90,
-      "new_stop_pct": 0.8,
-      "reasoning": "Locking in gains by tightening the stop as the position experiences a 0.41% pullback from its peak of +1.63% amidst fading momentum.",
-      "timestamp": "2026-10-26T11:57:23.953727"
-    },
-    {
-      "type": "POSITION_SUPERVISION",
       "asset_class": "Crypto",
       "symbol": "RENDER",
       "entry_price": 1.7526,
@@ -1901,6 +1887,21 @@
       "primary_thesis": "Micron is exhibiting strong momentum backed by Bank of America's positive commentary and a 4% intraday gain above VWAP.",
       "risk_factors": "Deployable cash of $95.76 is restrictive for a stock trading above $900 per share, making fractional equity execution sizing highly constrained relative to volatility.",
       "timestamp": "2026-10-26T14:49:08.452526"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "SMH",
+      "current_price": 544.7408,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.0,
+      "take_profit_pct": 4.0,
+      "primary_thesis": "SMH is showing intraday strength above VWAP (+3.3%), but deployable cash is limited to $95.76 and current macro signals feature mixed technology sentiment.",
+      "risk_factors": "Overhead resistance and subdued dividend payout relative to historical levels limit immediate upside risk-to-reward below our 75% confidence threshold.",
+      "timestamp": "2026-10-26T14:50:13.695364"
     }
   ],
   "performance": {
@@ -1912,7 +1913,7 @@
     "max_drawdown_pct": 13.51,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 324.37705755,
+    "current_equity": 324.37427398,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3083,5 +3084,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T00:15:07.586562"
+  "snapshot_synced_at": "2026-10-27T00:16:41.049631"
 }
