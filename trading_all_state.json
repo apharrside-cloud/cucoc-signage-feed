@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T12:29:03.525191",
+  "timestamp": "2026-10-27T12:30:37.254373",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.92,
+    "total_equity": 326.86,
     "total_cash": 253.4,
     "cash_pct": 77.5,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.359985505,
+    "total_value": 165.2967568595,
     "cash": 91.84,
     "positions": {
       "AMD": {
@@ -56,8 +56,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 12:19:20] Running portfolio evaluation cycle...",
-      "[2026-10-27 12:19:21] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $558.87 | PnL: +4.82% ($+0.60) | Peak: $561.04",
       "[2026-10-27 12:19:21] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $341.46 | PnL: +0.51% ($+0.15) | Peak: $342.92",
       "[2026-10-27 12:19:21] [ORCL] Shares: 0.227981 | Entry: $131.43 | Current: $132.21 | PnL: +0.60% ($+0.18) | Peak: $132.21",
       "[2026-10-27 12:20:21] Running portfolio evaluation cycle...",
@@ -95,7 +93,9 @@
       "[2026-10-27 12:28:26] Running portfolio evaluation cycle...",
       "[2026-10-27 12:28:27] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $559.82 | PnL: +5.00% ($+0.62) | Peak: $561.04",
       "[2026-10-27 12:28:27] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.75 | PnL: +0.88% ($+0.27) | Peak: $342.92",
-      "[2026-10-27 12:28:27] [ORCL] Shares: 0.227981 | Entry: $131.43 | Current: $132.13 | PnL: +0.54% ($+0.16) | Peak: $132.24"
+      "[2026-10-27 12:28:27] [ORCL] Shares: 0.227981 | Entry: $131.43 | Current: $132.13 | PnL: +0.54% ($+0.16) | Peak: $132.24",
+      "[2026-10-27 12:29:27] Running portfolio evaluation cycle...",
+      "[2026-10-27 12:29:43] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
     ]
   },
   "coinbase": {
@@ -113,11 +113,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 12:18:59] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 12:18:59] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 12:20:01] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 12:20:01] Macro Regime: NEUTRAL | BTC 24h: +0.47% | Alts Allowed: False",
-      "[2026-10-27 12:20:01] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 12:20:01] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 12:21:03] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 12:21:03] Macro Regime: NEUTRAL | BTC 24h: +0.45% | Alts Allowed: False",
@@ -152,7 +147,12 @@
       "[2026-10-27 12:28:30] Macro Regime: RISK_ON | BTC 24h: +0.70% | Alts Allowed: True",
       "[2026-10-27 12:28:30] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 12:28:30] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 12:28:43] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET is showing short-term hourly momentum and RVOL meeting technical criteria, but fails fundamental safety filters due to active critical exploit headlines."
+      "[2026-10-27 12:28:43] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET is showing short-term hourly momentum and RVOL meeting technical criteria, but fails fundamental safety filters due to active critical exploit headlines.",
+      "[2026-10-27 12:29:43] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 12:29:43] Macro Regime: RISK_ON | BTC 24h: +0.76% | Alts Allowed: True",
+      "[2026-10-27 12:29:43] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 12:29:43] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 12:30:02] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows a technical breakout structure with RVOL 1.54 and bullish hourly trend alignment, but fails the news catalyst screen."
     ]
   },
   "positions": [
@@ -1363,21 +1363,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.735,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 10,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "AVAX exhibits an extremely weak relative volume of 0.03 and bearish 1-hour trend alignment, violating all required momentum and volume expansion rules.",
-      "risk_factors": "Severe lack of volume (RVOL 0.03) combined with a bearish macro regime for altcoins and negative 24h performance creates high risk of value trap.",
-      "timestamp": "2026-10-27T08:12:14.923399"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.729,
       "approved": false,
       "action": "REJECT",
@@ -1958,6 +1943,21 @@
       "primary_thesis": "Oracle is benefiting from positive AI cloud catalyst news, but lacks sufficient intraday volume and multi-timeframe structural confluence to justify entry.",
       "risk_factors": "Price is trading far below intraday VWAP ($917.21 reported value anomaly or deep technical divergence), indicating high execution friction and potential mean-reversion trap.",
       "timestamp": "2026-10-27T09:35:51.570870"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "HOOD",
+      "current_price": 95.4,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "Robinhood is showing positive sector momentum alongside fintech earnings tailwinds, but lacks clear intraday volume metrics and pristine technical confirmation.",
+      "risk_factors": "Conflicting sentiment headlines about recent volatility and lack of explicit volume confirmation relative to the 20-period average introduce headline risk.",
+      "timestamp": "2026-10-27T09:37:06.591670"
     }
   ],
   "performance": {
@@ -1969,7 +1969,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.919985505,
+    "current_equity": 326.8567568595,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3140,5 +3140,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T12:29:03.231678"
+  "snapshot_synced_at": "2026-10-27T12:30:36.929828"
 }
