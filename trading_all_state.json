@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-27T11:02:05.765886",
+  "timestamp": "2026-10-27T11:03:39.364383",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.21,
+    "total_equity": 326.25,
     "total_cash": 270.28,
-    "cash_pct": 82.9,
+    "cash_pct": 82.8,
     "weekly_realized_pnl": -0.29,
     "win_rate": 58.26086956521739,
     "winning_trades": 67,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 164.6529304511,
+    "total_value": 164.693730825,
     "cash": 108.72,
     "positions": {
       "AMD": {
@@ -25,31 +25,25 @@
         "high_water_mark": 554.13,
         "tp1_hit": false,
         "entry_time": "2026-10-26T14:22:23.745657",
-        "current_price": 552.2621,
-        "pnl_pct": 3.58,
-        "pnl_usd": 0.9,
+        "current_price": 552.765,
+        "pnl_pct": 3.68,
+        "pnl_usd": 0.92,
         "last_ai_eval_ts": 1793113024.859797
       },
       "AVGO": {
         "symbol": "AVGO",
         "shares": 0.088302,
         "entry_price": 339.7399,
-        "high_water_mark": 340.16,
+        "high_water_mark": 340.36,
         "tp1_hit": false,
         "entry_time": "2026-10-27T10:56:03.613275",
-        "current_price": 340.16,
-        "pnl_pct": 0.12,
-        "pnl_usd": 0.04,
+        "current_price": 340.36,
+        "pnl_pct": 0.18,
+        "pnl_usd": 0.05,
         "last_ai_eval_ts": 1793113027.990198
       }
     },
     "logs": [
-      "[2026-10-27 10:52:56] VWAP Filter: Skipping AVGO because price ($339.22) is BELOW session VWAP ($339.52).",
-      "[2026-10-27 10:53:56] Running portfolio evaluation cycle...",
-      "[2026-10-27 10:53:56] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $551.36 | PnL: +3.41% ($+0.85) | Peak: $554.13",
-      "[2026-10-27 10:53:56] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-27 10:53:57] VWAP Filter: Skipping AVGO because price ($339.19) is BELOW session VWAP ($339.51).",
-      "[2026-10-27 10:54:57] Running portfolio evaluation cycle...",
       "[2026-10-27 10:54:57] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $552.37 | PnL: +3.60% ($+0.90) | Peak: $554.13",
       "[2026-10-27 10:54:57] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-27 10:54:58] VWAP Filter: Skipping AVGO because price ($339.44) is BELOW session VWAP ($339.51).",
@@ -83,7 +77,13 @@
       "[2026-10-27 11:01:26] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $340.16 | PnL: +0.12% ($+0.04) | Peak: $340.16",
       "[2026-10-27 11:01:26] Available deployable cash ($96.57 of $108.72 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-27 11:01:53] 🧠 [AI GATE] Buy of TQQQ VETOED by AI Brain (Confidence: 60%) | Thesis: TQQQ is showing strong intraday momentum (+2.90%) and trading above VWAP during regular hours amid bullish retail sentiment.",
-      "[2026-10-27 11:01:53] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-27 11:01:53] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-27 11:02:53] Running portfolio evaluation cycle...",
+      "[2026-10-27 11:02:54] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $552.76 | PnL: +3.68% ($+0.92) | Peak: $554.13",
+      "[2026-10-27 11:02:54] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $340.36 | PnL: +0.18% ($+0.05) | Peak: $340.36",
+      "[2026-10-27 11:02:54] Available deployable cash ($96.57 of $108.72 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
+      "[2026-10-27 11:03:04] 🧠 [AI GATE] Buy of SOXL VETOED by AI Brain (Confidence: 45%) | Thesis: SOXL is showing intraday strength above VWAP (+7.6%), but conflicting headlines regarding a slide to 6-month lows and oil-driven Nasdaq weakness create unquantifiable binary risk.",
+      "[2026-10-27 11:03:04] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
     ]
   },
   "coinbase": {
@@ -92,19 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.04695846498245,
-      "btc_price": 80342.72,
+      "btc_change_24h": 0.05884922850082,
+      "btc_price": 80320.17,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral +0.05% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral +0.06% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 10:52:26] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 10:52:27] Macro Regime: NEUTRAL | BTC 24h: +0.17% | Alts Allowed: False",
-      "[2026-10-27 10:52:27] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 10:52:27] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 10:53:29] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 10:53:29] Macro Regime: NEUTRAL | BTC 24h: +0.16% | Alts Allowed: False",
       "[2026-10-27 10:53:29] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +136,11 @@
       "[2026-10-27 11:01:50] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 11:01:50] Macro Regime: NEUTRAL | BTC 24h: +0.05% | Alts Allowed: False",
       "[2026-10-27 11:01:50] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 11:01:50] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-27 11:01:50] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 11:02:52] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 11:02:52] Macro Regime: NEUTRAL | BTC 24h: +0.06% | Alts Allowed: False",
+      "[2026-10-27 11:02:52] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 11:02:52] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -149,10 +149,10 @@
       "symbol": "AMD",
       "shares": 0.046891,
       "entry_price": 533.17,
-      "current_price": 552.2621,
-      "value_usd": 25.9,
-      "pnl_pct": 3.58,
-      "pnl_usd": 0.9,
+      "current_price": 552.765,
+      "value_usd": 25.92,
+      "pnl_pct": 3.68,
+      "pnl_usd": 0.92,
       "trailing_info": "Peak: $554.13 | Trailing 3.5%"
     },
     {
@@ -160,11 +160,11 @@
       "symbol": "AVGO",
       "shares": 0.088302,
       "entry_price": 339.7399,
-      "current_price": 340.16,
-      "value_usd": 30.04,
-      "pnl_pct": 0.12,
-      "pnl_usd": 0.04,
-      "trailing_info": "Peak: $340.16 | Trailing 3.5%"
+      "current_price": 340.36,
+      "value_usd": 30.05,
+      "pnl_pct": 0.18,
+      "pnl_usd": 0.05,
+      "trailing_info": "Peak: $340.36 | Trailing 3.5%"
     }
   ],
   "closed_trades": [
@@ -1340,21 +1340,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.724,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 15,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX is currently in a bearish hourly trend with low relative volume (0.29 RVOL) and macro regime 'allow_alts': false, failing all core crypto momentum and volume criteria.",
-      "risk_factors": "Extremely weak volume and downward price pressure following multi-week drawdowns expose the asset to continued downside drift.",
-      "timestamp": "2026-10-27T06:39:43.809744"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.736,
       "approved": false,
       "action": "REJECT",
@@ -1935,6 +1920,21 @@
       "primary_thesis": "AVAX fails all volume confirmation filters with an RVOL of 0.01 against required thresholds of >= 1.5x, making it a low-probability chop candidate.",
       "risk_factors": "Extremely low relative volume indicates total lack of institutional participation and high slippage risk in a neutral macro regime.",
       "timestamp": "2026-10-27T09:05:58.136526"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 8.786,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 30,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "AVAX fails all strict evolutionary momentum and volume criteria with near-zero relative volume (rvol 0.01 vs required >= 1.5x) and a weak RSI of 37.",
+      "risk_factors": "Extreme lack of volume confirmation, negative 24h performance (-1.38%), and broader altcoin restrictions under neutral market conditions.",
+      "timestamp": "2026-10-27T09:07:19.149474"
     }
   ],
   "performance": {
@@ -1946,7 +1946,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.21293045109996,
+    "current_equity": 326.253730825,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3117,5 +3117,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T11:02:05.444458"
+  "snapshot_synced_at": "2026-10-27T11:03:39.036771"
 }
