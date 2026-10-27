@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T11:11:28.263289",
+  "timestamp": "2026-10-27T11:13:02.948183",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.34,
@@ -44,9 +44,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 11:03:04] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
-      "[2026-10-27 11:04:04] Running portfolio evaluation cycle...",
-      "[2026-10-27 11:04:05] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $553.04 | PnL: +3.73% ($+0.93) | Peak: $554.13",
       "[2026-10-27 11:04:05] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $340.63 | PnL: +0.26% ($+0.08) | Peak: $340.63",
       "[2026-10-27 11:04:05] Available deployable cash ($96.57 of $108.72 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-27 11:04:21] MCP tool call timeout (15s) on get_equity_historicals. Killing stale process.",
@@ -83,7 +80,10 @@
       "[2026-10-27 11:11:09] Available deployable cash ($96.57 of $108.72 total, $12.15 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-27 11:11:09] VWAP Filter: Skipping ORCL because price ($129.54) is BELOW session VWAP ($129.82).",
       "[2026-10-27 11:11:13] 🧠 [AI GATE] Buy of TSLA VETOED by AI Brain (Confidence: 45%) | Thesis: TSLA is showing positive intraday momentum above VWAP, but deployable cash of $96.57 is limited and equity breakout setups require rigorous catalyst validation.",
-      "[2026-10-27 11:11:13] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-27 11:11:13] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-27 11:12:13] Running portfolio evaluation cycle...",
+      "[2026-10-27 11:12:14] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $554.29 | PnL: +3.96% ($+0.99) | Peak: $554.50",
+      "[2026-10-27 11:12:57] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $340.69 | PnL: +0.28% ($+0.08) | Peak: $340.77"
     ]
   },
   "coinbase": {
@@ -92,19 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.32521039384214,
-      "btc_price": 80108.14,
+      "btc_change_24h": -0.23339899572002,
+      "btc_price": 80198.33,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.33% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.23% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 11:01:50] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 11:01:50] Macro Regime: NEUTRAL | BTC 24h: +0.05% | Alts Allowed: False",
-      "[2026-10-27 11:01:50] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 11:01:50] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 11:02:52] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 11:02:52] Macro Regime: NEUTRAL | BTC 24h: +0.06% | Alts Allowed: False",
       "[2026-10-27 11:02:52] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +136,11 @@
       "[2026-10-27 11:11:13] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 11:11:14] Macro Regime: NEUTRAL | BTC 24h: -0.33% | Alts Allowed: False",
       "[2026-10-27 11:11:14] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 11:11:14] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-27 11:11:14] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 11:12:16] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 11:12:16] Macro Regime: NEUTRAL | BTC 24h: -0.23% | Alts Allowed: False",
+      "[2026-10-27 11:12:16] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 11:12:16] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -3117,5 +3117,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T11:11:27.881979"
+  "snapshot_synced_at": "2026-10-27T11:13:02.627528"
 }
