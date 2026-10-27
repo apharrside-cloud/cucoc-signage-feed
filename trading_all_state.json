@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-27T13:31:56.688199",
+  "timestamp": "2026-10-27T13:33:30.260583",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.69,
+    "total_equity": 326.74,
     "total_cash": 258.28,
-    "cash_pct": 79.1,
+    "cash_pct": 79.0,
     "weekly_realized_pnl": -0.29,
     "win_rate": 58.26086956521739,
     "winning_trades": 67,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.13010782,
+    "total_value": 165.1751633965,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -25,9 +25,9 @@
         "high_water_mark": 561.04,
         "tp1_hit": true,
         "entry_time": "2026-10-26T14:22:23.745657",
-        "current_price": 559.26,
-        "pnl_pct": 4.89,
-        "pnl_usd": 0.61,
+        "current_price": 559.5,
+        "pnl_pct": 4.94,
+        "pnl_usd": 0.62,
         "last_ai_eval_ts": 1793121563.3846836
       },
       "AVGO": {
@@ -37,9 +37,9 @@
         "high_water_mark": 343.195,
         "tp1_hit": false,
         "entry_time": "2026-10-27T10:56:03.613275",
-        "current_price": 342.41,
-        "pnl_pct": 0.79,
-        "pnl_usd": 0.24,
+        "current_price": 342.75,
+        "pnl_pct": 0.89,
+        "pnl_usd": 0.27,
         "last_ai_eval_ts": 1793121636.6499915
       },
       "ORCL": {
@@ -49,17 +49,13 @@
         "high_water_mark": 131.775,
         "tp1_hit": false,
         "entry_time": "2026-10-27T13:21:57.420132",
-        "current_price": 131.57,
-        "pnl_pct": 0.34,
-        "pnl_usd": 0.08,
+        "current_price": 131.63,
+        "pnl_pct": 0.38,
+        "pnl_usd": 0.1,
         "last_ai_eval_ts": 1793121788.704491
       }
     },
     "logs": [
-      "[2026-10-27 13:21:40] Running portfolio evaluation cycle...",
-      "[2026-10-27 13:21:41] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $558.85 | PnL: +4.82% ($+0.60) | Peak: $561.04",
-      "[2026-10-27 13:21:41] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $343.19",
-      "[2026-10-27 13:21:41] Available deployable cash ($109.26 of $121.72 total, $12.46 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-27 13:21:56] 🔥 Found momentum breakout: ORCL (+4.02%) @ $131.13. Executing AI-APPROVED BUY of $25.00...",
       "[2026-10-27 13:21:57] Buy order placed: {'data': {'order': {'id': '6ae0dd8f-e54f-4d9a-905b-d3b537eac687', 'ref_id': '01a17e61-78a2-7cfa-a69b-9440757d51f5', 'instrument_id': 'be5fb320-73c5-4f9e-a825-1c632bdd5f92', 'symbol': 'ORCL', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.190500', 'cumulative_quantity': '0.000000', 'price': '131.230000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '25.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-27T17:21:19.625266Z', 'last_transaction_at': '2026-10-27T17:21:19.625266Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
       "[2026-10-27 13:23:07] Running portfolio evaluation cycle...",
@@ -95,7 +91,11 @@
       "[2026-10-27 13:31:38] Running portfolio evaluation cycle...",
       "[2026-10-27 13:31:39] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $559.26 | PnL: +4.89% ($+0.61) | Peak: $561.04",
       "[2026-10-27 13:31:39] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.41 | PnL: +0.79% ($+0.24) | Peak: $343.19",
-      "[2026-10-27 13:31:39] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.57 | PnL: +0.34% ($+0.08) | Peak: $131.78"
+      "[2026-10-27 13:31:39] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.57 | PnL: +0.34% ($+0.08) | Peak: $131.78",
+      "[2026-10-27 13:32:39] Running portfolio evaluation cycle...",
+      "[2026-10-27 13:32:39] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $559.50 | PnL: +4.94% ($+0.62) | Peak: $561.04",
+      "[2026-10-27 13:32:39] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.75 | PnL: +0.89% ($+0.27) | Peak: $343.19",
+      "[2026-10-27 13:32:39] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.63 | PnL: +0.38% ($+0.10) | Peak: $131.78"
     ]
   },
   "coinbase": {
@@ -113,11 +113,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 13:22:37] Macro Regime: NEUTRAL | BTC 24h: +0.26% | Alts Allowed: False",
-      "[2026-10-27 13:22:37] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 13:22:37] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 13:23:40] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 13:23:40] Macro Regime: NEUTRAL | BTC 24h: +0.31% | Alts Allowed: False",
       "[2026-10-27 13:23:40] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 13:23:40] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 13:24:43] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -152,7 +147,12 @@
       "[2026-10-27 13:31:33] Macro Regime: RISK_ON | BTC 24h: +0.60% | Alts Allowed: True",
       "[2026-10-27 13:31:33] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 13:31:33] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 13:31:37] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows bullish hourly trend alignment and a RISK_ON macro regime, but fails critical volume rules."
+      "[2026-10-27 13:31:37] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows bullish hourly trend alignment and a RISK_ON macro regime, but fails critical volume rules.",
+      "[2026-10-27 13:32:37] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 13:32:37] Macro Regime: RISK_ON | BTC 24h: +0.60% | Alts Allowed: True",
+      "[2026-10-27 13:32:37] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 13:32:37] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 13:32:53] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 40%) | Thesis: FET fails multiple mandatory crypto breakout rules, exhibiting an anemic relative volume (RVOL 1.0) and conflicting with exploit news headlines surrounding Fetch.ai."
     ]
   },
   "positions": [
@@ -161,10 +161,10 @@
       "symbol": "AMD",
       "shares": 0.023445,
       "entry_price": 533.17,
-      "current_price": 559.26,
-      "value_usd": 13.11,
-      "pnl_pct": 4.89,
-      "pnl_usd": 0.61,
+      "current_price": 559.5,
+      "value_usd": 13.12,
+      "pnl_pct": 4.94,
+      "pnl_usd": 0.62,
       "trailing_info": "Peak: $561.04 | Trailing 3.5%"
     },
     {
@@ -172,10 +172,10 @@
       "symbol": "AVGO",
       "shares": 0.088302,
       "entry_price": 339.7399,
-      "current_price": 342.41,
-      "value_usd": 30.24,
-      "pnl_pct": 0.79,
-      "pnl_usd": 0.24,
+      "current_price": 342.75,
+      "value_usd": 30.27,
+      "pnl_pct": 0.89,
+      "pnl_usd": 0.27,
       "trailing_info": "Peak: $343.19 | Trailing 3.5%"
     },
     {
@@ -183,10 +183,10 @@
       "symbol": "ORCL",
       "shares": 0.19049,
       "entry_price": 131.13,
-      "current_price": 131.57,
-      "value_usd": 25.06,
-      "pnl_pct": 0.34,
-      "pnl_usd": 0.08,
+      "current_price": 131.63,
+      "value_usd": 25.07,
+      "pnl_pct": 0.38,
+      "pnl_usd": 0.1,
       "trailing_info": "Peak: $131.78 | Trailing 3.5%"
     }
   ],
@@ -1362,21 +1362,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "SMH",
-      "current_price": 552.685,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 55,
-      "position_usd": 15.0,
-      "stop_loss_pct": -2.0,
-      "take_profit_pct": 4.0,
-      "primary_thesis": "SMH is showing positive intraday momentum above VWAP, but deployable cash is severely restricted and headlines cite lingering headwinds and payout limitations.",
-      "risk_factors": "Broad market tech weakness following recent Nasdaq underperformance increases vulnerability to sudden reversals near current price levels.",
-      "timestamp": "2026-10-27T09:41:52.292250"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "ARM",
       "current_price": 226.9,
       "approved": false,
@@ -1955,6 +1940,20 @@
       "primary_thesis": "HOOD shows positive intraday momentum above VWAP and sympathy gains from fintech sector earnings beats, but lack of volume profile confirmation makes it a mediocre setup.",
       "risk_factors": "Recent 11% weekly drawdown indicates persistent overhead selling pressure and choppy sentiment.",
       "timestamp": "2026-10-27T11:43:49.687625"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AVGO",
+      "entry_price": 339.7399,
+      "current_price": 341.72,
+      "pnl_pct": 0.58,
+      "hours_held": 0.8,
+      "action": "TIGHTEN_STOP",
+      "confidence": 90,
+      "new_stop_pct": 0.2,
+      "reasoning": "Position has reached +0.58% unrealized gain meeting our partial scale/trail threshold, so we tighten the stop to lock in profits at peak favorable excursion.",
+      "timestamp": "2026-10-27T11:44:52.783910"
     }
   ],
   "performance": {
@@ -1966,7 +1965,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.69010782,
+    "current_equity": 326.7351633965,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3137,5 +3136,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T13:31:56.359541"
+  "snapshot_synced_at": "2026-10-27T13:33:29.933720"
 }
