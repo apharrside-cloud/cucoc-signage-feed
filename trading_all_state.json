@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T00:02:39.206290",
+  "timestamp": "2026-10-27T00:04:12.665187",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.49,
@@ -80,25 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.13621490461752,
-      "btc_price": 79681.18,
+      "btc_change_24h": 0.09318376350825,
+      "btc_price": 79658.84,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral +0.14% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral +0.09% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 23:52:43] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 23:52:43] Macro Regime: RISK_ON | BTC 24h: +0.50% | Alts Allowed: True",
-      "[2026-10-26 23:52:43] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 23:52:43] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-26 23:53:44] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 23:53:45] Macro Regime: NEUTRAL | BTC 24h: +0.47% | Alts Allowed: False",
-      "[2026-10-26 23:53:45] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 23:53:45] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-26 23:54:47] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 23:54:47] Macro Regime: NEUTRAL | BTC 24h: +0.47% | Alts Allowed: False",
       "[2026-10-26 23:54:47] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-26 23:54:47] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 23:55:49] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -128,7 +118,17 @@
       "[2026-10-27 00:02:02] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 00:02:02] Macro Regime: NEUTRAL | BTC 24h: +0.14% | Alts Allowed: False",
       "[2026-10-27 00:02:02] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 00:02:02] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-27 00:02:02] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 00:03:04] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 00:03:05] Macro Regime: NEUTRAL | BTC 24h: +0.09% | Alts Allowed: False",
+      "[2026-10-27 00:03:05] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 00:03:05] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 00:04:07] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 00:04:07] Macro Regime: NEUTRAL | BTC 24h: +0.07% | Alts Allowed: False",
+      "[2026-10-27 00:04:07] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 00:04:07] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 00:04:08] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=27.2 (chg -0.44%)!",
+      "[2026-10-27 00:04:11] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX exhibits severely depressed relative volume (0.05 rvol), an hourly bearish trend, and macro regime restrictions that forbid standard altcoin long entries."
     ]
   },
   "positions": [
@@ -1316,21 +1316,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "NVDA",
-      "current_price": 217.17,
-      "approved": true,
-      "action": "BUY",
-      "confidence": 78,
-      "position_usd": 30.0,
-      "stop_loss_pct": -2.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "NVDA is exhibiting strong institutional momentum during regular trading hours, trading comfortably above its intraday VWAP backed by major secular AI infrastructure tailwinds.",
-      "risk_factors": "General equity market volatility and overhead resistance near recent highs could stall momentum quickly.",
-      "timestamp": "2026-10-26T11:19:01.025771"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "SOXL",
       "current_price": 91.0099,
       "approved": false,
@@ -1899,6 +1884,21 @@
       "primary_thesis": "Micron is exhibiting strong momentum backed by Bank of America's positive revisions and sector strength, trading firmly above VWAP.",
       "risk_factors": "Current deployment cash is limited to $95.80 with a $30 max position size, and equity price volatility at these levels requires careful capital allocation.",
       "timestamp": "2026-10-26T14:18:13.594640"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "SMH",
+      "current_price": 544.875,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.5,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "SMH is showing strong intraday upside momentum above VWAP during regular hours, but deployable cash is limited and broader tech sentiment faces mixed near-term catalysts.",
+      "risk_factors": "Uncertain broader tech sector durability following recent index volatility and lack of explicit volume confirmation metrics in the dossier.",
+      "timestamp": "2026-10-26T14:19:40.376274"
     }
   ],
   "performance": {
@@ -3081,5 +3081,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T00:02:38.887918"
+  "snapshot_synced_at": "2026-10-27T00:04:12.345183"
 }
