@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T05:26:58.435069",
+  "timestamp": "2026-10-27T05:28:32.016534",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.63,
@@ -79,22 +79,15 @@
     "cash_usd": 161.56,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "NEUTRAL",
-      "btc_change_24h": -0.14236781164969,
-      "btc_price": 79735.83,
+      "status": "RISK_OFF",
+      "btc_change_24h": -1.03267235221458,
+      "btc_price": 79568.91,
       "allow_alts": false,
-      "allow_core": true,
-      "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.14% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "allow_core": false,
+      "reason": "BTC down -1.03% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 05:19:36] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 05:19:36] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 05:19:37] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=33.9 (chg -1.74%)!",
-      "[2026-10-27 05:19:40] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX displays severely depressed relative volume (RVOL 0.11), a bearish hourly trend, and a 1-hour RSI of 33.9 without mean-reversion confirmation, failing all mandatory volume and momentum criteria.",
-      "[2026-10-27 05:20:40] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 05:20:40] Macro Regime: NEUTRAL | BTC 24h: -0.84% | Alts Allowed: False",
       "[2026-10-27 05:20:40] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 05:20:40] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 05:20:42] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=33.9 (chg -1.90%)!",
@@ -128,7 +121,13 @@
       "[2026-10-27 05:26:03] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 05:26:03] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 05:26:04] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=35.1 (chg -1.92%)!",
-      "[2026-10-27 05:26:07] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX fails multiple hard rules including extreme low relative volume (rvol 0.19 vs min 1.5x required), bearish hourly trend, RSI at 35.1 in a mean reversion mode, and macro market conditions explicitly blocking altcoin long entries."
+      "[2026-10-27 05:26:07] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX fails multiple hard rules including extreme low relative volume (rvol 0.19 vs min 1.5x required), bearish hourly trend, RSI at 35.1 in a mean reversion mode, and macro market conditions explicitly blocking altcoin long entries.",
+      "[2026-10-27 05:27:07] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 05:27:07] Macro Regime: RISK_OFF | BTC 24h: -1.03% | Alts Allowed: False",
+      "[2026-10-27 05:27:07] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 05:28:07] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 05:28:08] Macro Regime: RISK_OFF | BTC 24h: -1.03% | Alts Allowed: False",
+      "[2026-10-27 05:28:08] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -3094,5 +3093,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T05:26:58.123098"
+  "snapshot_synced_at": "2026-10-27T05:28:31.666779"
 }
