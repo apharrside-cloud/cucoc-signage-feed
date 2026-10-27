@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T02:47:51.614589",
+  "timestamp": "2026-10-27T02:49:25.220957",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.0,
@@ -89,13 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 02:42:09] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 02:42:09] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 02:42:10] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=27.8 (chg -0.92%)!",
-      "[2026-10-27 02:42:10] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=32.6 (chg -0.77%)!",
-      "[2026-10-27 02:42:13] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 35%) | Thesis: SOL is currently experiencing mean-reversion with an extremely weak relative volume of 0.16 and a bearish hourly trend, failing all crypto long breakout volume rules.",
-      "[2026-10-27 02:43:13] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 02:43:13] Macro Regime: NEUTRAL | BTC 24h: -0.36% | Alts Allowed: False",
       "[2026-10-27 02:43:13] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 02:43:13] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 02:43:15] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=27.8 (chg -0.97%)!",
@@ -128,7 +121,14 @@
       "[2026-10-27 02:47:32] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 02:47:33] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=27.9 (chg -1.05%)!",
       "[2026-10-27 02:47:33] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=32.8 (chg -0.60%)!",
-      "[2026-10-27 02:47:36] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL is currently experiencing a bearish trend with severely depleted volume (RVOL 0.17) and an RSI of 27.9, failing all mandatory volume expansion and trend alignment filters."
+      "[2026-10-27 02:47:36] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL is currently experiencing a bearish trend with severely depleted volume (RVOL 0.17) and an RSI of 27.9, failing all mandatory volume expansion and trend alignment filters.",
+      "[2026-10-27 02:48:36] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 02:48:36] Macro Regime: NEUTRAL | BTC 24h: -0.46% | Alts Allowed: False",
+      "[2026-10-27 02:48:36] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 02:48:36] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 02:48:37] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=27.9 (chg -1.08%)!",
+      "[2026-10-27 02:48:37] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=32.8 (chg -0.73%)!",
+      "[2026-10-27 02:48:40] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL is currently experiencing a bearish hourly trend with severe volume depletion (RVOL 0.17) and an active macro regime restriction that disallows altcoin longs."
     ]
   },
   "positions": [
@@ -1317,21 +1317,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
-      "current_price": 99.912,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 15,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "SOL exhibits extremely low relative volume (RVOL 0.34) and a bearish hourly trend with RSI in oversold territory, failing all strict breakout and mean-reversion volume filters.",
-      "risk_factors": "Fails multiple mandatory strategy rules including RVOL < 1.5x threshold, bearish 4-hour/1-hour trend alignment, and unfavorable choppy market regime.",
-      "timestamp": "2026-10-27T01:01:07.615592"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SOL",
       "current_price": 100.0,
       "approved": false,
       "action": "REJECT",
@@ -1912,6 +1897,21 @@
       "primary_thesis": "SOL exhibits extremely weak relative volume (0.32 RVOL) and a bearish hourly trend, failing all volume expansion and trend alignment criteria.",
       "risk_factors": "Low volume mean-reversion in a choppy macro regime risks a continuation of the downward trend without institutional support.",
       "timestamp": "2026-10-27T01:43:05.769383"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 99.83,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 15,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "SOL exhibits oversold conditions with an RSI of 24.4, but violates multiple strict rule filters including extremely weak relative volume (0.32 vs required 1.5x+), a bearish hourly trend, and a neutral macro regime with altcoin long permissions restricted.",
+      "risk_factors": "Low volume mean-reversion attempts without institutional momentum or volume backing often result in continuation traps and severe drawdowns during broader market chop.",
+      "timestamp": "2026-10-27T01:44:09.951532"
     }
   ],
   "performance": {
@@ -3094,5 +3094,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T02:47:51.209303"
+  "snapshot_synced_at": "2026-10-27T02:49:24.897867"
 }
