@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T07:00:51.580818",
+  "timestamp": "2026-10-27T07:02:25.266368",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.38,
@@ -80,23 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.56090597400319,
-      "btc_price": 79789.76,
+      "btc_change_24h": -0.41941536184035,
+      "btc_price": 79872.86,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.56% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.42% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 06:50:42] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 06:50:42] Macro Regime: NEUTRAL | BTC 24h: -0.55% | Alts Allowed: False",
-      "[2026-10-27 06:50:42] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 06:50:42] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 06:51:44] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 06:51:44] Macro Regime: NEUTRAL | BTC 24h: -0.57% | Alts Allowed: False",
-      "[2026-10-27 06:51:44] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 06:51:44] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 06:52:46] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 06:52:46] Macro Regime: NEUTRAL | BTC 24h: -0.57% | Alts Allowed: False",
       "[2026-10-27 06:52:46] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +120,15 @@
       "[2026-10-27 07:00:01] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 07:00:01] Macro Regime: NEUTRAL | BTC 24h: -0.56% | Alts Allowed: False",
       "[2026-10-27 07:00:01] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 07:00:01] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-27 07:00:01] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 07:01:03] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 07:01:03] Macro Regime: NEUTRAL | BTC 24h: -0.47% | Alts Allowed: False",
+      "[2026-10-27 07:01:03] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 07:01:03] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 07:02:05] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 07:02:05] Macro Regime: NEUTRAL | BTC 24h: -0.42% | Alts Allowed: False",
+      "[2026-10-27 07:02:05] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 07:02:05] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -1314,6 +1314,21 @@
   ],
   "ai_decisions": [
     {
+      "id": "dec_1793098890_dcf5de",
+      "timestamp": "2026-10-27T07:01:30.747135",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "BTC",
+      "title": "Breaking Catalyst: Investor who called for AI pivot in 2023 says bitcoin is going to $57,000",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": 0.0,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "NEUTRAL",
+      "impact": "CATALYST_ANALYZED"
+    },
+    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
@@ -1897,21 +1912,6 @@
       "primary_thesis": "AVAX fails all core quantitative criteria with an anemic 1-hour relative volume of 0.26 (far below the required >= 1.5x threshold) and an inactive macro regime for standard altcoins.",
       "risk_factors": "Extremely weak volume profile indicating lack of institutional participation, combined with negative 24-hour momentum and broader market chop.",
       "timestamp": "2026-10-27T04:44:16.280242"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
-      "current_price": 8.764,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "AVAX fails critical execution rules with an abysmal 1-hour relative volume of 0.26x against the required >= 1.5x threshold, combined with negative 24h price performance (-1.84%) and unfavorable macro altcoin filter status.",
-      "risk_factors": "Severe lack of volume participation, declining momentum in a neutral-to-choppy market regime, and violation of multiple strict minimum relative volume filters.",
-      "timestamp": "2026-10-27T04:45:20.412283"
     }
   ],
   "performance": {
@@ -3094,5 +3094,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T07:00:51.250678"
+  "snapshot_synced_at": "2026-10-27T07:02:24.955955"
 }
