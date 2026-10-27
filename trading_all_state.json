@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T16:01:57.560806",
+  "timestamp": "2026-10-27T16:03:31.123195",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.53,
@@ -104,24 +104,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.9768561543427,
-      "btc_price": 80686.91,
+      "btc_change_24h": 1.07899813599003,
+      "btc_price": 80667.55,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.98% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.08% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 15:53:37] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 15:53:38] Macro Regime: RISK_ON | BTC 24h: +0.98% | Alts Allowed: True",
-      "[2026-10-27 15:53:38] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 15:53:38] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 15:53:43] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR is exhibiting bullish hourly trend structure under a Risk-On macro regime, but fails critical volume confirmation filters.",
-      "[2026-10-27 15:54:43] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 15:54:44] Macro Regime: RISK_ON | BTC 24h: +1.00% | Alts Allowed: True",
-      "[2026-10-27 15:54:44] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 15:54:44] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 15:54:48] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR is showing bullish hourly structure during a risk-on regime, but fails critical volume and RSI filter requirements.",
       "[2026-10-27 15:55:48] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 15:55:48] Macro Regime: RISK_ON | BTC 24h: +0.93% | Alts Allowed: True",
@@ -152,7 +143,16 @@
       "[2026-10-27 16:01:08] Macro Regime: RISK_ON | BTC 24h: +1.14% | Alts Allowed: True",
       "[2026-10-27 16:01:08] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 16:01:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 16:01:12] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR is showing mild intraday strength in a Risk-On regime, but fails critical evolved strategy rules requiring relative volume >= 1.5x on breakout entries."
+      "[2026-10-27 16:01:12] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR is showing mild intraday strength in a Risk-On regime, but fails critical evolved strategy rules requiring relative volume >= 1.5x on breakout entries.",
+      "[2026-10-27 16:02:12] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 16:02:12] Macro Regime: RISK_ON | BTC 24h: +1.10% | Alts Allowed: True",
+      "[2026-10-27 16:02:12] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 16:02:12] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 16:02:16] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows a bullish hourly trend and positive macro backdrop, but fails key algorithmic volume filters.",
+      "[2026-10-27 16:03:16] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 16:03:16] Macro Regime: RISK_ON | BTC 24h: +1.08% | Alts Allowed: True",
+      "[2026-10-27 16:03:16] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 16:03:16] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1360,20 +1360,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Equities",
-      "symbol": "AVGO",
-      "entry_price": 339.7399,
-      "current_price": 341.72,
-      "pnl_pct": 0.58,
-      "hours_held": 0.8,
-      "action": "TIGHTEN_STOP",
-      "confidence": 90,
-      "new_stop_pct": 0.2,
-      "reasoning": "Position has reached +0.58% unrealized gain meeting our partial scale/trail threshold, so we tighten the stop to lock in profits at peak favorable excursion.",
-      "timestamp": "2026-10-27T11:44:52.783910"
-    },
-    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
       "symbol": "ORCL",
@@ -1954,6 +1940,21 @@
       "primary_thesis": "FET shows solid relative volume (2.01x) and bullish 1-hour trend alignment, but breaking news reveals a critical exploit of Fetch.ai and NuNet for $2 Million.",
       "risk_factors": "Active exploit headlines and project security incidents create severe negative fundamental risk and outweigh technical breakout indicators.",
       "timestamp": "2026-10-27T12:53:41.668243"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "TQQQ",
+      "current_price": 70.925,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "TQQQ is up 3.65% with retail inflows, but trades below intraday VWAP ($266.45 normalized metric context mismatch) and lacks sufficient institutional volume confirmation.",
+      "risk_factors": "Price trading below intraday VWAP combined with leveraged ETF decay risk and retail momentum chasing makes this setup vulnerable to a sharp mean-reversion reversal.",
+      "timestamp": "2026-10-27T12:54:44.680993"
     }
   ],
   "performance": {
@@ -3136,5 +3137,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T16:01:57.219601"
+  "snapshot_synced_at": "2026-10-27T16:03:30.811279"
 }
