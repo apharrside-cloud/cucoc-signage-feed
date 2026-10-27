@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T16:25:24.102608",
+  "timestamp": "2026-10-27T16:26:57.918490",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.43,
+    "total_equity": 326.36,
     "total_cash": 258.28,
     "cash_pct": 79.1,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 164.8689862053,
+    "total_value": 164.8013205435,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -28,7 +28,7 @@
         "current_price": 560.45,
         "pnl_pct": 5.12,
         "pnl_usd": 0.64,
-        "last_ai_eval_ts": 1793131865.4945438
+        "last_ai_eval_ts": 1793132780.242464
       },
       "AVGO": {
         "symbol": "AVGO",
@@ -40,14 +40,10 @@
         "current_price": 342.46,
         "pnl_pct": 0.8,
         "pnl_usd": 0.24,
-        "last_ai_eval_ts": 1793131872.216983
+        "last_ai_eval_ts": 1793132783.204937
       }
     },
     "logs": [
-      "[2026-10-27 15:55:27] Running portfolio evaluation cycle...",
-      "[2026-10-27 15:55:28] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $558.97 | PnL: +4.84% ($+0.60) | Peak: $563.68",
-      "[2026-10-27 15:55:30] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: AMD has pulled back 0.84% from its peak of $563.68, and tightening the stop locks in a strong +3.5% gain while allowing room for continuation.",
-      "[2026-10-27 15:55:30] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.08 | PnL: +0.69% ($+0.21) | Peak: $344.37",
       "[2026-10-27 15:55:32] 🧠 [AI TIGHTEN STOP] Raising stop loss for AVGO from -4.5% to 0.25% | Reason: AVGO has pulled back 0.66% from its peak of +1.36%, hitting our rule to scale or tighten stops as momentum stalls above 0.5% profit.",
       "[2026-10-27 15:55:32] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $130.51 | PnL: -0.47% ($-0.12) | Peak: $132.10",
       "[2026-10-27 15:56:32] Running portfolio evaluation cycle...",
@@ -83,7 +79,11 @@
       "[2026-10-27 16:16:18] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
       "[2026-10-27 16:21:18] Running portfolio evaluation cycle...",
       "[2026-10-27 16:21:19] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-27 16:21:19] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
+      "[2026-10-27 16:21:19] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
+      "[2026-10-27 16:26:19] Running portfolio evaluation cycle...",
+      "[2026-10-27 16:26:20] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-27 16:26:23] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Securing +5.12% open profit with a tightened stop following a mild 0.57% pullback from peak excursion to protect gains against fading upside momentum.",
+      "[2026-10-27 16:26:23] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
     ]
   },
   "coinbase": {
@@ -92,8 +92,8 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.04658026813605,
-      "btc_price": 80607.07,
+      "btc_change_24h": 1.05274440657058,
+      "btc_price": 80607.45,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
@@ -101,10 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 16:15:38] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 16:15:38] Macro Regime: RISK_ON | BTC 24h: +1.07% | Alts Allowed: True",
-      "[2026-10-27 16:15:38] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 16:15:38] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 16:16:40] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 16:16:40] Macro Regime: RISK_ON | BTC 24h: +1.09% | Alts Allowed: True",
       "[2026-10-27 16:16:40] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +136,11 @@
       "[2026-10-27 16:24:57] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 16:24:57] Macro Regime: RISK_ON | BTC 24h: +1.05% | Alts Allowed: True",
       "[2026-10-27 16:24:57] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 16:24:57] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 16:24:57] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 16:25:59] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 16:25:59] Macro Regime: RISK_ON | BTC 24h: +1.05% | Alts Allowed: True",
+      "[2026-10-27 16:25:59] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 16:25:59] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1339,21 +1339,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "MU",
-      "current_price": 932.195,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -2.5,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "Micron is exhibiting strong upside momentum and trading above VWAP, but the available deployable cash is small and headlines questioning whether to take profits indicate elevated near-term topping risk.",
-      "risk_factors": "Extended valuation at $932+ with profit-taking articles circulating creates an unfavorable asymmetry for an aggressive long entry.",
-      "timestamp": "2026-10-27T12:00:53.779254"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "TQQQ",
       "current_price": 71.41,
       "approved": false,
@@ -1932,6 +1917,21 @@
       "primary_thesis": "Micron (MU) is showing strong sector momentum and positive headlines regarding AI memory demand, but deployable cash is severely limited relative to the high unit share price ($931.06), making proper risk-managed execution impossible within cash limits.",
       "risk_factors": "High absolute share price prevents fractional risk allocation, and headline fatigue around profit-taking creates elevated pullback risk at current elevated levels.",
       "timestamp": "2026-10-27T12:55:50.646548"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.17955,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "Rejecting FET due to critical exploit and security breach headlines involving Fetch.ai in the news catalyst dossier.",
+      "risk_factors": "Fetch.ai exploitation and active attacker headlines present severe fundamental downside risk and reputational overhang despite technical breakout signals.",
+      "timestamp": "2026-10-27T12:56:00.441351"
     }
   ],
   "performance": {
@@ -1943,7 +1943,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.4289862053,
+    "current_equity": 326.3613205435,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3114,5 +3114,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T16:25:23.752927"
+  "snapshot_synced_at": "2026-10-27T16:26:57.552275"
 }
