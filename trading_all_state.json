@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T00:22:55.257579",
+  "timestamp": "2026-10-27T00:24:28.915797",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.36,
@@ -89,14 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 00:18:06] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 00:18:06] Macro Regime: NEUTRAL | BTC 24h: -0.32% | Alts Allowed: False",
-      "[2026-10-27 00:18:06] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 00:18:06] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 00:18:07] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.5 (chg -0.81%)!",
-      "[2026-10-27 00:18:07] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.3 (chg -1.01%)!",
-      "[2026-10-27 00:18:07] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.5 (chg -0.32%)!",
-      "[2026-10-27 00:18:10] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL exhibits extremely low relative volume (0.07 RVOL) and bearish hourly trend alignment, failing all strict volume and momentum expansion criteria.",
       "[2026-10-27 00:19:10] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 00:19:10] Macro Regime: NEUTRAL | BTC 24h: -0.25% | Alts Allowed: False",
       "[2026-10-27 00:19:10] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +120,15 @@
       "[2026-10-27 00:22:25] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.8 (chg -0.61%)!",
       "[2026-10-27 00:22:25] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.5 (chg -0.79%)!",
       "[2026-10-27 00:22:25] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.2 (chg -0.21%)!",
-      "[2026-10-27 00:22:28] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a severe mean-reversion setup with an extremely low relative volume (0.1) and a bearish hourly trend, failing all required volume and momentum criteria."
+      "[2026-10-27 00:22:28] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a severe mean-reversion setup with an extremely low relative volume (0.1) and a bearish hourly trend, failing all required volume and momentum criteria.",
+      "[2026-10-27 00:23:28] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 00:23:28] Macro Regime: NEUTRAL | BTC 24h: -0.13% | Alts Allowed: False",
+      "[2026-10-27 00:23:28] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 00:23:28] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 00:23:29] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.8 (chg -0.50%)!",
+      "[2026-10-27 00:23:29] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.5 (chg -0.73%)!",
+      "[2026-10-27 00:23:30] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.2 (chg -0.13%)!",
+      "[2026-10-27 00:23:32] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a bearish hourly trend with severely anemic relative volume (RVOL 0.1), failing all required volume and momentum criteria for entry."
     ]
   },
   "positions": [
@@ -1314,21 +1314,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "MU",
-      "current_price": 906.68,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "Micron (MU) is showing strong positive momentum and bullish analyst backing from Bank of America, but the available deployable cash of $100.38 against a share price of $906.68 makes fractional share execution on a standard equity position impractical for proper risk management.",
-      "risk_factors": "Prohibitive share price relative to small capital account size prevents adequate position sizing and stop-loss granularity.",
-      "timestamp": "2026-10-26T12:27:24.857130"
-    },
-    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Equities",
       "symbol": "AVGO",
@@ -1905,6 +1890,21 @@
       "primary_thesis": "Micron is surging 3.96% backed by positive analyst commentary from Bank of America and memory sector strength, trading firmly above its intraday VWAP.",
       "risk_factors": "The deployable cash available ($95.76) restricts position sizing, and with Micron trading at an elevated absolute price of $912.35, the available capital cannot acquire a meaningful fractional share allotment to manage risk effectively.",
       "timestamp": "2026-10-26T15:19:38.743701"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "SMH",
+      "current_price": 544.82,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.0,
+      "take_profit_pct": 4.0,
+      "primary_thesis": "SMH is showing intraday strength above VWAP (+3.34%), but lacks detailed volume and order book confirmation for a high-conviction breakout.",
+      "risk_factors": "Mixed semiconductor catalysts and broader market volatility from recent tech sector pullbacks present a risk of a false breakout.",
+      "timestamp": "2026-10-26T15:20:42.597535"
     }
   ],
   "performance": {
@@ -3087,5 +3087,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T00:22:54.937246"
+  "snapshot_synced_at": "2026-10-27T00:24:28.621100"
 }
