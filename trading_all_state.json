@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T18:55:22.431451",
+  "timestamp": "2026-10-27T18:56:55.899904",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.59,
@@ -101,15 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 18:47:13] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:47:13] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
-      "[2026-10-27 18:47:13] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:47:13] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:47:17] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows strong volume expansion and bullish momentum, but negative exploit headlines regarding Fetch.ai create unacceptable binary tail risk.",
-      "[2026-10-27 18:48:17] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:48:17] Macro Regime: RISK_ON | BTC 24h: +1.13% | Alts Allowed: True",
-      "[2026-10-27 18:48:17] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:48:17] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 18:48:21] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: The trade candidate fails critical news scrubbing and security vetting due to active exploit headlines involving Fetch.ai.",
       "[2026-10-27 18:49:21] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 18:49:21] Macro Regime: RISK_ON | BTC 24h: +1.11% | Alts Allowed: True",
@@ -140,7 +131,16 @@
       "[2026-10-27 18:54:46] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
       "[2026-10-27 18:54:46] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 18:54:46] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:54:49] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET is facing severe negative catalysts with an explicit news headline reporting a $2 million exploit on Fetch.ai by an attacker, creating extreme existential risk."
+      "[2026-10-27 18:54:49] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET is facing severe negative catalysts with an explicit news headline reporting a $2 million exploit on Fetch.ai by an attacker, creating extreme existential risk.",
+      "[2026-10-27 18:55:49] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 18:55:50] Macro Regime: RISK_ON | BTC 24h: +1.21% | Alts Allowed: True",
+      "[2026-10-27 18:55:50] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 18:55:50] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 18:55:54] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET exhibits strong relative volume and breakout indicators, but breaking news highlights a critical exploit targeting Fetch.ai and NuNet.",
+      "[2026-10-27 18:56:54] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 18:56:54] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
+      "[2026-10-27 18:56:54] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 18:56:54] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1339,21 +1339,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "ARM",
-      "current_price": 226.77,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "ARM is trading above intraday VWAP with modest upward momentum during regular hours.",
-      "risk_factors": "News headlines note active legal/jury breach rulings and opposition to tokenization trading platforms, introducing binary headline risk.",
-      "timestamp": "2026-10-27T13:09:41.202783"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "ORCL",
       "current_price": 131.13,
       "approved": true,
@@ -1923,6 +1908,20 @@
       "new_stop_pct": 3.5,
       "reasoning": "AMD has pulled back 0.84% from its peak of $563.68, and tightening the stop locks in a strong +3.5% gain while allowing room for continuation.",
       "timestamp": "2026-10-27T15:55:28.360288"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AVGO",
+      "entry_price": 339.7399,
+      "current_price": 342.08,
+      "pnl_pct": 0.69,
+      "hours_held": 5.0,
+      "action": "TIGHTEN_STOP",
+      "confidence": 85,
+      "new_stop_pct": 0.25,
+      "reasoning": "AVGO has pulled back 0.66% from its peak of +1.36%, hitting our rule to scale or tighten stops as momentum stalls above 0.5% profit.",
+      "timestamp": "2026-10-27T15:55:30.431104"
     }
   ],
   "performance": {
@@ -3105,5 +3104,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T18:55:22.010205"
+  "snapshot_synced_at": "2026-10-27T18:56:55.503162"
 }
