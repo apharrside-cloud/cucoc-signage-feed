@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T19:01:37.002032",
+  "timestamp": "2026-10-27T19:03:10.402688",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.55,
@@ -101,11 +101,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 18:53:40] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:53:40] Macro Regime: RISK_ON | BTC 24h: +1.15% | Alts Allowed: True",
-      "[2026-10-27 18:53:40] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:53:40] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:53:45] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: FET shows strong volume expansion and technical breakout alignment, but breaking news reveals a $2 million exploit on Fetch.ai and NuNet by an attacker.",
       "[2026-10-27 18:54:45] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 18:54:46] Macro Regime: RISK_ON | BTC 24h: +1.17% | Alts Allowed: True",
       "[2026-10-27 18:54:46] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +135,12 @@
       "[2026-10-27 19:01:11] Macro Regime: RISK_ON | BTC 24h: +1.18% | Alts Allowed: True",
       "[2026-10-27 19:01:11] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 19:01:11] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 19:01:15] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows strong volume expansion and bullish momentum, but negative news catalyst regarding a recent $2 million exploit on Fetch.ai presents an unacceptable binary risk."
+      "[2026-10-27 19:01:15] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows strong volume expansion and bullish momentum, but negative news catalyst regarding a recent $2 million exploit on Fetch.ai presents an unacceptable binary risk.",
+      "[2026-10-27 19:02:15] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 19:02:15] Macro Regime: RISK_ON | BTC 24h: +1.26% | Alts Allowed: True",
+      "[2026-10-27 19:02:15] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 19:02:15] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 19:02:19] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 55%) | Thesis: SUI shows bullish hourly trend confluence in a risk-on macro regime, but fails critical volume rules."
     ]
   },
   "positions": [
@@ -1340,21 +1340,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
-      "current_price": 0.17959,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 40,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET fails multiple mandatory crypto breakout rules, exhibiting an anemic relative volume (RVOL 1.0) and conflicting with exploit news headlines surrounding Fetch.ai.",
-      "risk_factors": "RVOL of 1.0 severely violates the mandatory >= 1.5x to 2.5x volume expansion threshold, combined with negative exploit news headlines creating high binary risk.",
-      "timestamp": "2026-10-27T13:32:38.948303"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
       "current_price": 0.17965,
       "approved": false,
       "action": "REJECT",
@@ -1922,6 +1907,21 @@
       "primary_thesis": "NEAR is showing mild intraday strength in a Risk-On regime, but fails critical evolved strategy rules requiring relative volume >= 1.5x on breakout entries.",
       "risk_factors": "Current RVOL is only 1.09, well below the mandatory 1.5x minimum threshold for crypto breakouts, exposing the setup to a lack of institutional follow-through.",
       "timestamp": "2026-10-27T16:01:09.761435"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "NEAR",
+      "current_price": 4.628,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "NEAR shows a bullish hourly trend and positive macro backdrop, but fails key algorithmic volume filters.",
+      "risk_factors": "RVOL is only 1.09, falling severely short of the mandatory >= 1.5x volume expansion threshold for crypto breakout entries.",
+      "timestamp": "2026-10-27T16:02:14.003487"
     }
   ],
   "performance": {
@@ -3104,5 +3104,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T19:01:36.672560"
+  "snapshot_synced_at": "2026-10-27T19:03:10.078705"
 }
