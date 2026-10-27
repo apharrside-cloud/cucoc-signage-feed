@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T06:30:59.280880",
+  "timestamp": "2026-10-27T06:32:34.586237",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.07,
@@ -80,24 +80,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.07010067895124,
-      "btc_price": 79442.48,
+      "btc_change_24h": -1.01859595415714,
+      "btc_price": 79487.65,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.07% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.02% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 06:23:00] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 06:23:00] Macro Regime: RISK_OFF | BTC 24h: -1.02% | Alts Allowed: False",
-      "[2026-10-27 06:23:00] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 06:24:01] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 06:24:01] Macro Regime: RISK_OFF | BTC 24h: -1.04% | Alts Allowed: False",
-      "[2026-10-27 06:24:01] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 06:25:01] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 06:25:01] Macro Regime: RISK_OFF | BTC 24h: -1.03% | Alts Allowed: False",
-      "[2026-10-27 06:25:01] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 06:26:02] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 06:26:02] Macro Regime: RISK_OFF | BTC 24h: -1.07% | Alts Allowed: False",
       "[2026-10-27 06:26:02] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 06:27:02] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -127,7 +117,17 @@
       "[2026-10-27 06:30:16] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 06:30:17] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=37.9 (chg -1.90%)!",
       "[2026-10-27 06:30:18] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=34.0 (chg -2.32%)!",
-      "[2026-10-27 06:30:22] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX is showing severe weakness with bearish hourly trend, RSI at 34, and extreme lack of volume (RVOL 0.16) failing all strict momentum filters."
+      "[2026-10-27 06:30:22] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX is showing severe weakness with bearish hourly trend, RSI at 34, and extreme lack of volume (RVOL 0.16) failing all strict momentum filters.",
+      "[2026-10-27 06:31:22] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 06:31:22] Macro Regime: RISK_OFF | BTC 24h: -1.02% | Alts Allowed: False",
+      "[2026-10-27 06:31:22] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 06:32:23] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 06:32:23] Macro Regime: NEUTRAL | BTC 24h: -0.98% | Alts Allowed: False",
+      "[2026-10-27 06:32:23] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 06:32:23] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 06:32:24] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=37.9 (chg -1.93%)!",
+      "[2026-10-27 06:32:24] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=34.0 (chg -2.33%)!",
+      "[2026-10-27 06:32:28] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX is currently in a bearish hourly trend with an extreme lack of volume (RVOL 0.16) and negative price action, failing all quantitative momentum and volume expansion filters."
     ]
   },
   "positions": [
@@ -1316,21 +1316,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
-      "current_price": 99.527,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "SOL exhibits oversold conditions (RSI 27.1) under a mean reversion strategy mode, but fails volume and macro filters.",
-      "risk_factors": "Relative volume is severely depressed at 0.28 against a bearish 1-hour trend, and macro regime restricts altcoin longs.",
-      "timestamp": "2026-10-27T03:40:08.974296"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SOL",
       "current_price": 99.58,
       "approved": false,
       "action": "REJECT",
@@ -1911,6 +1896,21 @@
       "primary_thesis": "AVAX fails critical volume and regime filters with a severe lack of relative volume (RVOL 0.23) and bearish recent price action.",
       "risk_factors": "Macro regime restricts general altcoins, RVOL is well below the mandatory 1.5x threshold, and negative sentiment/news headlines indicate further downside risk.",
       "timestamp": "2026-10-27T04:32:23.745474"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 8.755,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 30,
+      "position_usd": 15.0,
+      "stop_loss_pct": -4.0,
+      "take_profit_pct": 8.0,
+      "primary_thesis": "AVAX is showing extremely weak relative volume (RVOL 0.23) and bearish recent news headlines following an 11% weekly drop, failing all momentum and volume breakout rules.",
+      "risk_factors": "Sub-threshold RVOL of 0.23, negative 24h change (-1.45%), and macro chop regime with BTC down -0.52% completely invalidate any long entry thesis.",
+      "timestamp": "2026-10-27T04:33:27.948022"
     }
   ],
   "performance": {
@@ -3093,5 +3093,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T06:30:58.485268"
+  "snapshot_synced_at": "2026-10-27T06:32:33.955879"
 }
