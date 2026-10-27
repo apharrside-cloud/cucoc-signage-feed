@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-26T22:55:12.352030",
+  "timestamp": "2026-10-26T22:56:45.946294",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 324.6,
+    "total_equity": 324.48,
     "total_cash": 269.47,
     "cash_pct": 83.0,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 163.04470316,
+    "total_value": 162.91769576,
     "cash": 107.91,
     "positions": {
       "AMD": {
@@ -28,12 +28,10 @@
         "current_price": 531.47,
         "pnl_pct": -0.32,
         "pnl_usd": -0.08,
-        "last_ai_eval_ts": 1793068503.1088142
+        "last_ai_eval_ts": 1793069729.9413898
       }
     },
     "logs": [
-      "[2026-10-26 21:13:57] Running portfolio evaluation cycle...",
-      "[2026-10-26 21:13:58] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-26 21:19:00] Running portfolio evaluation cycle...",
       "[2026-10-26 21:19:00] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-26 21:24:00] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-26 22:45:09] Running portfolio evaluation cycle...",
       "[2026-10-26 22:45:10] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-26 22:50:10] Running portfolio evaluation cycle...",
-      "[2026-10-26 22:50:25] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
+      "[2026-10-26 22:50:25] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
+      "[2026-10-26 22:55:25] Running portfolio evaluation cycle...",
+      "[2026-10-26 22:55:29] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34"
     ]
   },
   "coinbase": {
@@ -89,12 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-26 22:46:45] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 22:46:45] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-26 22:47:47] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-26 22:47:47] Macro Regime: NEUTRAL | BTC 24h: +0.35% | Alts Allowed: False",
-      "[2026-10-26 22:47:47] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 22:47:47] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-26 22:47:48] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=37.9 (chg -0.49%)!",
       "[2026-10-26 22:47:51] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: REJECTED: Severe lack of volume confirmation (RVOL 0.22 vs 1.5x minimum requirement) and bearish hourly trend alignment violate multiple evolved strategy rules.",
       "[2026-10-26 22:48:51] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -128,7 +122,13 @@
       "[2026-10-26 22:55:09] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-26 22:55:09] Macro Regime: NEUTRAL | BTC 24h: +0.39% | Alts Allowed: False",
       "[2026-10-26 22:55:09] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-26 22:55:09] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-26 22:55:09] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 22:56:11] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-26 22:56:11] Macro Regime: NEUTRAL | BTC 24h: +0.39% | Alts Allowed: False",
+      "[2026-10-26 22:56:11] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-26 22:56:11] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-26 22:56:13] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=37.8 (chg -0.36%)!",
+      "[2026-10-26 22:56:16] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL is in a bearish hourly trend with extremely weak relative volume (0.27x rvol) and macro regime constraints ('allow_alts': false)."
     ]
   },
   "positions": [
@@ -1316,21 +1316,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "CRWD",
-      "current_price": 263.785,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "CRWD is showing strong momentum above VWAP supported by cybersecurity sector tailwinds, but deployable capital is extremely restricted at $95.55 and the stock is already up 120% this year, raising valuation exhaustion risks.",
-      "risk_factors": "Extended valuation following a 120% yearly gain combined with potential macro overhead resistance limits asymmetric upside reward.",
-      "timestamp": "2026-10-26T11:00:52.399710"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "QQQ",
       "current_price": 715.14,
       "approved": false,
@@ -1899,6 +1884,21 @@
       "primary_thesis": "Micron is exhibiting strong bullish catalysts and trading above VWAP following positive Bank of America commentary.",
       "risk_factors": "Deployable cash of $95.80 and maximum position guidelines limit adequate sizing for high-priced equities trading near $910 per share.",
       "timestamp": "2026-10-26T13:47:49.805839"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "SMH",
+      "current_price": 542.8034,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.0,
+      "take_profit_pct": 4.0,
+      "primary_thesis": "While SMH is trading above intraday VWAP with a +2.96% gain during regular hours, the absence of explicit volume multiplier confirmation and mixed sector catalysts limit the high-conviction asymmetric edge required.",
+      "risk_factors": "Broad tech headwinds following recent poor index performance could stall the breakout and trigger a mean-reversion toward VWAP.",
+      "timestamp": "2026-10-26T13:49:05.331971"
     }
   ],
   "performance": {
@@ -1910,7 +1910,7 @@
     "max_drawdown_pct": 13.51,
     "trades_count_today": 2,
     "realized_pnl_today": -0.29,
-    "current_equity": 324.60470316,
+    "current_equity": 324.47769575999996,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3081,5 +3081,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-26T22:55:12.037944"
+  "snapshot_synced_at": "2026-10-26T22:56:45.660400"
 }
