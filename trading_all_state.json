@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T18:35:05.213563",
+  "timestamp": "2026-10-27T18:36:38.806083",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.61,
@@ -92,24 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.20643243610157,
-      "btc_price": 80811.13,
+      "btc_change_24h": 1.09842178359286,
+      "btc_price": 80706.86,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.21% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.10% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 18:26:01] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:26:01] Macro Regime: RISK_ON | BTC 24h: +1.24% | Alts Allowed: True",
-      "[2026-10-27 18:26:01] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:26:01] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:27:03] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 18:27:03] Macro Regime: RISK_ON | BTC 24h: +1.20% | Alts Allowed: True",
-      "[2026-10-27 18:27:03] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 18:27:03] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:28:05] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 18:28:05] Macro Regime: RISK_ON | BTC 24h: +1.21% | Alts Allowed: True",
       "[2026-10-27 18:28:05] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 18:28:05] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
@@ -140,7 +131,16 @@
       "[2026-10-27 18:34:25] Macro Regime: RISK_ON | BTC 24h: +1.30% | Alts Allowed: True",
       "[2026-10-27 18:34:25] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 18:34:25] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 18:34:29] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI is exhibiting bullish 1-hour trend alignment and positive 24h change within a risk-on macro regime, but fails critical volume filters."
+      "[2026-10-27 18:34:29] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI is exhibiting bullish 1-hour trend alignment and positive 24h change within a risk-on macro regime, but fails critical volume filters.",
+      "[2026-10-27 18:35:29] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 18:35:29] Macro Regime: RISK_ON | BTC 24h: +1.27% | Alts Allowed: True",
+      "[2026-10-27 18:35:29] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 18:35:29] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 18:35:33] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 45%) | Thesis: SUI shows bullish hourly structure in a risk-on regime, but fails critical volume rules.",
+      "[2026-10-27 18:36:33] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 18:36:33] Macro Regime: RISK_ON | BTC 24h: +1.10% | Alts Allowed: True",
+      "[2026-10-27 18:36:33] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 18:36:33] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1338,21 +1338,6 @@
   "ai_decisions": [
     {
       "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
-      "symbol": "ORCL",
-      "current_price": 131.02,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "Oracle is rallying on major structural announcements regarding multi-vendor AI chip integration and cloud partnerships.",
-      "risk_factors": "Price is currently trading below the intraday VWAP despite a positive change percentage, indicating potential intraday fading pressure and lack of structural confirmation.",
-      "timestamp": "2026-10-27T12:51:16.819900"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
       "current_price": 0.17959,
@@ -1933,6 +1918,21 @@
       "primary_thesis": "FET shows bullish hourly trend alignment and a risk-on macro regime, but fails critical volume rules requiring RVOL >= 1.5x.",
       "risk_factors": "Active exploit headlines involving Fetch.ai ($2 million exploit) combined with sub-threshold relative volume (1.32x) violate evolved safety constraints.",
       "timestamp": "2026-10-27T13:50:57.441562"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.1799,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "FET shows bullish hourly trend and risk-on regime, but volume requirements fail evolution rules.",
+      "risk_factors": "Active exploit news on Fetch.ai ($2M attacker exploit, NTX hit ATL) combined with rvol of 1.32 failing the 1.5x minimum threshold violates mandatory execution rules.",
+      "timestamp": "2026-10-27T13:52:01.603338"
     }
   ],
   "performance": {
@@ -3115,5 +3115,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T18:35:04.879523"
+  "snapshot_synced_at": "2026-10-27T18:36:38.489435"
 }
