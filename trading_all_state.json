@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T08:00:47.741421",
+  "timestamp": "2026-10-27T08:02:22.133876",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.34,
@@ -89,12 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 07:53:33] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 07:53:33] Macro Regime: NEUTRAL | BTC 24h: -0.72% | Alts Allowed: False",
-      "[2026-10-27 07:53:33] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 07:53:33] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 07:54:35] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 07:54:36] Macro Regime: NEUTRAL | BTC 24h: -0.78% | Alts Allowed: False",
       "[2026-10-27 07:54:36] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 07:54:36] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 07:54:37] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.5 (chg -2.50%)!",
@@ -128,7 +122,13 @@
       "[2026-10-27 08:00:21] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 08:00:21] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-27 08:00:23] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.8 (chg -2.58%)!",
-      "[2026-10-27 08:00:32] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX exhibits weak volume (RVOL 0.63) and bearish hourly trend alignment, failing mandatory rules requiring RVOL >= 1.5x and positive relative volume for crypto entries."
+      "[2026-10-27 08:00:32] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX exhibits weak volume (RVOL 0.63) and bearish hourly trend alignment, failing mandatory rules requiring RVOL >= 1.5x and positive relative volume for crypto entries.",
+      "[2026-10-27 08:01:32] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 08:01:32] Macro Regime: NEUTRAL | BTC 24h: -0.56% | Alts Allowed: False",
+      "[2026-10-27 08:01:32] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 08:01:32] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 08:01:34] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.8 (chg -2.43%)!",
+      "[2026-10-27 08:01:36] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX exhibits weak technical metrics with an hourly bearish trend, RSI at 37.8, and low relative volume of 0.63, failing all mandatory crypto momentum and breakout volume filters."
     ]
   },
   "positions": [
@@ -1314,19 +1314,19 @@
   ],
   "ai_decisions": [
     {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
-      "current_price": 8.788,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 35,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX fails critical volume filters with a dismal 1-hour RVOL of 0.04 against a required minimum of 1.5x, violating core execution constraints.",
-      "risk_factors": "Extremely anemic volume combined with neutral macro regime and negative 24-hour price change point to high risk of stagnant chop or further downside.",
-      "timestamp": "2026-10-27T04:08:57.202990"
+      "id": "dec_1793102506_4d39f7",
+      "timestamp": "2026-10-27T08:01:46.256800",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "BTC",
+      "title": "Breaking Catalyst: Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": 0.0,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "NEUTRAL",
+      "impact": "CATALYST_ANALYZED"
     },
     {
       "type": "ENTRY_EVALUATION",
@@ -3094,5 +3094,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T08:00:47.362170"
+  "snapshot_synced_at": "2026-10-27T08:02:21.738251"
 }
