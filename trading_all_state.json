@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T04:16:46.364654",
+  "timestamp": "2026-10-27T04:18:19.872339",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.29,
@@ -32,9 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 02:37:09] Running portfolio evaluation cycle...",
-      "[2026-10-27 02:37:10] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
-      "[2026-10-27 02:42:12] Running portfolio evaluation cycle...",
       "[2026-10-27 02:42:13] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-27 02:47:13] Running portfolio evaluation cycle...",
       "[2026-10-27 02:47:13] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
@@ -71,7 +68,10 @@
       "[2026-10-27 04:07:52] Running portfolio evaluation cycle...",
       "[2026-10-27 04:07:53] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
       "[2026-10-27 04:12:53] Running portfolio evaluation cycle...",
-      "[2026-10-27 04:12:53] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34"
+      "[2026-10-27 04:12:53] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $531.47 | PnL: -0.32% ($-0.08) | Peak: $533.34",
+      "[2026-10-27 04:17:55] Running portfolio evaluation cycle...",
+      "[2026-10-27 04:18:11] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
+      "[2026-10-27 04:18:11] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
     ]
   },
   "coinbase": {
@@ -80,19 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.14684872508778,
-      "btc_price": 79729.45,
+      "btc_change_24h": 0.03353126652563,
+      "btc_price": 79713.54,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral +0.15% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral +0.03% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 04:08:55] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 04:08:55] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 04:08:56] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=37.6 (chg -0.16%)!",
-      "[2026-10-27 04:08:59] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 35%) | Thesis: AVAX fails critical volume filters with a dismal 1-hour RVOL of 0.04 against a required minimum of 1.5x, violating core execution constraints.",
       "[2026-10-27 04:09:59] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 04:10:00] Macro Regime: NEUTRAL | BTC 24h: +0.00% | Alts Allowed: False",
       "[2026-10-27 04:10:00] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +124,11 @@
       "[2026-10-27 04:16:22] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 04:16:22] Macro Regime: NEUTRAL | BTC 24h: +0.15% | Alts Allowed: False",
       "[2026-10-27 04:16:22] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 04:16:22] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-27 04:16:22] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 04:17:24] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 04:17:24] Macro Regime: NEUTRAL | BTC 24h: +0.03% | Alts Allowed: False",
+      "[2026-10-27 04:17:24] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 04:17:24] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -3094,5 +3094,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T04:16:46.037895"
+  "snapshot_synced_at": "2026-10-27T04:18:19.549525"
 }
