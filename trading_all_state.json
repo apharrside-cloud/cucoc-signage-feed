@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T00:18:14.958099",
+  "timestamp": "2026-10-27T00:19:48.356246",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 324.37,
@@ -89,14 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 00:13:47] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 00:13:47] Macro Regime: NEUTRAL | BTC 24h: -0.20% | Alts Allowed: False",
-      "[2026-10-27 00:13:47] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 00:13:47] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-27 00:13:48] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.3 (chg -0.68%)!",
-      "[2026-10-27 00:13:49] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.3 (chg -0.79%)!",
-      "[2026-10-27 00:13:49] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.6 (chg -0.21%)!",
-      "[2026-10-27 00:13:52] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 10%) | Thesis: SOL exhibits extreme dead volume (RVOL 0.05) and a bearish hourly trend, completely failing all volume expansion and momentum requirements.",
       "[2026-10-27 00:14:52] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 00:14:52] Macro Regime: NEUTRAL | BTC 24h: -0.15% | Alts Allowed: False",
       "[2026-10-27 00:14:52] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +120,15 @@
       "[2026-10-27 00:18:07] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.5 (chg -0.81%)!",
       "[2026-10-27 00:18:07] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.3 (chg -1.01%)!",
       "[2026-10-27 00:18:07] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.5 (chg -0.32%)!",
-      "[2026-10-27 00:18:10] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL exhibits extremely low relative volume (0.07 RVOL) and bearish hourly trend alignment, failing all strict volume and momentum expansion criteria."
+      "[2026-10-27 00:18:10] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 15%) | Thesis: SOL exhibits extremely low relative volume (0.07 RVOL) and bearish hourly trend alignment, failing all strict volume and momentum expansion criteria.",
+      "[2026-10-27 00:19:10] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 00:19:10] Macro Regime: NEUTRAL | BTC 24h: -0.25% | Alts Allowed: False",
+      "[2026-10-27 00:19:10] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 00:19:10] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 00:19:11] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=23.5 (chg -0.70%)!",
+      "[2026-10-27 00:19:12] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=26.5 (chg -1.01%)!",
+      "[2026-10-27 00:19:12] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=33.5 (chg -0.25%)!",
+      "[2026-10-27 00:19:14] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 35%) | Thesis: Despite oversold RSI at 23.5, the setup completely violates mandatory volume and trend rules with an extremely anemic relative volume of 0.07 against a bearish 1-hour trend."
     ]
   },
   "positions": [
@@ -1314,20 +1314,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Equities",
-      "symbol": "NVDA",
-      "entry_price": 217.17,
-      "current_price": 215.59,
-      "pnl_pct": -0.73,
-      "hours_held": 1.0,
-      "action": "EXIT_EARLY",
-      "confidence": 85,
-      "new_stop_pct": null,
-      "reasoning": "NVDA has pulled back 0.80% from its peak, pushing PnL to -0.73% below entry as upside momentum has completely stalled.",
-      "timestamp": "2026-10-26T12:21:36.761607"
-    },
-    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
       "symbol": "SOXL",
@@ -1904,6 +1890,21 @@
       "primary_thesis": "NVDA displays strong fundamental catalyst headlines regarding chips and inference markets, but technical indicators show price trading significantly below intraday VWAP ($216.27 vs $260.24), indicating heavy intraday selling pressure.",
       "risk_factors": "Trading severely below intraday VWAP signals weak immediate session momentum and high risk of continued distribution despite bullish long-term news.",
       "timestamp": "2026-10-26T15:00:23.617088"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "CRWD",
+      "current_price": 262.24,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.5,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "CRWD is trading above intraday VWAP with positive daily momentum driven by strong cybersecurity sector tailwinds.",
+      "risk_factors": "Deployable cash of $95.76 is low, and mixed headlines including institutional trimming create headline risks without confirmed institutional volume expansion.",
+      "timestamp": "2026-10-26T15:01:34.983115"
     }
   ],
   "performance": {
@@ -3086,5 +3087,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T00:18:14.663628"
+  "snapshot_synced_at": "2026-10-27T00:19:48.062976"
 }
