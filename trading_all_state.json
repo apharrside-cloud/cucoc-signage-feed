@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T16:05:04.833357",
+  "timestamp": "2026-10-27T16:06:38.495184",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.53,
+    "total_equity": 326.48,
     "total_cash": 258.28,
     "cash_pct": 79.1,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 164.97113544,
+    "total_value": 164.9210562136,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -25,9 +25,9 @@
         "high_water_mark": 563.68,
         "tp1_hit": true,
         "entry_time": "2026-10-26T14:22:23.745657",
-        "current_price": 560.11,
-        "pnl_pct": 5.05,
-        "pnl_usd": 0.63,
+        "current_price": 560.45,
+        "pnl_pct": 5.12,
+        "pnl_usd": 0.64,
         "last_ai_eval_ts": 1793130928.360281
       },
       "AVGO": {
@@ -37,9 +37,9 @@
         "high_water_mark": 344.37,
         "tp1_hit": false,
         "entry_time": "2026-10-27T10:56:03.613275",
-        "current_price": 342.54,
-        "pnl_pct": 0.82,
-        "pnl_usd": 0.25,
+        "current_price": 342.46,
+        "pnl_pct": 0.8,
+        "pnl_usd": 0.24,
         "last_ai_eval_ts": 1793130930.4310958
       },
       "ORCL": {
@@ -49,20 +49,13 @@
         "high_water_mark": 132.1,
         "tp1_hit": false,
         "entry_time": "2026-10-27T13:21:57.420132",
-        "current_price": 130.66,
-        "pnl_pct": -0.36,
-        "pnl_usd": -0.09,
-        "last_ai_eval_ts": 1793130257.4654322
+        "current_price": 130.55,
+        "pnl_pct": -0.44,
+        "pnl_usd": -0.11,
+        "last_ai_eval_ts": 1793131554.4016187
       }
     },
     "logs": [
-      "[2026-10-27 15:50:24] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $343.95 | PnL: +1.24% ($+0.37) | Peak: $344.37",
-      "[2026-10-27 15:50:24] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.41 | PnL: +0.21% ($+0.05) | Peak: $132.10",
-      "[2026-10-27 15:51:24] Running portfolio evaluation cycle...",
-      "[2026-10-27 15:51:25] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $559.43 | PnL: +4.93% ($+0.62) | Peak: $563.68",
-      "[2026-10-27 15:51:25] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $343.05 | PnL: +0.97% ($+0.29) | Peak: $344.37",
-      "[2026-10-27 15:51:25] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $131.10 | PnL: -0.02% ($-0.01) | Peak: $132.10",
-      "[2026-10-27 15:52:25] Running portfolio evaluation cycle...",
       "[2026-10-27 15:52:26] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $559.13 | PnL: +4.87% ($+0.61) | Peak: $563.68",
       "[2026-10-27 15:52:26] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $343.08 | PnL: +0.98% ($+0.30) | Peak: $344.37",
       "[2026-10-27 15:52:26] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $130.87 | PnL: -0.20% ($-0.05) | Peak: $132.10",
@@ -95,7 +88,14 @@
       "[2026-10-27 15:59:34] Running portfolio evaluation cycle...",
       "[2026-10-27 15:59:50] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
       "[2026-10-27 16:00:50] Running portfolio evaluation cycle...",
-      "[2026-10-27 16:00:53] Failed to fetch portfolio data."
+      "[2026-10-27 16:00:53] Failed to fetch portfolio data.",
+      "[2026-10-27 16:05:53] Running portfolio evaluation cycle...",
+      "[2026-10-27 16:05:54] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-27 16:05:54] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
+      "[2026-10-27 16:05:54] [ORCL] Shares: 0.190490 | Entry: $131.13 | Current: $130.55 | PnL: -0.44% ($-0.11) | Peak: $132.10",
+      "[2026-10-27 16:06:02] 🧠 [AI PROACTIVE EXIT] ORCL flagged for early exit: Price has pulled back 1.17% from its peak, erasing unrealized gains and turning negative, indicating structural weakness and fading momentum after failing to sustain highs.",
+      "[2026-10-27 16:06:04] AI position supervision warning: name 'entry_time' is not defined",
+      "[2026-10-27 16:06:04] Sending automated Market Close Summary to Telegram..."
     ]
   },
   "coinbase": {
@@ -104,23 +104,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.11312992268083,
-      "btc_price": 80682.13,
+      "btc_change_24h": 1.08482407836566,
+      "btc_price": 80673.18,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.11% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.08% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 15:55:48] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 15:55:52] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR fails to meet critical evolutionary volume filters, showing an RVOL of 1.0 against the mandatory 1.5x minimum requirement for breakout entries.",
-      "[2026-10-27 15:56:52] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 15:56:52] Macro Regime: RISK_ON | BTC 24h: +0.96% | Alts Allowed: True",
-      "[2026-10-27 15:56:52] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 15:56:52] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 15:56:56] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 40%) | Thesis: NEAR is showing mild bullish hourly trend context in a risk-on regime, but fails critical volume rules.",
-      "[2026-10-27 15:57:56] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 15:57:56] Macro Regime: RISK_ON | BTC 24h: +0.99% | Alts Allowed: True",
       "[2026-10-27 15:57:56] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 15:57:56] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
@@ -152,7 +144,15 @@
       "[2026-10-27 16:04:18] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 16:04:18] Macro Regime: RISK_ON | BTC 24h: +1.11% | Alts Allowed: True",
       "[2026-10-27 16:04:18] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 16:04:18] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 16:04:18] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 16:05:20] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 16:05:20] Macro Regime: RISK_ON | BTC 24h: +1.15% | Alts Allowed: True",
+      "[2026-10-27 16:05:20] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 16:05:20] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 16:06:21] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 16:06:22] Macro Regime: RISK_ON | BTC 24h: +1.08% | Alts Allowed: True",
+      "[2026-10-27 16:06:22] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 16:06:22] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -161,10 +161,10 @@
       "symbol": "AMD",
       "shares": 0.023445,
       "entry_price": 533.17,
-      "current_price": 560.11,
-      "value_usd": 13.13,
-      "pnl_pct": 5.05,
-      "pnl_usd": 0.63,
+      "current_price": 560.45,
+      "value_usd": 13.14,
+      "pnl_pct": 5.12,
+      "pnl_usd": 0.64,
       "trailing_info": "Peak: $563.68 | Trailing 3.5%"
     },
     {
@@ -172,10 +172,10 @@
       "symbol": "AVGO",
       "shares": 0.088302,
       "entry_price": 339.7399,
-      "current_price": 342.54,
-      "value_usd": 30.25,
-      "pnl_pct": 0.82,
-      "pnl_usd": 0.25,
+      "current_price": 342.46,
+      "value_usd": 30.24,
+      "pnl_pct": 0.8,
+      "pnl_usd": 0.24,
       "trailing_info": "Peak: $344.37 | Trailing 3.5%"
     },
     {
@@ -183,10 +183,10 @@
       "symbol": "ORCL",
       "shares": 0.19049,
       "entry_price": 131.13,
-      "current_price": 130.66,
-      "value_usd": 24.89,
-      "pnl_pct": -0.36,
-      "pnl_usd": -0.09,
+      "current_price": 130.55,
+      "value_usd": 24.87,
+      "pnl_pct": -0.44,
+      "pnl_usd": -0.11,
       "trailing_info": "Peak: $132.10 | Trailing 3.5%"
     }
   ],
@@ -1362,21 +1362,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "ORCL",
-      "current_price": 130.29,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -2.0,
-      "take_profit_pct": 4.0,
-      "primary_thesis": "Oracle is ticking up alongside broader AI cloud sector momentum, but deployable capital of $96.57 provides insufficient buffer for equity positioning given fractional limitations and potential volatility retracements.",
-      "risk_factors": "General analyst recommendations and sector co-movement lack explicit volume confirmation metrics for a high-conviction breakout entry.",
-      "timestamp": "2026-10-27T11:45:14.454940"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "ARM",
       "current_price": 226.79,
       "approved": false,
@@ -1955,6 +1940,21 @@
       "primary_thesis": "TQQQ is up 3.65% with retail inflows, but trades below intraday VWAP ($266.45 normalized metric context mismatch) and lacks sufficient institutional volume confirmation.",
       "risk_factors": "Price trading below intraday VWAP combined with leveraged ETF decay risk and retail momentum chasing makes this setup vulnerable to a sharp mean-reversion reversal.",
       "timestamp": "2026-10-27T12:54:44.680993"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.17934,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "FET shows positive relative strength and high 1H RVOL of 2.45 in a decoupled breakout mode.",
+      "risk_factors": "Direct exploit headlines involving Fetch.ai ($2 million attacker loss and NTX crash) pose severe contagion and headline risk despite technical breakout.",
+      "timestamp": "2026-10-27T12:54:52.536311"
     }
   ],
   "performance": {
@@ -1966,7 +1966,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.53113544,
+    "current_equity": 326.4810562136,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3137,5 +3137,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T16:05:04.339434"
+  "snapshot_synced_at": "2026-10-27T16:06:38.181760"
 }
