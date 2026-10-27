@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T10:15:13.387974",
+  "timestamp": "2026-10-27T10:16:47.205477",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 325.94,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 164.38063084,
+    "total_value": 164.38297539,
     "cash": 138.72,
     "positions": {
       "AMD": {
@@ -25,17 +25,13 @@
         "high_water_mark": 554.13,
         "tp1_hit": false,
         "entry_time": "2026-10-26T14:22:23.745657",
-        "current_price": 547.24,
-        "pnl_pct": 2.64,
+        "current_price": 547.2,
+        "pnl_pct": 2.63,
         "pnl_usd": 0.66,
         "last_ai_eval_ts": 1793110111.8947406
       }
     },
     "logs": [
-      "[2026-10-27 10:04:47] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-27 10:04:47] VWAP Filter: Skipping AVGO because price ($340.70) is BELOW session VWAP ($341.55).",
-      "[2026-10-27 10:05:47] Running portfolio evaluation cycle...",
-      "[2026-10-27 10:05:48] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $550.35 | PnL: +3.22% ($+0.81) | Peak: $554.13",
       "[2026-10-27 10:05:48] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-27 10:05:48] VWAP Filter: Skipping AVGO because price ($341.13) is BELOW session VWAP ($341.56).",
       "[2026-10-27 10:06:48] Running portfolio evaluation cycle...",
@@ -71,7 +67,11 @@
       "[2026-10-27 10:13:40] VWAP Filter: Skipping AVGO because price ($338.54) is BELOW session VWAP ($341.39).",
       "[2026-10-27 10:14:40] Running portfolio evaluation cycle...",
       "[2026-10-27 10:14:56] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
-      "[2026-10-27 10:14:56] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
+      "[2026-10-27 10:14:56] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
+      "[2026-10-27 10:15:56] Running portfolio evaluation cycle...",
+      "[2026-10-27 10:16:00] [AMD] Shares: 0.046891 | Entry: $533.17 | Current: $547.20 | PnL: +2.63% ($+0.66) | Peak: $554.13",
+      "[2026-10-27 10:16:00] Available deployable cash ($126.57 of $138.72 total, $12.15 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-27 10:16:00] VWAP Filter: Skipping AVGO because price ($338.18) is BELOW session VWAP ($341.33)."
     ]
   },
   "coinbase": {
@@ -80,19 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": 0.26261325368826,
-      "btc_price": 80030.42,
+      "btc_change_24h": 0.2100582203581,
+      "btc_price": 80007.48,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral +0.26% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral +0.21% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 10:05:22] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 10:05:22] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 10:06:23] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 10:06:24] Macro Regime: RISK_ON | BTC 24h: +0.54% | Alts Allowed: True",
       "[2026-10-27 10:06:24] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 10:06:24] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 10:07:25] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -128,7 +124,11 @@
       "[2026-10-27 10:15:00] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 10:15:00] Macro Regime: NEUTRAL | BTC 24h: +0.26% | Alts Allowed: False",
       "[2026-10-27 10:15:00] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 10:15:00] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-27 10:15:00] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-27 10:16:02] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 10:16:02] Macro Regime: NEUTRAL | BTC 24h: +0.21% | Alts Allowed: False",
+      "[2026-10-27 10:16:02] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 10:16:02] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -137,9 +137,9 @@
       "symbol": "AMD",
       "shares": 0.046891,
       "entry_price": 533.17,
-      "current_price": 547.24,
+      "current_price": 547.2,
       "value_usd": 25.66,
-      "pnl_pct": 2.64,
+      "pnl_pct": 2.63,
       "pnl_usd": 0.66,
       "trailing_info": "Peak: $554.13 | Trailing 3.5%"
     }
@@ -1923,7 +1923,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 325.94063084000004,
+    "current_equity": 325.94297539,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3094,5 +3094,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T10:15:13.097276"
+  "snapshot_synced_at": "2026-10-27T10:16:46.901984"
 }
