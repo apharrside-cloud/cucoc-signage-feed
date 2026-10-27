@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T17:10:43.511495",
+  "timestamp": "2026-10-27T17:12:17.154877",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.41,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 164.84622295,
+    "total_value": 164.8523696518,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -28,7 +28,7 @@
         "current_price": 560.45,
         "pnl_pct": 5.12,
         "pnl_usd": 0.64,
-        "last_ai_eval_ts": 1793134594.2289305
+        "last_ai_eval_ts": 1793135502.9568434
       },
       "AVGO": {
         "symbol": "AVGO",
@@ -40,14 +40,10 @@
         "current_price": 342.46,
         "pnl_pct": 0.8,
         "pnl_usd": 0.24,
-        "last_ai_eval_ts": 1793134598.7017574
+        "last_ai_eval_ts": 1793135504.8584385
       }
     },
     "logs": [
-      "[2026-10-27 16:11:05] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-27 16:11:12] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Securing profits as price pulls back slightly from the +5.72% peak after 25+ hours of holding while maintaining a trailing structure.",
-      "[2026-10-27 16:11:12] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
-      "[2026-10-27 16:11:18] Position ORCL no longer in broker holdings. Removing from tracking.",
       "[2026-10-27 16:16:18] Running portfolio evaluation cycle...",
       "[2026-10-27 16:16:18] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-27 16:16:18] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
@@ -83,7 +79,11 @@
       "[2026-10-27 17:01:41] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
       "[2026-10-27 17:06:41] Running portfolio evaluation cycle...",
       "[2026-10-27 17:06:42] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-27 17:06:42] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
+      "[2026-10-27 17:06:42] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
+      "[2026-10-27 17:11:42] Running portfolio evaluation cycle...",
+      "[2026-10-27 17:11:42] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-27 17:11:44] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Lock in major gains as the position pulls back 0.57% from its peak amid fading momentum near overhead resistance.",
+      "[2026-10-27 17:11:44] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37"
     ]
   },
   "coinbase": {
@@ -92,23 +92,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.0675641629089,
-      "btc_price": 80671.21,
+      "btc_change_24h": 0.98332178429401,
+      "btc_price": 80618.5,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.07% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.98% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 17:00:05] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 17:00:05] Macro Regime: RISK_ON | BTC 24h: +1.20% | Alts Allowed: True",
-      "[2026-10-27 17:00:05] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 17:00:05] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 17:01:07] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 17:01:07] Macro Regime: RISK_ON | BTC 24h: +1.08% | Alts Allowed: True",
-      "[2026-10-27 17:01:07] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 17:01:07] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 17:02:09] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 17:02:09] Macro Regime: RISK_ON | BTC 24h: +1.05% | Alts Allowed: True",
       "[2026-10-27 17:02:09] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -140,7 +132,15 @@
       "[2026-10-27 17:09:22] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 17:09:22] Macro Regime: RISK_ON | BTC 24h: +1.07% | Alts Allowed: True",
       "[2026-10-27 17:09:22] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 17:09:22] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 17:09:22] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 17:10:44] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 17:10:44] Macro Regime: RISK_ON | BTC 24h: +1.04% | Alts Allowed: True",
+      "[2026-10-27 17:10:44] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 17:10:44] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 17:11:46] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 17:11:46] Macro Regime: RISK_ON | BTC 24h: +0.98% | Alts Allowed: True",
+      "[2026-10-27 17:11:46] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 17:11:46] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1339,21 +1339,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Equities",
-      "symbol": "CRWD",
-      "current_price": 268.325,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -2.5,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "CRWD is trading above intraday VWAP with positive momentum supported by cybersecurity sector tailwinds, but lacks concrete volume confirmation metrics to meet strict breakout criteria.",
-      "risk_factors": "Uncertainty surrounding AI cybersecurity demand shifts and headline-driven volatility could trigger a reversal before the reward-to-risk threshold is secured.",
-      "timestamp": "2026-10-27T12:08:02.732643"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Equities",
       "symbol": "AMZN",
       "current_price": 252.85,
       "approved": false,
@@ -1932,6 +1917,21 @@
       "primary_thesis": "FET exhibits positive breakout metrics and strong RVOL, but active breaking news reveals a $2 million exploit involving Fetch.ai, introducing severe protocol risk and potential downside contagion.",
       "risk_factors": "Active exploit headline on Fetch.ai and NTX hitting all-time low creates critical binary risk and immediate counterparty/smart contract vulnerability.",
       "timestamp": "2026-10-27T12:57:04.766607"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "CRWD",
+      "current_price": 268.14,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.5,
+      "take_profit_pct": 5.5,
+      "primary_thesis": "CRWD is trading above intraday VWAP with a +2.41% move supported by cybersecurity sector momentum headlines.",
+      "risk_factors": "Deployable capital is limited to $109.26 with a max position size of $30.00, and current news sentiment regarding AI security demand fluctuations introduces unquantified overhead resistance risk.",
+      "timestamp": "2026-10-27T12:57:59.263979"
     }
   ],
   "performance": {
@@ -1943,7 +1943,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.40622295000003,
+    "current_equity": 326.41236965179996,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3114,5 +3114,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T17:10:43.151309"
+  "snapshot_synced_at": "2026-10-27T17:12:16.832044"
 }
