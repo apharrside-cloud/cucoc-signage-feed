@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T21:28:17.679239",
+  "timestamp": "2026-10-27T21:29:51.231719",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.96,
@@ -32,9 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 20:03:37] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
-      "[2026-10-27 20:08:37] Running portfolio evaluation cycle...",
-      "[2026-10-27 20:08:53] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
       "[2026-10-27 20:13:53] Running portfolio evaluation cycle...",
       "[2026-10-27 20:13:57] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-27 20:13:59] [AVGO] Shares: 0.088302 | Entry: $339.74 | Current: $342.46 | PnL: +0.80% ($+0.24) | Peak: $344.37",
@@ -71,7 +68,10 @@
       "[2026-10-27 21:19:18] Running portfolio evaluation cycle...",
       "[2026-10-27 21:19:19] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-27 21:24:19] Running portfolio evaluation cycle...",
-      "[2026-10-27 21:24:20] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
+      "[2026-10-27 21:24:20] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-27 21:29:20] Running portfolio evaluation cycle...",
+      "[2026-10-27 21:29:35] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
+      "[2026-10-27 21:29:35] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
     ]
   },
   "coinbase": {
@@ -80,19 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.79781908797657,
-      "btc_price": 80696.97,
+      "btc_change_24h": 0.76601959325803,
+      "btc_price": 80643.64,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.80% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.77% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 21:18:41] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 21:18:41] Macro Regime: RISK_ON | BTC 24h: +0.61% | Alts Allowed: True",
-      "[2026-10-27 21:18:41] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 21:18:41] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 21:19:43] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 21:19:43] Macro Regime: RISK_ON | BTC 24h: +0.58% | Alts Allowed: True",
       "[2026-10-27 21:19:43] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +124,11 @@
       "[2026-10-27 21:27:59] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 21:28:00] Macro Regime: RISK_ON | BTC 24h: +0.80% | Alts Allowed: True",
       "[2026-10-27 21:28:00] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 21:28:00] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 21:28:00] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 21:29:02] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 21:29:02] Macro Regime: RISK_ON | BTC 24h: +0.77% | Alts Allowed: True",
+      "[2026-10-27 21:29:02] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 21:29:02] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -3076,5 +3076,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T21:28:17.362741"
+  "snapshot_synced_at": "2026-10-27T21:29:50.932981"
 }
