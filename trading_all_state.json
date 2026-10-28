@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T09:45:57.359268",
+  "timestamp": "2026-10-28T09:47:33.703428",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.26,
+    "total_equity": 326.25,
     "total_cash": 301.44,
     "cash_pct": 92.4,
     "weekly_realized_pnl": -0.67,
@@ -15,7 +15,7 @@
     "today_trades_count": 1
   },
   "robinhood": {
-    "total_value": 165.93871656,
+    "total_value": 165.929095245,
     "cash": 141.12,
     "positions": {
       "AVGO": {
@@ -25,16 +25,13 @@
         "high_water_mark": 351.425,
         "tp1_hit": false,
         "entry_time": "2026-10-28T09:35:46.004734",
-        "current_price": 348.49,
-        "pnl_pct": -0.84,
-        "pnl_usd": -0.21,
+        "current_price": 348.21,
+        "pnl_pct": -0.91,
+        "pnl_usd": -0.23,
         "last_ai_eval_ts": 1793194607.3182282
       }
     },
     "logs": [
-      "[2026-10-28 09:35:27] Running portfolio evaluation cycle...",
-      "[2026-10-28 09:35:27] No positions currently held.",
-      "[2026-10-28 09:35:27] Available deployable cash ($153.66 of $166.12 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-28 09:35:44] 🔥 Found momentum breakout: AVGO (+2.66%) @ $351.43. Executing AI-APPROVED BUY of $25.00...",
       "[2026-10-28 09:35:46] Buy order placed: {'data': {'order': {'id': '6ae1fa0b-626a-42e4-b696-fa6cf6cf13bc', 'ref_id': '01a182b8-bd71-782f-9b01-c543cb09ef50', 'instrument_id': '698f04e6-1710-4f34-b7af-4a88fe5e47b3', 'symbol': 'AVGO', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.071300', 'cumulative_quantity': '0.000000', 'price': '350.630000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '25.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-28T13:35:07.728808Z', 'last_transaction_at': '2026-10-28T13:35:07.728808Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
       "[2026-10-28 09:36:46] Running portfolio evaluation cycle...",
@@ -71,7 +68,10 @@
       "[2026-10-28 09:45:30] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $348.49 | PnL: -0.84% ($-0.21) | Peak: $351.43",
       "[2026-10-28 09:45:30] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-28 09:45:46] 🧠 [AI GATE] Buy of ARM VETOED by AI Brain (Confidence: 45%) | Thesis: ARM is showing minor intraday upside above VWAP, but mixed headlines regarding jury breach rulings and tokenization platform objections create unnecessary binary legal risks.",
-      "[2026-10-28 09:45:46] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-28 09:45:46] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-28 09:46:46] Running portfolio evaluation cycle...",
+      "[2026-10-28 09:46:47] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $348.21 | PnL: -0.91% ($-0.23) | Peak: $351.43",
+      "[2026-10-28 09:46:47] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -80,19 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.67047852809153,
-      "btc_price": 80618.54,
+      "btc_change_24h": 0.69871359039537,
+      "btc_price": 80600.64,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.67% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.70% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 09:36:12] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 09:36:13] Macro Regime: RISK_ON | BTC 24h: +0.58% | Alts Allowed: True",
-      "[2026-10-28 09:36:13] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:36:13] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 09:37:15] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 09:37:15] Macro Regime: RISK_ON | BTC 24h: +0.76% | Alts Allowed: True",
       "[2026-10-28 09:37:15] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +124,11 @@
       "[2026-10-28 09:45:34] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 09:45:34] Macro Regime: RISK_ON | BTC 24h: +0.67% | Alts Allowed: True",
       "[2026-10-28 09:45:34] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:45:34] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 09:45:34] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 09:46:36] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 09:46:36] Macro Regime: RISK_ON | BTC 24h: +0.70% | Alts Allowed: True",
+      "[2026-10-28 09:46:36] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 09:46:36] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -137,10 +137,10 @@
       "symbol": "AVGO",
       "shares": 0.071269,
       "entry_price": 351.425,
-      "current_price": 348.49,
-      "value_usd": 24.84,
-      "pnl_pct": -0.84,
-      "pnl_usd": -0.21,
+      "current_price": 348.21,
+      "value_usd": 24.82,
+      "pnl_pct": -0.91,
+      "pnl_usd": -0.23,
       "trailing_info": "Peak: $351.43 | Trailing 3.5%"
     }
   ],
@@ -1934,7 +1934,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 1,
     "realized_pnl_today": -0.38,
-    "current_equity": 326.25871656,
+    "current_equity": 326.24909524500003,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3118,5 +3118,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T09:45:55.962712"
+  "snapshot_synced_at": "2026-10-28T09:47:32.581161"
 }
