@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T16:57:52.410716",
+  "timestamp": "2026-10-28T16:59:29.536430",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 322.01,
@@ -174,12 +174,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 16:50:30] 🚀 [DECOUPLED ALPHA DETECTED] LINK: +2.66% (BTC +0.45%, RS +2.21%), RVOL=1.54x, RSI=50.9",
-      "[2026-10-28 16:50:35] 🧠 [AI GATE] Buy of LINK VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
-      "[2026-10-28 16:51:35] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 16:51:35] Macro Regime: NEUTRAL | BTC 24h: +0.47% | Alts Allowed: False",
-      "[2026-10-28 16:51:35] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -1.39% ($24.36) | Vol: High-Beta Alpha Runner",
-      "[2026-10-28 16:51:38] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-28 16:51:38] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-28 16:51:39] 🚀 [DECOUPLED ALPHA DETECTED] LINK: +2.74% (BTC +0.47%, RS +2.27%), RVOL=1.54x, RSI=50.9",
       "[2026-10-28 16:51:43] 🧠 [AI GATE] Buy of LINK VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
@@ -213,7 +207,13 @@
       "[2026-10-28 16:57:27] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.95 | Peak: $0.95 | PnL: -0.86% ($24.49) | Vol: High-Beta Alpha Runner",
       "[2026-10-28 16:57:30] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-28 16:57:30] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 16:57:35] 🧠 [AI GATE] Buy of LINK VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
+      "[2026-10-28 16:57:35] 🧠 [AI GATE] Buy of LINK VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-28 16:58:35] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 16:58:35] Macro Regime: RISK_ON | BTC 24h: +0.68% | Alts Allowed: True",
+      "[2026-10-28 16:58:35] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.95 | Peak: $0.95 | PnL: -0.81% ($24.50) | Vol: High-Beta Alpha Runner",
+      "[2026-10-28 16:58:37] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 16:58:37] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 16:58:43] 🧠 [AI GATE] Buy of LINK VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1480,21 +1480,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "LINK",
-      "current_price": 11.7397,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "LINK shows a bullish hourly trend and positive macro risk-on regime, but RVOL of 1.4 fails to meet the strict evolved strategy rule requiring breakout volume or relative volume >= 1.5x.",
-      "risk_factors": "RVOL is below the 1.5x threshold required for altcoin breakout entries, increasing the risk of a false breakout or stalling momentum.",
-      "timestamp": "2026-10-28T14:37:44.289389"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "LINK",
       "current_price": 11.71,
       "approved": true,
       "action": "BUY",
@@ -2059,6 +2044,21 @@
       "new_stop_pct": 0.15,
       "reasoning": "PnL is at +0.38% approaching the 0.5% scale-out threshold in a risk-on regime; tightening the stop secures gains while allowing room for upside continuation.",
       "timestamp": "2026-10-28T15:57:23.232268"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AAVE",
+      "current_price": 136.63,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "Although AAVE shows bullish hourly trend confluence in a risk-on regime, the current relative volume (1.36x) fails to meet the strict 1.5x minimum required for crypto breakout entries.",
+      "risk_factors": "Sub-optimal RVOL combined with recent negative headlines regarding whale sell pressure and widening drawdowns increases vulnerability to a false breakout.",
+      "timestamp": "2026-10-28T15:57:26.808033"
     }
   ],
   "performance": {
@@ -3264,5 +3264,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T16:57:51.593699"
+  "snapshot_synced_at": "2026-10-28T16:59:28.575878"
 }
