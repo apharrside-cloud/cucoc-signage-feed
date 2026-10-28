@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-28T13:14:56.916087",
+  "timestamp": "2026-10-28T13:16:30.610197",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 325.61,
-    "total_cash": 266.0,
-    "cash_pct": 81.7,
+    "total_equity": 325.63,
+    "total_cash": 241.0,
+    "cash_pct": 74.0,
     "weekly_realized_pnl": -1.16,
     "win_rate": 57.26495726495726,
     "winning_trades": 67,
@@ -15,8 +15,8 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 165.29450344,
-    "cash": 105.68,
+    "total_value": 165.3122118,
+    "cash": 80.68,
     "positions": {
       "MU": {
         "symbol": "MU",
@@ -25,9 +25,9 @@
         "high_water_mark": 978.235,
         "tp1_hit": false,
         "entry_time": "2026-10-28T10:03:53.686000",
-        "current_price": 967.7274,
-        "pnl_pct": -0.63,
-        "pnl_usd": -0.19,
+        "current_price": 967.1,
+        "pnl_pct": -0.69,
+        "pnl_usd": -0.21,
         "last_ai_eval_ts": 1793207545.1092365
       },
       "GOOGL": {
@@ -37,25 +37,25 @@
         "high_water_mark": 326.13,
         "tp1_hit": false,
         "entry_time": "2026-10-28T13:05:50.784881",
-        "current_price": 324.175,
-        "pnl_pct": -0.46,
-        "pnl_usd": -0.14,
+        "current_price": 324.5541,
+        "pnl_pct": -0.34,
+        "pnl_usd": -0.1,
         "last_ai_eval_ts": 1793207150.9749603
       },
       "AVGO": {
         "symbol": "AVGO",
-        "shares": 0.07173,
+        "shares": 0.071723,
         "entry_price": 348.53,
         "high_water_mark": 348.53,
         "tp1_hit": false,
-        "entry_time": "2026-10-28T13:14:21.096616"
+        "entry_time": "2026-10-28T13:14:21.096616",
+        "current_price": 348.5,
+        "pnl_pct": -0.01,
+        "pnl_usd": -0.0,
+        "last_ai_eval_ts": 1793207722.2403462
       }
     },
     "logs": [
-      "[2026-10-28 13:04:46] ⚠️ [BUY REJECTED] Broker rejected buy order for GOOGL: None",
-      "[2026-10-28 13:05:46] Running portfolio evaluation cycle...",
-      "[2026-10-28 13:05:50] Detected live broker holding GOOGL (0.09212 shares @ $325.66). Ingesting into tracking.",
-      "[2026-10-28 13:05:50] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $972.22 | PnL: -0.17% ($-0.05) | Peak: $978.24",
       "[2026-10-28 13:05:50] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $326.13 | PnL: +0.14% ($+0.04) | Peak: $326.13",
       "[2026-10-28 13:06:08] Available deployable cash ($93.22 of $105.68 total, $12.46 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-28 13:07:08] Running portfolio evaluation cycle...",
@@ -91,7 +91,11 @@
       "[2026-10-28 13:14:03] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $324.18 | PnL: -0.46% ($-0.14) | Peak: $326.13",
       "[2026-10-28 13:14:03] Available deployable cash ($93.22 of $105.68 total, $12.46 vaulted) >= min ($15.00) & positions (2/3). Scanning momentum...",
       "[2026-10-28 13:14:19] 🔥 Found momentum breakout: AVGO (+1.81%) @ $348.53. Executing AI-APPROVED BUY of $25.00...",
-      "[2026-10-28 13:14:21] Buy order placed: {'data': {'order': {'id': '6ae22d46-d003-4803-a646-f34d7fd52015', 'ref_id': '01a18380-dbd7-7653-b8f1-98269fe58bf1', 'instrument_id': '698f04e6-1710-4f34-b7af-4a88fe5e47b3', 'symbol': 'AVGO', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.071720', 'cumulative_quantity': '0.000000', 'price': '348.530000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '25.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-28T17:13:42.730929Z', 'last_transaction_at': '2026-10-28T17:13:42.730929Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}"
+      "[2026-10-28 13:14:21] Buy order placed: {'data': {'order': {'id': '6ae22d46-d003-4803-a646-f34d7fd52015', 'ref_id': '01a18380-dbd7-7653-b8f1-98269fe58bf1', 'instrument_id': '698f04e6-1710-4f34-b7af-4a88fe5e47b3', 'symbol': 'AVGO', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.071720', 'cumulative_quantity': '0.000000', 'price': '348.530000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '25.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-28T17:13:42.730929Z', 'last_transaction_at': '2026-10-28T17:13:42.730929Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}",
+      "[2026-10-28 13:15:21] Running portfolio evaluation cycle...",
+      "[2026-10-28 13:15:22] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $967.10 | PnL: -0.69% ($-0.21) | Peak: $978.24",
+      "[2026-10-28 13:15:22] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $324.55 | PnL: -0.34% ($-0.10) | Peak: $326.13",
+      "[2026-10-28 13:15:22] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $348.50 | PnL: -0.01% ($-0.00) | Peak: $348.53"
     ]
   },
   "coinbase": {
@@ -109,15 +113,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 13:09:18] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 13:09:19] Macro Regime: NEUTRAL | BTC 24h: -0.19% | Alts Allowed: False",
-      "[2026-10-28 13:09:19] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 13:09:19] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-28 13:09:20] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=28.1 (chg +0.09%)!",
-      "[2026-10-28 13:09:20] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=33.0 (chg -0.77%)!",
-      "[2026-10-28 13:09:20] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=35.2 (chg -0.19%)!",
-      "[2026-10-28 13:09:34] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX displays extremely weak relative volume (RVOL 0.05) and a bearish hourly trend with RSI at 28.1, failing all evolutionary crypto long rules.",
-      "[2026-10-28 13:10:34] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 13:10:34] Macro Regime: NEUTRAL | BTC 24h: -0.20% | Alts Allowed: False",
       "[2026-10-28 13:10:34] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 13:10:34] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
@@ -148,7 +143,16 @@
       "[2026-10-28 13:14:27] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=27.1 (chg +0.02%)!",
       "[2026-10-28 13:14:27] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=32.0 (chg -0.73%)!",
       "[2026-10-28 13:14:27] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=34.5 (chg -0.18%)!",
-      "[2026-10-28 13:14:41] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX displays extremely weak relative volume (0.12 rvol) and a bearish hourly trend, completely failing minimum volume and momentum criteria for long execution."
+      "[2026-10-28 13:14:41] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 15%) | Thesis: AVAX displays extremely weak relative volume (0.12 rvol) and a bearish hourly trend, completely failing minimum volume and momentum criteria for long execution.",
+      "[2026-10-28 13:15:41] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 13:15:42] Macro Regime: NEUTRAL | BTC 24h: -0.17% | Alts Allowed: False",
+      "[2026-10-28 13:15:42] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 13:15:42] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-28 13:15:43] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=37.3 (chg +0.03%)!",
+      "[2026-10-28 13:15:43] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=27.1 (chg -0.09%)!",
+      "[2026-10-28 13:15:43] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=32.2 (chg -0.76%)!",
+      "[2026-10-28 13:15:43] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=34.5 (chg -0.21%)!",
+      "[2026-10-28 13:15:59] 🧠 [AI GATE] Buy of AVAX VETOED by AI Brain (Confidence: 10%) | Thesis: AVAX exhibits an extremely weak 1-hour relative volume of 0.12 and a bearish hourly trend, failing all volume and momentum expansion criteria."
     ]
   },
   "positions": [
@@ -157,10 +161,10 @@
       "symbol": "MU",
       "shares": 0.030749,
       "entry_price": 973.85,
-      "current_price": 967.7274,
-      "value_usd": 29.76,
-      "pnl_pct": -0.63,
-      "pnl_usd": -0.19,
+      "current_price": 967.1,
+      "value_usd": 29.74,
+      "pnl_pct": -0.69,
+      "pnl_usd": -0.21,
       "trailing_info": "Peak: $978.24 | Trailing 3.5%"
     },
     {
@@ -168,21 +172,21 @@
       "symbol": "GOOGL",
       "shares": 0.09212,
       "entry_price": 325.66,
-      "current_price": 324.175,
-      "value_usd": 29.86,
-      "pnl_pct": -0.46,
-      "pnl_usd": -0.14,
+      "current_price": 324.5541,
+      "value_usd": 29.9,
+      "pnl_pct": -0.34,
+      "pnl_usd": -0.1,
       "trailing_info": "Peak: $326.13 | Trailing 3.5%"
     },
     {
       "account": "Robinhood",
       "symbol": "AVGO",
-      "shares": 0.07173,
+      "shares": 0.071723,
       "entry_price": 348.53,
-      "current_price": 348.53,
+      "current_price": 348.5,
       "value_usd": 25.0,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
+      "pnl_pct": -0.01,
+      "pnl_usd": -0.0,
       "trailing_info": "Peak: $348.53 | Trailing 3.5%"
     }
   ],
@@ -1382,21 +1386,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.854,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 15,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "AVAX displays extremely weak relative volume (0.09 rvol) and a bearish hourly trend, completely failing minimum volume and structural criteria for entry.",
-      "risk_factors": "Low volume mean-reversion trap in a bearish hourly trend with potential continuation downward.",
-      "timestamp": "2026-10-28T11:19:48.936208"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.8715,
       "approved": false,
       "action": "REJECT",
@@ -1977,6 +1966,21 @@
       "primary_thesis": "AVAX displays extremely weak relative volume (rvol = 0.04) and fails all minimum momentum and volume thresholds required for long crypto execution.",
       "risk_factors": "Severe lack of market participation with RVOL near zero risks immediate slippage and chop trap.",
       "timestamp": "2026-10-28T12:09:32.257363"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Equities",
+      "symbol": "SOXL",
+      "current_price": 104.2901,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 40,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "SOXL is showing a minor intraday bounce above VWAP, but breaking news highlights severe macro headwinds including a plunging Nasdaq, surging oil, and warnings that chip stocks are hitting multi-month lows due to spooked markets.",
+      "risk_factors": "High risk of a bull trap amid plunging broader index performance, active geopolitical catalysts (Iran/oil surge), and institutional selling pressure overriding short-term retail bullishness.",
+      "timestamp": "2026-10-28T12:09:45.206068"
     }
   ],
   "performance": {
@@ -1988,7 +1992,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 2,
     "realized_pnl_today": -0.87,
-    "current_equity": 325.61450344,
+    "current_equity": 325.6322118,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3182,5 +3186,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T13:14:56.614639"
+  "snapshot_synced_at": "2026-10-28T13:16:30.317210"
 }
