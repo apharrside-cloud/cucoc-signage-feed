@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T22:25:59.866617",
+  "timestamp": "2026-10-27T22:27:33.649395",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.98,
@@ -80,23 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.15823484459275,
-      "btc_price": 80866.51,
+      "btc_change_24h": 1.13852785310984,
+      "btc_price": 80841.33,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.16% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.14% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 22:15:36] Macro Regime: RISK_ON | BTC 24h: +1.22% | Alts Allowed: True",
-      "[2026-10-27 22:15:36] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 22:15:36] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 22:16:38] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 22:16:38] Macro Regime: RISK_ON | BTC 24h: +1.28% | Alts Allowed: True",
-      "[2026-10-27 22:16:38] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 22:16:38] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 22:17:40] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 22:17:41] Macro Regime: RISK_ON | BTC 24h: +1.39% | Alts Allowed: True",
       "[2026-10-27 22:17:41] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 22:17:41] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
@@ -128,7 +120,15 @@
       "[2026-10-27 22:24:57] Macro Regime: RISK_ON | BTC 24h: +1.16% | Alts Allowed: True",
       "[2026-10-27 22:24:57] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 22:24:57] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 22:25:59] Running Coinbase 24/7 autonomous evaluation cycle..."
+      "[2026-10-27 22:25:59] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 22:26:00] Macro Regime: RISK_ON | BTC 24h: +1.14% | Alts Allowed: True",
+      "[2026-10-27 22:26:00] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 22:26:00] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 22:27:02] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 22:27:02] Macro Regime: RISK_ON | BTC 24h: +1.22% | Alts Allowed: True",
+      "[2026-10-27 22:27:02] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 22:27:02] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 22:27:05] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1317,21 +1317,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
-      "current_price": 0.17981,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET shows bullish hourly trend alignment and a risk-on macro environment, but current volume metrics fail strict evolutionary constraints.",
-      "risk_factors": "RVOL of 1.22 misses the mandatory >= 1.5x threshold, and critical exploit news surrounding Fetch.ai introduces severe binary downside risk.",
-      "timestamp": "2026-10-27T13:48:48.978322"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
       "current_price": 0.17987,
       "approved": false,
       "action": "REJECT",
@@ -1894,6 +1879,21 @@
       "primary_thesis": "SUI is attempting a breakout near overhead resistance, but technical filters explicitly prohibit entry due to weak relative volume (RVOL 0.8 vs. required >= 1.5x).",
       "risk_factors": "Low volume churn at RSI 70.1 signals a lack of institutional buying pressure, inviting an immediate bull trap and sharp retracement.",
       "timestamp": "2026-10-27T17:42:55.803854"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SUI",
+      "current_price": 0.9304,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 40,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "SUI shows bullish hourly trend and positive macro backdrop, but fails strict crypto strategy rules requiring RVOL >= 1.5x (current RVOL is 0.8).",
+      "risk_factors": "Subdued relative volume below the 20-period baseline increases the risk of a false breakout or low-liquidity fade at current resistance.",
+      "timestamp": "2026-10-27T17:44:05.118329"
     }
   ],
   "performance": {
@@ -3076,5 +3076,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T22:25:59.540599"
+  "snapshot_synced_at": "2026-10-27T22:27:33.319732"
 }
