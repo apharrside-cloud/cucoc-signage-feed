@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T16:12:56.038877",
+  "timestamp": "2026-10-28T16:14:29.741237",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 323.35,
@@ -174,14 +174,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 16:07:29] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 16:07:29] Macro Regime: RISK_ON | BTC 24h: +0.97% | Alts Allowed: True",
-      "[2026-10-28 16:07:29] [TAO] Qty: 0.0944 | Entry: $262.12 | Current: $260.57 | Peak: $262.12 | PnL: -0.59% ($24.60) | Vol: AI Alpha Runner",
-      "[2026-10-28 16:07:29] [LINK] Qty: 1.69 | Entry: $11.71 | Current: $11.89 | Peak: $11.96 | PnL: +1.52% ($20.09) | Vol: Core Mid-Cap",
-      "[2026-10-28 16:07:29] Deployable cash ($91.05 of $115.23 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
-      "[2026-10-28 16:07:29] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 16:07:33] Top candidate: SUI (Tier 2 (Alpha Breakout), Mode: BREAKOUT). Executing AI-APPROVED market buy of $25.00...",
-      "[2026-10-28 16:08:34] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 16:08:35] Macro Regime: RISK_ON | BTC 24h: +0.94% | Alts Allowed: True",
       "[2026-10-28 16:08:35] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.95 | Peak: $0.95 | PnL: +0.02% ($24.71) | Vol: High-Beta Alpha Runner",
       "[2026-10-28 16:08:36] [TAO] Qty: 0.0944 | Entry: $262.12 | Current: $260.67 | Peak: $262.12 | PnL: -0.55% ($24.61) | Vol: AI Alpha Runner",
@@ -213,7 +205,15 @@
       "[2026-10-28 16:12:46] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.95 | Peak: $0.95 | PnL: -0.20% ($24.65) | Vol: High-Beta Alpha Runner",
       "[2026-10-28 16:12:46] [TAO] Qty: 0.0944 | Entry: $262.12 | Current: $260.20 | Peak: $262.12 | PnL: -0.73% ($24.56) | Vol: AI Alpha Runner",
       "[2026-10-28 16:12:46] Deployable cash ($86.03 of $110.21 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
-      "[2026-10-28 16:12:46] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 16:12:46] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 16:12:58] 🧠 [AI GATE] Buy of AAVE VETOED by AI Brain (Confidence: 45%) | Thesis: AAVE is attempting a breakout in a RISK_ON regime, but fails critical volume rules.",
+      "[2026-10-28 16:13:58] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 16:13:58] Macro Regime: RISK_ON | BTC 24h: +0.77% | Alts Allowed: True",
+      "[2026-10-28 16:13:58] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.95 | Peak: $0.95 | PnL: -0.30% ($24.63) | Vol: High-Beta Alpha Runner",
+      "[2026-10-28 16:13:58] [TAO] Qty: 0.0944 | Entry: $262.12 | Current: $259.68 | Peak: $262.12 | PnL: -0.93% ($24.51) | Vol: AI Alpha Runner",
+      "[2026-10-28 16:13:58] Deployable cash ($86.03 of $110.21 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
+      "[2026-10-28 16:13:58] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 16:14:01] 🧠 [AI GATE] Buy of AAVE VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1480,36 +1480,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.848,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 10,
-      "position_usd": 15.0,
-      "stop_loss_pct": -4.0,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "AVAX is showing extreme oversold conditions (RSI 26.7) in a bearish hourly trend, but volume and relative volume are entirely absent.",
-      "risk_factors": "Critically low relative volume (RVOL 0.28) and bearish macro alignment violate all core rules for mean-reversion and breakout execution.",
-      "timestamp": "2026-10-28T13:37:19.283522"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
-      "current_price": 8.834,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 15,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "AVAX is in a bearish hourly trend with extremely low relative volume (RVOL 0.28) and macro regime rules restricting altcoin longs.",
-      "risk_factors": "Fails multiple evolved strategy rules including low relative volume, bearish hourly trend, and macro filter prohibition against altcoin entries.",
-      "timestamp": "2026-10-28T13:38:34.969822"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.831,
       "approved": false,
       "action": "REJECT",
@@ -2075,6 +2045,36 @@
       "primary_thesis": "AI Parsing/Network Exception: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T14:33:32.063153"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 8.881,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "AVAX is currently in a mean-reversion mode with an RSI of 35.3 and RVOL of 1.32, which fails the strict RVOL >= 1.5x requirement for crypto long entries.",
+      "risk_factors": "Macro regime is neutral with alts restricted unless decoupled, and volume is insufficient to confirm a high-probability breakout.",
+      "timestamp": "2026-10-28T14:35:38.579908"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "LINK",
+      "current_price": 11.7397,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "LINK shows a bullish hourly trend and positive macro risk-on regime, but RVOL of 1.4 fails to meet the strict evolved strategy rule requiring breakout volume or relative volume >= 1.5x.",
+      "risk_factors": "RVOL is below the 1.5x threshold required for altcoin breakout entries, increasing the risk of a false breakout or stalling momentum.",
+      "timestamp": "2026-10-28T14:37:44.289389"
     }
   ],
   "performance": {
@@ -3280,5 +3280,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T16:12:55.740880"
+  "snapshot_synced_at": "2026-10-28T16:14:29.332734"
 }
