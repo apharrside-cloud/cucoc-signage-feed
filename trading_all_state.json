@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T22:27:33.649395",
+  "timestamp": "2026-10-27T22:29:07.352133",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.98,
@@ -89,11 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-27 22:17:41] Macro Regime: RISK_ON | BTC 24h: +1.39% | Alts Allowed: True",
-      "[2026-10-27 22:17:41] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-27 22:17:41] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 22:18:42] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 22:18:43] Macro Regime: RISK_ON | BTC 24h: +1.38% | Alts Allowed: True",
       "[2026-10-27 22:18:43] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 22:18:43] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-27 22:19:45] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -128,7 +123,12 @@
       "[2026-10-27 22:27:02] Macro Regime: RISK_ON | BTC 24h: +1.22% | Alts Allowed: True",
       "[2026-10-27 22:27:02] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-27 22:27:02] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 22:27:05] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
+      "[2026-10-27 22:27:05] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-27 22:28:05] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 22:28:06] Macro Regime: RISK_ON | BTC 24h: +1.25% | Alts Allowed: True",
+      "[2026-10-27 22:28:06] Deployable cash ($137.38 of $161.56 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-27 22:28:06] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 22:28:09] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1314,21 +1314,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
-      "current_price": 0.17987,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET shows bullish hourly trend and risk-on macro alignment, but current relative volume (1.32x) fails the mandatory rule requiring >= 1.5x RVOL and RSI is elevated at 72.",
-      "risk_factors": "Directly linked to negative exploit news headlines involving Fetch.ai and NuNet losing $2 million, alongside failure to clear strict volume expansion filters.",
-      "timestamp": "2026-10-27T13:49:53.399239"
-    },
-    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Equities",
       "symbol": "AVGO",
@@ -1894,6 +1879,21 @@
       "primary_thesis": "SUI shows bullish hourly trend and positive macro backdrop, but fails strict crypto strategy rules requiring RVOL >= 1.5x (current RVOL is 0.8).",
       "risk_factors": "Subdued relative volume below the 20-period baseline increases the risk of a false breakout or low-liquidity fade at current resistance.",
       "timestamp": "2026-10-27T17:44:05.118329"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SUI",
+      "current_price": 0.9293,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "SUI is attempting a breakout near overhead resistance while showing weak relative volume (0.8 RVOL), violating strict evolution rules requiring RVOL >= 1.5x.",
+      "risk_factors": "Low volume churn at an elevated RSI (70.1) increases the probability of a failed breakout and sharp retracement.",
+      "timestamp": "2026-10-27T17:45:09.139613"
     }
   ],
   "performance": {
@@ -3076,5 +3076,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T22:27:33.319732"
+  "snapshot_synced_at": "2026-10-27T22:29:07.027682"
 }
