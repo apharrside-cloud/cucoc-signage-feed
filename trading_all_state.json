@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T04:57:55.831172",
+  "timestamp": "2026-10-28T04:59:29.611237",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.82,
+    "total_equity": 326.94,
     "total_cash": 257.86,
     "cash_pct": 78.9,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.6757636,
+    "total_value": 165.7967485,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 03:27:32] Running portfolio evaluation cycle...",
-      "[2026-10-28 03:27:33] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 03:27:35] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Securing +5.12% open profit with a tightened stop following a minor 0.57% pullback from the peak as momentum begins to moderate.",
       "[2026-10-28 03:32:35] Running portfolio evaluation cycle...",
       "[2026-10-28 03:32:35] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
@@ -71,7 +69,9 @@
       "[2026-10-28 04:48:12] Running portfolio evaluation cycle...",
       "[2026-10-28 04:48:12] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 04:53:14] Running portfolio evaluation cycle...",
-      "[2026-10-28 04:53:15] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
+      "[2026-10-28 04:53:15] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-28 04:58:15] Running portfolio evaluation cycle...",
+      "[2026-10-28 04:58:16] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
     ]
   },
   "coinbase": {
@@ -89,12 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 04:49:21] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows bullish 1-hour trend alignment and positive 24-hour performance, but fails fundamental volume requirements.",
-      "[2026-10-28 04:50:21] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 04:50:21] Macro Regime: RISK_ON | BTC 24h: +2.14% | Alts Allowed: True",
-      "[2026-10-28 04:50:21] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 04:50:21] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 04:50:26] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows a bullish hourly trend and positive 24h performance, but fails strict volume criteria.",
       "[2026-10-28 04:51:26] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 04:51:26] Macro Regime: RISK_ON | BTC 24h: +2.16% | Alts Allowed: True",
       "[2026-10-28 04:51:26] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +122,13 @@
       "[2026-10-28 04:57:53] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 04:57:53] Macro Regime: RISK_ON | BTC 24h: +2.07% | Alts Allowed: True",
       "[2026-10-28 04:57:53] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 04:57:53] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 04:57:53] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 04:57:58] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR is showing positive 24-hour momentum in a risk-on regime, but fails critical volume rules requiring RVOL >= 1.5x.",
+      "[2026-10-28 04:58:58] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 04:58:58] Macro Regime: RISK_ON | BTC 24h: +2.11% | Alts Allowed: True",
+      "[2026-10-28 04:58:58] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 04:58:58] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 04:59:02] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows a bullish hourly trend and positive 24h performance within a risk-on macro environment, but it fails mandatory volume filters."
     ]
   },
   "positions": [
@@ -1317,36 +1317,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
-      "current_price": 0.183,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-27T23:01:38.449019"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
-      "current_price": 0.18264,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-27T23:02:43.465269"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
       "current_price": 0.18259,
       "approved": false,
       "action": "REJECT",
@@ -1910,6 +1880,36 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T02:47:54.087937"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AAVE",
+      "current_price": 134.85,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-28T02:48:57.529228"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AAVE",
+      "current_price": 134.79,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-28T02:50:01.171100"
     }
   ],
   "performance": {
@@ -1921,7 +1921,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.81576359999997,
+    "current_equity": 326.9367485,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3092,5 +3092,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T04:57:55.496536"
+  "snapshot_synced_at": "2026-10-28T04:59:29.272378"
 }
