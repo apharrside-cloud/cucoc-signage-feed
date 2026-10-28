@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T05:18:15.285002",
+  "timestamp": "2026-10-28T05:19:48.972289",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.88,
+    "total_equity": 326.97,
     "total_cash": 257.86,
     "cash_pct": 78.9,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.7409902,
+    "total_value": 165.8311971,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -28,13 +28,10 @@
         "current_price": 560.45,
         "pnl_pct": 5.12,
         "pnl_usd": 0.64,
-        "last_ai_eval_ts": 1793178196.954335
+        "last_ai_eval_ts": 1793179101.8470497
       }
     },
     "logs": [
-      "[2026-10-28 03:42:39] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Lock in accumulated gains of +5.12% with a tightened profit-stop as price experiences a minor 0.57% pullback from its peak.",
-      "[2026-10-28 03:47:39] Running portfolio evaluation cycle...",
-      "[2026-10-28 03:47:40] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 03:52:40] Running portfolio evaluation cycle...",
       "[2026-10-28 03:52:41] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 03:57:41] Running portfolio evaluation cycle...",
@@ -71,7 +68,10 @@
       "[2026-10-28 05:08:19] Running portfolio evaluation cycle...",
       "[2026-10-28 05:08:20] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 05:13:20] Running portfolio evaluation cycle...",
-      "[2026-10-28 05:13:21] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
+      "[2026-10-28 05:13:21] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-28 05:18:21] Running portfolio evaluation cycle...",
+      "[2026-10-28 05:18:21] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-28 05:18:23] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: With a +5.12% open gain and minor pullback from the peak, tightening the stop secures locked-in profits while allowing room for continuation within the regular trading session."
     ]
   },
   "coinbase": {
@@ -80,19 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 2.23412572235182,
-      "btc_price": 81377.72,
+      "btc_change_24h": 2.18352735182279,
+      "btc_price": 81375.63,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +2.23% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +2.18% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 05:08:35] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 05:08:35] Macro Regime: RISK_ON | BTC 24h: +2.04% | Alts Allowed: True",
-      "[2026-10-28 05:08:35] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 05:08:35] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 05:09:38] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 05:09:38] Macro Regime: RISK_ON | BTC 24h: +2.00% | Alts Allowed: True",
       "[2026-10-28 05:09:38] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +124,11 @@
       "[2026-10-28 05:17:57] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 05:17:58] Macro Regime: RISK_ON | BTC 24h: +2.23% | Alts Allowed: True",
       "[2026-10-28 05:17:58] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 05:17:58] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 05:17:58] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 05:19:00] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 05:19:00] Macro Regime: RISK_ON | BTC 24h: +2.18% | Alts Allowed: True",
+      "[2026-10-28 05:19:00] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 05:19:00] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1314,36 +1314,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1793179034_002e9a",
-      "timestamp": "2026-10-28T05:17:14.458546",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "BTC",
-      "title": "Breaking Catalyst: Bitcoin has soared 50% on average after midterms. The S&P 500 has gained 15%.",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored BULLISH (+0.60). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.6,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "BULLISH",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AAVE",
-      "current_price": 135.09,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-28T02:16:07.515725"
-    },
-    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AAVE",
@@ -1912,6 +1882,35 @@
       "primary_thesis": "Although RVOL is strong at 2.62, the asset faces heavy overhead sentiment headwinds with recent whale sell-offs and negative media coverage regarding recent drops.",
       "risk_factors": "Negative news catalyst regarding whale movement and a high RSI of 72.2 increase the probability of a bull trap near current resistance.",
       "timestamp": "2026-10-28T03:01:35.647266"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AMD",
+      "entry_price": 533.17,
+      "current_price": 560.45,
+      "pnl_pct": 5.12,
+      "hours_held": 37.1,
+      "action": "TIGHTEN_STOP",
+      "confidence": 92,
+      "new_stop_pct": 3.5,
+      "reasoning": "Securing +5.12% open profit with a tightened stop following a minor 0.57% pullback from the peak as momentum begins to moderate.",
+      "timestamp": "2026-10-28T03:27:33.111176"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.18181,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 40,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "FET shows bullish hourly trend alignment within a risk-on macro regime, but fails critical volume and news verification filters.",
+      "risk_factors": "RVOL is weak at 0.92 (violating strict breakout requirements) and recent exploit headlines targeting Fetch.ai present severe binary risk.",
+      "timestamp": "2026-10-28T03:38:12.103279"
     }
   ],
   "performance": {
@@ -1923,7 +1922,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.8809902,
+    "current_equity": 326.9711971,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3094,5 +3093,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T05:18:14.987264"
+  "snapshot_synced_at": "2026-10-28T05:19:48.629891"
 }
