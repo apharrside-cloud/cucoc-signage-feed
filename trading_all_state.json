@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T23:01:53.090039",
+  "timestamp": "2026-10-27T23:03:26.694528",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 327.09,
@@ -109,12 +109,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 22:55:05] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.37 | Peak: $257.51 | PnL: -0.05% ($24.63) | Vol: AI Alpha Runner",
-      "[2026-10-27 22:55:07] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-27 22:55:07] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 22:55:10] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
-      "[2026-10-27 22:56:10] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 22:56:10] Macro Regime: RISK_ON | BTC 24h: +1.40% | Alts Allowed: True",
       "[2026-10-27 22:56:10] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.38 | Peak: $257.51 | PnL: -0.05% ($24.63) | Vol: AI Alpha Runner",
       "[2026-10-27 22:56:12] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-27 22:56:12] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
@@ -148,7 +142,13 @@
       "[2026-10-27 23:01:35] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.51 | Peak: $257.51 | PnL: +0.00% ($24.64) | Vol: AI Alpha Runner",
       "[2026-10-27 23:01:36] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-27 23:01:36] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 23:01:40] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
+      "[2026-10-27 23:01:40] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-27 23:02:40] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 23:02:40] Macro Regime: RISK_ON | BTC 24h: +1.46% | Alts Allowed: True",
+      "[2026-10-27 23:02:40] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.64 | Peak: $257.64 | PnL: +0.05% ($24.66) | Vol: AI Alpha Runner",
+      "[2026-10-27 23:02:41] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-27 23:02:41] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 23:02:45] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1351,20 +1351,6 @@
       "entry_price": 533.17,
       "current_price": 560.45,
       "pnl_pct": 5.12,
-      "hours_held": 26.1,
-      "action": "TIGHTEN_STOP",
-      "confidence": 92,
-      "new_stop_pct": 3.5,
-      "reasoning": "Securing +5.12% open profit with a tightened stop following a mild 0.57% pullback from peak excursion to protect gains against fading upside momentum.",
-      "timestamp": "2026-10-27T16:26:20.242473"
-    },
-    {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Equities",
-      "symbol": "AMD",
-      "entry_price": 533.17,
-      "current_price": 560.45,
-      "pnl_pct": 5.12,
       "hours_held": 26.3,
       "action": "TIGHTEN_STOP",
       "confidence": 92,
@@ -1934,6 +1920,21 @@
       "primary_thesis": "The trade candidate is rejected due to a critical security exploit headline involving Fetch.ai (FET and NuNet exploited for $2M), which represents severe imminent binary risk.",
       "risk_factors": "Active exploit news and token-associated vulnerabilities completely invalidate the technical breakout setup.",
       "timestamp": "2026-10-27T18:44:02.566584"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.18218,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 40,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "FET shows strong relative volume (3.06x) and bullish hourly trend, but immediate negative catalysts override technical setup.",
+      "risk_factors": "Fetch.ai was recently exploited for $2 million by an attacker, presenting severe fundamental and sentiment risks that invalidate the breakout thesis.",
+      "timestamp": "2026-10-27T18:45:06.321183"
     }
   ],
   "performance": {
@@ -3116,5 +3117,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T23:01:52.791014"
+  "snapshot_synced_at": "2026-10-27T23:03:26.357957"
 }
