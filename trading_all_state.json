@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T03:27:19.677065",
+  "timestamp": "2026-10-28T03:28:53.393229",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 327.15,
+    "total_equity": 327.11,
     "total_cash": 257.86,
     "cash_pct": 78.8,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 166.01125821,
+    "total_value": 165.9668782,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -28,13 +28,10 @@
         "current_price": 560.45,
         "pnl_pct": 5.12,
         "pnl_usd": 0.64,
-        "last_ai_eval_ts": 1793171549.4926245
+        "last_ai_eval_ts": 1793172453.1111696
       }
     },
     "logs": [
-      "[2026-10-28 01:46:52] Running portfolio evaluation cycle...",
-      "[2026-10-28 01:46:53] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
-      "[2026-10-28 01:51:53] Running portfolio evaluation cycle...",
       "[2026-10-28 01:51:53] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 01:56:55] Running portfolio evaluation cycle...",
       "[2026-10-28 01:56:55] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
@@ -71,7 +68,10 @@
       "[2026-10-28 03:17:31] Running portfolio evaluation cycle...",
       "[2026-10-28 03:17:31] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 03:22:31] Running portfolio evaluation cycle...",
-      "[2026-10-28 03:22:32] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
+      "[2026-10-28 03:22:32] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-28 03:27:32] Running portfolio evaluation cycle...",
+      "[2026-10-28 03:27:33] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-28 03:27:35] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Securing +5.12% open profit with a tightened stop following a minor 0.57% pullback from the peak as momentum begins to moderate."
     ]
   },
   "coinbase": {
@@ -80,23 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.5454134204574,
-      "btc_price": 80809.84,
+      "btc_change_24h": 1.53397676941047,
+      "btc_price": 80813.4,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.55% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.53% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 03:17:16] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 03:17:17] Macro Regime: RISK_ON | BTC 24h: +1.64% | Alts Allowed: True",
-      "[2026-10-28 03:17:17] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 03:17:17] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 03:18:19] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 03:18:19] Macro Regime: RISK_ON | BTC 24h: +1.57% | Alts Allowed: True",
-      "[2026-10-28 03:18:19] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 03:18:19] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 03:19:22] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 03:19:22] Macro Regime: RISK_ON | BTC 24h: +1.55% | Alts Allowed: True",
       "[2026-10-28 03:19:22] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +120,15 @@
       "[2026-10-28 03:26:41] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 03:26:41] Macro Regime: RISK_ON | BTC 24h: +1.55% | Alts Allowed: True",
       "[2026-10-28 03:26:41] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 03:26:41] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 03:26:41] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 03:27:43] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 03:27:44] Macro Regime: RISK_ON | BTC 24h: +1.54% | Alts Allowed: True",
+      "[2026-10-28 03:27:44] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 03:27:44] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 03:28:46] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 03:28:46] Macro Regime: RISK_ON | BTC 24h: +1.53% | Alts Allowed: True",
+      "[2026-10-28 03:28:46] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 03:28:46] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -1317,21 +1317,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
-      "current_price": 0.18117,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET shows strong technical RVOL and bullish hourly trend alignment, but active exploit headlines present a severe binary risk.",
-      "risk_factors": "Fetch.ai exploitation reports and NTX token all-time low price action present severe fundamental counter-risk invalidating the breakout thesis.",
-      "timestamp": "2026-10-27T18:52:36.002880"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
       "current_price": 0.18131,
       "approved": false,
       "action": "REJECT",
@@ -1905,6 +1890,21 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-27T22:47:33.488836"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.18301,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-27T22:48:38.258856"
     }
   ],
   "performance": {
@@ -1916,7 +1916,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 327.15125821,
+    "current_equity": 327.1068782,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3087,5 +3087,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T03:27:19.366461"
+  "snapshot_synced_at": "2026-10-28T03:28:53.054033"
 }
