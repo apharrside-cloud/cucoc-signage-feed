@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T22:54:05.009961",
+  "timestamp": "2026-10-27T22:55:38.520242",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 327.13,
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 21:19:18] Running portfolio evaluation cycle...",
-      "[2026-10-27 21:19:19] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-27 21:24:19] Running portfolio evaluation cycle...",
       "[2026-10-27 21:24:20] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-27 21:29:20] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-27 22:45:15] Running portfolio evaluation cycle...",
       "[2026-10-27 22:45:16] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-27 22:50:16] Running portfolio evaluation cycle...",
-      "[2026-10-27 22:50:32] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
+      "[2026-10-27 22:50:32] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
+      "[2026-10-27 22:55:32] Running portfolio evaluation cycle...",
+      "[2026-10-27 22:55:36] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
     ]
   },
   "coinbase": {
@@ -109,13 +109,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 22:47:30] Macro Regime: RISK_ON | BTC 24h: +1.23% | Alts Allowed: True",
-      "[2026-10-27 22:47:30] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $256.95 | Peak: $257.51 | PnL: -0.22% ($24.59) | Vol: AI Alpha Runner",
-      "[2026-10-27 22:47:32] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-27 22:47:32] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 22:47:35] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
-      "[2026-10-27 22:48:35] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 22:48:35] Macro Regime: RISK_ON | BTC 24h: +1.23% | Alts Allowed: True",
       "[2026-10-27 22:48:35] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.12 | Peak: $257.51 | PnL: -0.15% ($24.61) | Vol: AI Alpha Runner",
       "[2026-10-27 22:48:36] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-27 22:48:36] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
@@ -148,7 +141,14 @@
       "[2026-10-27 22:54:00] Macro Regime: RISK_ON | BTC 24h: +1.33% | Alts Allowed: True",
       "[2026-10-27 22:54:00] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.24 | Peak: $257.51 | PnL: -0.10% ($24.62) | Vol: AI Alpha Runner",
       "[2026-10-27 22:54:02] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-27 22:54:02] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 22:54:02] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 22:54:05] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-27 22:55:05] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 22:55:05] Macro Regime: RISK_ON | BTC 24h: +1.38% | Alts Allowed: True",
+      "[2026-10-27 22:55:05] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.37 | Peak: $257.51 | PnL: -0.05% ($24.63) | Vol: AI Alpha Runner",
+      "[2026-10-27 22:55:07] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-27 22:55:07] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 22:55:10] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1348,36 +1348,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "NEAR",
-      "current_price": 4.629,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 40,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "NEAR is showing mild bullish hourly trend context in a risk-on regime, but fails critical volume rules.",
-      "risk_factors": "Relative volume (RVOL = 1.0) fails the strict mandate of >= 1.5x to 2.5x required for crypto breakout long entries, and recent news shows underperformance.",
-      "timestamp": "2026-10-27T15:56:53.892990"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "NEAR",
-      "current_price": 4.6319,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "NEAR is exhibiting bullish hourly trend structure in a risk-on macro regime, but fails critical volume rules.",
-      "risk_factors": "Relative volume (RVOL) is sitting at 1.0, failing the strict evolved strategy rule requiring RVOL >= 1.5x and 2.5x volume expansion for crypto breakout long entries.",
-      "timestamp": "2026-10-27T15:57:57.808044"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "NEAR",
       "current_price": 4.6309,
       "approved": false,
       "action": "REJECT",
@@ -1933,6 +1903,36 @@
       "primary_thesis": "SUI shows bullish hourly structure in a risk-on regime, but fails critical volume rules.",
       "risk_factors": "RVOL of 1.04 fails mandatory strategy rules requiring relative volume >= 1.5x for crypto long breakouts.",
       "timestamp": "2026-10-27T18:35:30.817123"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.18172,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "FET exhibits strong relative volume and an hourly bullish breakout, but concurrent negative exploit news headlines create unacceptable binary downside risk.",
+      "risk_factors": "Active exploit headlines involving Fetch.ai and token-related attacks introduce severe tail-risk that overrides technical momentum.",
+      "timestamp": "2026-10-27T18:37:36.832010"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.18138,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 40,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "FET shows strong volume expansion and bullish hourly trend alignment, but critical breaking exploit news directly names Fetch.ai as hacked for $2 million.",
+      "risk_factors": "Fetch.ai active exploit headlines and token-low risks present an unacceptable existential regulatory/fundamental black swan.",
+      "timestamp": "2026-10-27T18:38:40.770336"
     }
   ],
   "performance": {
@@ -1944,7 +1944,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 327.12673728000004,
+    "current_equity": 327.12909329,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3115,5 +3115,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T22:54:04.663016"
+  "snapshot_synced_at": "2026-10-27T22:55:38.156239"
 }
