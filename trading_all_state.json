@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-28T16:06:41.718715",
+  "timestamp": "2026-10-28T16:08:15.276980",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 324.45,
-    "total_cash": 176.07,
-    "cash_pct": 54.3,
+    "total_equity": 324.05,
+    "total_cash": 195.91,
+    "cash_pct": 60.5,
     "weekly_realized_pnl": -1.16,
     "win_rate": 57.26495726495726,
     "winning_trades": 67,
@@ -99,17 +99,17 @@
     ]
   },
   "coinbase": {
-    "total_usd": 160.32,
-    "cash_usd": 95.39,
-    "crypto_usd": 64.94,
+    "total_usd": 159.92,
+    "cash_usd": 115.23,
+    "crypto_usd": 44.69,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.22161171321066,
-      "btc_price": 81648.5,
+      "btc_change_24h": 0.96579674915579,
+      "btc_price": 81443.02,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.22% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.97% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {
       "LINK": {
@@ -123,34 +123,14 @@
         "stop_loss_pct": 1.5,
         "trailing_active": false,
         "entry_time": "2026-10-28T14:43:03.719843",
-        "current_price": 11.943,
-        "pnl_pct": 1.99,
-        "value_usd": 20.18,
+        "current_price": 11.888,
+        "pnl_pct": 1.52,
+        "value_usd": 20.09,
         "tp1_pct": 6.0,
         "tp2_pct": 14.0,
         "trailing_pullback_pct": 2.5,
         "volatility_profile": "Core Mid-Cap",
         "last_ai_eval_ts": 1793217784.7162228
-      },
-      "NEAR": {
-        "coin": "NEAR",
-        "pair": "NEAR-USDC",
-        "entry_price": 4.72,
-        "shares": 4.199,
-        "peak_price": 4.7913,
-        "tp1_hit": false,
-        "tp2_hit": false,
-        "stop_loss_pct": 1.0,
-        "trailing_active": false,
-        "entry_time": "2026-10-28T15:33:34.222658",
-        "current_price": 4.7825,
-        "pnl_pct": 1.32,
-        "value_usd": 20.08,
-        "tp1_pct": 5.5,
-        "tp2_pct": 15.0,
-        "trailing_pullback_pct": 3.0,
-        "volatility_profile": "High-Beta Alpha Runner",
-        "last_ai_eval_ts": 1793217786.9482763
       },
       "TAO": {
         "coin": "TAO",
@@ -163,24 +143,36 @@
         "stop_loss_pct": -2.0,
         "trailing_active": false,
         "entry_time": "2026-10-28T16:03:14.277867",
-        "current_price": 261.36,
-        "pnl_pct": -0.29,
-        "value_usd": 24.67,
+        "current_price": 260.57,
+        "pnl_pct": -0.59,
+        "value_usd": 24.6,
         "tp1_pct": 6.0,
         "tp2_pct": 16.0,
         "trailing_pullback_pct": 3.0,
         "volatility_profile": "AI Alpha Runner",
         "last_ai_eval_ts": 1793217855.3327734
+      },
+      "SUI": {
+        "coin": "SUI",
+        "pair": "SUI-USDC",
+        "entry_price": 0.9538,
+        "shares": 26.21094569,
+        "peak_price": 0.9538,
+        "tp1_hit": false,
+        "tp2_hit": false,
+        "stop_loss_pct": -3.0,
+        "trailing_active": false,
+        "entry_time": "2026-10-28T16:07:34.527143",
+        "current_price": 0.9538,
+        "pnl_pct": 0.0,
+        "value_usd": 25.0,
+        "tp1_pct": 7.5,
+        "tp2_pct": 15.0,
+        "trailing_pullback_pct": 3.0,
+        "volatility_profile": "High-Beta Alpha Runner"
       }
     },
     "logs": [
-      "[2026-10-28 16:01:55] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 16:01:55] Macro Regime: RISK_ON | BTC 24h: +1.21% | Alts Allowed: True",
-      "[2026-10-28 16:01:55] [LINK] Qty: 1.69 | Entry: $11.71 | Current: $11.90 | Peak: $11.90 | PnL: +1.62% ($20.11) | Vol: Core Mid-Cap",
-      "[2026-10-28 16:01:57] 🧠 [AI TIGHTEN STOP] Raising stop loss for LINK from -2.5% to 1.2% | Reason: Unrealized gain has reached +1.62% at the peak; per strategy rules, we are tightening the stop to lock in profits against potential momentum stalling.",
-      "[2026-10-28 16:01:57] [NEAR] Qty: 4.199 | Entry: $4.72 | Current: $4.77 | Peak: $4.77 | PnL: +1.01% ($20.02) | Vol: High-Beta Alpha Runner",
-      "[2026-10-28 16:01:59] 🧠 [AI TIGHTEN STOP] Raising stop loss for NEAR from -2.2% to 0.5% | Reason: Position has reached +1.01% profit exceeding the scale-out threshold, and per rules we must tighten stops to lock in gains as momentum approaches peak favorable excursion.",
-      "[2026-10-28 16:01:59] Deployable cash ($96.17 of $120.35 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
       "[2026-10-28 16:01:59] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 16:02:04] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 60%) | Thesis: SUI shows bullish hourly structure and a risk-on macro regime, but fails the strict evolved strategy rule requiring relative volume >= 1.5x (current rvol_1h is 1.44).",
       "[2026-10-28 16:03:04] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -213,7 +205,14 @@
       "[2026-10-28 16:06:25] [LINK] Qty: 1.69 | Entry: $11.71 | Current: $11.91 | Peak: $11.96 | PnL: +1.73% ($20.13) | Vol: Core Mid-Cap",
       "[2026-10-28 16:06:25] Deployable cash ($91.05 of $115.23 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
       "[2026-10-28 16:06:25] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 16:06:29] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 40%) | Thesis: SOL is attempting a breakout near $103.30, but volume fails to confirm institutional participation."
+      "[2026-10-28 16:06:29] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 40%) | Thesis: SOL is attempting a breakout near $103.30, but volume fails to confirm institutional participation.",
+      "[2026-10-28 16:07:29] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 16:07:29] Macro Regime: RISK_ON | BTC 24h: +0.97% | Alts Allowed: True",
+      "[2026-10-28 16:07:29] [TAO] Qty: 0.0944 | Entry: $262.12 | Current: $260.57 | Peak: $262.12 | PnL: -0.59% ($24.60) | Vol: AI Alpha Runner",
+      "[2026-10-28 16:07:29] [LINK] Qty: 1.69 | Entry: $11.71 | Current: $11.89 | Peak: $11.96 | PnL: +1.52% ($20.09) | Vol: Core Mid-Cap",
+      "[2026-10-28 16:07:29] Deployable cash ($91.05 of $115.23 total, $24.18 vaulted) >= $15.00 & positions (2/3). Scanning candidates...",
+      "[2026-10-28 16:07:29] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 16:07:33] Top candidate: SUI (Tier 2 (Alpha Breakout), Mode: BREAKOUT). Executing AI-APPROVED market buy of $25.00..."
     ]
   },
   "positions": [
@@ -255,33 +254,33 @@
       "symbol": "LINK",
       "shares": 1.69,
       "entry_price": 11.71,
-      "current_price": 11.943,
-      "value_usd": 20.18,
-      "pnl_pct": 1.99,
-      "pnl_usd": 0.39,
+      "current_price": 11.888,
+      "value_usd": 20.09,
+      "pnl_pct": 1.52,
+      "pnl_usd": 0.3,
       "trailing_info": "TP1: +6.0% | Stop: 1.5%"
-    },
-    {
-      "account": "Coinbase",
-      "symbol": "NEAR",
-      "shares": 4.199,
-      "entry_price": 4.72,
-      "current_price": 4.7825,
-      "value_usd": 20.08,
-      "pnl_pct": 1.32,
-      "pnl_usd": 0.26,
-      "trailing_info": "TP1: +5.5% | Stop: 1.0%"
     },
     {
       "account": "Coinbase",
       "symbol": "TAO",
       "shares": 0.0944,
       "entry_price": 262.12,
-      "current_price": 261.36,
-      "value_usd": 24.67,
-      "pnl_pct": -0.29,
-      "pnl_usd": -0.07,
+      "current_price": 260.57,
+      "value_usd": 24.6,
+      "pnl_pct": -0.59,
+      "pnl_usd": -0.14,
       "trailing_info": "TP1: +6.0% | Stop: -2.0%"
+    },
+    {
+      "account": "Coinbase",
+      "symbol": "SUI",
+      "shares": 26.21094569,
+      "entry_price": 0.9538,
+      "current_price": 0.9538,
+      "value_usd": 25.0,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "trailing_info": "TP1: +7.5% | Stop: -3.0%"
     }
   ],
   "closed_trades": [
@@ -1480,21 +1479,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AVAX",
-      "current_price": 8.818,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 10,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "AVAX is showing severe bearish momentum with an hourly trend of BEARISH and extremely weak relative volume (RVOL 0.25 vs required >= 1.5x).",
-      "risk_factors": "Low relative volume, bearish hourly trend, and macro regime restrictions against low-RVOL altcoin entries violate core evolved strategy rules.",
-      "timestamp": "2026-10-28T13:33:29.356105"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AVAX",
       "current_price": 8.823,
       "approved": false,
       "action": "REJECT",
@@ -2075,6 +2059,21 @@
       "primary_thesis": "AVAX is showing oversold conditions near hourly support, but the macro regime ('allow_alts': false) and bearish hourly trend prohibit altcoin long entries.",
       "risk_factors": "Executing counter-trend mean reversion on an altcoin during a restrictive macro regime violates core capital protection and strategy rules.",
       "timestamp": "2026-10-28T14:29:22.209181"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AVAX",
+      "current_price": 8.869,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 40,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "AVAX is near oversold levels with an RSI of 31.2, but lacks the necessary RVOL (1.28 vs 1.5 required) and broader regime support to justify a long mean-reversion entry.",
+      "risk_factors": "Hourly trend is bearish and macro regime forbids general altcoin longs without strong decoupled relative strength.",
+      "timestamp": "2026-10-28T14:30:54.802521"
     }
   ],
   "performance": {
@@ -2086,7 +2085,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 2,
     "realized_pnl_today": -0.87,
-    "current_equity": 324.4503809164,
+    "current_equity": 324.05038091639994,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3280,5 +3279,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T16:06:41.410583"
+  "snapshot_synced_at": "2026-10-28T16:08:14.943423"
 }
