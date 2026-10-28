@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T03:49:11.714902",
+  "timestamp": "2026-10-28T03:50:45.371234",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.97,
@@ -89,11 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 03:41:23] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 03:41:23] Macro Regime: RISK_ON | BTC 24h: +1.64% | Alts Allowed: True",
-      "[2026-10-28 03:41:23] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 03:41:23] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 03:41:28] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 40%) | Thesis: FET is attempting a breakout move during a Risk-On macro regime, but fails critical volume and news filters.",
       "[2026-10-28 03:42:28] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 03:42:28] Macro Regime: RISK_ON | BTC 24h: +1.62% | Alts Allowed: True",
       "[2026-10-28 03:42:28] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +123,12 @@
       "[2026-10-28 03:48:56] Macro Regime: RISK_ON | BTC 24h: +1.45% | Alts Allowed: True",
       "[2026-10-28 03:48:56] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 03:48:56] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 03:49:00] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 40%) | Thesis: FET shows bullish hourly alignment and positive macro regime, but fails critical volume and news filters."
+      "[2026-10-28 03:49:00] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 40%) | Thesis: FET shows bullish hourly alignment and positive macro regime, but fails critical volume and news filters.",
+      "[2026-10-28 03:50:00] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 03:50:00] Macro Regime: RISK_ON | BTC 24h: +1.43% | Alts Allowed: True",
+      "[2026-10-28 03:50:00] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 03:50:00] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 03:50:04] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows a mildly bullish 1-hour trend and positive 24h change, but fails strict volume rules requiring relative volume >= 1.5x (current RVOL is 1.09)."
     ]
   },
   "positions": [
@@ -1314,21 +1314,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SUI",
-      "current_price": 0.931,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 40,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "SUI shows bullish hourly structure and BTC is in a risk-on regime, but the trade is rejected due to violating core evolved strategy rules.",
-      "risk_factors": "Relative volume (rvol 1.18) fails the mandatory evolution rule requiring SUI breakout volume to be >= 1.5x the 20-period baseline.",
-      "timestamp": "2026-10-27T19:05:29.682290"
-    },
-    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Equities",
       "symbol": "AMD",
@@ -1906,6 +1891,21 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-27T23:01:38.449019"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.18264,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-27T23:02:43.465269"
     }
   ],
   "performance": {
@@ -3088,5 +3088,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T03:49:11.397088"
+  "snapshot_synced_at": "2026-10-28T03:50:45.077881"
 }
