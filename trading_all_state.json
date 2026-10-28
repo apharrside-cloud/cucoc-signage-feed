@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T00:05:52.814869",
+  "timestamp": "2026-10-28T00:07:26.873091",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 327.19,
+    "total_equity": 327.18,
     "total_cash": 233.41,
     "cash_pct": 71.3,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.7852157,
+    "total_value": 165.79359097,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 22:25:11] Running portfolio evaluation cycle...",
-      "[2026-10-27 22:25:12] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-27 22:30:12] Running portfolio evaluation cycle...",
       "[2026-10-27 22:30:12] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-27 22:35:12] Running portfolio evaluation cycle...",
@@ -71,21 +69,23 @@
       "[2026-10-27 23:55:50] Running portfolio evaluation cycle...",
       "[2026-10-27 23:55:51] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 00:00:52] Running portfolio evaluation cycle...",
-      "[2026-10-28 00:00:53] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
+      "[2026-10-28 00:00:53] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-28 00:05:53] Running portfolio evaluation cycle...",
+      "[2026-10-28 00:05:53] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
     ]
   },
   "coinbase": {
-    "total_usd": 161.4,
+    "total_usd": 161.39,
     "cash_usd": 136.69,
-    "crypto_usd": 24.7,
+    "crypto_usd": 24.69,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.64034054660112,
-      "btc_price": 80980.0,
+      "btc_change_24h": 1.52163990477784,
+      "btc_price": 80916.95,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.64% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.52% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {
       "TAO": {
@@ -99,9 +99,9 @@
         "stop_loss_pct": -3.5,
         "trailing_active": false,
         "entry_time": "2026-10-27T22:32:25.856935",
-        "current_price": 258.15,
-        "pnl_pct": 0.25,
-        "value_usd": 24.7,
+        "current_price": 258.04,
+        "pnl_pct": 0.21,
+        "value_usd": 24.69,
         "tp1_pct": 7.5,
         "tp2_pct": 16.0,
         "trailing_pullback_pct": 3.0,
@@ -110,16 +110,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 23:57:57] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 23:57:57] Macro Regime: RISK_ON | BTC 24h: +1.71% | Alts Allowed: True",
-      "[2026-10-27 23:57:57] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $258.07 | Peak: $259.24 | PnL: +0.22% ($24.70) | Vol: AI Alpha Runner",
-      "[2026-10-27 23:57:57] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-27 23:57:57] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 23:58:59] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 23:58:59] Macro Regime: RISK_ON | BTC 24h: +1.68% | Alts Allowed: True",
-      "[2026-10-27 23:58:59] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.99 | Peak: $259.24 | PnL: +0.19% ($24.69) | Vol: AI Alpha Runner",
-      "[2026-10-27 23:58:59] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-27 23:58:59] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 00:00:01] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 00:00:01] Macro Regime: RISK_ON | BTC 24h: +1.64% | Alts Allowed: True",
       "[2026-10-28 00:00:01] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.87 | Peak: $259.24 | PnL: +0.14% ($24.68) | Vol: AI Alpha Runner",
@@ -149,7 +139,17 @@
       "[2026-10-28 00:05:12] Macro Regime: RISK_ON | BTC 24h: +1.64% | Alts Allowed: True",
       "[2026-10-28 00:05:12] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $258.15 | Peak: $259.24 | PnL: +0.25% ($24.70) | Vol: AI Alpha Runner",
       "[2026-10-28 00:05:12] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 00:05:12] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 00:05:12] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 00:06:13] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 00:06:14] Macro Regime: RISK_ON | BTC 24h: +1.58% | Alts Allowed: True",
+      "[2026-10-28 00:06:14] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $258.18 | Peak: $259.24 | PnL: +0.26% ($24.71) | Vol: AI Alpha Runner",
+      "[2026-10-28 00:06:14] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 00:06:14] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 00:07:15] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 00:07:16] Macro Regime: RISK_ON | BTC 24h: +1.52% | Alts Allowed: True",
+      "[2026-10-28 00:07:16] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $258.04 | Peak: $259.24 | PnL: +0.21% ($24.69) | Vol: AI Alpha Runner",
+      "[2026-10-28 00:07:16] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 00:07:16] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -169,10 +169,10 @@
       "symbol": "TAO",
       "shares": 0.0957,
       "entry_price": 257.51,
-      "current_price": 258.15,
-      "value_usd": 24.7,
-      "pnl_pct": 0.25,
-      "pnl_usd": 0.06,
+      "current_price": 258.04,
+      "value_usd": 24.69,
+      "pnl_pct": 0.21,
+      "pnl_usd": 0.05,
       "trailing_info": "TP1: +7.5% | Stop: -3.5%"
     }
   ],
@@ -1949,7 +1949,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 327.1852157,
+    "current_equity": 327.18359096999995,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3120,5 +3120,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T00:05:52.501273"
+  "snapshot_synced_at": "2026-10-28T00:07:26.455553"
 }
