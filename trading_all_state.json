@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T03:50:45.371234",
+  "timestamp": "2026-10-28T03:52:19.110369",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.97,
@@ -89,16 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 03:42:28] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 03:42:28] Macro Regime: RISK_ON | BTC 24h: +1.62% | Alts Allowed: True",
-      "[2026-10-28 03:42:28] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 03:42:28] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 03:42:32] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 40%) | Thesis: FET shows bullish hourly trend alignment and a supportive Risk-On macro regime, but fails critical volume and news verification rules.",
-      "[2026-10-28 03:43:32] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 03:43:33] Macro Regime: RISK_ON | BTC 24h: +1.60% | Alts Allowed: True",
-      "[2026-10-28 03:43:33] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 03:43:33] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 03:43:37] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 40%) | Thesis: FET shows bullish hourly trend alignment under a Risk-On regime, but lacks the mandatory volume confirmation rules.",
       "[2026-10-28 03:44:37] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 03:44:37] Macro Regime: RISK_ON | BTC 24h: +1.60% | Alts Allowed: True",
       "[2026-10-28 03:44:37] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +118,17 @@
       "[2026-10-28 03:50:00] Macro Regime: RISK_ON | BTC 24h: +1.43% | Alts Allowed: True",
       "[2026-10-28 03:50:00] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 03:50:00] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 03:50:04] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows a mildly bullish 1-hour trend and positive 24h change, but fails strict volume rules requiring relative volume >= 1.5x (current RVOL is 1.09)."
+      "[2026-10-28 03:50:04] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows a mildly bullish 1-hour trend and positive 24h change, but fails strict volume rules requiring relative volume >= 1.5x (current RVOL is 1.09).",
+      "[2026-10-28 03:51:04] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 03:51:04] Macro Regime: RISK_ON | BTC 24h: +1.30% | Alts Allowed: True",
+      "[2026-10-28 03:51:04] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 03:51:04] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 03:51:09] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 45%) | Thesis: FET shows a bullish hourly trend and positive macro backdrop, but fails key volume filters with an RVOL of only 1.09 against our strict 1.5x minimum requirement.",
+      "[2026-10-28 03:52:09] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 03:52:09] Macro Regime: RISK_ON | BTC 24h: +1.38% | Alts Allowed: True",
+      "[2026-10-28 03:52:09] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 03:52:09] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 03:52:14] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 40%) | Thesis: FET shows bullish hourly trend and risk-on alignment, but fails critical volume and news filters."
     ]
   },
   "positions": [
@@ -1320,34 +1320,6 @@
       "entry_price": 533.17,
       "current_price": 560.45,
       "pnl_pct": 5.12,
-      "hours_held": 29.1,
-      "action": "TIGHTEN_STOP",
-      "confidence": 92,
-      "new_stop_pct": 3.5,
-      "reasoning": "Securing profits as price pulls back slightly from the $563.68 peak after a strong +5.72% run, moving the stop to lock in +3.5% gain while letting the healthy equity trend breathe.",
-      "timestamp": "2026-10-27T19:28:22.497232"
-    },
-    {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Equities",
-      "symbol": "AVGO",
-      "entry_price": 339.7399,
-      "current_price": 342.46,
-      "pnl_pct": 0.8,
-      "hours_held": 9.3,
-      "action": "EXIT_EARLY",
-      "confidence": 88,
-      "new_stop_pct": null,
-      "reasoning": "AVGO has pulled back 0.55% from its peak of +1.36%, hitting our rule to scale out or exit at peak favorable excursion to lock in profits before momentum completely stalls.",
-      "timestamp": "2026-10-27T20:13:59.453010"
-    },
-    {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Equities",
-      "symbol": "AMD",
-      "entry_price": 533.17,
-      "current_price": 560.45,
-      "pnl_pct": 5.12,
       "hours_held": 30.1,
       "action": "TIGHTEN_STOP",
       "confidence": 92,
@@ -1906,6 +1878,36 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-27T23:02:43.465269"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "FET",
+      "current_price": 0.18259,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-27T23:03:48.818884"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "LINK",
+      "current_price": 11.659,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-27T23:04:53.800369"
     }
   ],
   "performance": {
@@ -3088,5 +3090,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T03:50:45.077881"
+  "snapshot_synced_at": "2026-10-28T03:52:18.789436"
 }
