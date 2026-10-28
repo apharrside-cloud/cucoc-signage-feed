@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T15:21:25.188488",
+  "timestamp": "2026-10-28T15:22:58.764701",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.06,
+    "total_equity": 326.09,
     "total_cash": 221.03,
     "cash_pct": 67.8,
     "weekly_realized_pnl": -1.16,
@@ -15,7 +15,7 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 165.9140674,
+    "total_value": 165.91530678,
     "cash": 80.68,
     "positions": {
       "MU": {
@@ -56,8 +56,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 15:11:41] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $978.22 | PnL: +0.45% ($+0.13) | Peak: $982.37",
-      "[2026-10-28 15:11:41] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $324.82 | PnL: -0.26% ($-0.08) | Peak: $326.13",
       "[2026-10-28 15:11:41] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $350.42 | PnL: +0.54% ($+0.14) | Peak: $351.47",
       "[2026-10-28 15:12:41] Running portfolio evaluation cycle...",
       "[2026-10-28 15:12:41] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $977.19 | PnL: +0.34% ($+0.10) | Peak: $982.37",
@@ -95,21 +93,23 @@
       "[2026-10-28 15:20:51] Running portfolio evaluation cycle...",
       "[2026-10-28 15:20:51] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $980.22 | PnL: +0.65% ($+0.20) | Peak: $982.37",
       "[2026-10-28 15:20:51] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $324.98 | PnL: -0.21% ($-0.06) | Peak: $326.13",
-      "[2026-10-28 15:20:51] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $350.74 | PnL: +0.63% ($+0.16) | Peak: $351.47"
+      "[2026-10-28 15:20:51] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $350.74 | PnL: +0.63% ($+0.16) | Peak: $351.47",
+      "[2026-10-28 15:21:51] Running portfolio evaluation cycle...",
+      "[2026-10-28 15:22:07] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
     ]
   },
   "coinbase": {
-    "total_usd": 160.15,
+    "total_usd": 160.17,
     "cash_usd": 140.35,
-    "crypto_usd": 19.8,
+    "crypto_usd": 19.82,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.64916119077363,
-      "btc_price": 81066.8,
+      "btc_change_24h": 0.71902299793289,
+      "btc_price": 81111.94,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.65% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.72% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {
       "LINK": {
@@ -117,15 +117,15 @@
         "pair": "LINK-USDC",
         "entry_price": 11.71,
         "shares": 1.69,
-        "peak_price": 11.724,
+        "peak_price": 11.728,
         "tp1_hit": false,
         "tp2_hit": false,
         "stop_loss_pct": -2.5,
         "trailing_active": false,
         "entry_time": "2026-10-28T14:43:03.719843",
-        "current_price": 11.715,
-        "pnl_pct": 0.04,
-        "value_usd": 19.8,
+        "current_price": 11.728,
+        "pnl_pct": 0.15,
+        "value_usd": 19.82,
         "tp1_pct": 6.0,
         "tp2_pct": 14.0,
         "trailing_pullback_pct": 2.5,
@@ -134,11 +134,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 15:13:40] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 15:13:40] Macro Regime: NEUTRAL | BTC 24h: +0.47% | Alts Allowed: False",
-      "[2026-10-28 15:13:40] [LINK] Qty: 1.69 | Entry: $11.71 | Current: $11.68 | Peak: $11.72 | PnL: -0.26% ($19.74) | Vol: Core Mid-Cap",
-      "[2026-10-28 15:13:40] Deployable cash ($116.17 of $140.35 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 15:13:40] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-28 15:14:42] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 15:14:42] Macro Regime: RISK_ON | BTC 24h: +0.58% | Alts Allowed: True",
       "[2026-10-28 15:14:42] [LINK] Qty: 1.69 | Entry: $11.71 | Current: $11.70 | Peak: $11.72 | PnL: -0.12% ($19.77) | Vol: Core Mid-Cap",
@@ -173,7 +168,12 @@
       "[2026-10-28 15:20:56] Macro Regime: RISK_ON | BTC 24h: +0.65% | Alts Allowed: True",
       "[2026-10-28 15:20:56] [LINK] Qty: 1.69 | Entry: $11.71 | Current: $11.71 | Peak: $11.72 | PnL: +0.04% ($19.80) | Vol: Core Mid-Cap",
       "[2026-10-28 15:20:56] Deployable cash ($116.17 of $140.35 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 15:20:56] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 15:20:56] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 15:21:57] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 15:21:57] Macro Regime: RISK_ON | BTC 24h: +0.72% | Alts Allowed: True",
+      "[2026-10-28 15:21:57] [LINK] Qty: 1.69 | Entry: $11.71 | Current: $11.73 | Peak: $11.73 | PnL: +0.15% ($19.82) | Vol: Core Mid-Cap",
+      "[2026-10-28 15:21:57] Deployable cash ($116.17 of $140.35 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 15:21:57] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -215,10 +215,10 @@
       "symbol": "LINK",
       "shares": 1.69,
       "entry_price": 11.71,
-      "current_price": 11.715,
-      "value_usd": 19.8,
-      "pnl_pct": 0.04,
-      "pnl_usd": 0.01,
+      "current_price": 11.728,
+      "value_usd": 19.82,
+      "pnl_pct": 0.15,
+      "pnl_usd": 0.03,
       "trailing_info": "TP1: +6.0% | Stop: -2.5%"
     }
   ],
@@ -2024,7 +2024,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 2,
     "realized_pnl_today": -0.87,
-    "current_equity": 326.0640674,
+    "current_equity": 326.08530678,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3218,5 +3218,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T15:21:24.868918"
+  "snapshot_synced_at": "2026-10-28T15:22:58.430510"
 }
