@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T09:34:46.344040",
+  "timestamp": "2026-10-28T09:36:23.659128",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.44,
@@ -17,13 +17,17 @@
   "robinhood": {
     "total_value": 166.12,
     "cash": 166.12,
-    "positions": {},
+    "positions": {
+      "AVGO": {
+        "symbol": "AVGO",
+        "shares": 0.071139,
+        "entry_price": 351.425,
+        "high_water_mark": 351.425,
+        "tp1_hit": false,
+        "entry_time": "2026-10-28T09:35:46.004734"
+      }
+    },
     "logs": [
-      "[2026-10-28 08:27:01] Running portfolio evaluation cycle...",
-      "[2026-10-28 08:27:02] No positions currently held.",
-      "[2026-10-28 08:32:02] Running portfolio evaluation cycle...",
-      "[2026-10-28 08:32:02] No positions currently held.",
-      "[2026-10-28 08:37:02] Running portfolio evaluation cycle...",
       "[2026-10-28 08:37:03] No positions currently held.",
       "[2026-10-28 08:42:03] Running portfolio evaluation cycle...",
       "[2026-10-28 08:42:03] No positions currently held.",
@@ -58,7 +62,12 @@
       "[2026-10-28 09:34:12] Available deployable cash ($153.66 of $166.12 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-28 09:34:12] VWAP Filter: Skipping AMD because price ($568.70) is BELOW session VWAP ($570.58).",
       "[2026-10-28 09:34:27] 🧠 [AI GATE] Buy of SOXL VETOED by AI Brain (Confidence: 45%) | Thesis: SOXL is showing a minor intraday bounce above VWAP, but overall headlines highlight a sinking 6-month low amid macro oil surges and chip sector weakness.",
-      "[2026-10-28 09:34:27] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution."
+      "[2026-10-28 09:34:27] 🧠 [AI GATE] Buy candidate vetoed or invalid. Skipping execution.",
+      "[2026-10-28 09:35:27] Running portfolio evaluation cycle...",
+      "[2026-10-28 09:35:27] No positions currently held.",
+      "[2026-10-28 09:35:27] Available deployable cash ($153.66 of $166.12 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-28 09:35:44] 🔥 Found momentum breakout: AVGO (+2.66%) @ $351.43. Executing AI-APPROVED BUY of $25.00...",
+      "[2026-10-28 09:35:46] Buy order placed: {'data': {'order': {'id': '6ae1fa0b-626a-42e4-b696-fa6cf6cf13bc', 'ref_id': '01a182b8-bd71-782f-9b01-c543cb09ef50', 'instrument_id': '698f04e6-1710-4f34-b7af-4a88fe5e47b3', 'symbol': 'AVGO', 'side': 'buy', 'type': 'market', 'state': 'unconfirmed', 'quantity': '0.071300', 'cumulative_quantity': '0.000000', 'price': '350.630000', 'stop_price': None, 'average_price': None, 'fees': '0.000000', 'dollar_based_amount': {'amount': '25.000000', 'currency_code': 'USD'}, 'time_in_force': 'gfd', 'market_hours': 'regular_hours', 'trigger': 'immediate', 'placed_agent': 'agentic', 'agent_initiated': True, 'created_at': '2026-10-28T13:35:07.728808Z', 'last_transaction_at': '2026-10-28T13:35:07.728808Z', 'executions': []}}, 'guide': \"This response contains EITHER an order or an approval â€” check which and describe accordingly. If it contains order: the order has been submitted (not necessarily filled) â€” tell the user it was placed, describe it with state, and summarize symbol, side, type, quantity (or dollar_based_amount), and limit/stop prices; remind them it may not have filled yet and that they can check status or cancel via id. If it contains approval: the order was NOT placed â€” it is awaiting the customer's approval in the Robinhood app; tell the user to approve or decline it there, check status with get_trade_approvals, or withdraw it with decline_trade_approval, and do not resubmit the order or mint a new ref_id while the approval is pending. On error, the order was NOT placed â€” report the error verbatim.\"}"
     ]
   },
   "coinbase": {
@@ -67,23 +76,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.84918290743373,
-      "btc_price": 80562.21,
+      "btc_change_24h": 0.58085836932379,
+      "btc_price": 80553.57,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.85% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.58% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 09:24:49] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 09:24:49] Macro Regime: RISK_ON | BTC 24h: +0.60% | Alts Allowed: True",
-      "[2026-10-28 09:24:49] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:24:49] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 09:25:51] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 09:25:51] Macro Regime: RISK_ON | BTC 24h: +0.60% | Alts Allowed: True",
-      "[2026-10-28 09:25:51] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:25:51] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 09:26:53] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 09:26:53] Macro Regime: RISK_ON | BTC 24h: +0.62% | Alts Allowed: True",
       "[2026-10-28 09:26:53] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -115,10 +116,30 @@
       "[2026-10-28 09:34:08] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 09:34:08] Macro Regime: RISK_ON | BTC 24h: +0.85% | Alts Allowed: True",
       "[2026-10-28 09:34:08] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:34:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 09:34:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 09:35:10] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 09:35:10] Macro Regime: RISK_ON | BTC 24h: +0.77% | Alts Allowed: True",
+      "[2026-10-28 09:35:10] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 09:35:10] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 09:36:12] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 09:36:13] Macro Regime: RISK_ON | BTC 24h: +0.58% | Alts Allowed: True",
+      "[2026-10-28 09:36:13] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 09:36:13] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
-  "positions": [],
+  "positions": [
+    {
+      "account": "Robinhood",
+      "symbol": "AVGO",
+      "shares": 0.071139,
+      "entry_price": 351.425,
+      "current_price": 351.425,
+      "value_usd": 25.0,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "trailing_info": "Peak: $351.43 | Trailing 3.5%"
+    }
+  ],
   "closed_trades": [
     {
       "symbol": "SMCI",
@@ -1308,21 +1329,6 @@
       "current_price": 0.18155,
       "approved": false,
       "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET shows a bullish hourly trend and positive macro backdrop, but fails key volume filters with an RVOL of only 1.09 against our strict 1.5x minimum requirement.",
-      "risk_factors": "Active exploit headlines regarding Fetch.ai ecosystem combined with weak relative volume increase the probability of a failed breakout.",
-      "timestamp": "2026-10-28T03:51:07.084708"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
-      "current_price": 0.18155,
-      "approved": false,
-      "action": "REJECT",
       "confidence": 40,
       "position_usd": 15.0,
       "stop_loss_pct": -3.5,
@@ -1898,6 +1904,21 @@
       "primary_thesis": "NEAR shows a bullish hourly trend and positive 24h performance within a risk-on macro environment, but it fails mandatory volume filters.",
       "risk_factors": "RVOL is critically low at 1.01 (failing the strict >= 1.5x volume expansion rule for crypto breakouts) alongside recent underperformance relative to Bitcoin.",
       "timestamp": "2026-10-28T04:59:00.372893"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "NEAR",
+      "current_price": 4.7295,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "NEAR is showing positive 24h momentum in a risk-on regime, but fails critical volume rules requiring a relative volume (rvol) >= 1.5x on the breakout timeframe.",
+      "risk_factors": "Current rvol of 1.05 severely violates evolved strategy rules (requiring >= 1.5x), indicating insufficient institutional volume and risk of false breakout amid recent bearish sector headlines.",
+      "timestamp": "2026-10-28T05:00:05.089828"
     }
   ],
   "performance": {
@@ -3093,5 +3114,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T09:34:43.897566"
+  "snapshot_synced_at": "2026-10-28T09:36:22.885657"
 }
