@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T09:02:29.066995",
+  "timestamp": "2026-10-28T09:04:05.386104",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.04,
+    "total_equity": 326.1,
     "total_cash": 257.04,
     "cash_pct": 78.8,
     "weekly_realized_pnl": -0.67,
@@ -15,14 +15,10 @@
     "today_trades_count": 1
   },
   "robinhood": {
-    "total_value": 165.717749271,
+    "total_value": 165.7802037,
     "cash": 96.72,
     "positions": {},
     "logs": [
-      "[2026-10-28 07:21:56] No positions currently held.",
-      "[2026-10-28 07:26:56] Running portfolio evaluation cycle...",
-      "[2026-10-28 07:26:56] No positions currently held.",
-      "[2026-10-28 07:31:56] Running portfolio evaluation cycle...",
       "[2026-10-28 07:31:57] No positions currently held.",
       "[2026-10-28 07:36:57] Running portfolio evaluation cycle...",
       "[2026-10-28 07:36:57] No positions currently held.",
@@ -58,7 +54,11 @@
       "[2026-10-28 08:52:19] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
       "[2026-10-28 08:52:19] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
       "[2026-10-28 08:57:19] Running portfolio evaluation cycle...",
-      "[2026-10-28 08:57:42] No positions currently held."
+      "[2026-10-28 08:57:42] No positions currently held.",
+      "[2026-10-28 09:02:42] Running portfolio evaluation cycle...",
+      "[2026-10-28 09:02:43] No positions currently held.",
+      "[2026-10-28 09:02:43] 🌅 Running Pre-Market Catalyst Scan for momentum gap-ups...",
+      "[2026-10-28 09:02:43] Sending Pre-Market Catalyst Alert to Telegram..."
     ]
   },
   "coinbase": {
@@ -67,19 +67,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.5747509192348,
-      "btc_price": 80641.66,
+      "btc_change_24h": 0.53259825627081,
+      "btc_price": 80600.0,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.57% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.53% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 08:52:41] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 08:52:41] Macro Regime: NEUTRAL | BTC 24h: +0.47% | Alts Allowed: False",
-      "[2026-10-28 08:52:41] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 08:52:41] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-28 08:53:43] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 08:53:43] Macro Regime: NEUTRAL | BTC 24h: +0.38% | Alts Allowed: False",
       "[2026-10-28 08:53:43] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -115,7 +111,11 @@
       "[2026-10-28 09:02:02] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 09:02:04] Macro Regime: RISK_ON | BTC 24h: +0.57% | Alts Allowed: True",
       "[2026-10-28 09:02:04] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:02:04] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 09:02:04] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 09:03:06] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 09:03:06] Macro Regime: RISK_ON | BTC 24h: +0.53% | Alts Allowed: True",
+      "[2026-10-28 09:03:06] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 09:03:06] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [],
@@ -1909,7 +1909,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 1,
     "realized_pnl_today": -0.38,
-    "current_equity": 326.037749271,
+    "current_equity": 326.10020369999995,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3093,5 +3093,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T09:02:28.701156"
+  "snapshot_synced_at": "2026-10-28T09:04:04.085186"
 }
