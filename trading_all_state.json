@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T02:40:28.683227",
+  "timestamp": "2026-10-28T02:42:02.305551",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 327.26,
@@ -110,12 +110,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 02:32:02] 🧠 [AI GATE] Buy of AAVE VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
-      "[2026-10-28 02:33:02] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 02:33:03] Macro Regime: RISK_ON | BTC 24h: +1.41% | Alts Allowed: True",
-      "[2026-10-28 02:33:03] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 02:33:03] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 02:33:06] 🧠 [AI GATE] Buy of AAVE VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
       "[2026-10-28 02:34:06] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 02:34:06] Macro Regime: RISK_ON | BTC 24h: +1.43% | Alts Allowed: True",
       "[2026-10-28 02:34:06] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -149,7 +143,13 @@
       "[2026-10-28 02:40:27] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 02:40:27] Macro Regime: RISK_ON | BTC 24h: +1.47% | Alts Allowed: True",
       "[2026-10-28 02:40:27] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 02:40:27] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 02:40:27] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 02:40:31] 🧠 [AI GATE] Buy of AAVE VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-28 02:41:31] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 02:41:31] Macro Regime: RISK_ON | BTC 24h: +1.47% | Alts Allowed: True",
+      "[2026-10-28 02:41:31] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 02:41:31] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 02:41:34] 🧠 [AI GATE] Buy of AAVE VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1348,36 +1348,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
-      "symbol": "SUI",
-      "current_price": 0.9271,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.0,
-      "primary_thesis": "SUI shows bullish hourly structure in a risk-on regime, but fails critical volume rules.",
-      "risk_factors": "RVOL of 1.04 fails mandatory strategy rules requiring relative volume >= 1.5x for crypto long breakouts.",
-      "timestamp": "2026-10-27T18:35:30.817123"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
-      "current_price": 0.18172,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET exhibits strong relative volume and an hourly bullish breakout, but concurrent negative exploit news headlines create unacceptable binary downside risk.",
-      "risk_factors": "Active exploit headlines involving Fetch.ai and token-related attacks introduce severe tail-risk that overrides technical momentum.",
-      "timestamp": "2026-10-27T18:37:36.832010"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
       "symbol": "FET",
       "current_price": 0.18138,
       "approved": false,
@@ -1936,6 +1906,36 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-27T22:30:14.825617"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SUI",
+      "current_price": 0.935,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "SUI shows bullish hourly momentum and an active risk-on macro regime, but fails the strict evolved strategy rules requiring a relative volume (RVOL) of at least 1.5x on the breakout timeframe.",
+      "risk_factors": "Current relative volume is only 1.19x, which falls short of the mandatory >= 1.5x threshold, increasing the risk of a false breakout or low-liquidity fade.",
+      "timestamp": "2026-10-27T22:31:18.467911"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "TAO",
+      "current_price": 257.51,
+      "approved": true,
+      "action": "BUY",
+      "confidence": 78,
+      "position_usd": 25.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "TAO prints a clean breakout with 1.75x relative volume, bullish hourly trend alignment, and supportive BTC risk-on macro conditions.",
+      "risk_factors": "Hourly RSI at 73.4 indicates near-term overbought conditions vulnerable to profit-taking near overhead resistance.",
+      "timestamp": "2026-10-27T22:32:22.533002"
     }
   ],
   "performance": {
@@ -3118,5 +3118,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T02:40:28.366738"
+  "snapshot_synced_at": "2026-10-28T02:42:01.985223"
 }
