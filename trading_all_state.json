@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T07:27:02.084819",
+  "timestamp": "2026-10-28T07:28:35.835457",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.81,
+    "total_equity": 326.8,
     "total_cash": 233.01,
     "cash_pct": 71.3,
     "weekly_realized_pnl": -0.29,
@@ -62,17 +62,17 @@
     ]
   },
   "coinbase": {
-    "total_usd": 160.85,
+    "total_usd": 160.84,
     "cash_usd": 136.29,
-    "crypto_usd": 24.56,
+    "crypto_usd": 24.55,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.93527250514558,
-      "btc_price": 81301.29,
+      "btc_change_24h": 1.95447575022052,
+      "btc_price": 81291.25,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.94% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.95% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {
       "SUI": {
@@ -86,9 +86,9 @@
         "stop_loss_pct": -3.5,
         "trailing_active": false,
         "entry_time": "2026-10-28T05:45:15.702855",
-        "current_price": 0.9409,
-        "pnl_pct": -0.29,
-        "value_usd": 24.56,
+        "current_price": 0.9406,
+        "pnl_pct": -0.32,
+        "value_usd": 24.55,
         "tp1_pct": 8.0,
         "tp2_pct": 15.0,
         "trailing_pullback_pct": 3.0,
@@ -97,11 +97,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 07:19:22] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 07:19:23] Macro Regime: RISK_ON | BTC 24h: +1.88% | Alts Allowed: True",
-      "[2026-10-28 07:19:23] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: -0.37% ($24.54) | Vol: High-Beta Alpha Runner",
-      "[2026-10-28 07:19:23] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 07:19:23] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 07:20:25] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 07:20:25] Macro Regime: RISK_ON | BTC 24h: +1.87% | Alts Allowed: True",
       "[2026-10-28 07:20:25] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: -0.38% ($24.53) | Vol: High-Beta Alpha Runner",
@@ -136,7 +131,12 @@
       "[2026-10-28 07:26:44] Macro Regime: RISK_ON | BTC 24h: +1.94% | Alts Allowed: True",
       "[2026-10-28 07:26:44] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: -0.29% ($24.56) | Vol: High-Beta Alpha Runner",
       "[2026-10-28 07:26:44] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 07:26:44] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 07:26:44] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 07:27:46] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 07:27:46] Macro Regime: RISK_ON | BTC 24h: +1.95% | Alts Allowed: True",
+      "[2026-10-28 07:27:46] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: -0.32% ($24.55) | Vol: High-Beta Alpha Runner",
+      "[2026-10-28 07:27:46] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 07:27:46] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -145,10 +145,10 @@
       "symbol": "SUI",
       "shares": 26.1,
       "entry_price": 0.9436,
-      "current_price": 0.9409,
-      "value_usd": 24.56,
-      "pnl_pct": -0.29,
-      "pnl_usd": -0.07,
+      "current_price": 0.9406,
+      "value_usd": 24.55,
+      "pnl_pct": -0.32,
+      "pnl_usd": -0.08,
       "trailing_info": "TP1: +8.0% | Stop: -3.5%"
     }
   ],
@@ -1322,6 +1322,21 @@
   ],
   "ai_decisions": [
     {
+      "id": "dec_1793186831_960524",
+      "timestamp": "2026-10-28T07:27:11.023669",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "BTC",
+      "title": "Breaking Catalyst: Live updates: Bitcoin climbs above $81,000 as majors rally ahead of Fed decision",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored BULLISH (+0.60). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": 0.6,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "BULLISH",
+      "impact": "CATALYST_ANALYZED"
+    },
+    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AAVE",
@@ -1901,21 +1916,6 @@
       "primary_thesis": "SUI is exhibiting bullish 1-hour trend alignment and a positive 24h change within a risk-on regime.",
       "risk_factors": "Relative volume (rvol 0.92) is well below the mandatory evolved strategy threshold of >= 1.5x, and RSI at 72.6 indicates overbought conditions without volume backing.",
       "timestamp": "2026-10-28T04:39:38.519617"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "NEAR",
-      "current_price": 4.7489,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 8.0,
-      "primary_thesis": "NEAR is showing a 6.69% 24-hour gain within a risk-on macro regime, but fails critical volume validation rules.",
-      "risk_factors": "RVOL is 0.87 (well below the mandatory >= 1.5x threshold) and recent news highlights weakness and AI sector cooling.",
-      "timestamp": "2026-10-28T04:40:42.510341"
     }
   ],
   "performance": {
@@ -1927,7 +1927,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.805942282,
+    "current_equity": 326.795942282,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3098,5 +3098,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T07:27:01.746673"
+  "snapshot_synced_at": "2026-10-28T07:28:35.506963"
 }
