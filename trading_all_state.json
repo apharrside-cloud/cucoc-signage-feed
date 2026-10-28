@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T05:43:15.702026",
+  "timestamp": "2026-10-28T05:44:49.406816",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.77,
+    "total_equity": 326.87,
     "total_cash": 257.86,
     "cash_pct": 78.9,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.630703,
+    "total_value": 165.730884719,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 04:18:00] Running portfolio evaluation cycle...",
-      "[2026-10-28 04:18:04] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 04:18:07] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: Locking in gains at +3.5% as the equity pulls back slightly from its peak of +5.72% while maintaining tactical participation in the ongoing trend.",
       "[2026-10-28 04:23:07] Running portfolio evaluation cycle...",
       "[2026-10-28 04:23:07] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
@@ -71,7 +69,9 @@
       "[2026-10-28 05:33:27] 🧠 [AI TIGHTEN STOP] Raising stop loss for AMD from -4.5% to 3.5% | Reason: The trade is up +5.12% with a minor 0.57% pullback from peak, warranting a tightened stop to lock in substantial gains while allowing room for continuation.",
       "[2026-10-28 05:38:27] Running portfolio evaluation cycle...",
       "[2026-10-28 05:38:43] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
-      "[2026-10-28 05:38:43] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
+      "[2026-10-28 05:38:43] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
+      "[2026-10-28 05:43:43] Running portfolio evaluation cycle...",
+      "[2026-10-28 05:43:47] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
     ]
   },
   "coinbase": {
@@ -89,11 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 05:33:35] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 05:34:37] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 05:34:37] Macro Regime: RISK_ON | BTC 24h: +2.17% | Alts Allowed: True",
-      "[2026-10-28 05:34:37] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 05:34:37] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 05:35:39] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 05:35:40] Macro Regime: RISK_ON | BTC 24h: +2.09% | Alts Allowed: True",
       "[2026-10-28 05:35:40] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +123,12 @@
       "[2026-10-28 05:43:01] Macro Regime: RISK_ON | BTC 24h: +2.26% | Alts Allowed: True",
       "[2026-10-28 05:43:01] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 05:43:01] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 05:43:05] 🧠 [AI GATE] Buy of TAO VETOED by AI Brain (Confidence: 45%) | Thesis: TAO shows bullish 1-hour trend alignment and a RISK_ON macro backdrop, but fails strict volume confirmation rules."
+      "[2026-10-28 05:43:05] 🧠 [AI GATE] Buy of TAO VETOED by AI Brain (Confidence: 45%) | Thesis: TAO shows bullish 1-hour trend alignment and a RISK_ON macro backdrop, but fails strict volume confirmation rules.",
+      "[2026-10-28 05:44:05] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 05:44:05] Macro Regime: RISK_ON | BTC 24h: +2.29% | Alts Allowed: True",
+      "[2026-10-28 05:44:05] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 05:44:05] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 05:44:10] 🧠 [AI GATE] Buy of TAO VETOED by AI Brain (Confidence: 45%) | Thesis: TAO is showing bullish 24h momentum and hourly trend alignment in a risk-on regime."
     ]
   },
   "positions": [
@@ -1317,21 +1317,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AAVE",
-      "current_price": 135.24,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-28T02:21:25.222823"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AAVE",
       "current_price": 135.18,
       "approved": false,
       "action": "REJECT",
@@ -1911,6 +1896,20 @@
       "primary_thesis": "FET shows bullish hourly trend alignment and a supportive Risk-On macro regime, but fails critical volume and news verification rules.",
       "risk_factors": "RVOL is sitting at 1.0 (violating the strict >= 1.5x requirement) and breaking news highlights a recent $2M exploit on Fetch.ai/NuNet, introducing severe exploit and sentiment risks.",
       "timestamp": "2026-10-28T03:42:30.376753"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AMD",
+      "entry_price": 533.17,
+      "current_price": 560.45,
+      "pnl_pct": 5.12,
+      "hours_held": 37.3,
+      "action": "TIGHTEN_STOP",
+      "confidence": 92,
+      "new_stop_pct": 3.5,
+      "reasoning": "Lock in accumulated gains of +5.12% with a tightened profit-stop as price experiences a minor 0.57% pullback from its peak.",
+      "timestamp": "2026-10-28T03:42:37.133218"
     }
   ],
   "performance": {
@@ -1922,7 +1921,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.770703,
+    "current_equity": 326.87088471899995,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3093,5 +3092,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T05:43:15.366055"
+  "snapshot_synced_at": "2026-10-28T05:44:49.087351"
 }
