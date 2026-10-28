@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T09:57:09.923251",
+  "timestamp": "2026-10-28T09:58:48.775165",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.12,
+    "total_equity": 326.15,
     "total_cash": 301.44,
     "cash_pct": 92.4,
     "weekly_realized_pnl": -0.67,
@@ -15,7 +15,7 @@
     "today_trades_count": 1
   },
   "robinhood": {
-    "total_value": 165.79617856,
+    "total_value": 165.827180575,
     "cash": 141.12,
     "positions": {
       "AVGO": {
@@ -25,16 +25,13 @@
         "high_water_mark": 351.425,
         "tp1_hit": false,
         "entry_time": "2026-10-28T09:35:46.004734",
-        "current_price": 346.24,
-        "pnl_pct": -1.48,
-        "pnl_usd": -0.37,
+        "current_price": 346.675,
+        "pnl_pct": -1.35,
+        "pnl_usd": -0.34,
         "last_ai_eval_ts": 1793195713.682367
       }
     },
     "logs": [
-      "[2026-10-28 09:44:28] Running portfolio evaluation cycle...",
-      "[2026-10-28 09:44:29] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $347.93 | PnL: -0.99% ($-0.25) | Peak: $351.43",
-      "[2026-10-28 09:44:29] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-28 09:44:29] VWAP Filter: Skipping ARM because price ($230.04) is BELOW session VWAP ($230.27).",
       "[2026-10-28 09:45:29] Running portfolio evaluation cycle...",
       "[2026-10-28 09:45:30] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $348.49 | PnL: -0.84% ($-0.21) | Peak: $351.43",
@@ -71,7 +68,10 @@
       "[2026-10-28 09:55:52] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
       "[2026-10-28 09:56:52] Running portfolio evaluation cycle...",
       "[2026-10-28 09:56:59] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $346.24 | PnL: -1.48% ($-0.37) | Peak: $351.43",
-      "[2026-10-28 09:56:59] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum..."
+      "[2026-10-28 09:56:59] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-28 09:57:59] Running portfolio evaluation cycle...",
+      "[2026-10-28 09:58:00] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $346.68 | PnL: -1.35% ($-0.34) | Peak: $351.43",
+      "[2026-10-28 09:58:00] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -80,23 +80,15 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.76841043067601,
-      "btc_price": 80468.07,
+      "btc_change_24h": 0.89427004839513,
+      "btc_price": 80583.86,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.77% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.89% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 09:46:36] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:46:36] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 09:47:38] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 09:47:38] Macro Regime: RISK_ON | BTC 24h: +0.55% | Alts Allowed: True",
-      "[2026-10-28 09:47:38] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:47:38] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 09:48:40] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 09:48:40] Macro Regime: NEUTRAL | BTC 24h: +0.46% | Alts Allowed: False",
       "[2026-10-28 09:48:40] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 09:48:40] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-28 09:49:42] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -128,7 +120,15 @@
       "[2026-10-28 09:56:22] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 09:56:23] Macro Regime: RISK_ON | BTC 24h: +0.77% | Alts Allowed: True",
       "[2026-10-28 09:56:23] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:56:23] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 09:56:23] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 09:57:24] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 09:57:24] Macro Regime: RISK_ON | BTC 24h: +0.83% | Alts Allowed: True",
+      "[2026-10-28 09:57:24] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 09:57:24] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 09:58:27] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 09:58:27] Macro Regime: RISK_ON | BTC 24h: +0.89% | Alts Allowed: True",
+      "[2026-10-28 09:58:27] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 09:58:27] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -137,10 +137,10 @@
       "symbol": "AVGO",
       "shares": 0.071269,
       "entry_price": 351.425,
-      "current_price": 346.24,
-      "value_usd": 24.68,
-      "pnl_pct": -1.48,
-      "pnl_usd": -0.37,
+      "current_price": 346.675,
+      "value_usd": 24.71,
+      "pnl_pct": -1.35,
+      "pnl_usd": -0.34,
       "trailing_info": "Peak: $351.43 | Trailing 3.5%"
     }
   ],
@@ -1934,7 +1934,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 1,
     "realized_pnl_today": -0.38,
-    "current_equity": 326.11617856,
+    "current_equity": 326.147180575,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3118,5 +3118,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T09:57:09.395301"
+  "snapshot_synced_at": "2026-10-28T09:58:46.855518"
 }
