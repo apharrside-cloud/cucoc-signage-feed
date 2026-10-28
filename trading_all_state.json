@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T19:42:16.745922",
+  "timestamp": "2026-10-28T19:43:50.265239",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 320.29,
+    "total_equity": 320.33,
     "total_cash": 214.9,
     "cash_pct": 67.1,
     "weekly_realized_pnl": -1.16,
@@ -15,7 +15,7 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 161.6930756416,
+    "total_value": 161.71800638,
     "cash": 80.68,
     "positions": {
       "MU": {
@@ -28,7 +28,7 @@
         "current_price": 982.12,
         "pnl_pct": 0.85,
         "pnl_usd": 0.25,
-        "last_ai_eval_ts": 1793229783.5945427
+        "last_ai_eval_ts": 1793231009.455426
       },
       "GOOGL": {
         "symbol": "GOOGL",
@@ -40,7 +40,7 @@
         "current_price": 325.63,
         "pnl_pct": -0.01,
         "pnl_usd": -0.0,
-        "last_ai_eval_ts": 1793229785.7916949
+        "last_ai_eval_ts": 1793231010.7601562
       },
       "AVGO": {
         "symbol": "AVGO",
@@ -52,14 +52,10 @@
         "current_price": 351.97,
         "pnl_pct": 0.99,
         "pnl_usd": 0.25,
-        "last_ai_eval_ts": 1793229787.089808
+        "last_ai_eval_ts": 1793231012.0948324
       }
     },
     "logs": [
-      "[2026-10-28 18:52:49] Running portfolio evaluation cycle...",
-      "[2026-10-28 18:52:50] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
-      "[2026-10-28 18:52:52] 🧠 [AI TIGHTEN STOP] Raising stop loss for MU from -4.5% to 0.5% | Reason: Securing profits as current price has pulled back 0.78% from its +1.65% peak while momentum exhibits signs of fading near resistance.",
-      "[2026-10-28 18:52:52] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
       "[2026-10-28 18:52:53] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $351.97 | PnL: +0.99% ($+0.25) | Peak: $351.97",
       "[2026-10-28 18:57:54] Running portfolio evaluation cycle...",
       "[2026-10-28 18:57:55] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
@@ -95,21 +91,25 @@
       "[2026-10-28 19:33:09] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
       "[2026-10-28 19:33:09] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $351.97 | PnL: +0.99% ($+0.25) | Peak: $351.97",
       "[2026-10-28 19:38:09] Running portfolio evaluation cycle...",
-      "[2026-10-28 19:38:25] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process."
+      "[2026-10-28 19:38:25] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
+      "[2026-10-28 19:43:25] Running portfolio evaluation cycle...",
+      "[2026-10-28 19:43:29] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
+      "[2026-10-28 19:43:30] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
+      "[2026-10-28 19:43:32] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $351.97 | PnL: +0.99% ($+0.25) | Peak: $351.97"
     ]
   },
   "coinbase": {
-    "total_usd": 158.6,
+    "total_usd": 158.61,
     "cash_usd": 134.22,
-    "crypto_usd": 24.38,
+    "crypto_usd": 24.39,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 0.52247801453899,
-      "btc_price": 81225.58,
+      "btc_change_24h": 0.51289182776683,
+      "btc_price": 81240.56,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.52% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +0.51% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {
       "SUI": {
@@ -123,9 +123,9 @@
         "stop_loss_pct": -3.0,
         "trailing_active": false,
         "entry_time": "2026-10-28T16:07:34.527143",
-        "current_price": 0.9415,
-        "pnl_pct": -1.29,
-        "value_usd": 24.38,
+        "current_price": 0.9417,
+        "pnl_pct": -1.27,
+        "value_usd": 24.39,
         "tp1_pct": 7.5,
         "tp2_pct": 15.0,
         "trailing_pullback_pct": 3.0,
@@ -134,16 +134,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 19:34:30] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 19:34:30] Macro Regime: RISK_ON | BTC 24h: +0.66% | Alts Allowed: True",
-      "[2026-10-28 19:34:30] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -1.17% ($24.41) | Vol: High-Beta Alpha Runner",
-      "[2026-10-28 19:34:30] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 19:34:30] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 19:35:31] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 19:35:32] Macro Regime: RISK_ON | BTC 24h: +0.70% | Alts Allowed: True",
-      "[2026-10-28 19:35:32] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -1.09% ($24.43) | Vol: High-Beta Alpha Runner",
-      "[2026-10-28 19:35:32] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 19:35:32] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 19:36:33] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 19:36:34] Macro Regime: RISK_ON | BTC 24h: +0.69% | Alts Allowed: True",
       "[2026-10-28 19:36:34] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -1.08% ($24.44) | Vol: High-Beta Alpha Runner",
@@ -173,7 +163,17 @@
       "[2026-10-28 19:41:44] Macro Regime: RISK_ON | BTC 24h: +0.52% | Alts Allowed: True",
       "[2026-10-28 19:41:44] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -1.29% ($24.38) | Vol: High-Beta Alpha Runner",
       "[2026-10-28 19:41:45] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 19:41:45] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 19:41:45] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 19:42:47] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 19:42:47] Macro Regime: RISK_ON | BTC 24h: +0.51% | Alts Allowed: True",
+      "[2026-10-28 19:42:47] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -1.27% ($24.39) | Vol: High-Beta Alpha Runner",
+      "[2026-10-28 19:42:47] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 19:42:47] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 19:43:49] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 19:43:49] Macro Regime: RISK_ON | BTC 24h: +0.51% | Alts Allowed: True",
+      "[2026-10-28 19:43:49] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -1.24% ($24.40) | Vol: High-Beta Alpha Runner",
+      "[2026-10-28 19:43:49] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 19:43:49] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -215,10 +215,10 @@
       "symbol": "SUI",
       "shares": 25.9,
       "entry_price": 0.9538,
-      "current_price": 0.9415,
-      "value_usd": 24.38,
-      "pnl_pct": -1.29,
-      "pnl_usd": -0.32,
+      "current_price": 0.9417,
+      "value_usd": 24.39,
+      "pnl_pct": -1.27,
+      "pnl_usd": -0.31,
       "trailing_info": "TP1: +7.5% | Stop: -3.0%"
     }
   ],
@@ -2007,7 +2007,7 @@
     "max_drawdown_pct": 14.64,
     "trades_count_today": 2,
     "realized_pnl_today": -0.87,
-    "current_equity": 320.2930756416,
+    "current_equity": 320.32800638000003,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3201,5 +3201,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T19:42:16.430339"
+  "snapshot_synced_at": "2026-10-28T19:43:49.931881"
 }
