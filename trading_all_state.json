@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T07:52:00.219321",
+  "timestamp": "2026-10-28T07:53:34.038365",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.8,
@@ -97,13 +97,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 07:44:32] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: -0.23% ($24.57) | Vol: High-Beta Alpha Runner",
-      "[2026-10-28 07:44:32] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 07:44:32] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 07:45:34] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 07:45:35] Macro Regime: RISK_ON | BTC 24h: +1.91% | Alts Allowed: True",
-      "[2026-10-28 07:45:35] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: -0.23% ($24.57) | Vol: High-Beta Alpha Runner",
-      "[2026-10-28 07:45:35] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-28 07:45:35] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 07:46:37] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 07:46:37] Macro Regime: RISK_ON | BTC 24h: +1.94% | Alts Allowed: True",
@@ -136,7 +129,14 @@
       "[2026-10-28 07:51:55] Macro Regime: RISK_ON | BTC 24h: +1.94% | Alts Allowed: True",
       "[2026-10-28 07:51:55] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: -0.26% ($24.56) | Vol: High-Beta Alpha Runner",
       "[2026-10-28 07:51:57] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 07:51:57] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 07:51:57] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 07:52:01] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 35%) | Thesis: FET is attempting a breakout in a risk-on macro environment, but violates fundamental volume constraints with an RVOL of 0.8.",
+      "[2026-10-28 07:53:01] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 07:53:02] Macro Regime: RISK_ON | BTC 24h: +1.96% | Alts Allowed: True",
+      "[2026-10-28 07:53:02] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: -0.29% ($24.56) | Vol: High-Beta Alpha Runner",
+      "[2026-10-28 07:53:04] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 07:53:04] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 07:53:08] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 35%) | Thesis: FET is attempting a breakout in a risk-on regime, but violates multiple strict volume rules including an RVOL of 0.8 which is well below the mandatory 1.5x-2.5x threshold."
     ]
   },
   "positions": [
@@ -1324,35 +1324,6 @@
     {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
-      "symbol": "AAVE",
-      "current_price": 134.7,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "Although RVOL is strong at 2.62, the asset faces heavy overhead sentiment headwinds with recent whale sell-offs and negative media coverage regarding recent drops.",
-      "risk_factors": "Negative news catalyst regarding whale movement and a high RSI of 72.2 increase the probability of a bull trap near current resistance.",
-      "timestamp": "2026-10-28T03:01:35.647266"
-    },
-    {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Equities",
-      "symbol": "AMD",
-      "entry_price": 533.17,
-      "current_price": 560.45,
-      "pnl_pct": 5.12,
-      "hours_held": 37.1,
-      "action": "TIGHTEN_STOP",
-      "confidence": 92,
-      "new_stop_pct": 3.5,
-      "reasoning": "Securing +5.12% open profit with a tightened stop following a minor 0.57% pullback from the peak as momentum begins to moderate.",
-      "timestamp": "2026-10-28T03:27:33.111176"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
       "symbol": "FET",
       "current_price": 0.18181,
       "approved": false,
@@ -1916,6 +1887,36 @@
       "primary_thesis": "NEAR shows bullish 1-hour trend alignment and a Risk-On macro regime, but fails critical volume rules.",
       "risk_factors": "Relative volume (rvol 0.87) is well below the mandatory 1.5x minimum threshold, indicating weak participation.",
       "timestamp": "2026-10-28T04:42:51.914097"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "NEAR",
+      "current_price": 4.7504,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "NEAR shows bullish 1-hour trend alignment under a risk-on macro regime, but fails critical volume validation rules.",
+      "risk_factors": "Relative volume is weak at 0.87 (well below the required >= 1.5x threshold), signalling lack of institutional conviction for a breakout.",
+      "timestamp": "2026-10-28T04:43:56.271042"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "NEAR",
+      "current_price": 4.7536,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "NEAR is experiencing positive 24h momentum in a risk-on macro environment, but lacks the required volume confirmation for a breakout entry.",
+      "risk_factors": "Relative volume (RVOL) is 0.9, failing the mandatory rule requiring RVOL >= 1.5x, combined with recent retracement news headlines.",
+      "timestamp": "2026-10-28T04:45:00.718950"
     }
   ],
   "performance": {
@@ -3098,5 +3099,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T07:51:59.850825"
+  "snapshot_synced_at": "2026-10-28T07:53:33.677371"
 }
