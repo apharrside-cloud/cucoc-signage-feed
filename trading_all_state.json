@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-27T22:47:50.550552",
+  "timestamp": "2026-10-27T22:49:24.045875",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 327.06,
@@ -109,12 +109,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 22:41:01] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.53 | Peak: $257.53 | PnL: +0.01% ($24.65) | Vol: AI Alpha Runner",
-      "[2026-10-27 22:41:03] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-27 22:41:03] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 22:41:06] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
-      "[2026-10-27 22:42:06] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-27 22:42:06] Macro Regime: RISK_ON | BTC 24h: +1.23% | Alts Allowed: True",
       "[2026-10-27 22:42:06] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.28 | Peak: $257.51 | PnL: -0.09% ($24.62) | Vol: AI Alpha Runner",
       "[2026-10-27 22:42:08] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-27 22:42:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
@@ -148,7 +142,13 @@
       "[2026-10-27 22:47:30] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $256.95 | Peak: $257.51 | PnL: -0.22% ($24.59) | Vol: AI Alpha Runner",
       "[2026-10-27 22:47:32] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-27 22:47:32] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 22:47:35] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
+      "[2026-10-27 22:47:35] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-27 22:48:35] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 22:48:35] Macro Regime: RISK_ON | BTC 24h: +1.23% | Alts Allowed: True",
+      "[2026-10-27 22:48:35] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.12 | Peak: $257.51 | PnL: -0.15% ($24.61) | Vol: AI Alpha Runner",
+      "[2026-10-27 22:48:36] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-27 22:48:36] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 22:48:39] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1348,21 +1348,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "NEAR",
-      "current_price": 4.6261,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "NEAR is exhibiting bullish hourly trend structure under a Risk-On macro regime, but fails critical volume confirmation filters.",
-      "risk_factors": "Relative volume (RVOL 1.0) fails the strict mandate of >= 1.5x to 2.5x required for crypto breakout entries, alongside elevated RSI (71.7) and recent underperformance headlines.",
-      "timestamp": "2026-10-27T15:53:39.394674"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "NEAR",
       "current_price": 4.6282,
       "approved": false,
       "action": "REJECT",
@@ -1931,6 +1916,21 @@
       "new_stop_pct": 3.5,
       "reasoning": "Securing profits as the trade pulls back 0.57% from its peak of +5.72% after a strong 28-hour run.",
       "timestamp": "2026-10-27T18:27:41.093267"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SUI",
+      "current_price": 0.9263,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.0,
+      "primary_thesis": "SUI shows bullish hourly structure in a risk-on macro environment, but current relative volume (rvol 1.04) fails the mandatory evolution rule requiring rvol >= 1.5x for crypto breakout entries.",
+      "risk_factors": "Low volume confirmation on breakout heightens the risk of a false breakout and immediate mean reversion.",
+      "timestamp": "2026-10-27T18:31:14.094171"
     }
   ],
   "performance": {
@@ -3113,5 +3113,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T22:47:50.232689"
+  "snapshot_synced_at": "2026-10-27T22:49:23.695656"
 }
