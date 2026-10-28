@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-27T23:11:14.488681",
+  "timestamp": "2026-10-27T23:12:48.238586",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.97,
+    "total_equity": 326.95,
     "total_cash": 233.41,
     "cash_pct": 71.4,
     "weekly_realized_pnl": -0.29,
@@ -75,17 +75,17 @@
     ]
   },
   "coinbase": {
-    "total_usd": 161.38,
+    "total_usd": 161.36,
     "cash_usd": 136.69,
-    "crypto_usd": 24.69,
+    "crypto_usd": 24.67,
     "regime": {
       "status": "RISK_ON",
-      "btc_change_24h": 1.46742574507306,
-      "btc_price": 80810.88,
+      "btc_change_24h": 1.54007021627291,
+      "btc_price": 80793.86,
       "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +1.47% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC strong +1.54% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {
       "TAO": {
@@ -99,9 +99,9 @@
         "stop_loss_pct": -3.5,
         "trailing_active": false,
         "entry_time": "2026-10-27T22:32:25.856935",
-        "current_price": 257.98,
-        "pnl_pct": 0.18,
-        "value_usd": 24.69,
+        "current_price": 257.78,
+        "pnl_pct": 0.1,
+        "value_usd": 24.67,
         "tp1_pct": 7.5,
         "tp2_pct": 16.0,
         "trailing_pullback_pct": 3.0,
@@ -110,11 +110,6 @@
       }
     },
     "logs": [
-      "[2026-10-27 23:03:45] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.70 | Peak: $257.70 | PnL: +0.07% ($24.66) | Vol: AI Alpha Runner",
-      "[2026-10-27 23:03:46] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-27 23:03:46] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-27 23:03:50] 🧠 [AI GATE] Buy of FET VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
-      "[2026-10-27 23:04:50] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-27 23:04:50] Macro Regime: RISK_ON | BTC 24h: +1.50% | Alts Allowed: True",
       "[2026-10-27 23:04:50] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.70 | Peak: $257.70 | PnL: +0.07% ($24.66) | Vol: AI Alpha Runner",
       "[2026-10-27 23:04:52] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
@@ -149,7 +144,12 @@
       "[2026-10-27 23:11:09] Macro Regime: RISK_ON | BTC 24h: +1.47% | Alts Allowed: True",
       "[2026-10-27 23:11:09] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.98 | Peak: $258.10 | PnL: +0.18% ($24.69) | Vol: AI Alpha Runner",
       "[2026-10-27 23:11:09] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-27 23:11:09] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-27 23:11:09] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-27 23:12:11] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-27 23:12:11] Macro Regime: RISK_ON | BTC 24h: +1.54% | Alts Allowed: True",
+      "[2026-10-27 23:12:11] [TAO] Qty: 0.0957 | Entry: $257.51 | Current: $257.78 | Peak: $258.10 | PnL: +0.10% ($24.67) | Vol: AI Alpha Runner",
+      "[2026-10-27 23:12:11] Deployable cash ($112.51 of $136.69 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-27 23:12:11] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -169,10 +169,10 @@
       "symbol": "TAO",
       "shares": 0.0957,
       "entry_price": 257.51,
-      "current_price": 257.98,
-      "value_usd": 24.69,
-      "pnl_pct": 0.18,
-      "pnl_usd": 0.05,
+      "current_price": 257.78,
+      "value_usd": 24.67,
+      "pnl_pct": 0.1,
+      "pnl_usd": 0.03,
       "trailing_info": "TP1: +7.5% | Stop: -3.5%"
     }
   ],
@@ -1346,6 +1346,21 @@
   ],
   "ai_decisions": [
     {
+      "id": "dec_1793157133_47b675",
+      "timestamp": "2026-10-27T23:12:13.633812",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "COIN",
+      "title": "Breaking Catalyst: Coinbase says user funds are safe after third-party vendor exposes customer cont",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": 0.0,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "NEUTRAL",
+      "impact": "CATALYST_ANALYZED"
+    },
+    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Equities",
       "symbol": "AMD",
@@ -1923,21 +1938,6 @@
       "primary_thesis": "FET exhibits strong relative volume and breakout indicators, but negative exploit news presents critical headline risk.",
       "risk_factors": "Active exploit headlines involving Fetch.ai and NuNet ($2M exploit) create severe counterparty and reputation risks that invalidate the trading thesis.",
       "timestamp": "2026-10-27T18:46:10.656397"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
-      "current_price": 0.18138,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 6.0,
-      "primary_thesis": "FET shows strong volume expansion and bullish momentum, but negative exploit headlines regarding Fetch.ai create unacceptable binary tail risk.",
-      "risk_factors": "Fetch.ai exploit and security breach headlines introduce severe downside catalyst risk that overrides technical breakout metrics.",
-      "timestamp": "2026-10-27T18:47:14.719969"
     }
   ],
   "performance": {
@@ -1949,7 +1949,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.9735157,
+    "current_equity": 326.9535157,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3120,5 +3120,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-27T23:11:14.186985"
+  "snapshot_synced_at": "2026-10-27T23:12:47.898500"
 }
