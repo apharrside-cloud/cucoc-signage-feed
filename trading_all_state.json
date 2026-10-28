@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T05:04:10.860661",
+  "timestamp": "2026-10-28T05:05:44.733416",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 326.91,
@@ -89,16 +89,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 04:55:44] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 04:55:44] Macro Regime: RISK_ON | BTC 24h: +2.17% | Alts Allowed: True",
-      "[2026-10-28 04:55:44] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 04:55:44] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 04:55:48] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows bullish 1-hour trend alignment and positive 24-hour momentum within a Risk-On market regime.",
-      "[2026-10-28 04:56:49] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 04:56:49] Macro Regime: RISK_ON | BTC 24h: +2.15% | Alts Allowed: True",
-      "[2026-10-28 04:56:49] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 04:56:49] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 04:56:53] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows bullish 1-hour trend alignment and a 24h gain, but fails strict strategy rules requiring relative volume >= 1.5x on breakouts.",
       "[2026-10-28 04:57:53] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 04:57:53] Macro Regime: RISK_ON | BTC 24h: +2.07% | Alts Allowed: True",
       "[2026-10-28 04:57:53] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -128,7 +118,17 @@
       "[2026-10-28 05:03:17] Macro Regime: RISK_ON | BTC 24h: +2.13% | Alts Allowed: True",
       "[2026-10-28 05:03:17] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 05:03:17] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 05:03:21] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows bullish 1-hour trend alignment and positive 24-hour momentum within a Risk-On macro regime, but fails critical evolved strategy rules."
+      "[2026-10-28 05:03:21] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows bullish 1-hour trend alignment and positive 24-hour momentum within a Risk-On macro regime, but fails critical evolved strategy rules.",
+      "[2026-10-28 05:04:21] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 05:04:21] Macro Regime: RISK_ON | BTC 24h: +2.15% | Alts Allowed: True",
+      "[2026-10-28 05:04:21] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 05:04:21] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 05:04:25] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR is showing positive 24h momentum in a risk-on macro regime, but fails critical volume confirmation filters.",
+      "[2026-10-28 05:05:25] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 05:05:25] Macro Regime: RISK_ON | BTC 24h: +2.12% | Alts Allowed: True",
+      "[2026-10-28 05:05:25] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 05:05:25] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 05:05:30] 🧠 [AI GATE] Buy of SUI VETOED by AI Brain (Confidence: 65%) | Thesis: SUI shows strong hourly bullish trend and macro risk-on tailwinds, but RVOL at 1.43 fails the strict EVOLVED STRATEGY rule requiring relative volume >= 1.5x for crypto breakout entries."
     ]
   },
   "positions": [
@@ -1317,35 +1317,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AAVE",
-      "current_price": 135.11,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-28T02:14:59.432223"
-    },
-    {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Crypto",
-      "symbol": "TAO",
-      "entry_price": 257.51,
-      "current_price": 257.66,
-      "pnl_pct": 0.06,
-      "hours_held": 3.7,
-      "action": "TIGHTEN_STOP",
-      "confidence": 88,
-      "new_stop_pct": 0.25,
-      "reasoning": "Price pulled back from a peak PnL of +0.67% down to +0.06%; per strategy rules, we must trail stops immediately to protect gains as momentum stalls below target.",
-      "timestamp": "2026-10-28T02:16:01.326417"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AAVE",
       "current_price": 135.09,
       "approved": false,
       "action": "REJECT",
@@ -1911,6 +1882,35 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T03:00:32.040939"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "AAVE",
+      "current_price": 134.7,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "Although RVOL is strong at 2.62, the asset faces heavy overhead sentiment headwinds with recent whale sell-offs and negative media coverage regarding recent drops.",
+      "risk_factors": "Negative news catalyst regarding whale movement and a high RSI of 72.2 increase the probability of a bull trap near current resistance.",
+      "timestamp": "2026-10-28T03:01:35.647266"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AMD",
+      "entry_price": 533.17,
+      "current_price": 560.45,
+      "pnl_pct": 5.12,
+      "hours_held": 37.1,
+      "action": "TIGHTEN_STOP",
+      "confidence": 92,
+      "new_stop_pct": 3.5,
+      "reasoning": "Securing +5.12% open profit with a tightened stop following a minor 0.57% pullback from the peak as momentum begins to moderate.",
+      "timestamp": "2026-10-28T03:27:33.111176"
     }
   ],
   "performance": {
@@ -3093,5 +3093,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T05:04:10.524832"
+  "snapshot_synced_at": "2026-10-28T05:05:44.443705"
 }
