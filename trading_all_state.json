@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T09:50:47.485873",
+  "timestamp": "2026-10-28T09:52:23.478901",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.08,
+    "total_equity": 326.07,
     "total_cash": 301.44,
     "cash_pct": 92.4,
     "weekly_realized_pnl": -0.67,
@@ -15,7 +15,7 @@
     "today_trades_count": 1
   },
   "robinhood": {
-    "total_value": 165.76054406,
+    "total_value": 165.7489628475,
     "cash": 141.12,
     "positions": {
       "AVGO": {
@@ -25,19 +25,13 @@
         "high_water_mark": 351.425,
         "tp1_hit": false,
         "entry_time": "2026-10-28T09:35:46.004734",
-        "current_price": 345.78,
-        "pnl_pct": -1.61,
-        "pnl_usd": -0.4,
+        "current_price": 345.5775,
+        "pnl_pct": -1.66,
+        "pnl_usd": -0.42,
         "last_ai_eval_ts": 1793195389.996459
       }
     },
     "logs": [
-      "[2026-10-28 09:38:05] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-28 09:39:06] Running portfolio evaluation cycle...",
-      "[2026-10-28 09:39:06] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $349.93 | PnL: -0.43% ($-0.11) | Peak: $351.43",
-      "[2026-10-28 09:39:06] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
-      "[2026-10-28 09:40:06] Running portfolio evaluation cycle...",
-      "[2026-10-28 09:40:07] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $350.89 | PnL: -0.15% ($-0.04) | Peak: $351.43",
       "[2026-10-28 09:40:07] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-28 09:40:07] VWAP Filter: Skipping AMD because price ($569.11) is BELOW session VWAP ($570.48).",
       "[2026-10-28 09:41:07] Running portfolio evaluation cycle...",
@@ -71,7 +65,13 @@
       "[2026-10-28 09:48:49] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
       "[2026-10-28 09:49:49] Running portfolio evaluation cycle...",
       "[2026-10-28 09:49:49] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $345.78 | PnL: -1.61% ($-0.40) | Peak: $351.43",
-      "[2026-10-28 09:50:09] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum..."
+      "[2026-10-28 09:50:09] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-28 09:51:09] Running portfolio evaluation cycle...",
+      "[2026-10-28 09:51:10] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $345.57 | PnL: -1.67% ($-0.42) | Peak: $351.43",
+      "[2026-10-28 09:51:10] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum...",
+      "[2026-10-28 09:52:10] Running portfolio evaluation cycle...",
+      "[2026-10-28 09:52:11] [AVGO] Shares: 0.071269 | Entry: $351.43 | Current: $345.58 | PnL: -1.66% ($-0.42) | Peak: $351.43",
+      "[2026-10-28 09:52:11] Available deployable cash ($128.66 of $141.12 total, $12.46 vaulted) >= min ($15.00) & positions (1/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -79,22 +79,16 @@
     "cash_usd": 160.32,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "NEUTRAL",
-      "btc_change_24h": 0.32614682164521,
-      "btc_price": 80332.45,
-      "allow_alts": false,
+      "status": "RISK_ON",
+      "btc_change_24h": 0.58130545669068,
+      "btc_price": 80405.46,
+      "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral +0.33% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC strong +0.58% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 09:41:23] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 09:41:23] Macro Regime: RISK_ON | BTC 24h: +0.67% | Alts Allowed: True",
-      "[2026-10-28 09:41:23] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:41:23] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 09:42:25] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 09:42:25] Macro Regime: RISK_ON | BTC 24h: +0.75% | Alts Allowed: True",
       "[2026-10-28 09:42:25] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 09:42:25] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 09:43:29] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -128,7 +122,13 @@
       "[2026-10-28 09:50:45] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 09:50:46] Macro Regime: NEUTRAL | BTC 24h: +0.43% | Alts Allowed: False",
       "[2026-10-28 09:50:46] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 09:50:46] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
+      "[2026-10-28 09:50:46] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-28 09:50:47] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=37.4 (chg +0.10%)!",
+      "[2026-10-28 09:51:15] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high deman",
+      "[2026-10-28 09:52:15] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 09:52:15] Macro Regime: RISK_ON | BTC 24h: +0.58% | Alts Allowed: True",
+      "[2026-10-28 09:52:15] Deployable cash ($136.14 of $160.32 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 09:52:15] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
     ]
   },
   "positions": [
@@ -137,10 +137,10 @@
       "symbol": "AVGO",
       "shares": 0.071269,
       "entry_price": 351.425,
-      "current_price": 345.78,
-      "value_usd": 24.64,
-      "pnl_pct": -1.61,
-      "pnl_usd": -0.4,
+      "current_price": 345.5775,
+      "value_usd": 24.63,
+      "pnl_pct": -1.66,
+      "pnl_usd": -0.42,
       "trailing_info": "Peak: $351.43 | Trailing 3.5%"
     }
   ],
@@ -1330,21 +1330,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "FET",
-      "current_price": 0.18133,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "FET shows a bullish hourly trend and positive 24h performance during a risk-on regime, but fails critical volume rules.",
-      "risk_factors": "RVOL of 1.23 fails the mandatory 1.5x minimum threshold, and Fetch.ai exploit headlines present severe binary risk.",
-      "timestamp": "2026-10-28T03:53:15.814975"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "FET",
       "current_price": 0.18135,
       "approved": false,
       "action": "REJECT",
@@ -1923,6 +1908,21 @@
       "primary_thesis": "NEAR shows bullish 1-hour trend alignment and positive 24-hour momentum, but fails the mandatory relative volume rule.",
       "risk_factors": "Current 1-hour relative volume (1.05x) severely misses the required >= 1.5x threshold, invalidating the breakout thesis under evolved strategy rules.",
       "timestamp": "2026-10-28T05:01:09.915441"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "NEAR",
+      "current_price": 4.7228,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.5,
+      "take_profit_pct": 7.5,
+      "primary_thesis": "NEAR shows bullish 1-hour trend alignment and positive 24h performance within a Risk-On market regime.",
+      "risk_factors": "RVOL is 1.05, which severely violates the mandatory evolved strategy rule requiring a minimum 1.5x to 2.5x volume expansion on crypto breakout entries.",
+      "timestamp": "2026-10-28T05:02:14.367523"
     }
   ],
   "performance": {
@@ -1934,7 +1934,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 1,
     "realized_pnl_today": -0.38,
-    "current_equity": 326.08054405999997,
+    "current_equity": 326.06896284749996,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3118,5 +3118,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T09:50:47.164678"
+  "snapshot_synced_at": "2026-10-28T09:52:23.127167"
 }
