@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T02:31:06.279864",
+  "timestamp": "2026-10-28T02:32:39.961567",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 327.18,
+    "total_equity": 327.2,
     "total_cash": 233.41,
     "cash_pct": 71.3,
     "weekly_realized_pnl": -0.29,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.84909116,
+    "total_value": 165.87466918,
     "cash": 96.72,
     "positions": {
       "AMD": {
@@ -32,8 +32,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 00:51:22] Running portfolio evaluation cycle...",
-      "[2026-10-28 00:51:23] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 00:56:23] Running portfolio evaluation cycle...",
       "[2026-10-28 00:56:24] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 01:01:24] Running portfolio evaluation cycle...",
@@ -71,7 +69,9 @@
       "[2026-10-28 02:21:59] Running portfolio evaluation cycle...",
       "[2026-10-28 02:22:00] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 02:27:02] Running portfolio evaluation cycle...",
-      "[2026-10-28 02:27:02] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
+      "[2026-10-28 02:27:02] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
+      "[2026-10-28 02:32:02] Running portfolio evaluation cycle...",
+      "[2026-10-28 02:32:03] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68"
     ]
   },
   "coinbase": {
@@ -110,11 +110,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 02:23:30] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 02:23:30] Macro Regime: RISK_ON | BTC 24h: +1.55% | Alts Allowed: True",
-      "[2026-10-28 02:23:30] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 02:23:30] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 02:23:34] 🧠 [AI GATE] Buy of AAVE VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
       "[2026-10-28 02:24:34] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 02:24:34] Macro Regime: RISK_ON | BTC 24h: +1.54% | Alts Allowed: True",
       "[2026-10-28 02:24:34] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -149,7 +144,12 @@
       "[2026-10-28 02:30:55] Macro Regime: RISK_ON | BTC 24h: +1.45% | Alts Allowed: True",
       "[2026-10-28 02:30:55] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 02:30:55] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 02:30:59] 🧠 [AI GATE] Buy of AAVE VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
+      "[2026-10-28 02:30:59] 🧠 [AI GATE] Buy of AAVE VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please",
+      "[2026-10-28 02:31:59] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 02:31:59] Macro Regime: RISK_ON | BTC 24h: +1.41% | Alts Allowed: True",
+      "[2026-10-28 02:31:59] Deployable cash ($136.96 of $161.14 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 02:31:59] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 02:32:02] 🧠 [AI GATE] Buy of AAVE VETOED by AI Brain (Confidence: 0%) | Thesis: AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please"
     ]
   },
   "positions": [
@@ -1346,21 +1346,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SUI",
-      "current_price": 0.9273,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 55,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "SUI shows bullish hourly structure and a risk-on macro regime, but fails critical volume rules requiring relative volume (rvol) >= 1.5x for breakout entries.",
-      "risk_factors": "Current rvol of 1.21 fails the mandatory 1.5x threshold, risking a fakeout due to insufficient institutional participation.",
-      "timestamp": "2026-10-27T18:01:09.759394"
-    },
-    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Equities",
       "symbol": "AMD",
@@ -1937,6 +1922,20 @@
       "new_stop_pct": null,
       "reasoning": "AVGO has pulled back 0.55% from its peak of +1.36%, hitting our rule to scale out or exit at peak favorable excursion to lock in profits before momentum completely stalls.",
       "timestamp": "2026-10-27T20:13:59.453010"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AMD",
+      "entry_price": 533.17,
+      "current_price": 560.45,
+      "pnl_pct": 5.12,
+      "hours_held": 30.1,
+      "action": "TIGHTEN_STOP",
+      "confidence": 92,
+      "new_stop_pct": 4.5,
+      "reasoning": "Securing gains after a 5.12% move with a minor pullback from peak to lock in profitability against potential resistance.",
+      "timestamp": "2026-10-27T20:29:04.995720"
     }
   ],
   "performance": {
@@ -1948,7 +1947,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 327.17909116,
+    "current_equity": 327.20466918,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3119,5 +3118,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T02:31:05.952749"
+  "snapshot_synced_at": "2026-10-28T02:32:39.661134"
 }
