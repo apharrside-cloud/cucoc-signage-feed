@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T06:03:35.072216",
+  "timestamp": "2026-10-28T06:05:09.108336",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 326.98,
+    "total_equity": 327.01,
     "total_cash": 257.86,
     "cash_pct": 78.9,
     "weekly_realized_pnl": -0.29,
@@ -15,12 +15,10 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 165.8390262264,
+    "total_value": 165.8705013,
     "cash": 96.72,
     "positions": {},
     "logs": [
-      "[2026-10-28 04:38:10] Running portfolio evaluation cycle...",
-      "[2026-10-28 04:38:11] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 04:43:11] Running portfolio evaluation cycle...",
       "[2026-10-28 04:43:12] [AMD] Shares: 0.023445 | Entry: $533.17 | Current: $560.45 | PnL: +5.12% ($+0.64) | Peak: $563.68",
       "[2026-10-28 04:48:12] Running portfolio evaluation cycle...",
@@ -58,7 +56,9 @@
       "[2026-10-28 05:53:51] Running portfolio evaluation cycle...",
       "[2026-10-28 05:53:52] Position AMD no longer in broker holdings. Removing from tracking.",
       "[2026-10-28 05:58:52] Running portfolio evaluation cycle...",
-      "[2026-10-28 05:58:52] No positions currently held."
+      "[2026-10-28 05:58:52] No positions currently held.",
+      "[2026-10-28 06:03:52] Running portfolio evaluation cycle...",
+      "[2026-10-28 06:03:53] No positions currently held."
     ]
   },
   "coinbase": {
@@ -96,12 +96,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 05:56:22] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: +0.04% ($24.64) | Vol: High-Beta Alpha Runner",
-      "[2026-10-28 05:56:24] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 05:56:24] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 05:56:28] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows bullish 1-hour trend alignment and positive 24-hour performance in a risk-on macro regime.",
-      "[2026-10-28 05:57:28] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 05:57:28] Macro Regime: RISK_ON | BTC 24h: +2.21% | Alts Allowed: True",
       "[2026-10-28 05:57:28] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: +0.04% ($24.64) | Vol: High-Beta Alpha Runner",
       "[2026-10-28 05:57:30] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-28 05:57:30] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
@@ -135,7 +129,13 @@
       "[2026-10-28 06:03:06] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.95 | Peak: $0.95 | PnL: +0.16% ($24.67) | Vol: High-Beta Alpha Runner",
       "[2026-10-28 06:03:08] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
       "[2026-10-28 06:03:08] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 06:03:12] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR is showing positive 24h momentum in a risk-on regime, but fails critical volume validation rules."
+      "[2026-10-28 06:03:12] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR is showing positive 24h momentum in a risk-on regime, but fails critical volume validation rules.",
+      "[2026-10-28 06:04:12] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 06:04:12] Macro Regime: RISK_ON | BTC 24h: +2.41% | Alts Allowed: True",
+      "[2026-10-28 06:04:12] [SUI] Qty: 26.1 | Entry: $0.94 | Current: $0.94 | Peak: $0.94 | PnL: +0.12% ($24.66) | Vol: High-Beta Alpha Runner",
+      "[2026-10-28 06:04:25] Deployable cash ($112.11 of $136.29 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 06:04:25] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 06:04:30] 🧠 [AI GATE] Buy of NEAR VETOED by AI Brain (Confidence: 45%) | Thesis: NEAR shows bullish 1-hour trend alignment and a constructive 24h change, but fails strict volume confirmation filters with an RVOL of only 0.83 against our mandatory >= 1.5x threshold."
     ]
   },
   "positions": [
@@ -1333,21 +1333,6 @@
       "take_profit_pct": 5.0,
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-28T02:41:32.823170"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AAVE",
-      "current_price": 134.81,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T02:42:36.310191"
     },
     {
@@ -1917,6 +1902,20 @@
       "primary_thesis": "FET shows bullish hourly trend alignment and risk-on macro support, but fails critical volume rules.",
       "risk_factors": "RVOL of 1.24 falls below the mandatory 1.5x minimum threshold, accompanied by negative exploit headlines regarding Fetch.ai.",
       "timestamp": "2026-10-28T04:01:52.464504"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "AMD",
+      "entry_price": 533.17,
+      "current_price": 560.45,
+      "pnl_pct": 5.12,
+      "hours_held": 37.9,
+      "action": "TIGHTEN_STOP",
+      "confidence": 92,
+      "new_stop_pct": 3.5,
+      "reasoning": "Locking in gains at +3.5% as the equity pulls back slightly from its peak of +5.72% while maintaining tactical participation in the ongoing trend.",
+      "timestamp": "2026-10-28T04:18:04.569050"
     }
   ],
   "performance": {
@@ -1928,7 +1927,7 @@
     "max_drawdown_pct": 13.6,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 326.9790262264,
+    "current_equity": 327.0105013,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3099,5 +3098,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T06:03:34.747327"
+  "snapshot_synced_at": "2026-10-28T06:05:08.783138"
 }
