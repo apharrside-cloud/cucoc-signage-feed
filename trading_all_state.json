@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-28T20:32:09.472238",
+  "timestamp": "2026-10-28T20:33:42.990217",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 321.15,
+    "total_equity": 321.14,
     "total_cash": 214.9,
     "cash_pct": 66.9,
     "weekly_realized_pnl": -1.16,
@@ -99,17 +99,17 @@
     ]
   },
   "coinbase": {
-    "total_usd": 158.66,
+    "total_usd": 158.65,
     "cash_usd": 134.22,
     "crypto_usd": 24.44,
     "regime": {
-      "status": "RISK_ON",
-      "btc_change_24h": 0.52104914858038,
-      "btc_price": 81097.98,
-      "allow_alts": true,
+      "status": "NEUTRAL",
+      "btc_change_24h": 0.4544053228072,
+      "btc_price": 81070.0,
+      "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC strong +0.52% (Risk-On regime - alpha breakouts enabled)"
+      "reason": "BTC neutral +0.45% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {
       "SUI": {
@@ -123,8 +123,8 @@
         "stop_loss_pct": -3.0,
         "trailing_active": false,
         "entry_time": "2026-10-28T16:07:34.527143",
-        "current_price": 0.9437,
-        "pnl_pct": -1.06,
+        "current_price": 0.9435,
+        "pnl_pct": -1.08,
         "value_usd": 24.44,
         "tp1_pct": 7.5,
         "tp2_pct": 15.0,
@@ -134,16 +134,6 @@
       }
     },
     "logs": [
-      "[2026-10-28 20:24:11] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 20:24:11] Macro Regime: RISK_ON | BTC 24h: +0.55% | Alts Allowed: True",
-      "[2026-10-28 20:24:11] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -1.15% ($24.42) | Vol: High-Beta Alpha Runner",
-      "[2026-10-28 20:24:11] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 20:24:11] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
-      "[2026-10-28 20:25:12] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 20:25:13] Macro Regime: RISK_ON | BTC 24h: +0.58% | Alts Allowed: True",
-      "[2026-10-28 20:25:13] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -0.96% ($24.47) | Vol: High-Beta Alpha Runner",
-      "[2026-10-28 20:25:13] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 20:25:13] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
       "[2026-10-28 20:26:14] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 20:26:15] Macro Regime: RISK_ON | BTC 24h: +0.56% | Alts Allowed: True",
       "[2026-10-28 20:26:15] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -0.92% ($24.48) | Vol: High-Beta Alpha Runner",
@@ -173,7 +163,17 @@
       "[2026-10-28 20:31:25] Macro Regime: RISK_ON | BTC 24h: +0.52% | Alts Allowed: True",
       "[2026-10-28 20:31:25] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -1.06% ($24.44) | Vol: High-Beta Alpha Runner",
       "[2026-10-28 20:31:25] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-28 20:31:25] Regime is RISK_ON. Scanning momentum breakout runners across full universe..."
+      "[2026-10-28 20:31:25] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 20:32:27] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 20:32:27] Macro Regime: RISK_ON | BTC 24h: +0.54% | Alts Allowed: True",
+      "[2026-10-28 20:32:27] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -0.94% ($24.47) | Vol: High-Beta Alpha Runner",
+      "[2026-10-28 20:32:27] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 20:32:27] Regime is RISK_ON. Scanning momentum breakout runners across full universe...",
+      "[2026-10-28 20:33:28] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 20:33:29] Macro Regime: NEUTRAL | BTC 24h: +0.45% | Alts Allowed: False",
+      "[2026-10-28 20:33:29] [SUI] Qty: 25.9 | Entry: $0.95 | Current: $0.94 | Peak: $0.95 | PnL: -1.08% ($24.44) | Vol: High-Beta Alpha Runner",
+      "[2026-10-28 20:33:29] Deployable cash ($110.04 of $134.22 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
+      "[2026-10-28 20:33:29] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips..."
     ]
   },
   "positions": [
@@ -215,9 +215,9 @@
       "symbol": "SUI",
       "shares": 25.9,
       "entry_price": 0.9538,
-      "current_price": 0.9437,
+      "current_price": 0.9435,
       "value_usd": 24.44,
-      "pnl_pct": -1.06,
+      "pnl_pct": -1.08,
       "pnl_usd": -0.26,
       "trailing_info": "TP1: +7.5% | Stop: -3.0%"
     }
@@ -2007,7 +2007,7 @@
     "max_drawdown_pct": 14.64,
     "trades_count_today": 2,
     "realized_pnl_today": -0.87,
-    "current_equity": 321.15479174,
+    "current_equity": 321.14479174,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3201,5 +3201,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T20:32:09.161080"
+  "snapshot_synced_at": "2026-10-28T20:33:42.666307"
 }
