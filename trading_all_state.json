@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T09:42:14.632290",
+  "timestamp": "2026-10-29T09:43:48.521032",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 318.65,
@@ -19,12 +19,6 @@
     "cash": 160.72,
     "positions": {},
     "logs": [
-      "[2026-10-29 09:08:34] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
-      "[2026-10-29 09:08:34] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
-      "[2026-10-29 09:13:34] Running portfolio evaluation cycle...",
-      "[2026-10-29 09:13:49] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
-      "[2026-10-29 09:13:50] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings.",
-      "[2026-10-29 09:18:50] Running portfolio evaluation cycle...",
       "[2026-10-29 09:18:54] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
       "[2026-10-29 09:19:01] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
       "[2026-10-29 09:24:08] Running portfolio evaluation cycle...",
@@ -58,7 +52,13 @@
       "[2026-10-29 09:40:43] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-29 09:41:43] Running portfolio evaluation cycle...",
       "[2026-10-29 09:41:43] No positions currently held.",
-      "[2026-10-29 09:41:43] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-29 09:41:43] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-29 09:42:43] Running portfolio evaluation cycle...",
+      "[2026-10-29 09:42:44] No positions currently held.",
+      "[2026-10-29 09:42:44] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-29 09:43:44] Running portfolio evaluation cycle...",
+      "[2026-10-29 09:43:44] No positions currently held.",
+      "[2026-10-29 09:43:44] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -66,26 +66,36 @@
     "cash_usd": 157.93,
     "crypto_usd": 0.0,
     "regime": {
-      "status": "RISK_OFF",
-      "btc_change_24h": -1.01253319816532,
-      "btc_price": 79872.69,
+      "status": "NEUTRAL",
+      "btc_change_24h": -0.89316135433339,
+      "btc_price": 79991.29,
       "allow_alts": false,
-      "allow_core": false,
-      "reason": "BTC down -1.01% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "allow_core": true,
+      "allow_decoupled_alts": true,
+      "reason": "BTC neutral -0.89% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
-    "positions": {},
+    "positions": {
+      "BTC": {
+        "coin": "BTC",
+        "pair": "BTC-USDC",
+        "entry_price": 80003.43,
+        "shares": 0.00024999,
+        "peak_price": 80003.43,
+        "tp1_hit": false,
+        "tp2_hit": false,
+        "stop_loss_pct": -1.5,
+        "trailing_active": false,
+        "entry_time": "2026-10-29T09:42:47.364215",
+        "current_price": 80003.43,
+        "pnl_pct": 0.0,
+        "value_usd": 20.0,
+        "tp1_pct": 3.5,
+        "tp2_pct": 6.0,
+        "trailing_pullback_pct": 1.5,
+        "volatility_profile": "Mean-Reversion Oversold Scalp"
+      }
+    },
     "logs": [
-      "[2026-10-29 09:34:44] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-29 09:34:45] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.1 (chg -0.80%)!",
-      "[2026-10-29 09:34:45] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=36.5 (chg -0.53%)!",
-      "[2026-10-29 09:34:45] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=30.1 (chg -0.62%)!",
-      "[2026-10-29 09:35:08] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: RSI at 30.1 indicates approaching oversold territory on BTC, but the hourly trend remains bearish with declining price action below the 5-period SMA.",
-      "[2026-10-29 09:36:08] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 09:36:08] Macro Regime: NEUTRAL | BTC 24h: -0.82% | Alts Allowed: False",
-      "[2026-10-29 09:36:08] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-29 09:36:08] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-29 09:36:09] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.1 (chg -1.02%)!",
-      "[2026-10-29 09:36:10] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=36.5 (chg -0.79%)!",
       "[2026-10-29 09:36:10] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=30.1 (chg -0.81%)!",
       "[2026-10-29 09:36:28] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: RSI at 30.1 indicates oversold mean-reversion conditions, but hourly trend is bearish below the 5-period SMA with declining 24-hour momentum.",
       "[2026-10-29 09:37:28] Running Coinbase 24/7 autonomous evaluation cycle...",
@@ -114,10 +124,33 @@
       "[2026-10-29 09:41:14] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=32.0 (chg -1.26%)!",
       "[2026-10-29 09:41:15] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.6 (chg -1.01%)!",
       "[2026-10-29 09:41:15] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=28.7 (chg -0.98%)!",
-      "[2026-10-29 09:41:31] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 60%) | Thesis: RSI at 28.7 shows short-term oversold conditions, but hourly trend is bearish and trading below the hourly SMA5 with declining momentum."
+      "[2026-10-29 09:41:31] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 60%) | Thesis: RSI at 28.7 shows short-term oversold conditions, but hourly trend is bearish and trading below the hourly SMA5 with declining momentum.",
+      "[2026-10-29 09:42:31] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 09:42:32] Macro Regime: NEUTRAL | BTC 24h: -0.89% | Alts Allowed: False",
+      "[2026-10-29 09:42:32] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 09:42:32] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-29 09:42:33] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=31.6 (chg -1.13%)!",
+      "[2026-10-29 09:42:33] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=30.6 (chg -0.90%)!",
+      "[2026-10-29 09:42:34] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=27.9 (chg -0.88%)!",
+      "[2026-10-29 09:42:46] Top candidate: BTC (Tier 1 (Core Dip Reversal), Mode: MEAN_REVERSION). Executing AI-APPROVED market buy of $20.00...",
+      "[2026-10-29 09:43:47] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 09:43:48] Macro Regime: NEUTRAL | BTC 24h: -0.83% | Alts Allowed: False",
+      "[2026-10-29 09:43:48] [BTC] Qty: 0.00024768 | Entry: $80,003.43 | Current: $79,949.87 | Peak: $80,003.43 | PnL: -0.07% ($19.80) | Vol: Large-Cap Low Volatility"
     ]
   },
-  "positions": [],
+  "positions": [
+    {
+      "account": "Coinbase",
+      "symbol": "BTC",
+      "shares": 0.00024999,
+      "entry_price": 80003.43,
+      "current_price": 80003.43,
+      "value_usd": 20.0,
+      "pnl_pct": 0.0,
+      "pnl_usd": -0.0,
+      "trailing_info": "TP1: +3.5% | Stop: -1.5%"
+    }
+  ],
   "closed_trades": [
     {
       "symbol": "SMCI",
@@ -1341,20 +1374,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Equities",
-      "symbol": "AVGO",
-      "entry_price": 348.53,
-      "current_price": 351.97,
-      "pnl_pct": 0.99,
-      "hours_held": 5.9,
-      "action": "TIGHTEN_STOP",
-      "confidence": 92,
-      "new_stop_pct": 0.5,
-      "reasoning": "AVGO is sitting at +0.99% unrealized gain right at the +1% target threshold, prompting a tightened stop to lock in profits against stalling momentum near peak excursion.",
-      "timestamp": "2026-10-28T19:07:59.463495"
-    },
-    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
@@ -1930,6 +1949,21 @@
       "primary_thesis": "Although BTC is testing hourly support, relative volume is severely depressed at 0.52x, failing our minimum 1.5x threshold for breakout/reversion entries.",
       "risk_factors": "Low relative volume indicates lack of institutional participation, raising the probability of a fakeout in a neutral chop regime.",
       "timestamp": "2026-10-29T08:32:00.337266"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "BTC",
+      "current_price": 80077.71,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.0,
+      "take_profit_pct": 4.0,
+      "primary_thesis": "RVOL is critically low at 0.52 against a mean-reversion setup, failing our strict volume confirmation rules for entries.",
+      "risk_factors": "Low volume churn in a neutral macro chop regime creates high risk of false continuation and trapped liquidity.",
+      "timestamp": "2026-10-29T08:33:08.015066"
     }
   ],
   "performance": {
@@ -3165,5 +3199,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T09:42:14.331168"
+  "snapshot_synced_at": "2026-10-29T09:43:48.177201"
 }
