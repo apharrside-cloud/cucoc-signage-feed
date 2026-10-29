@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T03:32:07.894659",
+  "timestamp": "2026-10-29T03:33:41.755050",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 319.05,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 161.12154671,
+    "total_value": 161.12004472,
     "cash": 80.68,
     "positions": {
       "MU": {
@@ -44,9 +44,6 @@
       }
     },
     "logs": [
-      "[2026-10-29 02:23:04] MCP tool call timeout (15s) on get_equity_quotes. Killing stale process.",
-      "[2026-10-29 02:28:04] Running portfolio evaluation cycle...",
-      "[2026-10-29 02:28:07] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
       "[2026-10-29 02:28:09] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
       "[2026-10-29 02:33:10] Running portfolio evaluation cycle...",
       "[2026-10-29 02:33:11] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
@@ -83,7 +80,10 @@
       "[2026-10-29 03:23:31] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
       "[2026-10-29 03:28:31] Running portfolio evaluation cycle...",
       "[2026-10-29 03:28:31] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
-      "[2026-10-29 03:28:33] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13"
+      "[2026-10-29 03:28:33] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
+      "[2026-10-29 03:33:36] Running portfolio evaluation cycle...",
+      "[2026-10-29 03:33:37] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
+      "[2026-10-29 03:33:37] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13"
     ]
   },
   "coinbase": {
@@ -92,17 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.27071023913158,
-      "btc_price": 79776.85,
+      "btc_change_24h": -1.24265314322406,
+      "btc_price": 79807.56,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.27% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.24% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-29 03:18:42] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-29 03:19:43] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 03:19:43] Macro Regime: RISK_OFF | BTC 24h: -1.22% | Alts Allowed: False",
       "[2026-10-29 03:19:43] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 03:20:44] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 03:20:44] Macro Regime: RISK_OFF | BTC 24h: -1.19% | Alts Allowed: False",
@@ -139,7 +136,10 @@
       "[2026-10-29 03:30:51] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 03:31:52] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 03:31:52] Macro Regime: RISK_OFF | BTC 24h: -1.27% | Alts Allowed: False",
-      "[2026-10-29 03:31:52] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-29 03:31:52] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 03:32:52] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 03:32:52] Macro Regime: RISK_OFF | BTC 24h: -1.24% | Alts Allowed: False",
+      "[2026-10-29 03:32:52] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1967,7 +1967,7 @@
     "max_drawdown_pct": 14.91,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 319.05154671,
+    "current_equity": 319.05004472,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3171,5 +3171,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T03:32:07.573729"
+  "snapshot_synced_at": "2026-10-29T03:33:41.458422"
 }
