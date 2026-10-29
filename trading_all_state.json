@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T08:46:02.395495",
+  "timestamp": "2026-10-29T08:47:35.949229",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 318.94,
@@ -100,14 +100,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-29 08:41:02] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-29 08:41:03] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=29.6 (chg -0.98%)!",
-      "[2026-10-29 08:41:03] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=38.0 (chg -0.97%)!",
-      "[2026-10-29 08:41:03] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=30.4 (chg -0.75%)!",
-      "[2026-10-29 08:41:04] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=29.6 (chg -0.77%)!",
-      "[2026-10-29 08:41:14] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 60%) | Thesis: SOL shows mean-reversion characteristics with oversold RSI (29.6) and high relative volume (1.64x), but macro filters restrict alts.",
-      "[2026-10-29 08:42:14] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 08:42:14] Macro Regime: NEUTRAL | BTC 24h: -0.83% | Alts Allowed: False",
       "[2026-10-29 08:42:14] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 08:42:14] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-29 08:42:15] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=31.8 (chg -1.05%)!",
@@ -139,7 +131,15 @@
       "[2026-10-29 08:45:40] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=31.8 (chg -1.04%)!",
       "[2026-10-29 08:45:41] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.5 (chg -0.80%)!",
       "[2026-10-29 08:45:41] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=30.1 (chg -0.84%)!",
-      "[2026-10-29 08:45:43] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: RVOL is weak at 0.72 against a bearish hourly trend and RSI of 30.1, lacking the volume confirmation required for a high-probability mean-reversion entry."
+      "[2026-10-29 08:45:43] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: RVOL is weak at 0.72 against a bearish hourly trend and RSI of 30.1, lacking the volume confirmation required for a high-probability mean-reversion entry.",
+      "[2026-10-29 08:46:43] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 08:46:44] Macro Regime: NEUTRAL | BTC 24h: -0.79% | Alts Allowed: False",
+      "[2026-10-29 08:46:44] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 08:46:44] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-29 08:46:45] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=32.8 (chg -0.98%)!",
+      "[2026-10-29 08:46:45] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.7 (chg -0.69%)!",
+      "[2026-10-29 08:46:45] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=30.1 (chg -0.76%)!",
+      "[2026-10-29 08:46:50] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 40%) | Thesis: BTC is sitting in a bearish hourly trend with weak volume (RVOL 0.72) failing to meet the minimum threshold for high-probability mean reversion or breakout continuation."
     ]
   },
   "positions": [
@@ -1372,21 +1372,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AAVE",
-      "current_price": 137.36,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 45,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "AAVE is attempting a breakout in a RISK_ON regime, but fails critical volume rules.",
-      "risk_factors": "Relative volume (1.04x) fails the strict breakout requirement of >= 1.5x, compounded by negative whale/debt headline pressure.",
-      "timestamp": "2026-10-28T16:12:47.958789"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AAVE",
       "current_price": 136.97,
       "approved": false,
       "action": "REJECT",
@@ -1967,6 +1952,21 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T16:56:18.798275"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "LINK",
+      "current_price": 11.806,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-28T16:57:32.226405"
     }
   ],
   "performance": {
@@ -3182,5 +3182,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T08:46:02.060928"
+  "snapshot_synced_at": "2026-10-29T08:47:35.622627"
 }
