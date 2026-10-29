@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-29T10:43:09.199239",
+  "timestamp": "2026-10-29T10:44:42.882364",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 318.62,
+    "total_equity": 318.82,
     "total_cash": 198.65,
     "cash_pct": 62.3,
     "weekly_realized_pnl": -5.44,
@@ -15,7 +15,7 @@
     "today_trades_count": 2
   },
   "robinhood": {
-    "total_value": 160.8027101923,
+    "total_value": 160.75752944,
     "cash": 60.72,
     "positions": {
       "XLV": {
@@ -25,9 +25,9 @@
         "high_water_mark": 183.9551,
         "tp1_hit": false,
         "entry_time": "2026-10-29T10:19:47.970538",
-        "current_price": 183.9551,
-        "pnl_pct": 0.06,
-        "pnl_usd": 0.03,
+        "current_price": 183.83,
+        "pnl_pct": -0.01,
+        "pnl_usd": -0.0,
         "last_ai_eval_ts": 1793284542.534094
       },
       "COST": {
@@ -37,17 +37,13 @@
         "high_water_mark": 988.27,
         "tp1_hit": false,
         "entry_time": "2026-10-29T10:19:47.971055",
-        "current_price": 987.62,
-        "pnl_pct": 0.11,
-        "pnl_usd": 0.05,
-        "last_ai_eval_ts": 1793284096.4751267
+        "current_price": 987.45,
+        "pnl_pct": 0.09,
+        "pnl_usd": 0.04,
+        "last_ai_eval_ts": 1793285030.5812335
       }
     },
     "logs": [
-      "[2026-10-29 10:18:47] No positions currently held.",
-      "[2026-10-29 10:18:47] ❄️ [EQUITY AUTO-BUYS FROZEN] Buying is paused by operator directive (/freeze). 100% cash defense preserved.",
-      "[2026-10-29 10:19:47] Running portfolio evaluation cycle...",
-      "[2026-10-29 10:19:47] Detected live broker holding XLV (0.299173 shares @ $183.84). Ingesting into tracking.",
       "[2026-10-29 10:19:47] Detected live broker holding COST (0.045613 shares @ $986.56). Ingesting into tracking.",
       "[2026-10-29 10:19:48] [XLV] Shares: 0.299173 | Entry: $183.84 | Current: $183.64 | PnL: -0.11% ($-0.06) | Peak: $183.84",
       "[2026-10-29 10:28:16] [COST] Shares: 0.045613 | Entry: $986.56 | Current: $986.27 | PnL: -0.03% ($-0.01) | Peak: $986.56",
@@ -83,21 +79,25 @@
       "[2026-10-29 10:42:49] Running portfolio evaluation cycle...",
       "[2026-10-29 10:42:50] [XLV] Shares: 0.299173 | Entry: $183.84 | Current: $183.96 | PnL: +0.06% ($+0.03) | Peak: $183.96",
       "[2026-10-29 10:42:50] [COST] Shares: 0.045613 | Entry: $986.56 | Current: $987.62 | PnL: +0.11% ($+0.05) | Peak: $988.27",
-      "[2026-10-29 10:42:50] ❄️ [EQUITY AUTO-BUYS FROZEN] Buying is paused by operator directive (/freeze). 100% cash defense preserved."
+      "[2026-10-29 10:42:50] ❄️ [EQUITY AUTO-BUYS FROZEN] Buying is paused by operator directive (/freeze). 100% cash defense preserved.",
+      "[2026-10-29 10:43:50] Running portfolio evaluation cycle...",
+      "[2026-10-29 10:43:50] [XLV] Shares: 0.299173 | Entry: $183.84 | Current: $183.83 | PnL: -0.01% ($-0.00) | Peak: $183.96",
+      "[2026-10-29 10:43:50] [COST] Shares: 0.045613 | Entry: $986.56 | Current: $987.45 | PnL: +0.09% ($+0.04) | Peak: $988.27",
+      "[2026-10-29 10:43:55] ❄️ [EQUITY AUTO-BUYS FROZEN] Buying is paused by operator directive (/freeze). 100% cash defense preserved."
     ]
   },
   "coinbase": {
-    "total_usd": 157.82,
+    "total_usd": 158.06,
     "cash_usd": 137.93,
-    "crypto_usd": 19.89,
+    "crypto_usd": 20.13,
     "regime": {
-      "status": "NEUTRAL",
-      "btc_change_24h": -0.070903117572,
-      "btc_price": 80306.2,
-      "allow_alts": false,
+      "status": "RISK_ON",
+      "btc_change_24h": 1.0811037338289,
+      "btc_price": 81284.41,
+      "allow_alts": true,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.07% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC strong +1.08% (Risk-On regime - alpha breakouts enabled)"
     },
     "positions": {
       "BTC": {
@@ -105,25 +105,23 @@
         "pair": "BTC-USDC",
         "entry_price": 80003.43,
         "shares": 0.00024768,
-        "peak_price": 80374.87,
+        "peak_price": 81284.4,
         "tp1_hit": false,
         "tp2_hit": false,
-        "stop_loss_pct": -1.5,
+        "stop_loss_pct": 0.8,
         "trailing_active": false,
         "entry_time": "2026-10-29T09:42:47.364215",
-        "current_price": 80306.2,
-        "pnl_pct": 0.38,
-        "value_usd": 19.89,
+        "current_price": 81284.4,
+        "pnl_pct": 1.6,
+        "value_usd": 20.13,
         "tp1_pct": 3.5,
         "tp2_pct": 6.0,
         "trailing_pullback_pct": 1.5,
         "volatility_profile": "Large-Cap Low Volatility",
-        "last_ai_eval_ts": 1793283830.5575418
+        "last_ai_eval_ts": 1793284821.2314575
       }
     },
     "logs": [
-      "[2026-10-29 10:15:44] Macro Regime: NEUTRAL | BTC 24h: -0.17% | Alts Allowed: False",
-      "[2026-10-29 10:15:44] [BTC] Qty: 0.00024768 | Entry: $80,003.43 | Current: $80,338.50 | Peak: $80,343.44 | PnL: +0.42% ($19.90) | Vol: Large-Cap Low Volatility",
       "[2026-10-29 10:15:44] ❄️ [CRYPTO AUTO-BUYS FROZEN] Buying is paused by operator directive (/freeze). Cash defense preserved.",
       "[2026-10-29 10:16:44] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 10:16:45] Macro Regime: NEUTRAL | BTC 24h: -0.15% | Alts Allowed: False",
@@ -161,7 +159,9 @@
       "[2026-10-29 10:39:19] ❄️ [CRYPTO AUTO-BUYS FROZEN] Buying is paused by operator directive (/freeze). Cash defense preserved.",
       "[2026-10-29 10:40:20] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 10:40:21] Macro Regime: RISK_ON | BTC 24h: +1.08% | Alts Allowed: True",
-      "[2026-10-29 10:40:21] [BTC] Qty: 0.00024768 | Entry: $80,003.43 | Current: $81,284.40 | Peak: $81,284.40 | PnL: +1.60% ($20.13) | Vol: Large-Cap Low Volatility"
+      "[2026-10-29 10:40:21] [BTC] Qty: 0.00024768 | Entry: $80,003.43 | Current: $81,284.40 | Peak: $81,284.40 | PnL: +1.60% ($20.13) | Vol: Large-Cap Low Volatility",
+      "[2026-10-29 10:44:00] 🧠 [AI TIGHTEN STOP] Raising stop loss for BTC from -1.5% to 0.8% | Reason: Position is at peak excursion (+1.60%) in a risk-on regime, warranting a tightened trailing stop at +0.80% to lock in core profits while allowing room for continuation.",
+      "[2026-10-29 10:44:00] ❄️ [CRYPTO AUTO-BUYS FROZEN] Buying is paused by operator directive (/freeze). Cash defense preserved."
     ]
   },
   "positions": [
@@ -170,10 +170,10 @@
       "symbol": "XLV",
       "shares": 0.299173,
       "entry_price": 183.84,
-      "current_price": 183.9551,
-      "value_usd": 55.03,
-      "pnl_pct": 0.06,
-      "pnl_usd": 0.03,
+      "current_price": 183.83,
+      "value_usd": 55.0,
+      "pnl_pct": -0.01,
+      "pnl_usd": -0.0,
       "trailing_info": "Peak: $183.96 | Trailing 3.5%"
     },
     {
@@ -181,10 +181,10 @@
       "symbol": "COST",
       "shares": 0.045613,
       "entry_price": 986.56,
-      "current_price": 987.62,
-      "value_usd": 45.05,
-      "pnl_pct": 0.11,
-      "pnl_usd": 0.05,
+      "current_price": 987.45,
+      "value_usd": 45.04,
+      "pnl_pct": 0.09,
+      "pnl_usd": 0.04,
       "trailing_info": "Peak: $988.27 | Trailing 3.5%"
     },
     {
@@ -192,11 +192,11 @@
       "symbol": "BTC",
       "shares": 0.00024768,
       "entry_price": 80003.43,
-      "current_price": 80306.2,
-      "value_usd": 19.89,
-      "pnl_pct": 0.38,
-      "pnl_usd": 0.07,
-      "trailing_info": "TP1: +3.5% | Stop: -1.5%"
+      "current_price": 81284.4,
+      "value_usd": 20.13,
+      "pnl_pct": 1.6,
+      "pnl_usd": 0.31,
+      "trailing_info": "TP1: +3.5% | Stop: 0.8%"
     }
   ],
   "closed_trades": [
@@ -1422,51 +1422,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1793283566_495107",
-      "timestamp": "2026-10-29T10:19:26.132894",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "BTC, SOL",
-      "title": "Breaking Catalyst: Why Switzerland’s first genuine spot bitcoin ETF could soon attract overseas ban",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.0,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "NEUTRAL",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "id": "dec_1793282300_2acdfb",
-      "timestamp": "2026-10-29T09:58:20.256976",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "BTC",
-      "title": "Breaking Catalyst: New quantum model slashes hardware needed to break bitcoin keys by 17 times",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.0,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "NEUTRAL",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "SOL",
-      "current_price": 100.71,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-28T21:42:25.812983"
-    },
-    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "SOL",
@@ -2012,6 +1967,51 @@
       "primary_thesis": "Although SOL shows an oversold RSI (29.6) and high relative volume (1.64), the macro regime explicitly forbids alts ('allow_alts': false) unless a decoupled relative strength breakout is confirmed, and the hourly trend remains strictly bearish.",
       "risk_factors": "Trading counter-trend against a bearish hourly trend while macro rules restrict altcoin exposure creates an unacceptable probability of further downside continuation.",
       "timestamp": "2026-10-29T08:37:39.185122"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 100.34,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.0,
+      "take_profit_pct": 4.0,
+      "primary_thesis": "SOL is showing oversold conditions with an RSI of 29.6 and strong relative volume (1.64x), presenting a potential mean-reversion bounce.",
+      "risk_factors": "Macro regime explicitly restricts altcoins (`allow_alts: false`) and hourly trend is bearish, creating high risk of continued downside chop.",
+      "timestamp": "2026-10-29T08:38:48.050750"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 100.42,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 45,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "SOL is showing oversold mean-reversion characteristics with an RVOL of 1.64, but the macro regime restricts altcoins (`allow_alts: false`) and hourly trend is bearish.",
+      "risk_factors": "Trading altcoin counter-trend setups under a neutral BTC chop regime with `allow_alts` disabled violates macro risk controls and heightens downside continuation risk.",
+      "timestamp": "2026-10-29T08:39:55.169099"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "SOL",
+      "current_price": 100.4,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 60,
+      "position_usd": 15.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 6.0,
+      "primary_thesis": "SOL shows mean-reversion characteristics with oversold RSI (29.6) and high relative volume (1.64x), but macro filters restrict alts.",
+      "risk_factors": "Macro regime explicitly sets allow_alts to false under neutral/chop conditions, presenting regulatory and trend headwinds for altcoin longs.",
+      "timestamp": "2026-10-29T08:41:04.022183"
     }
   ],
   "performance": {
@@ -2023,7 +2023,7 @@
     "max_drawdown_pct": 15.07,
     "trades_count_today": 2,
     "realized_pnl_today": -4.53,
-    "current_equity": 318.6227101923,
+    "current_equity": 318.81752944000004,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3247,5 +3247,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T10:43:08.869080"
+  "snapshot_synced_at": "2026-10-29T10:44:42.521728"
 }
