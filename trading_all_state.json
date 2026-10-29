@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T08:38:13.704028",
+  "timestamp": "2026-10-29T08:39:47.372713",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 318.86,
@@ -100,15 +100,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-29 08:33:06] Macro Regime: NEUTRAL | BTC 24h: -0.84% | Alts Allowed: False",
-      "[2026-10-29 08:33:06] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-29 08:33:06] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-29 08:33:07] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=33.9 (chg -1.23%)!",
-      "[2026-10-29 08:33:07] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=36.3 (chg -1.64%)!",
-      "[2026-10-29 08:33:07] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=34.8 (chg -0.86%)!",
-      "[2026-10-29 08:33:08] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=31.8 (chg -0.84%)!",
-      "[2026-10-29 08:33:13] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: RVOL is critically low at 0.52 against a mean-reversion setup, failing our strict volume confirmation rules for entries.",
-      "[2026-10-29 08:34:13] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 08:34:13] Macro Regime: NEUTRAL | BTC 24h: -1.00% | Alts Allowed: False",
       "[2026-10-29 08:34:13] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 08:34:13] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
@@ -139,7 +130,16 @@
       "[2026-10-29 08:37:38] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=29.6 (chg -1.20%)!",
       "[2026-10-29 08:37:39] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=30.4 (chg -0.80%)!",
       "[2026-10-29 08:37:39] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=29.6 (chg -0.89%)!",
-      "[2026-10-29 08:37:46] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 45%) | Thesis: Although SOL shows an oversold RSI (29.6) and high relative volume (1.64), the macro regime explicitly forbids alts ('allow_alts': false) unless a decoupled relative strength breakout is confirmed, and the hourly trend remains strictly bearish."
+      "[2026-10-29 08:37:46] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 45%) | Thesis: Although SOL shows an oversold RSI (29.6) and high relative volume (1.64), the macro regime explicitly forbids alts ('allow_alts': false) unless a decoupled relative strength breakout is confirmed, and the hourly trend remains strictly bearish.",
+      "[2026-10-29 08:38:46] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 08:38:46] Macro Regime: NEUTRAL | BTC 24h: -0.79% | Alts Allowed: False",
+      "[2026-10-29 08:38:46] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 08:38:46] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-29 08:38:47] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=29.6 (chg -1.05%)!",
+      "[2026-10-29 08:38:47] 🎯 [MEAN REVERSION CANDIDATE] AVAX is oversold at RSI=38.0 (chg -1.18%)!",
+      "[2026-10-29 08:38:47] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=30.4 (chg -0.73%)!",
+      "[2026-10-29 08:38:48] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=29.6 (chg -0.73%)!",
+      "[2026-10-29 08:38:53] 🧠 [AI GATE] Buy of SOL VETOED by AI Brain (Confidence: 60%) | Thesis: SOL is showing oversold conditions with an RSI of 29.6 and strong relative volume (1.64x), presenting a potential mean-reversion bounce."
     ]
   },
   "positions": [
@@ -1369,20 +1369,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Crypto",
-      "symbol": "NEAR",
-      "entry_price": 4.72,
-      "current_price": 4.7913,
-      "pnl_pct": 1.51,
-      "hours_held": 0.5,
-      "action": "TIGHTEN_STOP",
-      "confidence": 95,
-      "new_stop_pct": 1.0,
-      "reasoning": "Position has reached +1.51% profit meeting the criteria to trail stops and lock in gains as momentum approaches peak favorable excursion.",
-      "timestamp": "2026-10-28T16:03:06.948280"
-    },
-    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "TAO",
@@ -1965,6 +1951,21 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T16:48:13.242238"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "LINK",
+      "current_price": 11.753,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-28T16:49:22.732429"
     }
   ],
   "performance": {
@@ -1973,7 +1974,7 @@
     "losing_trades": 50,
     "total_trades": 118,
     "profit_factor": "1.0",
-    "max_drawdown_pct": 14.949011525366759,
+    "max_drawdown_pct": 14.95,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
     "current_equity": 318.8561557914,
@@ -3180,5 +3181,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T08:38:13.374785"
+  "snapshot_synced_at": "2026-10-29T08:39:47.051184"
 }
