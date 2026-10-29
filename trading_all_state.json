@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T08:53:50.437047",
+  "timestamp": "2026-10-29T08:55:24.085920",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 319.15,
@@ -100,14 +100,6 @@
     },
     "positions": {},
     "logs": [
-      "[2026-10-29 08:48:58] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 08:48:58] Macro Regime: NEUTRAL | BTC 24h: -0.83% | Alts Allowed: False",
-      "[2026-10-29 08:48:58] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-29 08:48:58] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-29 08:48:59] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=32.8 (chg -0.82%)!",
-      "[2026-10-29 08:49:00] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.7 (chg -0.67%)!",
-      "[2026-10-29 08:49:00] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=30.5 (chg -0.83%)!",
-      "[2026-10-29 08:49:05] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: BTC is in a bearish hourly trend with weak volume (rvol 0.79) and neutral macro regime, failing to meet mean reversion or breakout criteria.",
       "[2026-10-29 08:50:05] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 08:50:05] Macro Regime: NEUTRAL | BTC 24h: -0.88% | Alts Allowed: False",
       "[2026-10-29 08:50:05] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
@@ -139,7 +131,15 @@
       "[2026-10-29 08:53:23] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=32.6 (chg -0.90%)!",
       "[2026-10-29 08:53:24] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.7 (chg -0.60%)!",
       "[2026-10-29 08:53:24] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=30.1 (chg -0.80%)!",
-      "[2026-10-29 08:53:30] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: BTC is exhibiting weak momentum with a low relative volume (0.87) and bearish hourly trend, lacking the necessary breakout volume confirmation."
+      "[2026-10-29 08:53:30] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: BTC is exhibiting weak momentum with a low relative volume (0.87) and bearish hourly trend, lacking the necessary breakout volume confirmation.",
+      "[2026-10-29 08:54:30] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 08:54:30] Macro Regime: NEUTRAL | BTC 24h: -0.80% | Alts Allowed: False",
+      "[2026-10-29 08:54:30] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 08:54:30] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
+      "[2026-10-29 08:54:31] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=32.6 (chg -0.92%)!",
+      "[2026-10-29 08:54:32] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.7 (chg -0.68%)!",
+      "[2026-10-29 08:54:32] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=30.1 (chg -0.80%)!",
+      "[2026-10-29 08:54:39] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: RSI is near oversold at 30.1 and BTC is testing the core dip buy regime, but weak relative volume (0.87) fails to confirm institutional accumulation."
     ]
   },
   "positions": [
@@ -1372,21 +1372,6 @@
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "LINK",
-      "current_price": 11.774,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-28T16:20:23.084448"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "LINK",
       "current_price": 11.762,
       "approved": false,
       "action": "REJECT",
@@ -1967,6 +1952,20 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T17:04:21.609512"
+    },
+    {
+      "type": "POSITION_SUPERVISION",
+      "asset_class": "Equities",
+      "symbol": "MU",
+      "entry_price": 973.85,
+      "current_price": 982.12,
+      "pnl_pct": 0.85,
+      "hours_held": 8.8,
+      "action": "TIGHTEN_STOP",
+      "confidence": 92,
+      "new_stop_pct": 0.5,
+      "reasoning": "Securing profits as current price has pulled back 0.78% from its +1.65% peak while momentum exhibits signs of fading near resistance.",
+      "timestamp": "2026-10-28T18:52:50.193088"
     }
   ],
   "performance": {
@@ -3182,5 +3181,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T08:53:50.128698"
+  "snapshot_synced_at": "2026-10-29T08:55:23.748726"
 }
