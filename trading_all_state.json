@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T06:47:17.529425",
+  "timestamp": "2026-10-29T06:48:51.124577",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 319.45,
@@ -92,17 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.58780756644761,
-      "btc_price": 80176.61,
+      "btc_change_24h": -1.57515126283107,
+      "btc_price": 80190.74,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.59% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.58% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-29 06:33:41] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-29 06:34:42] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 06:34:42] Macro Regime: RISK_OFF | BTC 24h: -1.56% | Alts Allowed: False",
       "[2026-10-29 06:34:42] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 06:35:43] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 06:35:43] Macro Regime: RISK_OFF | BTC 24h: -1.53% | Alts Allowed: False",
@@ -139,7 +136,10 @@
       "[2026-10-29 06:45:49] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 06:46:50] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 06:46:50] Macro Regime: RISK_OFF | BTC 24h: -1.59% | Alts Allowed: False",
-      "[2026-10-29 06:46:50] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-29 06:46:50] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 06:47:50] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 06:47:50] Macro Regime: RISK_OFF | BTC 24h: -1.58% | Alts Allowed: False",
+      "[2026-10-29 06:47:50] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1369,6 +1369,21 @@
   ],
   "ai_decisions": [
     {
+      "id": "dec_1793270899_60bae6",
+      "timestamp": "2026-10-29T06:48:19.496110",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "SOL",
+      "title": "Breaking Catalyst: Solana wallet Solflare pledges to pay missed rewards on staked $160 million afte",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": 0.0,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "NEUTRAL",
+      "impact": "CATALYST_ANALYZED"
+    },
+    {
       "id": "dec_1793270717_bfc81d",
       "timestamp": "2026-10-29T06:45:17.777597",
       "category": "catalyst",
@@ -1944,21 +1959,6 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T16:33:37.802334"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "LINK",
-      "current_price": 11.725,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-28T16:34:42.685085"
     }
   ],
   "performance": {
@@ -3174,5 +3174,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T06:47:17.198257"
+  "snapshot_synced_at": "2026-10-29T06:48:50.766496"
 }
