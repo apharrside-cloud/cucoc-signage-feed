@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T06:44:10.174811",
+  "timestamp": "2026-10-29T06:45:43.812615",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 319.42,
@@ -92,17 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.63386259033484,
-      "btc_price": 80094.47,
+      "btc_change_24h": -1.6128125029168,
+      "btc_price": 80111.61,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.63% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.61% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-29 06:30:39] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-29 06:31:40] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 06:31:40] Macro Regime: RISK_OFF | BTC 24h: -1.69% | Alts Allowed: False",
       "[2026-10-29 06:31:40] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 06:32:40] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 06:32:41] Macro Regime: RISK_OFF | BTC 24h: -1.69% | Alts Allowed: False",
@@ -139,7 +136,10 @@
       "[2026-10-29 06:42:47] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 06:43:48] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 06:43:48] Macro Regime: RISK_OFF | BTC 24h: -1.63% | Alts Allowed: False",
-      "[2026-10-29 06:43:48] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-29 06:43:48] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 06:44:48] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 06:44:49] Macro Regime: RISK_OFF | BTC 24h: -1.61% | Alts Allowed: False",
+      "[2026-10-29 06:44:49] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1369,6 +1369,21 @@
   ],
   "ai_decisions": [
     {
+      "id": "dec_1793270717_bfc81d",
+      "timestamp": "2026-10-29T06:45:17.777597",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "BTC",
+      "title": "Breaking Catalyst: Live updates: Bitcoin clings to $80,000 as Strategy’s cushion thins before earni",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": 0.0,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "NEUTRAL",
+      "impact": "CATALYST_ANALYZED"
+    },
+    {
       "id": "dec_1793268368_3c130e",
       "timestamp": "2026-10-29T06:06:08.645561",
       "category": "catalyst",
@@ -1944,21 +1959,6 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T16:34:42.685085"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "LINK",
-      "current_price": 11.73,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-28T16:35:47.856278"
     }
   ],
   "performance": {
@@ -3174,5 +3174,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T06:44:09.858224"
+  "snapshot_synced_at": "2026-10-29T06:45:43.512734"
 }
