@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T23:33:19.421070",
+  "timestamp": "2026-10-28T23:34:52.991570",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 319.09,
@@ -92,20 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.56995236904079,
-      "btc_price": 79721.98,
+      "btc_change_24h": -1.63603670290693,
+      "btc_price": 79730.14,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.57% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.64% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 23:19:38] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 23:20:39] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 23:20:39] Macro Regime: RISK_OFF | BTC 24h: -1.24% | Alts Allowed: False",
-      "[2026-10-28 23:20:39] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 23:21:39] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 23:21:39] Macro Regime: RISK_OFF | BTC 24h: -1.32% | Alts Allowed: False",
       "[2026-10-28 23:21:39] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 23:22:40] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 23:22:40] Macro Regime: RISK_OFF | BTC 24h: -1.38% | Alts Allowed: False",
@@ -139,7 +133,13 @@
       "[2026-10-28 23:31:45] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 23:32:46] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 23:32:46] Macro Regime: RISK_OFF | BTC 24h: -1.57% | Alts Allowed: False",
-      "[2026-10-28 23:32:46] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-28 23:32:46] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 23:33:46] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 23:33:46] Macro Regime: RISK_OFF | BTC 24h: -1.62% | Alts Allowed: False",
+      "[2026-10-28 23:33:46] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 23:34:47] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 23:34:47] Macro Regime: RISK_OFF | BTC 24h: -1.64% | Alts Allowed: False",
+      "[2026-10-28 23:34:47] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1369,6 +1369,21 @@
   ],
   "ai_decisions": [
     {
+      "id": "dec_1793244860_506ad0",
+      "timestamp": "2026-10-28T23:34:20.132917",
+      "category": "catalyst",
+      "decision_type": "CATALYST_DETECTED",
+      "symbol": "BTC",
+      "title": "Breaking Catalyst: Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh o",
+      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
+      "metrics": {
+        "sentiment_score": 0.0,
+        "source": "CoinDesk Crypto Wire"
+      },
+      "sentiment": "NEUTRAL",
+      "impact": "CATALYST_ANALYZED"
+    },
+    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AAVE",
@@ -1939,21 +1954,6 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T16:25:51.492436"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "LINK",
-      "current_price": 11.741,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-28T16:26:57.976676"
     }
   ],
   "performance": {
@@ -3169,5 +3169,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T23:33:19.120603"
+  "snapshot_synced_at": "2026-10-28T23:34:52.690080"
 }
