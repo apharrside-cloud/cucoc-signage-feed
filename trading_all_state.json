@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-29T08:11:39.678437",
+  "timestamp": "2026-10-29T08:13:13.540412",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 319.1,
+    "total_equity": 319.13,
     "total_cash": 238.61,
     "cash_pct": 74.8,
     "weekly_realized_pnl": -0.91,
@@ -15,7 +15,7 @@
     "today_trades_count": 0
   },
   "robinhood": {
-    "total_value": 161.169573476,
+    "total_value": 161.2011336682,
     "cash": 80.68,
     "positions": {
       "MU": {
@@ -28,7 +28,7 @@
         "current_price": 982.12,
         "pnl_pct": 0.85,
         "pnl_usd": 0.25,
-        "last_ai_eval_ts": 1793275051.4711967
+        "last_ai_eval_ts": 1793275964.79711
       },
       "GOOGL": {
         "symbol": "GOOGL",
@@ -40,14 +40,10 @@
         "current_price": 325.63,
         "pnl_pct": -0.01,
         "pnl_usd": -0.0,
-        "last_ai_eval_ts": 1793275056.9972816
+        "last_ai_eval_ts": 1793275970.1656911
       }
     },
     "logs": [
-      "[2026-10-29 07:06:43] Running portfolio evaluation cycle...",
-      "[2026-10-29 07:06:44] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
-      "[2026-10-29 07:06:46] 🧠 [AI TIGHTEN STOP] Raising stop loss for MU from -4.5% to 0.5% | Reason: Position has pulled back 0.78% from its peak of +1.65%, locking in profits via a tightened stop is warranted to protect remaining gains against further mean reversion.",
-      "[2026-10-29 07:06:46] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
       "[2026-10-29 07:11:48] Running portfolio evaluation cycle...",
       "[2026-10-29 07:11:49] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
       "[2026-10-29 07:11:49] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
@@ -83,7 +79,11 @@
       "[2026-10-29 08:02:43] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
       "[2026-10-29 08:07:43] Running portfolio evaluation cycle...",
       "[2026-10-29 08:07:44] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
-      "[2026-10-29 08:07:44] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13"
+      "[2026-10-29 08:07:44] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
+      "[2026-10-29 08:12:44] Running portfolio evaluation cycle...",
+      "[2026-10-29 08:12:44] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
+      "[2026-10-29 08:12:50] 🧠 [AI TIGHTEN STOP] Raising stop loss for MU from -4.5% to 0.5% | Reason: Position has pulled back 0.78% from its +1.65% peak, warranting a tightened stop to lock in profits above entry while remaining green.",
+      "[2026-10-29 08:12:50] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13"
     ]
   },
   "coinbase": {
@@ -92,20 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.24383643931505,
-      "btc_price": 80030.8,
+      "btc_change_24h": -1.22549219323126,
+      "btc_price": 80005.04,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.24% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.23% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-29 07:57:33] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-29 07:58:33] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 07:58:33] Macro Regime: RISK_OFF | BTC 24h: -1.41% | Alts Allowed: False",
-      "[2026-10-29 07:58:33] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-29 07:59:34] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 07:59:34] Macro Regime: RISK_OFF | BTC 24h: -1.42% | Alts Allowed: False",
       "[2026-10-29 07:59:34] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 08:00:34] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 08:00:35] Macro Regime: RISK_OFF | BTC 24h: -1.43% | Alts Allowed: False",
@@ -139,7 +133,13 @@
       "[2026-10-29 08:09:40] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 08:10:41] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 08:10:41] Macro Regime: RISK_OFF | BTC 24h: -1.24% | Alts Allowed: False",
-      "[2026-10-29 08:10:41] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-29 08:10:41] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 08:11:41] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 08:11:41] Macro Regime: RISK_OFF | BTC 24h: -1.20% | Alts Allowed: False",
+      "[2026-10-29 08:11:41] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 08:12:42] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 08:12:42] Macro Regime: RISK_OFF | BTC 24h: -1.23% | Alts Allowed: False",
+      "[2026-10-29 08:12:42] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -1369,36 +1369,6 @@
   ],
   "ai_decisions": [
     {
-      "id": "dec_1793275608_d2e4c1",
-      "timestamp": "2026-10-29T08:06:48.311106",
-      "category": "catalyst",
-      "decision_type": "CATALYST_DETECTED",
-      "symbol": "BTC",
-      "title": "Breaking Catalyst: As $10 billion in bitcoin options near expiry, the tell is in the pricing",
-      "rationale": "AI Catalyst Wire detected breaking material headline from CoinDesk Crypto Wire. Sentiment scored NEUTRAL (+0.00). Attached to live trading scanner as qualitative confirmation.",
-      "metrics": {
-        "sentiment_score": 0.0,
-        "source": "CoinDesk Crypto Wire"
-      },
-      "sentiment": "NEUTRAL",
-      "impact": "CATALYST_ANALYZED"
-    },
-    {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "AAVE",
-      "current_price": 136.82,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 60,
-      "position_usd": 15.0,
-      "stop_loss_pct": -3.5,
-      "take_profit_pct": 7.5,
-      "primary_thesis": "AAVE shows bullish hourly trend and a 3.4% daily gain under risk-on macro conditions, but fails strict strategy rules requiring relative volume >= 1.5x (current RVOL is 1.36).",
-      "risk_factors": "RVOL of 1.36 falls short of the mandatory 1.5x breakout threshold, compounding with recent negative whale-movement news and underperformance relative to Ethereum.",
-      "timestamp": "2026-10-28T15:59:43.455950"
-    },
-    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Crypto",
       "symbol": "LINK",
@@ -1960,6 +1930,36 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T16:37:59.990351"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "LINK",
+      "current_price": 11.76,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-28T16:39:05.814829"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "LINK",
+      "current_price": 11.731,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-28T16:40:13.405939"
     }
   ],
   "performance": {
@@ -1971,7 +1971,7 @@
     "max_drawdown_pct": 14.94,
     "trades_count_today": 0,
     "realized_pnl_today": 0,
-    "current_equity": 319.09957347600005,
+    "current_equity": 319.1311336682,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3175,5 +3175,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T08:11:39.359906"
+  "snapshot_synced_at": "2026-10-29T08:13:13.198135"
 }
