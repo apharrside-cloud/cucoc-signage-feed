@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-10-28T23:25:31.905801",
+  "timestamp": "2026-10-28T23:27:05.329371",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 319.21,
+    "total_equity": 319.17,
     "total_cash": 238.61,
     "cash_pct": 74.8,
-    "weekly_realized_pnl": -1.16,
-    "win_rate": 57.26495726495726,
-    "winning_trades": 67,
+    "weekly_realized_pnl": -0.91,
+    "win_rate": 57.6271186440678,
+    "winning_trades": 68,
     "losing_trades": 50,
-    "total_trades": 117,
+    "total_trades": 118,
     "profit_factor": "1.0",
-    "today_realized_pnl": -0.87,
-    "today_trades_count": 2
+    "today_realized_pnl": -0.62,
+    "today_trades_count": 3
   },
   "robinhood": {
-    "total_value": 161.28248141,
+    "total_value": 161.24016708,
     "cash": 80.68,
     "positions": {
       "MU": {
@@ -28,7 +28,7 @@
         "current_price": 982.12,
         "pnl_pct": 0.85,
         "pnl_usd": 0.25,
-        "last_ai_eval_ts": 1793243450.2514424
+        "last_ai_eval_ts": 1793244356.2606804
       },
       "GOOGL": {
         "symbol": "GOOGL",
@@ -40,27 +40,10 @@
         "current_price": 325.63,
         "pnl_pct": -0.01,
         "pnl_usd": -0.0,
-        "last_ai_eval_ts": 1793243451.6151762
-      },
-      "AVGO": {
-        "symbol": "AVGO",
-        "shares": 0.071723,
-        "entry_price": 348.53,
-        "high_water_mark": 351.97,
-        "tp1_hit": false,
-        "entry_time": "2026-10-28T13:14:21.096616",
-        "current_price": 351.97,
-        "pnl_pct": 0.99,
-        "pnl_usd": 0.25,
-        "last_ai_eval_ts": 1793243452.9381278
+        "last_ai_eval_ts": 1793244357.6609564
       }
     },
     "logs": [
-      "[2026-10-28 22:35:35] Running portfolio evaluation cycle...",
-      "[2026-10-28 22:35:36] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
-      "[2026-10-28 22:35:36] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
-      "[2026-10-28 22:35:36] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $351.97 | PnL: +0.99% ($+0.25) | Peak: $351.97",
-      "[2026-10-28 22:40:36] Running portfolio evaluation cycle...",
       "[2026-10-28 22:40:37] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
       "[2026-10-28 22:40:38] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
       "[2026-10-28 22:40:40] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $351.97 | PnL: +0.99% ($+0.25) | Peak: $351.97",
@@ -95,7 +78,12 @@
       "[2026-10-28 23:20:54] Running portfolio evaluation cycle...",
       "[2026-10-28 23:20:55] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
       "[2026-10-28 23:20:55] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
-      "[2026-10-28 23:20:55] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $351.97 | PnL: +0.99% ($+0.25) | Peak: $351.97"
+      "[2026-10-28 23:20:55] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $351.97 | PnL: +0.99% ($+0.25) | Peak: $351.97",
+      "[2026-10-28 23:25:55] Running portfolio evaluation cycle...",
+      "[2026-10-28 23:25:56] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
+      "[2026-10-28 23:25:57] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
+      "[2026-10-28 23:25:58] [AVGO] Shares: 0.071723 | Entry: $348.53 | Current: $351.97 | PnL: +0.99% ($+0.25) | Peak: $351.97",
+      "[2026-10-28 23:26:01] 🧠 [AI PROACTIVE EXIT] AVGO flagged for early exit: Securing +0.99% profit as price tests peak unrealized gains near the +1.0% scaling threshold before intraday momentum stalls."
     ]
   },
   "coinbase": {
@@ -104,20 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.361626480779,
-      "btc_price": 79745.14,
+      "btc_change_24h": -1.46252029784264,
+      "btc_price": 79700.05,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.36% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.46% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-28 23:11:34] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 23:12:34] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 23:12:34] Macro Regime: RISK_OFF | BTC 24h: -1.21% | Alts Allowed: False",
-      "[2026-10-28 23:12:34] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-28 23:13:35] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-28 23:13:35] Macro Regime: RISK_OFF | BTC 24h: -1.27% | Alts Allowed: False",
       "[2026-10-28 23:13:35] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 23:14:35] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 23:14:35] Macro Regime: RISK_OFF | BTC 24h: -1.31% | Alts Allowed: False",
@@ -151,7 +133,13 @@
       "[2026-10-28 23:23:41] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-28 23:24:41] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-28 23:24:41] Macro Regime: RISK_OFF | BTC 24h: -1.36% | Alts Allowed: False",
-      "[2026-10-28 23:24:41] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-28 23:24:41] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 23:25:42] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 23:25:42] Macro Regime: RISK_OFF | BTC 24h: -1.33% | Alts Allowed: False",
+      "[2026-10-28 23:25:42] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-28 23:26:42] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-28 23:26:42] Macro Regime: RISK_OFF | BTC 24h: -1.46% | Alts Allowed: False",
+      "[2026-10-28 23:26:42] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -176,17 +164,6 @@
       "pnl_pct": -0.01,
       "pnl_usd": -0.0,
       "trailing_info": "Peak: $326.13 | Trailing 3.5%"
-    },
-    {
-      "account": "Robinhood",
-      "symbol": "AVGO",
-      "shares": 0.071723,
-      "entry_price": 348.53,
-      "current_price": 351.97,
-      "value_usd": 25.24,
-      "pnl_pct": 0.99,
-      "pnl_usd": 0.25,
-      "trailing_info": "Peak: $351.97 | Trailing 3.5%"
     }
   ],
   "closed_trades": [
@@ -539,6 +516,16 @@
       "pnl_percent": -1.97,
       "pnl_usd": -0.49,
       "timestamp": "2026-10-28T11:00:53.774421"
+    },
+    {
+      "symbol": "AVGO",
+      "action": "SELL_AI_PROACTIVE_EXIT",
+      "shares": 0.071723,
+      "entry_price": 348.53,
+      "exit_price": 351.97,
+      "pnl_percent": 0.99,
+      "pnl_usd": 0.25,
+      "timestamp": "2026-10-28T23:26:02.348571"
     },
     {
       "symbol": "NEAR",
@@ -1382,20 +1369,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "POSITION_SUPERVISION",
-      "asset_class": "Crypto",
-      "symbol": "LINK",
-      "entry_price": 11.71,
-      "current_price": 11.805,
-      "pnl_pct": 0.81,
-      "hours_held": 1.2,
-      "action": "TIGHTEN_STOP",
-      "confidence": 90,
-      "new_stop_pct": 0.5,
-      "reasoning": "Position has reached +0.81% unrealized gain crossing the partial scale-out threshold, requiring a tightened stop to lock in profits as momentum approaches resistance.",
-      "timestamp": "2026-10-28T15:53:55.565705"
-    },
-    {
       "type": "ENTRY_EVALUATION",
       "asset_class": "Crypto",
       "symbol": "AAVE",
@@ -1966,18 +1939,33 @@
       "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
       "risk_factors": "Error safety guard.",
       "timestamp": "2026-10-28T16:25:51.492436"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "LINK",
+      "current_price": 11.741,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 0,
+      "position_usd": 0.0,
+      "stop_loss_pct": -3.0,
+      "take_profit_pct": 5.0,
+      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
+      "risk_factors": "Error safety guard.",
+      "timestamp": "2026-10-28T16:26:57.976676"
     }
   ],
   "performance": {
-    "win_rate": 57.26495726495726,
-    "winning_trades": 67,
+    "win_rate": 57.6271186440678,
+    "winning_trades": 68,
     "losing_trades": 50,
-    "total_trades": 117,
+    "total_trades": 118,
     "profit_factor": "1.0",
     "max_drawdown_pct": 14.91,
-    "trades_count_today": 2,
-    "realized_pnl_today": -0.87,
-    "current_equity": 319.21248141,
+    "trades_count_today": 3,
+    "realized_pnl_today": -0.62,
+    "current_equity": 319.17016708,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -2329,6 +2317,16 @@
         "pnl_percent": -1.97,
         "pnl_usd": -0.49,
         "timestamp": "2026-10-28T11:00:53.774421"
+      },
+      {
+        "symbol": "AVGO",
+        "action": "SELL_AI_PROACTIVE_EXIT",
+        "shares": 0.071723,
+        "entry_price": 348.53,
+        "exit_price": 351.97,
+        "pnl_percent": 0.99,
+        "pnl_usd": 0.25,
+        "timestamp": "2026-10-28T23:26:02.348571"
       },
       {
         "symbol": "NEAR",
@@ -3171,5 +3169,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-28T23:25:31.594170"
+  "snapshot_synced_at": "2026-10-28T23:27:05.017440"
 }
