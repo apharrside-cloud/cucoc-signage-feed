@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T03:47:45.996819",
+  "timestamp": "2026-10-29T03:49:19.647945",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 319.03,
@@ -44,9 +44,6 @@
       }
     },
     "logs": [
-      "[2026-10-29 02:43:11] Running portfolio evaluation cycle...",
-      "[2026-10-29 02:43:12] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
-      "[2026-10-29 02:43:13] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
       "[2026-10-29 02:48:15] Running portfolio evaluation cycle...",
       "[2026-10-29 02:48:15] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
       "[2026-10-29 02:48:15] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
@@ -83,7 +80,10 @@
       "[2026-10-29 03:43:37] Running portfolio evaluation cycle...",
       "[2026-10-29 03:43:38] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
       "[2026-10-29 03:43:40] 🧠 [AI TIGHTEN STOP] Raising stop loss for MU from -4.5% to 0.5% | Reason: Securing profits as price pulled back 0.78% from its +1.65% peak, locking in gains following momentum stall below resistance.",
-      "[2026-10-29 03:43:40] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13"
+      "[2026-10-29 03:43:40] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
+      "[2026-10-29 03:48:42] Running portfolio evaluation cycle...",
+      "[2026-10-29 03:48:57] MCP tool call timeout (15s) on get_equity_positions. Killing stale process.",
+      "[2026-10-29 03:48:57] ⚠️ [BROKER GUARD] Failed or timed out fetching equity positions. Skipping cycle to protect tracked holdings."
     ]
   },
   "coinbase": {
@@ -92,20 +92,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.38183281253555,
-      "btc_price": 79758.35,
+      "btc_change_24h": -1.42535329681878,
+      "btc_price": 79728.16,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.38% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.43% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-29 03:33:53] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-29 03:34:53] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 03:34:54] Macro Regime: RISK_OFF | BTC 24h: -1.29% | Alts Allowed: False",
-      "[2026-10-29 03:34:54] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
-      "[2026-10-29 03:35:54] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 03:35:54] Macro Regime: RISK_OFF | BTC 24h: -1.27% | Alts Allowed: False",
       "[2026-10-29 03:35:54] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 03:36:55] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 03:36:55] Macro Regime: RISK_OFF | BTC 24h: -1.28% | Alts Allowed: False",
@@ -139,7 +133,13 @@
       "[2026-10-29 03:46:01] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 03:47:01] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 03:47:02] Macro Regime: RISK_OFF | BTC 24h: -1.38% | Alts Allowed: False",
-      "[2026-10-29 03:47:02] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
+      "[2026-10-29 03:47:02] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 03:48:02] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 03:48:02] Macro Regime: RISK_OFF | BTC 24h: -1.40% | Alts Allowed: False",
+      "[2026-10-29 03:48:02] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
+      "[2026-10-29 03:49:03] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 03:49:03] Macro Regime: RISK_OFF | BTC 24h: -1.43% | Alts Allowed: False",
+      "[2026-10-29 03:49:03] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [
@@ -3172,5 +3172,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T03:47:45.692878"
+  "snapshot_synced_at": "2026-10-29T03:49:19.347896"
 }
