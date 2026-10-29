@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T09:39:07.117430",
+  "timestamp": "2026-10-29T09:40:40.947586",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
     "total_equity": 318.65,
@@ -19,9 +19,6 @@
     "cash": 160.72,
     "positions": {},
     "logs": [
-      "[2026-10-29 08:58:19] Running portfolio evaluation cycle...",
-      "[2026-10-29 08:58:20] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
-      "[2026-10-29 08:58:27] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
       "[2026-10-29 09:03:32] Running portfolio evaluation cycle...",
       "[2026-10-29 09:03:33] [MU] Shares: 0.030749 | Entry: $973.85 | Current: $982.12 | PnL: +0.85% ($+0.25) | Peak: $989.88",
       "[2026-10-29 09:03:33] [GOOGL] Shares: 0.092120 | Entry: $325.66 | Current: $325.63 | PnL: -0.01% ($-0.00) | Peak: $326.13",
@@ -58,7 +55,10 @@
       "[2026-10-29 09:37:41] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-29 09:38:41] Running portfolio evaluation cycle...",
       "[2026-10-29 09:38:42] No positions currently held.",
-      "[2026-10-29 09:38:42] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-29 09:38:42] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-29 09:39:42] Running portfolio evaluation cycle...",
+      "[2026-10-29 09:39:42] No positions currently held.",
+      "[2026-10-29 09:39:42] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
     ]
   },
   "coinbase": {
@@ -67,18 +67,14 @@
     "crypto_usd": 0.0,
     "regime": {
       "status": "RISK_OFF",
-      "btc_change_24h": -1.04649012397985,
-      "btc_price": 79993.77,
+      "btc_change_24h": -1.01253319816532,
+      "btc_price": 79872.69,
       "allow_alts": false,
       "allow_core": false,
-      "reason": "BTC down -1.05% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
+      "reason": "BTC down -1.01% (Risk-Off regime - all auto-buying suppressed to preserve capital)"
     },
     "positions": {},
     "logs": [
-      "[2026-10-29 09:32:15] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 45%) | Thesis: BTC is in a bearish hourly trend with an RSI near oversold (30.1) and insufficient relative volume (1.17x) to support a high-probability mean reversion entry.",
-      "[2026-10-29 09:33:15] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 09:33:16] Macro Regime: NEUTRAL | BTC 24h: -0.73% | Alts Allowed: False",
-      "[2026-10-29 09:33:16] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates...",
       "[2026-10-29 09:33:16] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-29 09:33:17] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=36.1 (chg -0.84%)!",
       "[2026-10-29 09:33:17] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=36.5 (chg -0.67%)!",
@@ -114,7 +110,11 @@
       "[2026-10-29 09:38:47] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-29 09:38:48] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=32.0 (chg -1.25%)!",
       "[2026-10-29 09:38:48] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=31.6 (chg -0.92%)!",
-      "[2026-10-29 09:38:48] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=28.7 (chg -0.95%)!"
+      "[2026-10-29 09:38:48] 🎯 [MEAN REVERSION CANDIDATE] BTC is oversold at RSI=28.7 (chg -0.95%)!",
+      "[2026-10-29 09:39:12] 🧠 [AI GATE] Buy of BTC VETOED by AI Brain (Confidence: 60%) | Thesis: RSI is oversold at 28.7 in a mean-reversion setup, but hourly trend is bearish below the 5-period SMA without sufficient volume expansion.",
+      "[2026-10-29 09:40:12] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 09:40:12] Macro Regime: RISK_OFF | BTC 24h: -1.01% | Alts Allowed: False",
+      "[2026-10-29 09:40:12] Deployable cash ($133.75 of $157.93 total, $24.18 vaulted) >= $15.00 & positions (0/3). Scanning candidates..."
     ]
   },
   "positions": [],
@@ -1341,21 +1341,6 @@
   ],
   "ai_decisions": [
     {
-      "type": "ENTRY_EVALUATION",
-      "asset_class": "Crypto",
-      "symbol": "TAO",
-      "current_price": 259.36,
-      "approved": false,
-      "action": "REJECT",
-      "confidence": 0,
-      "position_usd": 0.0,
-      "stop_loss_pct": -3.0,
-      "take_profit_pct": 5.0,
-      "primary_thesis": "AI Parsing/Network Exception: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please ",
-      "risk_factors": "Error safety guard.",
-      "timestamp": "2026-10-28T17:04:21.609512"
-    },
-    {
       "type": "POSITION_SUPERVISION",
       "asset_class": "Equities",
       "symbol": "MU",
@@ -1929,6 +1914,21 @@
       "new_stop_pct": 0.5,
       "reasoning": "Position has pulled back 0.78% from its +1.65% peak, warranting a tightened stop to lock in profits above entry while remaining green.",
       "timestamp": "2026-10-29T08:12:44.797123"
+    },
+    {
+      "type": "ENTRY_EVALUATION",
+      "asset_class": "Crypto",
+      "symbol": "BTC",
+      "current_price": 80049.84,
+      "approved": false,
+      "action": "REJECT",
+      "confidence": 40,
+      "position_usd": 15.0,
+      "stop_loss_pct": -2.0,
+      "take_profit_pct": 4.0,
+      "primary_thesis": "RVOL is critically weak at 0.39, failing to meet required institutional volume thresholds for a high-probability entry.",
+      "risk_factors": "Low relative volume in a bearish hourly trend increases the probability of a fakeout and continued mean-reversion drift.",
+      "timestamp": "2026-10-29T08:30:55.796395"
     }
   ],
   "performance": {
@@ -3164,5 +3164,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T09:39:06.814978"
+  "snapshot_synced_at": "2026-10-29T09:40:40.612283"
 }
