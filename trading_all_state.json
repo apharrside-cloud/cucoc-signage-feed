@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-29T09:51:36.943464",
+  "timestamp": "2026-10-29T09:53:10.626933",
   "terminal_mode": "100% REAL CAPITAL",
   "combined": {
-    "total_equity": 318.65,
-    "total_cash": 318.65,
-    "cash_pct": 100.0,
+    "total_equity": 318.49,
+    "total_cash": 298.65,
+    "cash_pct": 93.8,
     "weekly_realized_pnl": -5.44,
     "win_rate": 56.666666666666664,
     "winning_trades": 68,
@@ -19,13 +19,6 @@
     "cash": 160.72,
     "positions": {},
     "logs": [
-      "[2026-10-29 09:38:42] No positions currently held.",
-      "[2026-10-29 09:38:42] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-29 09:39:42] Running portfolio evaluation cycle...",
-      "[2026-10-29 09:39:42] No positions currently held.",
-      "[2026-10-29 09:39:42] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
-      "[2026-10-29 09:40:42] Running portfolio evaluation cycle...",
-      "[2026-10-29 09:40:43] No positions currently held.",
       "[2026-10-29 09:40:43] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-29 09:41:43] Running portfolio evaluation cycle...",
       "[2026-10-29 09:41:43] No positions currently held.",
@@ -58,52 +51,52 @@
       "[2026-10-29 09:50:24] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
       "[2026-10-29 09:51:24] Running portfolio evaluation cycle...",
       "[2026-10-29 09:51:25] No positions currently held.",
-      "[2026-10-29 09:51:25] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum..."
+      "[2026-10-29 09:51:25] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-29 09:52:25] Running portfolio evaluation cycle...",
+      "[2026-10-29 09:52:26] No positions currently held.",
+      "[2026-10-29 09:52:26] Available deployable cash ($148.26 of $160.72 total, $12.46 vaulted) >= min ($15.00) & positions (0/3). Scanning momentum...",
+      "[2026-10-29 09:52:48] Starting Autonomous Trading Monitor daemon...",
+      "[2026-10-29 09:52:51] Running portfolio evaluation cycle...",
+      "[2026-10-29 09:52:52] No positions currently held.",
+      "[2026-10-29 09:52:52] ❄️ [EQUITY AUTO-BUYS FROZEN] Buying is paused by operator directive (/freeze). 100% cash defense preserved."
     ]
   },
   "coinbase": {
-    "total_usd": 157.93,
-    "cash_usd": 157.93,
-    "crypto_usd": 0.0,
+    "total_usd": 157.77,
+    "cash_usd": 137.93,
+    "crypto_usd": 19.84,
     "regime": {
       "status": "NEUTRAL",
-      "btc_change_24h": -0.89316135433339,
-      "btc_price": 79991.29,
+      "btc_change_24h": -0.32863339268599,
+      "btc_price": 80114.17,
       "allow_alts": false,
       "allow_core": true,
       "allow_decoupled_alts": true,
-      "reason": "BTC neutral -0.89% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
+      "reason": "BTC neutral -0.33% (Chop regime - Core dips & Decoupled Relative Strength breakouts enabled)"
     },
     "positions": {
       "BTC": {
         "coin": "BTC",
         "pair": "BTC-USDC",
         "entry_price": 80003.43,
-        "shares": 0.00024999,
-        "peak_price": 80003.43,
+        "shares": 0.00024768,
+        "peak_price": 80107.87,
         "tp1_hit": false,
         "tp2_hit": false,
         "stop_loss_pct": -1.5,
         "trailing_active": false,
         "entry_time": "2026-10-29T09:42:47.364215",
-        "current_price": 80003.43,
-        "pnl_pct": 0.0,
-        "value_usd": 20.0,
+        "current_price": 80107.87,
+        "pnl_pct": 0.13,
+        "value_usd": 19.84,
         "tp1_pct": 3.5,
         "tp2_pct": 6.0,
         "trailing_pullback_pct": 1.5,
-        "volatility_profile": "Mean-Reversion Oversold Scalp"
+        "volatility_profile": "Large-Cap Low Volatility",
+        "last_ai_eval_ts": 1793281980.666709
       }
     },
     "logs": [
-      "[2026-10-29 09:43:47] Running Coinbase 24/7 autonomous evaluation cycle...",
-      "[2026-10-29 09:43:48] Macro Regime: NEUTRAL | BTC 24h: -0.83% | Alts Allowed: False",
-      "[2026-10-29 09:43:48] [BTC] Qty: 0.00024768 | Entry: $80,003.43 | Current: $79,949.87 | Peak: $80,003.43 | PnL: -0.07% ($19.80) | Vol: Large-Cap Low Volatility",
-      "[2026-10-29 09:44:08] Deployable cash ($113.75 of $137.93 total, $24.18 vaulted) >= $15.00 & positions (1/3). Scanning candidates...",
-      "[2026-10-29 09:44:08] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
-      "[2026-10-29 09:44:09] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=31.6 (chg -1.15%)!",
-      "[2026-10-29 09:44:09] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=30.6 (chg -0.85%)!",
-      "[2026-10-29 09:44:30] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 45%) | Thesis: ETH is exhibiting mean-reverting oversold conditions near hourly support, but lacks volume confirmation with a low RVOL of 0.73.",
       "[2026-10-29 09:45:30] Running Coinbase 24/7 autonomous evaluation cycle...",
       "[2026-10-29 09:45:30] Macro Regime: NEUTRAL | BTC 24h: -0.99% | Alts Allowed: False",
       "[2026-10-29 09:45:30] [BTC] Qty: 0.00024768 | Entry: $80,003.43 | Current: $79,838.91 | Peak: $80,003.43 | PnL: -0.21% ($19.77) | Vol: Large-Cap Low Volatility",
@@ -135,19 +128,27 @@
       "[2026-10-29 09:51:04] Regime is NEUTRAL/CHOP. Scanning for Decoupled Relative Strength breakouts & Core oversold dips...",
       "[2026-10-29 09:51:05] 🎯 [MEAN REVERSION CANDIDATE] SOL is oversold at RSI=31.5 (chg -0.38%)!",
       "[2026-10-29 09:51:06] 🎯 [MEAN REVERSION CANDIDATE] ETH is oversold at RSI=30.1 (chg -0.21%)!",
-      "[2026-10-29 09:51:26] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 45%) | Thesis: ETH is exhibiting bearish hourly momentum with weak volume (RVOL 0.86) and negative fundamental headwinds near multi-year cyclical lows."
+      "[2026-10-29 09:51:26] 🧠 [AI GATE] Buy of ETH VETOED by AI Brain (Confidence: 45%) | Thesis: ETH is exhibiting bearish hourly momentum with weak volume (RVOL 0.86) and negative fundamental headwinds near multi-year cyclical lows.",
+      "[2026-10-29 09:52:26] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 09:52:26] Macro Regime: NEUTRAL | BTC 24h: -0.36% | Alts Allowed: False",
+      "[2026-10-29 09:52:26] [BTC] Qty: 0.00024768 | Entry: $80,003.43 | Current: $80,099.03 | Peak: $80,099.03 | PnL: +0.12% ($19.84) | Vol: Large-Cap Low Volatility",
+      "[2026-10-29 09:52:59] Starting Coinbase 24/7 Autonomous Crypto Trading Engine...",
+      "[2026-10-29 09:52:59] Running Coinbase 24/7 autonomous evaluation cycle...",
+      "[2026-10-29 09:53:00] Macro Regime: NEUTRAL | BTC 24h: -0.33% | Alts Allowed: False",
+      "[2026-10-29 09:53:00] [BTC] Qty: 0.00024768 | Entry: $80,003.43 | Current: $80,107.87 | Peak: $80,107.87 | PnL: +0.13% ($19.84) | Vol: Large-Cap Low Volatility",
+      "[2026-10-29 09:53:08] ❄️ [CRYPTO AUTO-BUYS FROZEN] Buying is paused by operator directive (/freeze). Cash defense preserved."
     ]
   },
   "positions": [
     {
       "account": "Coinbase",
       "symbol": "BTC",
-      "shares": 0.00024999,
+      "shares": 0.00024768,
       "entry_price": 80003.43,
-      "current_price": 80003.43,
-      "value_usd": 20.0,
-      "pnl_pct": 0.0,
-      "pnl_usd": -0.0,
+      "current_price": 80107.87,
+      "value_usd": 19.84,
+      "pnl_pct": 0.13,
+      "pnl_usd": 0.02,
       "trailing_info": "TP1: +3.5% | Stop: -1.5%"
     }
   ],
@@ -1972,10 +1973,10 @@
     "losing_trades": 52,
     "total_trades": 120,
     "profit_factor": "0.9",
-    "max_drawdown_pct": 15.01,
+    "max_drawdown_pct": 15.046679114430509,
     "trades_count_today": 2,
     "realized_pnl_today": -4.53,
-    "current_equity": 318.65,
+    "current_equity": 318.49,
     "peak_equity": 374.9,
     "closed_trades": [
       {
@@ -3199,5 +3200,5 @@
       }
     ]
   },
-  "snapshot_synced_at": "2026-10-29T09:51:36.613749"
+  "snapshot_synced_at": "2026-10-29T09:53:10.329645"
 }
